@@ -1,2 +1,3 @@
-# ufc-elo-tracker
-UFC Elo Tracker Repository with code for my project. Elo interpretations can be viewed in this. 
+As a fan of Mixed Martial Arts and the UFC in particular, I've been a witness to the challenges that arise in the Pound-For-Pound rankings. Many fans often complain about certain aspects of the Pound-For-Pound rankings and also want better ways to interpret the levels of various fighters. I want to utilize the data from the UFC's history and create an elo system that assigns fighters with their own ranking. I want to prioritize the current state of the fighting world, therefore putting an emphasis on activity/recency of fights. I also want to include different elo ratings for fighters for different contexts (Weight Class, Global, All Time).
+
+This repository should include most of the code for collecting data, interpreting it, and actually assigning fighters with certain elo values.
