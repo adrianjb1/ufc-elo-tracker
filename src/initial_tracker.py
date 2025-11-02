@@ -133,3 +133,15 @@ if FIGHTS_ELO_PATH:
     print(f" - Fight-by-fight Elo data: {FIGHTS_ELO_PATH}")
 print(f" - Current Elo leaderboard: {ELO_CURRENT_PATH}")
 print(f" - Peak Elo leaderboard: {ELO_PEAK_PATH}")
+
+
+# intended for frontend, produce JSONs
+
+import json
+
+final.sort_values("Elo", ascending=False).to_json("elo_current.json", orient="records", indent=2)
+peak_df.sort_values("Peak Elo", ascending=False).to_json("elo_peak.json", orient="records", indent=2)
+
+print("\nJSON exports created:")
+print(" - elo_current.json (current elo")
+print(" - elo_peak.json (peak elo)")

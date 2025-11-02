@@ -1,0 +1,10474 @@
+[
+  {
+    "Fighter":"Georges St-Pierre",
+    "Peak Elo":1419.1940804494
+  },
+  {
+    "Fighter":"Demetrious Johnson",
+    "Peak Elo":1372.625614721
+  },
+  {
+    "Fighter":"Jon Jones",
+    "Peak Elo":1323.8984013586
+  },
+  {
+    "Fighter":"Daniel Cormier",
+    "Peak Elo":1320.0469166378
+  },
+  {
+    "Fighter":"Islam Makhachev",
+    "Peak Elo":1289.6123950183
+  },
+  {
+    "Fighter":"Kamaru Usman",
+    "Peak Elo":1277.994331753
+  },
+  {
+    "Fighter":"Alexander Volkanovski",
+    "Peak Elo":1273.6127070703
+  },
+  {
+    "Fighter":"Anderson Silva",
+    "Peak Elo":1259.5188757171
+  },
+  {
+    "Fighter":"Khabib Nurmagomedov",
+    "Peak Elo":1244.8516213514
+  },
+  {
+    "Fighter":"Charles Oliveira",
+    "Peak Elo":1242.6346423961
+  },
+  {
+    "Fighter":"Merab Dvalishvili",
+    "Peak Elo":1240.9505116079
+  },
+  {
+    "Fighter":"Belal Muhammad",
+    "Peak Elo":1239.9848190932
+  },
+  {
+    "Fighter":"Max Holloway",
+    "Peak Elo":1239.3068845724
+  },
+  {
+    "Fighter":"Aljamain Sterling",
+    "Peak Elo":1234.080910261
+  },
+  {
+    "Fighter":"Dustin Poirier",
+    "Peak Elo":1231.6091323424
+  },
+  {
+    "Fighter":"Stipe Miocic",
+    "Peak Elo":1231.5624872693
+  },
+  {
+    "Fighter":"Israel Adesanya",
+    "Peak Elo":1226.9809635462
+  },
+  {
+    "Fighter":"Francis Ngannou",
+    "Peak Elo":1222.2731420383
+  },
+  {
+    "Fighter":"Ilia Topuria",
+    "Peak Elo":1217.789608823
+  },
+  {
+    "Fighter":"Dricus Du Plessis",
+    "Peak Elo":1215.5259371809
+  },
+  {
+    "Fighter":"Chris Weidman",
+    "Peak Elo":1215.4007563383
+  },
+  {
+    "Fighter":"Chuck Liddell",
+    "Peak Elo":1214.9621536729
+  },
+  {
+    "Fighter":"Khamzat Chimaev",
+    "Peak Elo":1208.5728605817
+  },
+  {
+    "Fighter":"Robert Whittaker",
+    "Peak Elo":1208.0456320139
+  },
+  {
+    "Fighter":"Glover Teixeira",
+    "Peak Elo":1206.486815622
+  },
+  {
+    "Fighter":"Magomed Ankalaev",
+    "Peak Elo":1205.1250415065
+  },
+  {
+    "Fighter":"Demian Maia",
+    "Peak Elo":1204.3261608786
+  },
+  {
+    "Fighter":"Beneil Dariush",
+    "Peak Elo":1203.3263103018
+  },
+  {
+    "Fighter":"Amanda Nunes",
+    "Peak Elo":1203.0793979547
+  },
+  {
+    "Fighter":"Alex Pereira",
+    "Peak Elo":1201.513030886
+  },
+  {
+    "Fighter":"Rafael Dos Anjos",
+    "Peak Elo":1195.5430300875
+  },
+  {
+    "Fighter":"Rashad Evans",
+    "Peak Elo":1194.2116651267
+  },
+  {
+    "Fighter":"Leon Edwards",
+    "Peak Elo":1192.645051288
+  },
+  {
+    "Fighter":"Vicente Luque",
+    "Peak Elo":1191.7291021224
+  },
+  {
+    "Fighter":"Valentina Shevchenko",
+    "Peak Elo":1190.5336494385
+  },
+  {
+    "Fighter":"Tyron Woodley",
+    "Peak Elo":1190.1118044356
+  },
+  {
+    "Fighter":"Frankie Edgar",
+    "Peak Elo":1189.6407034492
+  },
+  {
+    "Fighter":"Ciryl Gane",
+    "Peak Elo":1189.0612913131
+  },
+  {
+    "Fighter":"Henry Cejudo",
+    "Peak Elo":1188.9061116411
+  },
+  {
+    "Fighter":"Colby Covington",
+    "Peak Elo":1187.8302278462
+  },
+  {
+    "Fighter":"Jon Fitch",
+    "Peak Elo":1187.4881653727
+  },
+  {
+    "Fighter":"Cain Velasquez",
+    "Peak Elo":1186.1620437416
+  },
+  {
+    "Fighter":"Curtis Blaydes",
+    "Peak Elo":1185.15793272
+  },
+  {
+    "Fighter":"Alexandre Pantoja",
+    "Peak Elo":1184.9570031847
+  },
+  {
+    "Fighter":"Matt Hughes",
+    "Peak Elo":1184.3672682801
+  },
+  {
+    "Fighter":"TJ Dillashaw",
+    "Peak Elo":1183.8344154157
+  },
+  {
+    "Fighter":"Deiveson Figueiredo",
+    "Peak Elo":1183.8096098395
+  },
+  {
+    "Fighter":"Sean O'Malley",
+    "Peak Elo":1182.4009050585
+  },
+  {
+    "Fighter":"Gilbert Burns",
+    "Peak Elo":1182.1950363262
+  },
+  {
+    "Fighter":"Derrick Lewis",
+    "Peak Elo":1182.0059370551
+  },
+  {
+    "Fighter":"Jack Della Maddalena",
+    "Peak Elo":1181.5156656884
+  },
+  {
+    "Fighter":"Yoel Romero",
+    "Peak Elo":1181.2316044607
+  },
+  {
+    "Fighter":"Johny Hendricks",
+    "Peak Elo":1180.289939512
+  },
+  {
+    "Fighter":"Robbie Lawler",
+    "Peak Elo":1179.1366551077
+  },
+  {
+    "Fighter":"Nassourdine Imavov",
+    "Peak Elo":1177.4465465396
+  },
+  {
+    "Fighter":"Movsar Evloev",
+    "Peak Elo":1177.2173257673
+  },
+  {
+    "Fighter":"Shavkat Rakhmonov",
+    "Peak Elo":1177.2120324153
+  },
+  {
+    "Fighter":"Joseph Benavidez",
+    "Peak Elo":1176.1084389882
+  },
+  {
+    "Fighter":"Zhang Weili",
+    "Peak Elo":1174.9339786228
+  },
+  {
+    "Fighter":"Brendan Allen",
+    "Peak Elo":1174.7759741768
+  },
+  {
+    "Fighter":"Michael Bisping",
+    "Peak Elo":1174.6669547157
+  },
+  {
+    "Fighter":"Jan Blachowicz",
+    "Peak Elo":1174.3297552748
+  },
+  {
+    "Fighter":"Sean Brady",
+    "Peak Elo":1172.8277299816
+  },
+  {
+    "Fighter":"Justin Gaethje",
+    "Peak Elo":1172.000144722
+  },
+  {
+    "Fighter":"Andrei Arlovski",
+    "Peak Elo":1171.7543161183
+  },
+  {
+    "Fighter":"Junior Dos Santos",
+    "Peak Elo":1171.7294623098
+  },
+  {
+    "Fighter":"Neil Magny",
+    "Peak Elo":1171.3404210832
+  },
+  {
+    "Fighter":"Arnold Allen",
+    "Peak Elo":1171.0734618263
+  },
+  {
+    "Fighter":"Grant Dawson",
+    "Peak Elo":1170.9554029223
+  },
+  {
+    "Fighter":"Cory Sandhagen",
+    "Peak Elo":1170.6503646724
+  },
+  {
+    "Fighter":"Arman Tsarukyan",
+    "Peak Elo":1168.5397757819
+  },
+  {
+    "Fighter":"Derek Brunson",
+    "Peak Elo":1168.5217997859
+  },
+  {
+    "Fighter":"Alexander Volkov",
+    "Peak Elo":1168.137881306
+  },
+  {
+    "Fighter":"Anthony Johnson",
+    "Peak Elo":1167.3720736687
+  },
+  {
+    "Fighter":"Conor McGregor",
+    "Peak Elo":1166.5191169097
+  },
+  {
+    "Fighter":"Sean Strickland",
+    "Peak Elo":1165.7621888343
+  },
+  {
+    "Fighter":"Ryan Bader",
+    "Peak Elo":1164.6081942583
+  },
+  {
+    "Fighter":"Anthony Hernandez",
+    "Peak Elo":1164.4767044533
+  },
+  {
+    "Fighter":"Yair Rodriguez",
+    "Peak Elo":1163.9684217076
+  },
+  {
+    "Fighter":"Tito Ortiz",
+    "Peak Elo":1163.5330889595
+  },
+  {
+    "Fighter":"Lerone Murphy",
+    "Peak Elo":1163.3407320447
+  },
+  {
+    "Fighter":"Joaquin Buckley",
+    "Peak Elo":1163.0007455416
+  },
+  {
+    "Fighter":"Tom Aspinall",
+    "Peak Elo":1162.8393091645
+  },
+  {
+    "Fighter":"BJ Penn",
+    "Peak Elo":1162.5941327737
+  },
+  {
+    "Fighter":"Marlon Vera",
+    "Peak Elo":1161.3787657954
+  },
+  {
+    "Fighter":"Lyoto Machida",
+    "Peak Elo":1160.0189612686
+  },
+  {
+    "Fighter":"Carlos Ulberg",
+    "Peak Elo":1159.7763102627
+  },
+  {
+    "Fighter":"Fabricio Werdum",
+    "Peak Elo":1158.9967066343
+  },
+  {
+    "Fighter":"Benson Henderson",
+    "Peak Elo":1158.9231938633
+  },
+  {
+    "Fighter":"Jose Aldo",
+    "Peak Elo":1157.3574641886
+  },
+  {
+    "Fighter":"Petr Yan",
+    "Peak Elo":1156.1027299714
+  },
+  {
+    "Fighter":"Brian Ortega",
+    "Peak Elo":1154.6405418022
+  },
+  {
+    "Fighter":"Raphael Assuncao",
+    "Peak Elo":1154.0350665478
+  },
+  {
+    "Fighter":"Gray Maynard",
+    "Peak Elo":1153.6771011939
+  },
+  {
+    "Fighter":"Gegard Mousasi",
+    "Peak Elo":1152.68072391
+  },
+  {
+    "Fighter":"Darren Elkins",
+    "Peak Elo":1152.6664769826
+  },
+  {
+    "Fighter":"Brandon Moreno",
+    "Peak Elo":1152.2435223749
+  },
+  {
+    "Fighter":"Ian Machado Garry",
+    "Peak Elo":1151.7836377082
+  },
+  {
+    "Fighter":"Josh Koscheck",
+    "Peak Elo":1151.6543770969
+  },
+  {
+    "Fighter":"James Vick",
+    "Peak Elo":1151.3644273036
+  },
+  {
+    "Fighter":"Jared Cannonier",
+    "Peak Elo":1151.0821196649
+  },
+  {
+    "Fighter":"Michael Chiesa",
+    "Peak Elo":1149.9768489729
+  },
+  {
+    "Fighter":"Josh Emmett",
+    "Peak Elo":1149.7333022948
+  },
+  {
+    "Fighter":"Kelvin Gastelum",
+    "Peak Elo":1149.2180567605
+  },
+  {
+    "Fighter":"Randy Brown",
+    "Peak Elo":1148.8492158838
+  },
+  {
+    "Fighter":"Santiago Ponzinibbio",
+    "Peak Elo":1148.8111403639
+  },
+  {
+    "Fighter":"John Lineker",
+    "Peak Elo":1148.3037593362
+  },
+  {
+    "Fighter":"Kevin Lee",
+    "Peak Elo":1147.9434665891
+  },
+  {
+    "Fighter":"Vitor Belfort",
+    "Peak Elo":1147.8875261052
+  },
+  {
+    "Fighter":"Jorge Masvidal",
+    "Peak Elo":1147.83567704
+  },
+  {
+    "Fighter":"Thiago Alves",
+    "Peak Elo":1147.6886153418
+  },
+  {
+    "Fighter":"Stephen Thompson",
+    "Peak Elo":1147.6417584271
+  },
+  {
+    "Fighter":"Mario Bautista",
+    "Peak Elo":1147.532097583
+  },
+  {
+    "Fighter":"Song Yadong",
+    "Peak Elo":1147.3896999627
+  },
+  {
+    "Fighter":"Rich Franklin",
+    "Peak Elo":1146.7938800832
+  },
+  {
+    "Fighter":"Manon Fiorot",
+    "Peak Elo":1146.6964751378
+  },
+  {
+    "Fighter":"Renato Moicano",
+    "Peak Elo":1145.9178759464
+  },
+  {
+    "Fighter":"Kenny Florian",
+    "Peak Elo":1145.0590649853
+  },
+  {
+    "Fighter":"Randy Couture",
+    "Peak Elo":1144.7995908319
+  },
+  {
+    "Fighter":"Rose Namajunas",
+    "Peak Elo":1144.4807372169
+  },
+  {
+    "Fighter":"Edson Barboza",
+    "Peak Elo":1144.3435650055
+  },
+  {
+    "Fighter":"Jim Miller",
+    "Peak Elo":1143.8140606786
+  },
+  {
+    "Fighter":"Thiago Santos",
+    "Peak Elo":1143.519612667
+  },
+  {
+    "Fighter":"Raquel Pennington",
+    "Peak Elo":1143.0491830422
+  },
+  {
+    "Fighter":"Joanna Jedrzejczyk",
+    "Peak Elo":1142.7342501447
+  },
+  {
+    "Fighter":"Francisco Trinaldo",
+    "Peak Elo":1142.4919218441
+  },
+  {
+    "Fighter":"Yushin Okami",
+    "Peak Elo":1142.3136217659
+  },
+  {
+    "Fighter":"Jacare Souza",
+    "Peak Elo":1142.0160391685
+  },
+  {
+    "Fighter":"Tony Ferguson",
+    "Peak Elo":1141.4188747016
+  },
+  {
+    "Fighter":"Mike Swick",
+    "Peak Elo":1140.9856960969
+  },
+  {
+    "Fighter":"Dong Hyun Kim",
+    "Peak Elo":1140.8096579458
+  },
+  {
+    "Fighter":"Rory MacDonald",
+    "Peak Elo":1140.3963381837
+  },
+  {
+    "Fighter":"Michel Pereira",
+    "Peak Elo":1139.5777893281
+  },
+  {
+    "Fighter":"Luke Rockhold",
+    "Peak Elo":1139.2717124025
+  },
+  {
+    "Fighter":"Alistair Overeem",
+    "Peak Elo":1138.9799421174
+  },
+  {
+    "Fighter":"Mateusz Gamrot",
+    "Peak Elo":1138.9148528667
+  },
+  {
+    "Fighter":"Jessica Andrade",
+    "Peak Elo":1138.553379347
+  },
+  {
+    "Fighter":"Jailton Almeida",
+    "Peak Elo":1138.5486541832
+  },
+  {
+    "Fighter":"Jonathan Martinez",
+    "Peak Elo":1138.1392915335
+  },
+  {
+    "Fighter":"Michel Prazeres",
+    "Peak Elo":1137.0856673019
+  },
+  {
+    "Fighter":"George Sotiropoulos",
+    "Peak Elo":1136.8310129874
+  },
+  {
+    "Fighter":"Umar Nurmagomedov",
+    "Peak Elo":1136.598213266
+  },
+  {
+    "Fighter":"Diego Ferreira",
+    "Peak Elo":1136.342450965
+  },
+  {
+    "Fighter":"Alexander Gustafsson",
+    "Peak Elo":1135.832130846
+  },
+  {
+    "Fighter":"Caio Borralho",
+    "Peak Elo":1135.8080147521
+  },
+  {
+    "Fighter":"Paddy Pimblett",
+    "Peak Elo":1135.6097537174
+  },
+  {
+    "Fighter":"Tatiana Suarez",
+    "Peak Elo":1135.3517325373
+  },
+  {
+    "Fighter":"Michael Morales",
+    "Peak Elo":1134.8095271816
+  },
+  {
+    "Fighter":"Diego Sanchez",
+    "Peak Elo":1134.6234647825
+  },
+  {
+    "Fighter":"Dan Hooker",
+    "Peak Elo":1133.9927488336
+  },
+  {
+    "Fighter":"Renan Barao",
+    "Peak Elo":1133.6959806147
+  },
+  {
+    "Fighter":"Cub Swanson",
+    "Peak Elo":1133.4407886652
+  },
+  {
+    "Fighter":"Matt Brown",
+    "Peak Elo":1133.3058061859
+  },
+  {
+    "Fighter":"Sergei Pavlovich",
+    "Peak Elo":1133.1859642034
+  },
+  {
+    "Fighter":"Thales Leites",
+    "Peak Elo":1132.8581917212
+  },
+  {
+    "Fighter":"Jiri Prochazka",
+    "Peak Elo":1132.8380825279
+  },
+  {
+    "Fighter":"Natalia Silva",
+    "Peak Elo":1131.691115991
+  },
+  {
+    "Fighter":"Al Iaquinta",
+    "Peak Elo":1131.6064893474
+  },
+  {
+    "Fighter":"Montel Jackson",
+    "Peak Elo":1131.5131514534
+  },
+  {
+    "Fighter":"Ricky Simon",
+    "Peak Elo":1131.1178054465
+  },
+  {
+    "Fighter":"Rob Font",
+    "Peak Elo":1131.0723111317
+  },
+  {
+    "Fighter":"Carla Esparza",
+    "Peak Elo":1130.9172823354
+  },
+  {
+    "Fighter":"Maycee Barber",
+    "Peak Elo":1130.8024844833
+  },
+  {
+    "Fighter":"Phil Davis",
+    "Peak Elo":1130.4625201821
+  },
+  {
+    "Fighter":"Erin Blanchfield",
+    "Peak Elo":1129.9972107994
+  },
+  {
+    "Fighter":"Giga Chikadze",
+    "Peak Elo":1129.8289971306
+  },
+  {
+    "Fighter":"Anthony Smith",
+    "Peak Elo":1129.6838894328
+  },
+  {
+    "Fighter":"Joel Alvarez",
+    "Peak Elo":1129.2992366278
+  },
+  {
+    "Fighter":"Rustam Khabilov",
+    "Peak Elo":1128.4228979768
+  },
+  {
+    "Fighter":"Royce Gracie",
+    "Peak Elo":1127.9952255752
+  },
+  {
+    "Fighter":"Muhammad Mokaev",
+    "Peak Elo":1126.7208502665
+  },
+  {
+    "Fighter":"Ricardo Lamas",
+    "Peak Elo":1126.4827722825
+  },
+  {
+    "Fighter":"Aiemann Zahabi",
+    "Peak Elo":1126.0113378136
+  },
+  {
+    "Fighter":"Matt Hamill",
+    "Peak Elo":1125.793452009
+  },
+  {
+    "Fighter":"Geoff Neal",
+    "Peak Elo":1125.6374887313
+  },
+  {
+    "Fighter":"Dan Severn",
+    "Peak Elo":1125.6331879633
+  },
+  {
+    "Fighter":"Don Frye",
+    "Peak Elo":1125.5494122999
+  },
+  {
+    "Fighter":"Leonardo Santos",
+    "Peak Elo":1125.3339944232
+  },
+  {
+    "Fighter":"Nate Diaz",
+    "Peak Elo":1125.3048768057
+  },
+  {
+    "Fighter":"Frank Mir",
+    "Peak Elo":1125.0994580426
+  },
+  {
+    "Fighter":"Virna Jandiroba",
+    "Peak Elo":1124.9738338732
+  },
+  {
+    "Fighter":"Brad Tavares",
+    "Peak Elo":1124.9469905013
+  },
+  {
+    "Fighter":"Cody Garbrandt",
+    "Peak Elo":1124.4090025941
+  },
+  {
+    "Fighter":"Quinton Jackson",
+    "Peak Elo":1124.3259670628
+  },
+  {
+    "Fighter":"Alex Oliveira",
+    "Peak Elo":1123.8752614795
+  },
+  {
+    "Fighter":"Roman Dolidze",
+    "Peak Elo":1123.6886044159
+  },
+  {
+    "Fighter":"Chad Mendes",
+    "Peak Elo":1123.5975213901
+  },
+  {
+    "Fighter":"Diego Lopes",
+    "Peak Elo":1123.4768215036
+  },
+  {
+    "Fighter":"Katlyn Cerminara",
+    "Peak Elo":1123.1428978579
+  },
+  {
+    "Fighter":"Marvin Vettori",
+    "Peak Elo":1122.3171223336
+  },
+  {
+    "Fighter":"Drakkar Klose",
+    "Peak Elo":1122.2945075701
+  },
+  {
+    "Fighter":"Pat Miletich",
+    "Peak Elo":1122.2412070432
+  },
+  {
+    "Fighter":"Gregor Gillespie",
+    "Peak Elo":1122.0702638274
+  },
+  {
+    "Fighter":"Rafael Fiziev",
+    "Peak Elo":1122.0436275692
+  },
+  {
+    "Fighter":"Azamat Murzakanov",
+    "Peak Elo":1122.003660174
+  },
+  {
+    "Fighter":"Nate Marquardt",
+    "Peak Elo":1121.893664733
+  },
+  {
+    "Fighter":"Marcin Tybura",
+    "Peak Elo":1121.5176963575
+  },
+  {
+    "Fighter":"Martin Kampmann",
+    "Peak Elo":1121.4844782713
+  },
+  {
+    "Fighter":"Tim Sylvia",
+    "Peak Elo":1121.3314274462
+  },
+  {
+    "Fighter":"Norma Dumont",
+    "Peak Elo":1120.9517815613
+  },
+  {
+    "Fighter":"Evan Tanner",
+    "Peak Elo":1120.9209982893
+  },
+  {
+    "Fighter":"Dominick Reyes",
+    "Peak Elo":1120.7084252122
+  },
+  {
+    "Fighter":"Jamahal Hill",
+    "Peak Elo":1120.6554477464
+  },
+  {
+    "Fighter":"Mike Pierce",
+    "Peak Elo":1119.5279414378
+  },
+  {
+    "Fighter":"Jake Ellenberger",
+    "Peak Elo":1119.491107903
+  },
+  {
+    "Fighter":"Kevin Holland",
+    "Peak Elo":1119.4764750457
+  },
+  {
+    "Fighter":"Daniel Rodriguez",
+    "Peak Elo":1119.3308776457
+  },
+  {
+    "Fighter":"Mark Coleman",
+    "Peak Elo":1119.2809208742
+  },
+  {
+    "Fighter":"Elizeu Zaleski dos Santos",
+    "Peak Elo":1118.7510659624
+  },
+  {
+    "Fighter":"TJ Grant",
+    "Peak Elo":1118.6994881575
+  },
+  {
+    "Fighter":"Mark Munoz",
+    "Peak Elo":1118.5745122173
+  },
+  {
+    "Fighter":"Dominick Cruz",
+    "Peak Elo":1118.2406422633
+  },
+  {
+    "Fighter":"Dennis Bermudez",
+    "Peak Elo":1118.0618926044
+  },
+  {
+    "Fighter":"Alexa Grasso",
+    "Peak Elo":1117.9838780693
+  },
+  {
+    "Fighter":"Chris Gutierrez",
+    "Peak Elo":1117.9212868405
+  },
+  {
+    "Fighter":"Rinat Fakhretdinov",
+    "Peak Elo":1117.2241412945
+  },
+  {
+    "Fighter":"Myles Jury",
+    "Peak Elo":1116.3729882633
+  },
+  {
+    "Fighter":"Rick Story",
+    "Peak Elo":1115.9185874961
+  },
+  {
+    "Fighter":"Pedro Munhoz",
+    "Peak Elo":1115.84300601
+  },
+  {
+    "Fighter":"Darren Till",
+    "Peak Elo":1115.5783311681
+  },
+  {
+    "Fighter":"Ronda Rousey",
+    "Peak Elo":1115.363682917
+  },
+  {
+    "Fighter":"Bryan Battle",
+    "Peak Elo":1115.3542753885
+  },
+  {
+    "Fighter":"Anthony Pettis",
+    "Peak Elo":1115.0326272652
+  },
+  {
+    "Fighter":"Jussier Formiga",
+    "Peak Elo":1114.9618498087
+  },
+  {
+    "Fighter":"Stefan Struve",
+    "Peak Elo":1114.8491437731
+  },
+  {
+    "Fighter":"Jasmine Jasudavicius",
+    "Peak Elo":1114.6591571354
+  },
+  {
+    "Fighter":"Zabit Magomedsharipov",
+    "Peak Elo":1114.4692043728
+  },
+  {
+    "Fighter":"Nasrat Haqparast",
+    "Peak Elo":1114.0648184694
+  },
+  {
+    "Fighter":"Paul Felder",
+    "Peak Elo":1113.7593211613
+  },
+  {
+    "Fighter":"Anthony Rocco Martin",
+    "Peak Elo":1113.6796611405
+  },
+  {
+    "Fighter":"Rani Yahya",
+    "Peak Elo":1113.5257392288
+  },
+  {
+    "Fighter":"Jack Hermansson",
+    "Peak Elo":1113.4462080266
+  },
+  {
+    "Fighter":"Joshua Van",
+    "Peak Elo":1113.4326509116
+  },
+  {
+    "Fighter":"Urijah Faber",
+    "Peak Elo":1113.020372236
+  },
+  {
+    "Fighter":"Corey Anderson",
+    "Peak Elo":1113.0166881285
+  },
+  {
+    "Fighter":"Julianna Pena",
+    "Peak Elo":1112.9863636675
+  },
+  {
+    "Fighter":"Uriah Hall",
+    "Peak Elo":1112.8923422028
+  },
+  {
+    "Fighter":"Paulo Costa",
+    "Peak Elo":1112.209446621
+  },
+  {
+    "Fighter":"Sergio Moraes",
+    "Peak Elo":1112.1826761824
+  },
+  {
+    "Fighter":"Li Jingliang",
+    "Peak Elo":1112.1518663174
+  },
+  {
+    "Fighter":"Tatsuro Taira",
+    "Peak Elo":1112.0968061209
+  },
+  {
+    "Fighter":"Tai Tuivasa",
+    "Peak Elo":1111.5567269296
+  },
+  {
+    "Fighter":"Francis Carmont",
+    "Peak Elo":1111.283018303
+  },
+  {
+    "Fighter":"Gleison Tibau",
+    "Peak Elo":1111.0597232769
+  },
+  {
+    "Fighter":"Chan Sung Jung",
+    "Peak Elo":1110.9656449478
+  },
+  {
+    "Fighter":"Jake Matthews",
+    "Peak Elo":1110.950475582
+  },
+  {
+    "Fighter":"Jean Silva",
+    "Peak Elo":1110.8616643437
+  },
+  {
+    "Fighter":"Gunnar Nelson",
+    "Peak Elo":1110.6736724469
+  },
+  {
+    "Fighter":"Bryce Mitchell",
+    "Peak Elo":1110.2627356105
+  },
+  {
+    "Fighter":"Travis Browne",
+    "Peak Elo":1110.1204762779
+  },
+  {
+    "Fighter":"Brandon Royval",
+    "Peak Elo":1109.7950680403
+  },
+  {
+    "Fighter":"Calvin Kattar",
+    "Peak Elo":1109.7250657514
+  },
+  {
+    "Fighter":"Alex Morono",
+    "Peak Elo":1109.678353393
+  },
+  {
+    "Fighter":"Nathaniel Wood",
+    "Peak Elo":1109.6604263803
+  },
+  {
+    "Fighter":"Marina Rodriguez",
+    "Peak Elo":1109.4710355009
+  },
+  {
+    "Fighter":"Mairbek Taisumov",
+    "Peak Elo":1109.2442476143
+  },
+  {
+    "Fighter":"James Krause",
+    "Peak Elo":1109.0469260137
+  },
+  {
+    "Fighter":"Elias Theodorou",
+    "Peak Elo":1108.6379506648
+  },
+  {
+    "Fighter":"Marlon Moraes",
+    "Peak Elo":1108.5610466522
+  },
+  {
+    "Fighter":"Jens Pulver",
+    "Peak Elo":1108.4792841161
+  },
+  {
+    "Fighter":"Reinier de Ridder",
+    "Peak Elo":1108.1898698041
+  },
+  {
+    "Fighter":"Matheus Nicolau",
+    "Peak Elo":1108.1318823049
+  },
+  {
+    "Fighter":"Ricco Rodriguez",
+    "Peak Elo":1108.1205997739
+  },
+  {
+    "Fighter":"Forrest Griffin",
+    "Peak Elo":1108.0457126693
+  },
+  {
+    "Fighter":"Drew Dober",
+    "Peak Elo":1107.642053494
+  },
+  {
+    "Fighter":"Karo Parisyan",
+    "Peak Elo":1107.5503979629
+  },
+  {
+    "Fighter":"Dennis Siver",
+    "Peak Elo":1107.2692059071
+  },
+  {
+    "Fighter":"Marcus Davis",
+    "Peak Elo":1107.1891136393
+  },
+  {
+    "Fighter":"Muslim Salikhov",
+    "Peak Elo":1107.0318293541
+  },
+  {
+    "Fighter":"Melvin Guillard",
+    "Peak Elo":1106.5799921332
+  },
+  {
+    "Fighter":"Donald Cerrone",
+    "Peak Elo":1106.5702373287
+  },
+  {
+    "Fighter":"Dan Henderson",
+    "Peak Elo":1106.2733847185
+  },
+  {
+    "Fighter":"Andre Muniz",
+    "Peak Elo":1105.9076836499
+  },
+  {
+    "Fighter":"Mackenzie Dern",
+    "Peak Elo":1105.5990037838
+  },
+  {
+    "Fighter":"Aleksandar Rakic",
+    "Peak Elo":1105.529618089
+  },
+  {
+    "Fighter":"Amanda Lemos",
+    "Peak Elo":1105.4644272893
+  },
+  {
+    "Fighter":"Carlos Prates",
+    "Peak Elo":1105.3969281935
+  },
+  {
+    "Fighter":"Roger Huerta",
+    "Peak Elo":1105.0285992499
+  },
+  {
+    "Fighter":"Yan Xiaonan",
+    "Peak Elo":1104.9659555333
+  },
+  {
+    "Fighter":"Waldo Cortes-Acosta",
+    "Peak Elo":1104.9312031316
+  },
+  {
+    "Fighter":"Joe Pyfer",
+    "Peak Elo":1104.6910146159
+  },
+  {
+    "Fighter":"Germaine de Randamie",
+    "Peak Elo":1104.6586830451
+  },
+  {
+    "Fighter":"Gillian Robertson",
+    "Peak Elo":1104.5116248038
+  },
+  {
+    "Fighter":"Alan Belcher",
+    "Peak Elo":1104.429811578
+  },
+  {
+    "Fighter":"Michael Johnson",
+    "Peak Elo":1103.9877842027
+  },
+  {
+    "Fighter":"Jimmie Rivera",
+    "Peak Elo":1103.6106949288
+  },
+  {
+    "Fighter":"Carlos Condit",
+    "Peak Elo":1103.4901331976
+  },
+  {
+    "Fighter":"Jairzinho Rozenstruik",
+    "Peak Elo":1103.2397844129
+  },
+  {
+    "Fighter":"Youssef Zalal",
+    "Peak Elo":1102.9250941637
+  },
+  {
+    "Fighter":"Mike Malott",
+    "Peak Elo":1102.7825499687
+  },
+  {
+    "Fighter":"Said Nurmagomedov",
+    "Peak Elo":1102.6906624399
+  },
+  {
+    "Fighter":"Steve Garcia",
+    "Peak Elo":1102.6123656821
+  },
+  {
+    "Fighter":"Nik Lentz",
+    "Peak Elo":1102.4438812785
+  },
+  {
+    "Fighter":"Sodiq Yusuff",
+    "Peak Elo":1102.3820617407
+  },
+  {
+    "Fighter":"Dan Ige",
+    "Peak Elo":1102.3642540062
+  },
+  {
+    "Fighter":"Pedro Rizzo",
+    "Peak Elo":1102.21057706
+  },
+  {
+    "Fighter":"Mike Pyle",
+    "Peak Elo":1101.9804830692
+  },
+  {
+    "Fighter":"Nicolas Dalby",
+    "Peak Elo":1101.4524227959
+  },
+  {
+    "Fighter":"Alejandro Perez",
+    "Peak Elo":1101.2338854932
+  },
+  {
+    "Fighter":"Clay Guida",
+    "Peak Elo":1101.2288285758
+  },
+  {
+    "Fighter":"Khalil Rountree Jr.",
+    "Peak Elo":1101.039075407
+  },
+  {
+    "Fighter":"Farid Basharat",
+    "Peak Elo":1100.9917262821
+  },
+  {
+    "Fighter":"Josh Barnett",
+    "Peak Elo":1100.988353021
+  },
+  {
+    "Fighter":"Olivier Aubin-Mercier",
+    "Peak Elo":1100.7832604839
+  },
+  {
+    "Fighter":"Serghei Spivac",
+    "Peak Elo":1100.4703322359
+  },
+  {
+    "Fighter":"Sean Woodson",
+    "Peak Elo":1100.4176489079
+  },
+  {
+    "Fighter":"Cheick Kongo",
+    "Peak Elo":1100.2414002631
+  },
+  {
+    "Fighter":"David Teymur",
+    "Peak Elo":1100.0913473458
+  },
+  {
+    "Fighter":"Fares Ziam",
+    "Peak Elo":1100.0913192926
+  },
+  {
+    "Fighter":"Zak Cummings",
+    "Peak Elo":1100.0799918875
+  },
+  {
+    "Fighter":"Nikita Krylov",
+    "Peak Elo":1100.0642039429
+  },
+  {
+    "Fighter":"Antonio Carlos Junior",
+    "Peak Elo":1100.0534060092
+  },
+  {
+    "Fighter":"Kyoji Horiguchi",
+    "Peak Elo":1099.9377546533
+  },
+  {
+    "Fighter":"John Hathaway",
+    "Peak Elo":1099.6389530443
+  },
+  {
+    "Fighter":"Brock Lesnar",
+    "Peak Elo":1099.5662762471
+  },
+  {
+    "Fighter":"Frank Shamrock",
+    "Peak Elo":1099.2828917981
+  },
+  {
+    "Fighter":"King Green",
+    "Peak Elo":1098.6682936257
+  },
+  {
+    "Fighter":"Ryan LaFlare",
+    "Peak Elo":1098.6335979012
+  },
+  {
+    "Fighter":"Matt Mitrione",
+    "Peak Elo":1098.5490061022
+  },
+  {
+    "Fighter":"Claudio Silva",
+    "Peak Elo":1098.4781747282
+  },
+  {
+    "Fighter":"Daniel Kelly",
+    "Peak Elo":1098.4026774794
+  },
+  {
+    "Fighter":"Chael Sonnen",
+    "Peak Elo":1098.3919426927
+  },
+  {
+    "Fighter":"Benoit Saint Denis",
+    "Peak Elo":1098.1492301703
+  },
+  {
+    "Fighter":"Chepe Mariscal",
+    "Peak Elo":1098.0581626703
+  },
+  {
+    "Fighter":"Omari Akhmedov",
+    "Peak Elo":1097.7842432243
+  },
+  {
+    "Fighter":"Joanderson Brito",
+    "Peak Elo":1097.4343609646
+  },
+  {
+    "Fighter":"Evan Dunham",
+    "Peak Elo":1097.287793467
+  },
+  {
+    "Fighter":"Gregory Rodrigues",
+    "Peak Elo":1097.2443232326
+  },
+  {
+    "Fighter":"Mauricio Rua",
+    "Peak Elo":1096.9145643804
+  },
+  {
+    "Fighter":"Alex Perez",
+    "Peak Elo":1096.6782734754
+  },
+  {
+    "Fighter":"Ovince Saint Preux",
+    "Peak Elo":1096.6468573746
+  },
+  {
+    "Fighter":"JunYong Park",
+    "Peak Elo":1096.4979544825
+  },
+  {
+    "Fighter":"Paul Craig",
+    "Peak Elo":1096.2249212117
+  },
+  {
+    "Fighter":"John Dodson",
+    "Peak Elo":1095.9534371949
+  },
+  {
+    "Fighter":"Alex Caceres",
+    "Peak Elo":1095.8010989108
+  },
+  {
+    "Fighter":"Dan Hardy",
+    "Peak Elo":1095.7534886711
+  },
+  {
+    "Fighter":"Vinc Pichel",
+    "Peak Elo":1095.4076496907
+  },
+  {
+    "Fighter":"Alonzo Menifield",
+    "Peak Elo":1095.2859023425
+  },
+  {
+    "Fighter":"Ryan Spann",
+    "Peak Elo":1095.2691981301
+  },
+  {
+    "Fighter":"Kyler Phillips",
+    "Peak Elo":1095.17765696
+  },
+  {
+    "Fighter":"Rousimar Palhares",
+    "Peak Elo":1095.1566736104
+  },
+  {
+    "Fighter":"Adrian Yanez",
+    "Peak Elo":1094.9362575618
+  },
+  {
+    "Fighter":"Shane Burgos",
+    "Peak Elo":1094.5195795408
+  },
+  {
+    "Fighter":"Takeya Mizugaki",
+    "Peak Elo":1094.3297586815
+  },
+  {
+    "Fighter":"Gabriel Bonfim",
+    "Peak Elo":1094.2775139977
+  },
+  {
+    "Fighter":"Mirsad Bektic",
+    "Peak Elo":1093.9183702756
+  },
+  {
+    "Fighter":"Raoni Barcelos",
+    "Peak Elo":1093.5423259039
+  },
+  {
+    "Fighter":"Ludovit Klein",
+    "Peak Elo":1093.4227324112
+  },
+  {
+    "Fighter":"Andre Petroski",
+    "Peak Elo":1093.3067919445
+  },
+  {
+    "Fighter":"Amir Albazi",
+    "Peak Elo":1093.1660768745
+  },
+  {
+    "Fighter":"Jimi Manuwa",
+    "Peak Elo":1092.9851626411
+  },
+  {
+    "Fighter":"Vinicius Oliveira",
+    "Peak Elo":1092.9620307567
+  },
+  {
+    "Fighter":"Cristiane Justino",
+    "Peak Elo":1092.6463816103
+  },
+  {
+    "Fighter":"Joe Lauzon",
+    "Peak Elo":1092.5060359546
+  },
+  {
+    "Fighter":"Krzysztof Jotko",
+    "Peak Elo":1092.502378008
+  },
+  {
+    "Fighter":"Joe Stevenson",
+    "Peak Elo":1092.4887823646
+  },
+  {
+    "Fighter":"Sergio Pettis",
+    "Peak Elo":1092.4445704075
+  },
+  {
+    "Fighter":"Jeremy Stephens",
+    "Peak Elo":1092.3031955716
+  },
+  {
+    "Fighter":"Nate Quarry",
+    "Peak Elo":1091.9675258906
+  },
+  {
+    "Fighter":"Mark Hunt",
+    "Peak Elo":1091.8907464208
+  },
+  {
+    "Fighter":"Tagir Ulanbekov",
+    "Peak Elo":1091.7586730866
+  },
+  {
+    "Fighter":"Jonathan Pearce",
+    "Peak Elo":1091.1289677641
+  },
+  {
+    "Fighter":"Jalin Turner",
+    "Peak Elo":1091.0107259563
+  },
+  {
+    "Fighter":"Constantinos Philippou",
+    "Peak Elo":1090.9743344001
+  },
+  {
+    "Fighter":"Jared Rosholt",
+    "Peak Elo":1090.9739882175
+  },
+  {
+    "Fighter":"Tyson Griffin",
+    "Peak Elo":1090.9647033344
+  },
+  {
+    "Fighter":"Ben Rothwell",
+    "Peak Elo":1090.8468917295
+  },
+  {
+    "Fighter":"Bryan Caraway",
+    "Peak Elo":1090.6858947644
+  },
+  {
+    "Fighter":"Chase Hooper",
+    "Peak Elo":1090.5604246234
+  },
+  {
+    "Fighter":"Tim Boetsch",
+    "Peak Elo":1090.1023259598
+  },
+  {
+    "Fighter":"Matt Wiman",
+    "Peak Elo":1090.0474478114
+  },
+  {
+    "Fighter":"Alexandr Romanov",
+    "Peak Elo":1090.0116978272
+  },
+  {
+    "Fighter":"Sam Alvey",
+    "Peak Elo":1089.9531487186
+  },
+  {
+    "Fighter":"Tracy Cortez",
+    "Peak Elo":1089.9093924154
+  },
+  {
+    "Fighter":"Jack Shore",
+    "Peak Elo":1089.5655965282
+  },
+  {
+    "Fighter":"Shane Carwin",
+    "Peak Elo":1089.2768992833
+  },
+  {
+    "Fighter":"Ignacio Bahamondes",
+    "Peak Elo":1089.2756488325
+  },
+  {
+    "Fighter":"Yancy Medeiros",
+    "Peak Elo":1088.9558915143
+  },
+  {
+    "Fighter":"Kyung Ho Kang",
+    "Peak Elo":1088.6394185087
+  },
+  {
+    "Fighter":"Cynthia Calvillo",
+    "Peak Elo":1088.5551403858
+  },
+  {
+    "Fighter":"Khaos Williams",
+    "Peak Elo":1088.4441118011
+  },
+  {
+    "Fighter":"Miranda Maverick",
+    "Peak Elo":1088.3386766371
+  },
+  {
+    "Fighter":"Warlley Alves",
+    "Peak Elo":1088.2445928394
+  },
+  {
+    "Fighter":"David Onama",
+    "Peak Elo":1088.0816892567
+  },
+  {
+    "Fighter":"Louis Smolka",
+    "Peak Elo":1088.0650492785
+  },
+  {
+    "Fighter":"Ilir Latifi",
+    "Peak Elo":1087.7994459793
+  },
+  {
+    "Fighter":"Matt Lindland",
+    "Peak Elo":1087.5492701555
+  },
+  {
+    "Fighter":"Cody Stamann",
+    "Peak Elo":1087.3043014164
+  },
+  {
+    "Fighter":"Tecia Pennington",
+    "Peak Elo":1087.0082266718
+  },
+  {
+    "Fighter":"Ketlen Vieira",
+    "Peak Elo":1086.7043708148
+  },
+  {
+    "Fighter":"Damir Ismagulov",
+    "Peak Elo":1086.5168999766
+  },
+  {
+    "Fighter":"Jeremiah Wells",
+    "Peak Elo":1086.5085976641
+  },
+  {
+    "Fighter":"Kai Kara-France",
+    "Peak Elo":1086.4976106357
+  },
+  {
+    "Fighter":"Chris Daukaus",
+    "Peak Elo":1086.4473139123
+  },
+  {
+    "Fighter":"Alexander Hernandez",
+    "Peak Elo":1086.3284437221
+  },
+  {
+    "Fighter":"Chas Skelly",
+    "Peak Elo":1086.2795688058
+  },
+  {
+    "Fighter":"Irene Aldana",
+    "Peak Elo":1086.1799584202
+  },
+  {
+    "Fighter":"Abel Trujillo",
+    "Peak Elo":1086.1645901188
+  },
+  {
+    "Fighter":"Rafael Natal",
+    "Peak Elo":1086.1464731259
+  },
+  {
+    "Fighter":"Johnny Walker",
+    "Peak Elo":1086.0123251508
+  },
+  {
+    "Fighter":"Thiago Silva",
+    "Peak Elo":1085.9418823571
+  },
+  {
+    "Fighter":"Rashid Magomedov",
+    "Peak Elo":1085.9067475885
+  },
+  {
+    "Fighter":"Ryan Hall",
+    "Peak Elo":1085.4584146353
+  },
+  {
+    "Fighter":"Pat Sabatini",
+    "Peak Elo":1085.4035873258
+  },
+  {
+    "Fighter":"Brian Ebersole",
+    "Peak Elo":1085.3229110223
+  },
+  {
+    "Fighter":"Kurt Pellegrino",
+    "Peak Elo":1085.1117014432
+  },
+  {
+    "Fighter":"Yves Edwards",
+    "Peak Elo":1085.0914773246
+  },
+  {
+    "Fighter":"Daniel Marcos",
+    "Peak Elo":1084.6306816213
+  },
+  {
+    "Fighter":"Misha Cirkunov",
+    "Peak Elo":1084.5040114199
+  },
+  {
+    "Fighter":"Dustin Jacoby",
+    "Peak Elo":1084.2338074322
+  },
+  {
+    "Fighter":"Kayla Harrison",
+    "Peak Elo":1084.1765933769
+  },
+  {
+    "Fighter":"Sean Sherk",
+    "Peak Elo":1084.0374236868
+  },
+  {
+    "Fighter":"Spencer Fisher",
+    "Peak Elo":1083.6280739256
+  },
+  {
+    "Fighter":"Martin Buday",
+    "Peak Elo":1083.5874442693
+  },
+  {
+    "Fighter":"Chris Leben",
+    "Peak Elo":1083.4653144642
+  },
+  {
+    "Fighter":"Casey Kenney",
+    "Peak Elo":1083.2674725172
+  },
+  {
+    "Fighter":"Mike Russow",
+    "Peak Elo":1082.9800081708
+  },
+  {
+    "Fighter":"Manel Kape",
+    "Peak Elo":1082.9680411933
+  },
+  {
+    "Fighter":"Ikram Aliskerov",
+    "Peak Elo":1082.852487382
+  },
+  {
+    "Fighter":"Nazim Sadykhov",
+    "Peak Elo":1082.6813705804
+  },
+  {
+    "Fighter":"William Gomis",
+    "Peak Elo":1082.5455115523
+  },
+  {
+    "Fighter":"Roy Nelson",
+    "Peak Elo":1082.0686916129
+  },
+  {
+    "Fighter":"Erik Perez",
+    "Peak Elo":1082.0324368435
+  },
+  {
+    "Fighter":"Shara Magomedov",
+    "Peak Elo":1081.7841541321
+  },
+  {
+    "Fighter":"Aleksei Oleinik",
+    "Peak Elo":1081.6657822857
+  },
+  {
+    "Fighter":"Tabatha Ricci",
+    "Peak Elo":1081.445089648
+  },
+  {
+    "Fighter":"Amanda Ribas",
+    "Peak Elo":1081.31662218
+  },
+  {
+    "Fighter":"Edmen Shahbazyan",
+    "Peak Elo":1081.2741302213
+  },
+  {
+    "Fighter":"Scott Holtzman",
+    "Peak Elo":1081.2164536948
+  },
+  {
+    "Fighter":"Albert Tumenov",
+    "Peak Elo":1081.0584063099
+  },
+  {
+    "Fighter":"Eddie Alvarez",
+    "Peak Elo":1080.9934531182
+  },
+  {
+    "Fighter":"Marcus McGhee",
+    "Peak Elo":1080.9575093594
+  },
+  {
+    "Fighter":"Mark Madsen",
+    "Peak Elo":1080.6227644279
+  },
+  {
+    "Fighter":"Macy Chiasson",
+    "Peak Elo":1080.3399474301
+  },
+  {
+    "Fighter":"Clint Hester",
+    "Peak Elo":1080.2560037481
+  },
+  {
+    "Fighter":"Tim Means",
+    "Peak Elo":1080.2187564547
+  },
+  {
+    "Fighter":"Asu Almabayev",
+    "Peak Elo":1080.1468824702
+  },
+  {
+    "Fighter":"Brandon Vera",
+    "Peak Elo":1080.0578846557
+  },
+  {
+    "Fighter":"Da Woon Jung",
+    "Peak Elo":1080.0295232559
+  },
+  {
+    "Fighter":"Cezar Ferreira",
+    "Peak Elo":1079.8155867533
+  },
+  {
+    "Fighter":"Lauren Murphy",
+    "Peak Elo":1079.6842058023
+  },
+  {
+    "Fighter":"Claudio Puelles",
+    "Peak Elo":1079.6308730762
+  },
+  {
+    "Fighter":"Oleg Taktarov",
+    "Peak Elo":1079.6096068257
+  },
+  {
+    "Fighter":"Brad Riddell",
+    "Peak Elo":1079.6033112415
+  },
+  {
+    "Fighter":"Ben Saunders",
+    "Peak Elo":1079.5912191283
+  },
+  {
+    "Fighter":"Ramazan Emeev",
+    "Peak Elo":1079.5217876136
+  },
+  {
+    "Fighter":"Ken Shamrock",
+    "Peak Elo":1079.4167948243
+  },
+  {
+    "Fighter":"Hakeem Dawodu",
+    "Peak Elo":1079.2131695776
+  },
+  {
+    "Fighter":"Karine Silva",
+    "Peak Elo":1078.6517086258
+  },
+  {
+    "Fighter":"Iuri Alcantara",
+    "Peak Elo":1078.5790617748
+  },
+  {
+    "Fighter":"Loopy Godinez",
+    "Peak Elo":1078.5059626022
+  },
+  {
+    "Fighter":"Ross Pearson",
+    "Peak Elo":1077.8266732384
+  },
+  {
+    "Fighter":"Vladimir Matyushenko",
+    "Peak Elo":1077.6017989651
+  },
+  {
+    "Fighter":"Melquizael Costa",
+    "Peak Elo":1077.2730270172
+  },
+  {
+    "Fighter":"Gabriel Gonzaga",
+    "Peak Elo":1077.204910417
+  },
+  {
+    "Fighter":"Jordan Johnson",
+    "Peak Elo":1077.0501245523
+  },
+  {
+    "Fighter":"Augusto Sakai",
+    "Peak Elo":1077.0140270493
+  },
+  {
+    "Fighter":"Chris Duncan",
+    "Peak Elo":1076.9076864386
+  },
+  {
+    "Fighter":"Julian Erosa",
+    "Peak Elo":1076.8958427026
+  },
+  {
+    "Fighter":"Felice Herrig",
+    "Peak Elo":1076.6884180724
+  },
+  {
+    "Fighter":"Bryan Barberena",
+    "Peak Elo":1076.6784516316
+  },
+  {
+    "Fighter":"Chris Curtis",
+    "Peak Elo":1076.4369034095
+  },
+  {
+    "Fighter":"Alan Jouban",
+    "Peak Elo":1076.378527982
+  },
+  {
+    "Fighter":"Volkan Oezdemir",
+    "Peak Elo":1076.3333797038
+  },
+  {
+    "Fighter":"Johnny Case",
+    "Peak Elo":1076.2829678044
+  },
+  {
+    "Fighter":"Chris Camozzi",
+    "Peak Elo":1076.0834329629
+  },
+  {
+    "Fighter":"Alan Patrick",
+    "Peak Elo":1076.0781085197
+  },
+  {
+    "Fighter":"Roman Kopylov",
+    "Peak Elo":1075.7561851397
+  },
+  {
+    "Fighter":"Vitor Petrino",
+    "Peak Elo":1075.7409600756
+  },
+  {
+    "Fighter":"Cathal Pendred",
+    "Peak Elo":1075.6499472099
+  },
+  {
+    "Fighter":"Jerry Bohlander",
+    "Peak Elo":1075.4748829202
+  },
+  {
+    "Fighter":"Bo Nickal",
+    "Peak Elo":1075.2394609916
+  },
+  {
+    "Fighter":"Michael McDonald",
+    "Peak Elo":1075.0322683332
+  },
+  {
+    "Fighter":"Chris Wade",
+    "Peak Elo":1075.0185606793
+  },
+  {
+    "Fighter":"Ed Herman",
+    "Peak Elo":1074.8644838228
+  },
+  {
+    "Fighter":"Mick Parkin",
+    "Peak Elo":1074.7016745066
+  },
+  {
+    "Fighter":"Joe Solecki",
+    "Peak Elo":1074.6614348055
+  },
+  {
+    "Fighter":"Loma Lookboonmee",
+    "Peak Elo":1074.4793872918
+  },
+  {
+    "Fighter":"Casey O'Neill",
+    "Peak Elo":1074.4573769678
+  },
+  {
+    "Fighter":"Stevie Ray",
+    "Peak Elo":1074.3161791738
+  },
+  {
+    "Fighter":"Bogdan Guskov",
+    "Peak Elo":1074.285130236
+  },
+  {
+    "Fighter":"Jason Knight",
+    "Peak Elo":1074.1465553933
+  },
+  {
+    "Fighter":"Mark Kerr",
+    "Peak Elo":1074.1211395614
+  },
+  {
+    "Fighter":"Holly Holm",
+    "Peak Elo":1074.1020080416
+  },
+  {
+    "Fighter":"Nordine Taleb",
+    "Peak Elo":1073.7722694789
+  },
+  {
+    "Fighter":"Thomas Almeida",
+    "Peak Elo":1073.7023139684
+  },
+  {
+    "Fighter":"Wilson Gouveia",
+    "Peak Elo":1073.6608779601
+  },
+  {
+    "Fighter":"Justin Willis",
+    "Peak Elo":1073.5497385567
+  },
+  {
+    "Fighter":"Jacqueline Cavalcanti",
+    "Peak Elo":1073.3780891593
+  },
+  {
+    "Fighter":"Damon Jackson",
+    "Peak Elo":1073.3205899954
+  },
+  {
+    "Fighter":"Patrick Cote",
+    "Peak Elo":1073.133102374
+  },
+  {
+    "Fighter":"John Howard",
+    "Peak Elo":1073.0284217768
+  },
+  {
+    "Fighter":"Rogerio Nogueira",
+    "Peak Elo":1073.0226086779
+  },
+  {
+    "Fighter":"Steven Siler",
+    "Peak Elo":1072.9642347587
+  },
+  {
+    "Fighter":"Andre Lima",
+    "Peak Elo":1072.9258535885
+  },
+  {
+    "Fighter":"Thiago Tavares",
+    "Peak Elo":1072.9101868427
+  },
+  {
+    "Fighter":"Laverne Clark",
+    "Peak Elo":1072.8505527229
+  },
+  {
+    "Fighter":"Ricardo Ramos",
+    "Peak Elo":1072.6585871502
+  },
+  {
+    "Fighter":"Wilson Reis",
+    "Peak Elo":1072.5996011625
+  },
+  {
+    "Fighter":"James Te Huna",
+    "Peak Elo":1072.5427773162
+  },
+  {
+    "Fighter":"Danny Castillo",
+    "Peak Elo":1072.5025237568
+  },
+  {
+    "Fighter":"Makwan Amirkhani",
+    "Peak Elo":1072.3275882825
+  },
+  {
+    "Fighter":"Ailin Perez",
+    "Peak Elo":1072.3111842225
+  },
+  {
+    "Fighter":"Cole Miller",
+    "Peak Elo":1072.2439196014
+  },
+  {
+    "Fighter":"Norman Parke",
+    "Peak Elo":1072.102810565
+  },
+  {
+    "Fighter":"Shawn Jordan",
+    "Peak Elo":1072.1006336959
+  },
+  {
+    "Fighter":"Curtis Millender",
+    "Peak Elo":1072.0617150994
+  },
+  {
+    "Fighter":"Jake Shields",
+    "Peak Elo":1071.7937629072
+  },
+  {
+    "Fighter":"Askar Askarov",
+    "Peak Elo":1071.660991766
+  },
+  {
+    "Fighter":"Jared Gordon",
+    "Peak Elo":1071.5830356886
+  },
+  {
+    "Fighter":"Guy Mezger",
+    "Peak Elo":1071.43350919
+  },
+  {
+    "Fighter":"Davi Ramos",
+    "Peak Elo":1071.3168933407
+  },
+  {
+    "Fighter":"Adriano Martins",
+    "Peak Elo":1071.3111409134
+  },
+  {
+    "Fighter":"Hermes Franca",
+    "Peak Elo":1071.0433299518
+  },
+  {
+    "Fighter":"Tim Kennedy",
+    "Peak Elo":1071.0193385864
+  },
+  {
+    "Fighter":"Michael Page",
+    "Peak Elo":1071.0156585997
+  },
+  {
+    "Fighter":"CB Dollaway",
+    "Peak Elo":1070.6861629849
+  },
+  {
+    "Fighter":"Dustin Ortiz",
+    "Peak Elo":1070.6104030538
+  },
+  {
+    "Fighter":"Rafa Garcia",
+    "Peak Elo":1070.4076707852
+  },
+  {
+    "Fighter":"Miguel Baeza",
+    "Peak Elo":1070.3611631123
+  },
+  {
+    "Fighter":"Marcos Rogerio de Lima",
+    "Peak Elo":1070.1286274248
+  },
+  {
+    "Fighter":"Chad Laprise",
+    "Peak Elo":1070.0553219335
+  },
+  {
+    "Fighter":"Nick Diaz",
+    "Peak Elo":1069.7363614837
+  },
+  {
+    "Fighter":"David Loiseau",
+    "Peak Elo":1069.7078145533
+  },
+  {
+    "Fighter":"Paulo Thiago",
+    "Peak Elo":1069.4323842504
+  },
+  {
+    "Fighter":"Muhammad Naimov",
+    "Peak Elo":1069.2729782147
+  },
+  {
+    "Fighter":"Enrique Barzola",
+    "Peak Elo":1069.1613134267
+  },
+  {
+    "Fighter":"Miesha Tate",
+    "Peak Elo":1068.9901235728
+  },
+  {
+    "Fighter":"Mike Perry",
+    "Peak Elo":1068.8242016004
+  },
+  {
+    "Fighter":"Chris Lytle",
+    "Peak Elo":1068.6586427878
+  },
+  {
+    "Fighter":"Shamil Abdurakhimov",
+    "Peak Elo":1068.6547114885
+  },
+  {
+    "Fighter":"Seth Baczynski",
+    "Peak Elo":1068.5933832988
+  },
+  {
+    "Fighter":"Aaron Simpson",
+    "Peak Elo":1068.5569589452
+  },
+  {
+    "Fighter":"John Makdessi",
+    "Peak Elo":1068.539343005
+  },
+  {
+    "Fighter":"Matthew Riddle",
+    "Peak Elo":1068.5282268347
+  },
+  {
+    "Fighter":"Daniel Santos",
+    "Peak Elo":1068.4992528115
+  },
+  {
+    "Fighter":"Quillan Salkilld",
+    "Peak Elo":1068.4561418802
+  },
+  {
+    "Fighter":"Josh Samman",
+    "Peak Elo":1068.2980255606
+  },
+  {
+    "Fighter":"Karol Rosa",
+    "Peak Elo":1068.2767947465
+  },
+  {
+    "Fighter":"Terry Etim",
+    "Peak Elo":1068.0847642288
+  },
+  {
+    "Fighter":"Davey Grant",
+    "Peak Elo":1067.9357277352
+  },
+  {
+    "Fighter":"Gerald Meerschaert",
+    "Peak Elo":1067.9088769287
+  },
+  {
+    "Fighter":"Renato Sobral",
+    "Peak Elo":1067.8265435085
+  },
+  {
+    "Fighter":"Jacob Volkmann",
+    "Peak Elo":1067.7891003128
+  },
+  {
+    "Fighter":"Taylor Lapilus",
+    "Peak Elo":1067.7357579586
+  },
+  {
+    "Fighter":"Bruno Silva",
+    "Peak Elo":1067.6590498124
+  },
+  {
+    "Fighter":"Trevin Giles",
+    "Peak Elo":1067.618516838
+  },
+  {
+    "Fighter":"Raul Rosas Jr.",
+    "Peak Elo":1067.5737784411
+  },
+  {
+    "Fighter":"Keith Jardine",
+    "Peak Elo":1067.4307323043
+  },
+  {
+    "Fighter":"Iasmin Lucindo",
+    "Peak Elo":1067.309027801
+  },
+  {
+    "Fighter":"Christian Rodriguez",
+    "Peak Elo":1067.0481963376
+  },
+  {
+    "Fighter":"Ray Borg",
+    "Peak Elo":1066.7975154103
+  },
+  {
+    "Fighter":"John Moraga",
+    "Peak Elo":1066.4985332183
+  },
+  {
+    "Fighter":"Modestas Bukauskas",
+    "Peak Elo":1066.3741170174
+  },
+  {
+    "Fighter":"Michelle Waterson-Gomez",
+    "Peak Elo":1066.2376921859
+  },
+  {
+    "Fighter":"Carlston Harris",
+    "Peak Elo":1066.2116873149
+  },
+  {
+    "Fighter":"Antonio Rodrigo Nogueira",
+    "Peak Elo":1066.1600189075
+  },
+  {
+    "Fighter":"Jaqueline Amorim",
+    "Peak Elo":1066.1461591033
+  },
+  {
+    "Fighter":"Denise Gomes",
+    "Peak Elo":1066.1453463762
+  },
+  {
+    "Fighter":"Taila Santos",
+    "Peak Elo":1066.0716903108
+  },
+  {
+    "Fighter":"Jon Madsen",
+    "Peak Elo":1065.9944952635
+  },
+  {
+    "Fighter":"JJ Aldrich",
+    "Peak Elo":1065.9670635192
+  },
+  {
+    "Fighter":"Niko Price",
+    "Peak Elo":1065.7779073535
+  },
+  {
+    "Fighter":"Brian Stann",
+    "Peak Elo":1065.716207493
+  },
+  {
+    "Fighter":"Dustin Hazelett",
+    "Peak Elo":1065.6062351953
+  },
+  {
+    "Fighter":"Andre Fili",
+    "Peak Elo":1065.576742875
+  },
+  {
+    "Fighter":"Jimmy Crute",
+    "Peak Elo":1065.5427692844
+  },
+  {
+    "Fighter":"Kennedy Nzechukwu",
+    "Peak Elo":1065.4817927943
+  },
+  {
+    "Fighter":"Kyle Noke",
+    "Peak Elo":1065.1438163306
+  },
+  {
+    "Fighter":"Claudia Gadelha",
+    "Peak Elo":1064.9641541509
+  },
+  {
+    "Fighter":"Tim Credeur",
+    "Peak Elo":1064.9307423211
+  },
+  {
+    "Fighter":"Miles Johns",
+    "Peak Elo":1064.9221750087
+  },
+  {
+    "Fighter":"Abus Magomedov",
+    "Peak Elo":1064.7200012242
+  },
+  {
+    "Fighter":"Ronny Markes",
+    "Peak Elo":1064.6428563671
+  },
+  {
+    "Fighter":"Mark Hominick",
+    "Peak Elo":1064.6197328669
+  },
+  {
+    "Fighter":"Montana De La Rosa",
+    "Peak Elo":1064.501310195
+  },
+  {
+    "Fighter":"Din Thomas",
+    "Peak Elo":1064.357531561
+  },
+  {
+    "Fighter":"Hyder Amil",
+    "Peak Elo":1064.251303468
+  },
+  {
+    "Fighter":"Karolina Kowalkiewicz",
+    "Peak Elo":1064.0318920641
+  },
+  {
+    "Fighter":"Edimilson Souza",
+    "Peak Elo":1063.9345529682
+  },
+  {
+    "Fighter":"Dooho Choi",
+    "Peak Elo":1063.9183172806
+  },
+  {
+    "Fighter":"Ali Bagautinov",
+    "Peak Elo":1063.8996524343
+  },
+  {
+    "Fighter":"Brian Kelleher",
+    "Peak Elo":1063.883387283
+  },
+  {
+    "Fighter":"Alberto Mina",
+    "Peak Elo":1063.8769042558
+  },
+  {
+    "Fighter":"Sage Northcutt",
+    "Peak Elo":1063.7918027909
+  },
+  {
+    "Fighter":"Mike Davis",
+    "Peak Elo":1063.7737021047
+  },
+  {
+    "Fighter":"Rodrigo Nascimento",
+    "Peak Elo":1063.6902719985
+  },
+  {
+    "Fighter":"Billy Quarantillo",
+    "Peak Elo":1063.6399967848
+  },
+  {
+    "Fighter":"Brendan Schaub",
+    "Peak Elo":1063.276330719
+  },
+  {
+    "Fighter":"Nursulton Ruziboev",
+    "Peak Elo":1063.2553744672
+  },
+  {
+    "Fighter":"Marco Beltran",
+    "Peak Elo":1063.0414766631
+  },
+  {
+    "Fighter":"Nate Maness",
+    "Peak Elo":1063.030997753
+  },
+  {
+    "Fighter":"Gavin Tucker",
+    "Peak Elo":1063.0288011677
+  },
+  {
+    "Fighter":"Sam Patterson",
+    "Peak Elo":1062.9964443058
+  },
+  {
+    "Fighter":"Elves Brener",
+    "Peak Elo":1062.9308204766
+  },
+  {
+    "Fighter":"Makhmud Muradov",
+    "Peak Elo":1062.8625137675
+  },
+  {
+    "Fighter":"Matthew Semelsberger",
+    "Peak Elo":1062.7892390329
+  },
+  {
+    "Fighter":"Luke Barnatt",
+    "Peak Elo":1062.6959573282
+  },
+  {
+    "Fighter":"Thiago Moises",
+    "Peak Elo":1062.6429189888
+  },
+  {
+    "Fighter":"Aspen Ladd",
+    "Peak Elo":1062.5628552815
+  },
+  {
+    "Fighter":"Mairon Santos",
+    "Peak Elo":1062.4460610815
+  },
+  {
+    "Fighter":"Paul Sass",
+    "Peak Elo":1062.3265231172
+  },
+  {
+    "Fighter":"Frankie Saenz",
+    "Peak Elo":1062.3071256165
+  },
+  {
+    "Fighter":"Mickey Gall",
+    "Peak Elo":1062.295552641
+  },
+  {
+    "Fighter":"Mark Bocek",
+    "Peak Elo":1062.2527710933
+  },
+  {
+    "Fighter":"Christian Leroy Duncan",
+    "Peak Elo":1062.2236041306
+  },
+  {
+    "Fighter":"Rony Jason",
+    "Peak Elo":1062.2117114293
+  },
+  {
+    "Fighter":"Matt Frevola",
+    "Peak Elo":1062.1607043545
+  },
+  {
+    "Fighter":"Steve Erceg",
+    "Peak Elo":1062.1580038136
+  },
+  {
+    "Fighter":"Paige VanZant",
+    "Peak Elo":1062.0315774545
+  },
+  {
+    "Fighter":"Alexis Davis",
+    "Peak Elo":1061.9613476917
+  },
+  {
+    "Fighter":"Zhang Mingyang",
+    "Peak Elo":1061.9570961946
+  },
+  {
+    "Fighter":"Brett Johns",
+    "Peak Elo":1061.8860433961
+  },
+  {
+    "Fighter":"Caio Magalhaes",
+    "Peak Elo":1061.8563206012
+  },
+  {
+    "Fighter":"Jorge Rivera",
+    "Peak Elo":1061.7483005723
+  },
+  {
+    "Fighter":"Mauricio Ruffy",
+    "Peak Elo":1061.4541860315
+  },
+  {
+    "Fighter":"Mike Easton",
+    "Peak Elo":1061.4445270198
+  },
+  {
+    "Fighter":"Marion Reneau",
+    "Peak Elo":1061.4058782602
+  },
+  {
+    "Fighter":"Ruslan Magomedov",
+    "Peak Elo":1061.3378833524
+  },
+  {
+    "Fighter":"Magnus Cedenblad",
+    "Peak Elo":1061.2858828942
+  },
+  {
+    "Fighter":"Mateusz Rebecki",
+    "Peak Elo":1061.2428007114
+  },
+  {
+    "Fighter":"Claude Patrick",
+    "Peak Elo":1061.1951741519
+  },
+  {
+    "Fighter":"Payton Talbott",
+    "Peak Elo":1060.9485945765
+  },
+  {
+    "Fighter":"Gerald Harris",
+    "Peak Elo":1060.8995668042
+  },
+  {
+    "Fighter":"Kajan Johnson",
+    "Peak Elo":1060.8850559608
+  },
+  {
+    "Fighter":"Patrick Smith",
+    "Peak Elo":1060.7988064973
+  },
+  {
+    "Fighter":"Joe Duffy",
+    "Peak Elo":1060.7244658219
+  },
+  {
+    "Fighter":"Tom Breese",
+    "Peak Elo":1060.4124111885
+  },
+  {
+    "Fighter":"Elias Silverio",
+    "Peak Elo":1060.1330784692
+  },
+  {
+    "Fighter":"Abdul Razak Alhassan",
+    "Peak Elo":1059.84609748
+  },
+  {
+    "Fighter":"Valter Walker",
+    "Peak Elo":1059.6696205531
+  },
+  {
+    "Fighter":"Roland Delorme",
+    "Peak Elo":1059.5253328331
+  },
+  {
+    "Fighter":"Marco Ruas",
+    "Peak Elo":1059.5170323786
+  },
+  {
+    "Fighter":"Cameron Saaiman",
+    "Peak Elo":1059.4243203189
+  },
+  {
+    "Fighter":"Jason Lambert",
+    "Peak Elo":1059.3857848703
+  },
+  {
+    "Fighter":"Viviane Araujo",
+    "Peak Elo":1059.2780863942
+  },
+  {
+    "Fighter":"Kyle Kingsbury",
+    "Peak Elo":1059.2544637151
+  },
+  {
+    "Fighter":"Andrea Lee",
+    "Peak Elo":1059.1254840937
+  },
+  {
+    "Fighter":"Jose Quinonez",
+    "Peak Elo":1059.0993849669
+  },
+  {
+    "Fighter":"Kendall Grove",
+    "Peak Elo":1058.8825575819
+  },
+  {
+    "Fighter":"Dean Lister",
+    "Peak Elo":1058.8687545701
+  },
+  {
+    "Fighter":"Murilo Bustamante",
+    "Peak Elo":1058.8365203541
+  },
+  {
+    "Fighter":"Lorenz Larkin",
+    "Peak Elo":1058.8350167301
+  },
+  {
+    "Fighter":"Da'Mon Blackshear",
+    "Peak Elo":1058.8107449558
+  },
+  {
+    "Fighter":"Mitch Gagnon",
+    "Peak Elo":1058.7880768272
+  },
+  {
+    "Fighter":"Roosevelt Roberts",
+    "Peak Elo":1058.7659387415
+  },
+  {
+    "Fighter":"Gabriel Benitez",
+    "Peak Elo":1058.7151914563
+  },
+  {
+    "Fighter":"Manuel Torres",
+    "Peak Elo":1058.68422804
+  },
+  {
+    "Fighter":"Victor Henry",
+    "Peak Elo":1058.6688068416
+  },
+  {
+    "Fighter":"Diego Brandao",
+    "Peak Elo":1058.5286443186
+  },
+  {
+    "Fighter":"Ricardo Almeida",
+    "Peak Elo":1058.4730807384
+  },
+  {
+    "Fighter":"Joaquim Silva",
+    "Peak Elo":1058.4166149742
+  },
+  {
+    "Fighter":"Court McGee",
+    "Peak Elo":1058.4124338617
+  },
+  {
+    "Fighter":"Chris Cariaso",
+    "Peak Elo":1058.3201562625
+  },
+  {
+    "Fighter":"Javid Basharat",
+    "Peak Elo":1058.3106452212
+  },
+  {
+    "Fighter":"Brad Blackburn",
+    "Peak Elo":1058.2609647264
+  },
+  {
+    "Fighter":"Dan Miller",
+    "Peak Elo":1058.2342460222
+  },
+  {
+    "Fighter":"Marcus Brimage",
+    "Peak Elo":1058.2042039269
+  },
+  {
+    "Fighter":"Akira Corassani",
+    "Peak Elo":1058.1865051261
+  },
+  {
+    "Fighter":"Amir Sadollah",
+    "Peak Elo":1058.0979409091
+  },
+  {
+    "Fighter":"Yana Santos",
+    "Peak Elo":1057.9791373494
+  },
+  {
+    "Fighter":"Phil Hawes",
+    "Peak Elo":1057.9443906291
+  },
+  {
+    "Fighter":"Oban Elliott",
+    "Peak Elo":1057.8181869156
+  },
+  {
+    "Fighter":"Eliot Marshall",
+    "Peak Elo":1057.7833561361
+  },
+  {
+    "Fighter":"Bethe Correia",
+    "Peak Elo":1057.7209991501
+  },
+  {
+    "Fighter":"Krzysztof Soszynski",
+    "Peak Elo":1057.7078268618
+  },
+  {
+    "Fighter":"Jake O'Brien",
+    "Peak Elo":1057.5961034835
+  },
+  {
+    "Fighter":"Shonie Carter",
+    "Peak Elo":1057.584421743
+  },
+  {
+    "Fighter":"Max Griffin",
+    "Peak Elo":1057.5619038142
+  },
+  {
+    "Fighter":"Mayra Bueno Silva",
+    "Peak Elo":1057.5571023227
+  },
+  {
+    "Fighter":"Rodolfo Vieira",
+    "Peak Elo":1057.5089746683
+  },
+  {
+    "Fighter":"Bartosz Fabinski",
+    "Peak Elo":1057.3387495217
+  },
+  {
+    "Fighter":"HyunSung Park",
+    "Peak Elo":1057.3057526717
+  },
+  {
+    "Fighter":"Erick Silva",
+    "Peak Elo":1057.1491476864
+  },
+  {
+    "Fighter":"Siyar Bahadurzada",
+    "Peak Elo":1057.0733928888
+  },
+  {
+    "Fighter":"Rafael Estevam",
+    "Peak Elo":1057.0085143667
+  },
+  {
+    "Fighter":"Jeremy Kennedy",
+    "Peak Elo":1056.9077351236
+  },
+  {
+    "Fighter":"Hector Lombard",
+    "Peak Elo":1056.8808953715
+  },
+  {
+    "Fighter":"Kiichi Kunimoto",
+    "Peak Elo":1056.5706304981
+  },
+  {
+    "Fighter":"Chris Padilla",
+    "Peak Elo":1056.504495515
+  },
+  {
+    "Fighter":"Tom Nolan",
+    "Peak Elo":1056.3571188399
+  },
+  {
+    "Fighter":"Manny Bermudez",
+    "Peak Elo":1056.2888529223
+  },
+  {
+    "Fighter":"Robert Peralta",
+    "Peak Elo":1056.1142251184
+  },
+  {
+    "Fighter":"David Dvorak",
+    "Peak Elo":1056.0016592428
+  },
+  {
+    "Fighter":"Josiane Nunes",
+    "Peak Elo":1055.9174684925
+  },
+  {
+    "Fighter":"Justin Ledet",
+    "Peak Elo":1055.9079232455
+  },
+  {
+    "Fighter":"Matt Serra",
+    "Peak Elo":1055.9064701555
+  },
+  {
+    "Fighter":"Nicolae Negumereanu",
+    "Peak Elo":1055.69906078
+  },
+  {
+    "Fighter":"Marc Diakiese",
+    "Peak Elo":1055.6903197397
+  },
+  {
+    "Fighter":"Luana Santos",
+    "Peak Elo":1055.6601549078
+  },
+  {
+    "Fighter":"Maryna Moroz",
+    "Peak Elo":1055.6451819337
+  },
+  {
+    "Fighter":"Bill Algeo",
+    "Peak Elo":1055.5742104686
+  },
+  {
+    "Fighter":"Nick Hein",
+    "Peak Elo":1055.4588931098
+  },
+  {
+    "Fighter":"Valerie Letourneau",
+    "Peak Elo":1055.3829211348
+  },
+  {
+    "Fighter":"Stephan Bonnar",
+    "Peak Elo":1055.3267940539
+  },
+  {
+    "Fighter":"Alatengheili",
+    "Peak Elo":1055.1976861294
+  },
+  {
+    "Fighter":"Michal Oleksiejczuk",
+    "Peak Elo":1055.102604988
+  },
+  {
+    "Fighter":"Marco Polo Reyes",
+    "Peak Elo":1055.035025893
+  },
+  {
+    "Fighter":"Brunno Ferreira",
+    "Peak Elo":1055.0085728233
+  },
+  {
+    "Fighter":"Joshua Burkman",
+    "Peak Elo":1054.9369950333
+  },
+  {
+    "Fighter":"Cody Durden",
+    "Peak Elo":1054.8025479198
+  },
+  {
+    "Fighter":"Jeff Molina",
+    "Peak Elo":1054.6756737098
+  },
+  {
+    "Fighter":"Josh Thomson",
+    "Peak Elo":1054.5243782163
+  },
+  {
+    "Fighter":"Zubaira Tukhugov",
+    "Peak Elo":1054.477485346
+  },
+  {
+    "Fighter":"Ian Heinisch",
+    "Peak Elo":1054.1967646163
+  },
+  {
+    "Fighter":"SuYoung You",
+    "Peak Elo":1054.0678008284
+  },
+  {
+    "Fighter":"Mohammed Usman",
+    "Peak Elo":1053.9615640581
+  },
+  {
+    "Fighter":"Maurice Greene",
+    "Peak Elo":1053.9309845849
+  },
+  {
+    "Fighter":"Charles Jourdain",
+    "Peak Elo":1053.8433909931
+  },
+  {
+    "Fighter":"Paul Daley",
+    "Peak Elo":1053.7434349183
+  },
+  {
+    "Fighter":"Jeremy Horn",
+    "Peak Elo":1053.685653103
+  },
+  {
+    "Fighter":"Navajo Stirling",
+    "Peak Elo":1053.6837898605
+  },
+  {
+    "Fighter":"Charles Johnson",
+    "Peak Elo":1053.563529503
+  },
+  {
+    "Fighter":"Themba Gorimbo",
+    "Peak Elo":1053.3785808191
+  },
+  {
+    "Fighter":"Felipe Lima",
+    "Peak Elo":1053.2704698794
+  },
+  {
+    "Fighter":"Ben Nguyen",
+    "Peak Elo":1053.1752640638
+  },
+  {
+    "Fighter":"Jordan Mein",
+    "Peak Elo":1053.0002462694
+  },
+  {
+    "Fighter":"Ateba Gautier",
+    "Peak Elo":1052.9184860737
+  },
+  {
+    "Fighter":"Kevin Randleman",
+    "Peak Elo":1052.8960312287
+  },
+  {
+    "Fighter":"Maurice Smith",
+    "Peak Elo":1052.7706971243
+  },
+  {
+    "Fighter":"Rinya Nakamura",
+    "Peak Elo":1052.7682217402
+  },
+  {
+    "Fighter":"Jennifer Maia",
+    "Peak Elo":1052.751418028
+  },
+  {
+    "Fighter":"Vanessa Demopoulos",
+    "Peak Elo":1052.7474985116
+  },
+  {
+    "Fighter":"Jason MacDonald",
+    "Peak Elo":1052.4916299875
+  },
+  {
+    "Fighter":"Daron Cruickshank",
+    "Peak Elo":1052.4425793712
+  },
+  {
+    "Fighter":"Nate Landwehr",
+    "Peak Elo":1052.2712864103
+  },
+  {
+    "Fighter":"Vitor Miranda",
+    "Peak Elo":1052.1084737023
+  },
+  {
+    "Fighter":"David Abbott",
+    "Peak Elo":1051.9813618383
+  },
+  {
+    "Fighter":"Phil Rowe",
+    "Peak Elo":1051.9086138742
+  },
+  {
+    "Fighter":"Aleksei Kunchenko",
+    "Peak Elo":1051.8006223321
+  },
+  {
+    "Fighter":"Rich Clementi",
+    "Peak Elo":1051.5814334838
+  },
+  {
+    "Fighter":"MarQuel Mederos",
+    "Peak Elo":1051.5749837421
+  },
+  {
+    "Fighter":"Song Kenan",
+    "Peak Elo":1051.4718829068
+  },
+  {
+    "Fighter":"Myktybek Orolbai",
+    "Peak Elo":1051.2604034665
+  },
+  {
+    "Fighter":"Molly McCann",
+    "Peak Elo":1051.1593933748
+  },
+  {
+    "Fighter":"Karl Williams",
+    "Peak Elo":1051.0449400347
+  },
+  {
+    "Fighter":"Matt Schnell",
+    "Peak Elo":1051.0142472723
+  },
+  {
+    "Fighter":"Alessio Sakara",
+    "Peak Elo":1050.9646418831
+  },
+  {
+    "Fighter":"Marcio Cruz",
+    "Peak Elo":1050.817905628
+  },
+  {
+    "Fighter":"Antoni Hardonk",
+    "Peak Elo":1050.805711406
+  },
+  {
+    "Fighter":"John Castaneda",
+    "Peak Elo":1050.691571929
+  },
+  {
+    "Fighter":"Ivan Salaverry",
+    "Peak Elo":1050.6272929798
+  },
+  {
+    "Fighter":"Sam Hughes",
+    "Peak Elo":1050.5710499508
+  },
+  {
+    "Fighter":"Michael Chandler",
+    "Peak Elo":1050.5592380743
+  },
+  {
+    "Fighter":"Danny Roberts",
+    "Peak Elo":1050.536090631
+  },
+  {
+    "Fighter":"Esteban Ribovics",
+    "Peak Elo":1050.1312830534
+  },
+  {
+    "Fighter":"Luis Pena",
+    "Peak Elo":1050.0509487687
+  },
+  {
+    "Fighter":"Khama Worthy",
+    "Peak Elo":1049.8521568166
+  },
+  {
+    "Fighter":"Luana Pinheiro",
+    "Peak Elo":1049.8329673443
+  },
+  {
+    "Fighter":"Joselyne Edwards",
+    "Peak Elo":1049.828539151
+  },
+  {
+    "Fighter":"Sean Pierson",
+    "Peak Elo":1049.7679055748
+  },
+  {
+    "Fighter":"Pete Williams",
+    "Peak Elo":1049.5375146616
+  },
+  {
+    "Fighter":"Shamil Gaziev",
+    "Peak Elo":1049.3907278115
+  },
+  {
+    "Fighter":"Tatsuya Kawajiri",
+    "Peak Elo":1049.0674904198
+  },
+  {
+    "Fighter":"David Branch",
+    "Peak Elo":1049.0300251068
+  },
+  {
+    "Fighter":"Lucas Martins",
+    "Peak Elo":1048.821984816
+  },
+  {
+    "Fighter":"Uros Medic",
+    "Peak Elo":1048.672123513
+  },
+  {
+    "Fighter":"Philipe Lins",
+    "Peak Elo":1048.5248449956
+  },
+  {
+    "Fighter":"Greg Hardy",
+    "Peak Elo":1048.4866802599
+  },
+  {
+    "Fighter":"Sara McMann",
+    "Peak Elo":1048.2810997455
+  },
+  {
+    "Fighter":"Jean Matsumoto",
+    "Peak Elo":1048.2364953276
+  },
+  {
+    "Fighter":"Charlie Brenneman",
+    "Peak Elo":1048.1576509753
+  },
+  {
+    "Fighter":"Ian Freeman",
+    "Peak Elo":1047.8353041226
+  },
+  {
+    "Fighter":"Cat Zingano",
+    "Peak Elo":1047.759673771
+  },
+  {
+    "Fighter":"Nick Osipczak",
+    "Peak Elo":1047.7281524233
+  },
+  {
+    "Fighter":"Karl Roberson",
+    "Peak Elo":1047.6345132461
+  },
+  {
+    "Fighter":"Douglas Silva de Andrade",
+    "Peak Elo":1047.4226134894
+  },
+  {
+    "Fighter":"Luiz Cane",
+    "Peak Elo":1047.3738345469
+  },
+  {
+    "Fighter":"Patrick Cummins",
+    "Peak Elo":1047.2346132032
+  },
+  {
+    "Fighter":"Jeff Monson",
+    "Peak Elo":1047.2002745167
+  },
+  {
+    "Fighter":"Kevin Burns",
+    "Peak Elo":1047.186620231
+  },
+  {
+    "Fighter":"Kevin Aguilar",
+    "Peak Elo":1047.0945313517
+  },
+  {
+    "Fighter":"Saidyokub Kakhramonov",
+    "Peak Elo":1046.989990626
+  },
+  {
+    "Fighter":"Bas Rutten",
+    "Peak Elo":1046.8982283292
+  },
+  {
+    "Fighter":"David Martinez",
+    "Peak Elo":1046.7126763253
+  },
+  {
+    "Fighter":"Chidi Njokuani",
+    "Peak Elo":1046.706363569
+  },
+  {
+    "Fighter":"TJ Waldburger",
+    "Peak Elo":1046.5689977722
+  },
+  {
+    "Fighter":"Tim Elliott",
+    "Peak Elo":1046.525002139
+  },
+  {
+    "Fighter":"Andrew Craig",
+    "Peak Elo":1046.5155613693
+  },
+  {
+    "Fighter":"Mario Pinto",
+    "Peak Elo":1046.4452990384
+  },
+  {
+    "Fighter":"Magomed Mustafaev",
+    "Peak Elo":1046.2427144454
+  },
+  {
+    "Fighter":"Pannie Kianzad",
+    "Peak Elo":1046.231849419
+  },
+  {
+    "Fighter":"Alex Garcia",
+    "Peak Elo":1046.1486459051
+  },
+  {
+    "Fighter":"Nina Nunes",
+    "Peak Elo":1046.1104015094
+  },
+  {
+    "Fighter":"Johnny Bedford",
+    "Peak Elo":1046.0
+  },
+  {
+    "Fighter":"Sabina Mazo",
+    "Peak Elo":1045.9568384128
+  },
+  {
+    "Fighter":"Nora Cornolle",
+    "Peak Elo":1045.9110433228
+  },
+  {
+    "Fighter":"Allan Nascimento",
+    "Peak Elo":1045.7115565112
+  },
+  {
+    "Fighter":"Ivan Menjivar",
+    "Peak Elo":1045.7055720362
+  },
+  {
+    "Fighter":"Paul Buentello",
+    "Peak Elo":1045.6998608569
+  },
+  {
+    "Fighter":"Henrique da Silva",
+    "Peak Elo":1045.6978506267
+  },
+  {
+    "Fighter":"Hyun Gyu Lim",
+    "Peak Elo":1045.582884141
+  },
+  {
+    "Fighter":"Alexia Thainara",
+    "Peak Elo":1045.5525360154
+  },
+  {
+    "Fighter":"Eduarda Moura",
+    "Peak Elo":1045.5354080802
+  },
+  {
+    "Fighter":"Daniel Omielanczuk",
+    "Peak Elo":1045.4313274335
+  },
+  {
+    "Fighter":"Brady Hiestand",
+    "Peak Elo":1045.420514171
+  },
+  {
+    "Fighter":"Tomasz Drwal",
+    "Peak Elo":1045.3819948965
+  },
+  {
+    "Fighter":"Sam Stout",
+    "Peak Elo":1045.3575880284
+  },
+  {
+    "Fighter":"Ariane da Silva",
+    "Peak Elo":1045.3302168074
+  },
+  {
+    "Fighter":"George Sullivan",
+    "Peak Elo":1045.2171371923
+  },
+  {
+    "Fighter":"Herbert Burns",
+    "Peak Elo":1045.1954284079
+  },
+  {
+    "Fighter":"Houston Alexander",
+    "Peak Elo":1045.0856732734
+  },
+  {
+    "Fighter":"Guangyou Ning",
+    "Peak Elo":1044.8732855514
+  },
+  {
+    "Fighter":"Tom Lawlor",
+    "Peak Elo":1044.4884163519
+  },
+  {
+    "Fighter":"Efrain Escudero",
+    "Peak Elo":1044.3853451588
+  },
+  {
+    "Fighter":"Ramiz Brahimaj",
+    "Peak Elo":1044.3667318506
+  },
+  {
+    "Fighter":"Paul Kelly",
+    "Peak Elo":1044.3590357727
+  },
+  {
+    "Fighter":"Eryk Anders",
+    "Peak Elo":1044.3281232054
+  },
+  {
+    "Fighter":"Duane Ludwig",
+    "Peak Elo":1044.1926789183
+  },
+  {
+    "Fighter":"William Knight",
+    "Peak Elo":1044.1847375397
+  },
+  {
+    "Fighter":"Jose Delgado",
+    "Peak Elo":1043.9574256645
+  },
+  {
+    "Fighter":"Azamat Bekoev",
+    "Peak Elo":1043.8622570341
+  },
+  {
+    "Fighter":"Josh Culibao",
+    "Peak Elo":1043.8112867119
+  },
+  {
+    "Fighter":"Russell Doane",
+    "Peak Elo":1043.7576469573
+  },
+  {
+    "Fighter":"Yves Jabouin",
+    "Peak Elo":1043.7298638095
+  },
+  {
+    "Fighter":"Daniel Roberts",
+    "Peak Elo":1043.7142893349
+  },
+  {
+    "Fighter":"Jhonata Diniz",
+    "Peak Elo":1043.6941775317
+  },
+  {
+    "Fighter":"Ramazan Temirov",
+    "Peak Elo":1043.6220988911
+  },
+  {
+    "Fighter":"Eddie Sanchez",
+    "Peak Elo":1043.6080502302
+  },
+  {
+    "Fighter":"Angela Hill",
+    "Peak Elo":1043.5574653327
+  },
+  {
+    "Fighter":"Terrance McKinney",
+    "Peak Elo":1043.545127891
+  },
+  {
+    "Fighter":"Gadzhimurad Antigulov",
+    "Peak Elo":1043.5050782163
+  },
+  {
+    "Fighter":"Adlan Amagov",
+    "Peak Elo":1043.503583017
+  },
+  {
+    "Fighter":"John Maguire",
+    "Peak Elo":1043.438257218
+  },
+  {
+    "Fighter":"Ottman Azaitar",
+    "Peak Elo":1043.3909485116
+  },
+  {
+    "Fighter":"Melissa Gatto",
+    "Peak Elo":1043.3605200694
+  },
+  {
+    "Fighter":"Phillip Miller",
+    "Peak Elo":1043.1021481838
+  },
+  {
+    "Fighter":"Desmond Green",
+    "Peak Elo":1043.0695685288
+  },
+  {
+    "Fighter":"Diego Rivas",
+    "Peak Elo":1043.0108560137
+  },
+  {
+    "Fighter":"Daniel Zellhuber",
+    "Peak Elo":1042.8871119651
+  },
+  {
+    "Fighter":"Brandon Thatch",
+    "Peak Elo":1042.8865717013
+  },
+  {
+    "Fighter":"Soa Palelei",
+    "Peak Elo":1042.8610139258
+  },
+  {
+    "Fighter":"Michael Graves",
+    "Peak Elo":1042.8462990144
+  },
+  {
+    "Fighter":"Joanne Wood",
+    "Peak Elo":1042.4447353366
+  },
+  {
+    "Fighter":"Antonio Silva",
+    "Peak Elo":1042.4193353301
+  },
+  {
+    "Fighter":"Jacobe Smith",
+    "Peak Elo":1042.3885868379
+  },
+  {
+    "Fighter":"Walt Harris",
+    "Peak Elo":1042.3151780691
+  },
+  {
+    "Fighter":"Timur Valiev",
+    "Peak Elo":1042.2667151845
+  },
+  {
+    "Fighter":"Andre Ewell",
+    "Peak Elo":1042.2625278273
+  },
+  {
+    "Fighter":"Jordan Leavitt",
+    "Peak Elo":1042.2371374653
+  },
+  {
+    "Fighter":"Chris Holdsworth",
+    "Peak Elo":1042.2198435179
+  },
+  {
+    "Fighter":"Teruto Ishihara",
+    "Peak Elo":1042.1081308236
+  },
+  {
+    "Fighter":"Fredy Serrano",
+    "Peak Elo":1042.0724988766
+  },
+  {
+    "Fighter":"Todd Duffee",
+    "Peak Elo":1042.0713711161
+  },
+  {
+    "Fighter":"Mac Danzig",
+    "Peak Elo":1042.0350969445
+  },
+  {
+    "Fighter":"Jess Liaudin",
+    "Peak Elo":1042.0
+  },
+  {
+    "Fighter":"Daniel Pineda",
+    "Peak Elo":1042.0
+  },
+  {
+    "Fighter":"Joe Proctor",
+    "Peak Elo":1041.9907596979
+  },
+  {
+    "Fighter":"Francisco Rivera",
+    "Peak Elo":1041.9406346989
+  },
+  {
+    "Fighter":"Mark Hall",
+    "Peak Elo":1041.9145237635
+  },
+  {
+    "Fighter":"Eugene Jackson",
+    "Peak Elo":1041.868154521
+  },
+  {
+    "Fighter":"Brock Larson",
+    "Peak Elo":1041.5891793031
+  },
+  {
+    "Fighter":"Igor Araujo",
+    "Peak Elo":1041.5771000985
+  },
+  {
+    "Fighter":"Armen Petrosyan",
+    "Peak Elo":1041.5676547022
+  },
+  {
+    "Fighter":"Trey Waters",
+    "Peak Elo":1041.5019850931
+  },
+  {
+    "Fighter":"Damir Hadzovic",
+    "Peak Elo":1041.4374383311
+  },
+  {
+    "Fighter":"Laureano Staropoli",
+    "Peak Elo":1041.2424323975
+  },
+  {
+    "Fighter":"Kevin Jousset",
+    "Peak Elo":1041.1900185146
+  },
+  {
+    "Fighter":"Devonte Smith",
+    "Peak Elo":1041.1797392875
+  },
+  {
+    "Fighter":"Nurullo Aliev",
+    "Peak Elo":1041.1148122123
+  },
+  {
+    "Fighter":"Andrew Sanchez",
+    "Peak Elo":1041.0909199715
+  },
+  {
+    "Fighter":"Melsik Baghdasaryan",
+    "Peak Elo":1041.0335551682
+  },
+  {
+    "Fighter":"Rich Attonito",
+    "Peak Elo":1041.0335551682
+  },
+  {
+    "Fighter":"Chris Beal",
+    "Peak Elo":1041.0335551682
+  },
+  {
+    "Fighter":"Don Madge",
+    "Peak Elo":1041.0335551682
+  },
+  {
+    "Fighter":"Phil Baroni",
+    "Peak Elo":1041.0297888197
+  },
+  {
+    "Fighter":"Nick Ring",
+    "Peak Elo":1041.0271498391
+  },
+  {
+    "Fighter":"Tyson Pedro",
+    "Peak Elo":1040.9952509476
+  },
+  {
+    "Fighter":"Erik Koch",
+    "Peak Elo":1040.9125218783
+  },
+  {
+    "Fighter":"Brian Bowles",
+    "Peak Elo":1040.9125218783
+  },
+  {
+    "Fighter":"Tsuyoshi Kohsaka",
+    "Peak Elo":1040.8936983739
+  },
+  {
+    "Fighter":"Jason Brilz",
+    "Peak Elo":1040.8750439823
+  },
+  {
+    "Fighter":"Danny Silva",
+    "Peak Elo":1040.8728544334
+  },
+  {
+    "Fighter":"Danny Barlow",
+    "Peak Elo":1040.8345396117
+  },
+  {
+    "Fighter":"Punahele Soriano",
+    "Peak Elo":1040.8289246704
+  },
+  {
+    "Fighter":"Viviane Pereira",
+    "Peak Elo":1040.720787302
+  },
+  {
+    "Fighter":"Dylan Andrews",
+    "Peak Elo":1040.6767234505
+  },
+  {
+    "Fighter":"Oumar Sy",
+    "Peak Elo":1040.6280067329
+  },
+  {
+    "Fighter":"Ronnie Lawrence",
+    "Peak Elo":1040.5206182668
+  },
+  {
+    "Fighter":"Ramsey Nijem",
+    "Peak Elo":1040.4951665515
+  },
+  {
+    "Fighter":"Clayton Carpenter",
+    "Peak Elo":1040.4938010487
+  },
+  {
+    "Fighter":"Cesar Almeida",
+    "Peak Elo":1040.4751707849
+  },
+  {
+    "Fighter":"Lavar Johnson",
+    "Peak Elo":1040.4710777639
+  },
+  {
+    "Fighter":"Kevin Vallejos",
+    "Peak Elo":1040.4254078302
+  },
+  {
+    "Fighter":"Felipe Arantes",
+    "Peak Elo":1040.4021820725
+  },
+  {
+    "Fighter":"Mizuki",
+    "Peak Elo":1040.3926834239
+  },
+  {
+    "Fighter":"Tanner Boser",
+    "Peak Elo":1040.3211045888
+  },
+  {
+    "Fighter":"Nick Maximov",
+    "Peak Elo":1040.2652786989
+  },
+  {
+    "Fighter":"Julio Arce",
+    "Peak Elo":1040.2469105603
+  },
+  {
+    "Fighter":"Jason Saggo",
+    "Peak Elo":1040.2374070733
+  },
+  {
+    "Fighter":"Mansur Abdul-Malik",
+    "Peak Elo":1040.1465248931
+  },
+  {
+    "Fighter":"Pablo Garza",
+    "Peak Elo":1040.1106777715
+  },
+  {
+    "Fighter":"Joel Sutton",
+    "Peak Elo":1040.1106777715
+  },
+  {
+    "Fighter":"Steve Jennum",
+    "Peak Elo":1040.1106777715
+  },
+  {
+    "Fighter":"Kevin Jackson",
+    "Peak Elo":1040.1106777715
+  },
+  {
+    "Fighter":"Michael Trizano",
+    "Peak Elo":1040.0876508151
+  },
+  {
+    "Fighter":"Tony Gravely",
+    "Peak Elo":1040.0812980857
+  },
+  {
+    "Fighter":"Hacran Dias",
+    "Peak Elo":1040.0736188043
+  },
+  {
+    "Fighter":"Marco Tulio",
+    "Peak Elo":1039.6791773882
+  },
+  {
+    "Fighter":"Omar Morales",
+    "Peak Elo":1039.6755246119
+  },
+  {
+    "Fighter":"Hugo Viana",
+    "Peak Elo":1039.6464589707
+  },
+  {
+    "Fighter":"Hatsu Hioki",
+    "Peak Elo":1039.6307575183
+  },
+  {
+    "Fighter":"Blagoy Ivanov",
+    "Peak Elo":1039.6110692197
+  },
+  {
+    "Fighter":"Ildemar Alcantara",
+    "Peak Elo":1039.6039748971
+  },
+  {
+    "Fighter":"Kaue Fernandes",
+    "Peak Elo":1039.4959807028
+  },
+  {
+    "Fighter":"Darren Uyenoyama",
+    "Peak Elo":1039.4775270374
+  },
+  {
+    "Fighter":"Jessica-Rose Clark",
+    "Peak Elo":1039.4737899474
+  },
+  {
+    "Fighter":"Kenny Robertson",
+    "Peak Elo":1039.4451098487
+  },
+  {
+    "Fighter":"Lyman Good",
+    "Peak Elo":1039.3556600755
+  },
+  {
+    "Fighter":"Nicholas Musoke",
+    "Peak Elo":1039.3507331326
+  },
+  {
+    "Fighter":"Zach Makovsky",
+    "Peak Elo":1039.3457676381
+  },
+  {
+    "Fighter":"Eddie Wineland",
+    "Peak Elo":1039.3309092003
+  },
+  {
+    "Fighter":"Darren Stewart",
+    "Peak Elo":1039.3242078933
+  },
+  {
+    "Fighter":"Trevor Prangley",
+    "Peak Elo":1039.3225774105
+  },
+  {
+    "Fighter":"Charlie Campbell",
+    "Peak Elo":1039.2724535413
+  },
+  {
+    "Fighter":"Joey Beltran",
+    "Peak Elo":1039.2600792989
+  },
+  {
+    "Fighter":"Luana Carolina",
+    "Peak Elo":1039.2512964183
+  },
+  {
+    "Fighter":"Kenichi Yamamoto",
+    "Peak Elo":1039.242398378
+  },
+  {
+    "Fighter":"David Heath",
+    "Peak Elo":1039.2006454966
+  },
+  {
+    "Fighter":"Mike van Arsdale",
+    "Peak Elo":1039.2006454966
+  },
+  {
+    "Fighter":"Poliana Botelho",
+    "Peak Elo":1039.1993027416
+  },
+  {
+    "Fighter":"Tony DeSouza",
+    "Peak Elo":1039.198702027
+  },
+  {
+    "Fighter":"Danny Henry",
+    "Peak Elo":1039.198702027
+  },
+  {
+    "Fighter":"Jesus Aguilar",
+    "Peak Elo":1039.1350759115
+  },
+  {
+    "Fighter":"Adam Wieczorek",
+    "Peak Elo":1039.1040094398
+  },
+  {
+    "Fighter":"Tainara Lisboa",
+    "Peak Elo":1039.1016030719
+  },
+  {
+    "Fighter":"ChangHo Lee",
+    "Peak Elo":1039.0936000986
+  },
+  {
+    "Fighter":"Carlos Newton",
+    "Peak Elo":1038.9587765086
+  },
+  {
+    "Fighter":"Carlos Felipe",
+    "Peak Elo":1038.8410994505
+  },
+  {
+    "Fighter":"Jimy Hettes",
+    "Peak Elo":1038.7214309115
+  },
+  {
+    "Fighter":"Cory McKenna",
+    "Peak Elo":1038.4323931525
+  },
+  {
+    "Fighter":"Bea Malecki",
+    "Peak Elo":1038.3313557734
+  },
+  {
+    "Fighter":"Royston Wee",
+    "Peak Elo":1038.284478121
+  },
+  {
+    "Fighter":"Zhang Lipeng",
+    "Peak Elo":1038.284478121
+  },
+  {
+    "Fighter":"Nad Narimani",
+    "Peak Elo":1038.284478121
+  },
+  {
+    "Fighter":"Josefine Knutsson",
+    "Peak Elo":1038.284478121
+  },
+  {
+    "Fighter":"Julian Marquez",
+    "Peak Elo":1038.2411989857
+  },
+  {
+    "Fighter":"Brad Katona",
+    "Peak Elo":1038.1342015562
+  },
+  {
+    "Fighter":"Rob Emerson",
+    "Peak Elo":1037.9793014036
+  },
+  {
+    "Fighter":"Shane Nelson",
+    "Peak Elo":1037.9361009091
+  },
+  {
+    "Fighter":"Malcolm Wellmaker",
+    "Peak Elo":1037.7209546096
+  },
+  {
+    "Fighter":"Rogerio Bontorin",
+    "Peak Elo":1037.6968760987
+  },
+  {
+    "Fighter":"Jack Jenkins",
+    "Peak Elo":1037.6557585853
+  },
+  {
+    "Fighter":"JeongYeong Lee",
+    "Peak Elo":1037.6119442118
+  },
+  {
+    "Fighter":"Rodrigo Damm",
+    "Peak Elo":1037.5783327953
+  },
+  {
+    "Fighter":"Scott Jorgensen",
+    "Peak Elo":1037.4542968316
+  },
+  {
+    "Fighter":"Ibo Aslan",
+    "Peak Elo":1037.3431092087
+  },
+  {
+    "Fighter":"Rory Singer",
+    "Peak Elo":1037.326890558
+  },
+  {
+    "Fighter":"Alex Hunter",
+    "Peak Elo":1037.2965524524
+  },
+  {
+    "Fighter":"Oskar Piechota",
+    "Peak Elo":1037.22437201
+  },
+  {
+    "Fighter":"Lone'er Kavanagh",
+    "Peak Elo":1037.2208648041
+  },
+  {
+    "Fighter":"Arjan Bhullar",
+    "Peak Elo":1036.9980537994
+  },
+  {
+    "Fighter":"Pingyuan Liu",
+    "Peak Elo":1036.9099258169
+  },
+  {
+    "Fighter":"Dave Menne",
+    "Peak Elo":1036.9083757345
+  },
+  {
+    "Fighter":"Juan Espino",
+    "Peak Elo":1036.886287873
+  },
+  {
+    "Fighter":"Yazmin Jauregui",
+    "Peak Elo":1036.8592574079
+  },
+  {
+    "Fighter":"Aleksandra Albu",
+    "Peak Elo":1036.7045944855
+  },
+  {
+    "Fighter":"Justine Kish",
+    "Peak Elo":1036.5763442479
+  },
+  {
+    "Fighter":"Piera Rodriguez",
+    "Peak Elo":1036.5752329509
+  },
+  {
+    "Fighter":"Ben Askren",
+    "Peak Elo":1036.5337343364
+  },
+  {
+    "Fighter":"Igor Pokrajac",
+    "Peak Elo":1036.5049405742
+  },
+  {
+    "Fighter":"Charles Radtke",
+    "Peak Elo":1036.3896035028
+  },
+  {
+    "Fighter":"Sijara Eubanks",
+    "Peak Elo":1036.3649222795
+  },
+  {
+    "Fighter":"Livinha Souza",
+    "Peak Elo":1036.3026348824
+  },
+  {
+    "Fighter":"Ion Cutelaba",
+    "Peak Elo":1036.2473760045
+  },
+  {
+    "Fighter":"Batgerel Danaa",
+    "Peak Elo":1036.0765503573
+  },
+  {
+    "Fighter":"Viscardi Andrade",
+    "Peak Elo":1036.0730488022
+  },
+  {
+    "Fighter":"Devin Clark",
+    "Peak Elo":1035.982338711
+  },
+  {
+    "Fighter":"Jamie Varner",
+    "Peak Elo":1035.9790878982
+  },
+  {
+    "Fighter":"Francimar Barroso",
+    "Peak Elo":1035.9551966535
+  },
+  {
+    "Fighter":"Jamie Mullarkey",
+    "Peak Elo":1035.3895288035
+  },
+  {
+    "Fighter":"Danilo Marques",
+    "Peak Elo":1035.1745512943
+  },
+  {
+    "Fighter":"Ronaldo Rodriguez",
+    "Peak Elo":1035.1656149466
+  },
+  {
+    "Fighter":"Joe Riggs",
+    "Peak Elo":1035.1105390782
+  },
+  {
+    "Fighter":"Raulian Paiva",
+    "Peak Elo":1034.8514538913
+  },
+  {
+    "Fighter":"Elijah Smith",
+    "Peak Elo":1034.8117081918
+  },
+  {
+    "Fighter":"Justin Scoggins",
+    "Peak Elo":1034.7178697149
+  },
+  {
+    "Fighter":"KJ Noons",
+    "Peak Elo":1034.6505046671
+  },
+  {
+    "Fighter":"Morgan Charriere",
+    "Peak Elo":1034.6109273341
+  },
+  {
+    "Fighter":"Parker Porter",
+    "Peak Elo":1034.4412676523
+  },
+  {
+    "Fighter":"Paddy Holohan",
+    "Peak Elo":1034.375097397
+  },
+  {
+    "Fighter":"Julia Avila",
+    "Peak Elo":1034.3304737309
+  },
+  {
+    "Fighter":"Tarec Saffiedine",
+    "Peak Elo":1034.3059813435
+  },
+  {
+    "Fighter":"Fabio Maldonado",
+    "Peak Elo":1034.2822802445
+  },
+  {
+    "Fighter":"Ismail Naurdiev",
+    "Peak Elo":1034.1334386794
+  },
+  {
+    "Fighter":"David Terrell",
+    "Peak Elo":1033.9037422891
+  },
+  {
+    "Fighter":"Fabiano Iha",
+    "Peak Elo":1033.5865551428
+  },
+  {
+    "Fighter":"Frank Trigg",
+    "Peak Elo":1033.4194741765
+  },
+  {
+    "Fighter":"Mirko Filipovic",
+    "Peak Elo":1033.33333748
+  },
+  {
+    "Fighter":"Ante Delija",
+    "Peak Elo":1033.1739026977
+  },
+  {
+    "Fighter":"Joe Soto",
+    "Peak Elo":1032.9911251409
+  },
+  {
+    "Fighter":"Shayilan Nuerdanbieke",
+    "Peak Elo":1032.7786421998
+  },
+  {
+    "Fighter":"Godofredo Pepey",
+    "Peak Elo":1032.5294056479
+  },
+  {
+    "Fighter":"Ismael Bonfim",
+    "Peak Elo":1032.4493007569
+  },
+  {
+    "Fighter":"Takanori Gomi",
+    "Peak Elo":1032.3327531062
+  },
+  {
+    "Fighter":"Trevor Smith",
+    "Peak Elo":1032.312416718
+  },
+  {
+    "Fighter":"Sumudaerji",
+    "Peak Elo":1032.26191457
+  },
+  {
+    "Fighter":"Wanderlei Silva",
+    "Peak Elo":1032.1062291699
+  },
+  {
+    "Fighter":"Ricky Glenn",
+    "Peak Elo":1032.0229269748
+  },
+  {
+    "Fighter":"Wang Cong",
+    "Peak Elo":1031.8811170786
+  },
+  {
+    "Fighter":"Christos Giagos",
+    "Peak Elo":1031.5667368601
+  },
+  {
+    "Fighter":"Jacob Malkoun",
+    "Peak Elo":1031.3509211119
+  },
+  {
+    "Fighter":"Drew Fickett",
+    "Peak Elo":1031.0882913986
+  },
+  {
+    "Fighter":"Gian Villante",
+    "Peak Elo":1031.0870516128
+  },
+  {
+    "Fighter":"Tamdan McCrory",
+    "Peak Elo":1030.8376119693
+  },
+  {
+    "Fighter":"Maximo Blanco",
+    "Peak Elo":1030.8073290626
+  },
+  {
+    "Fighter":"Fatima Kline",
+    "Peak Elo":1030.7371743774
+  },
+  {
+    "Fighter":"Matthew Lopez",
+    "Peak Elo":1030.7361602208
+  },
+  {
+    "Fighter":"Liz Carmouche",
+    "Peak Elo":1030.4814793471
+  },
+  {
+    "Fighter":"Caol Uno",
+    "Peak Elo":1030.3631208355
+  },
+  {
+    "Fighter":"Sergey Khandozhko",
+    "Peak Elo":1030.3362751818
+  },
+  {
+    "Fighter":"Goran Reljic",
+    "Peak Elo":1030.1731782897
+  },
+  {
+    "Fighter":"Andre Fialho",
+    "Peak Elo":1029.940066734
+  },
+  {
+    "Fighter":"Peter Sobotta",
+    "Peak Elo":1029.7067098411
+  },
+  {
+    "Fighter":"Viktoriia Dudakova",
+    "Peak Elo":1029.6753239403
+  },
+  {
+    "Fighter":"James Irvin",
+    "Peak Elo":1029.6528655542
+  },
+  {
+    "Fighter":"Josh Neer",
+    "Peak Elo":1029.6227151236
+  },
+  {
+    "Fighter":"Falaniko Vitale",
+    "Peak Elo":1029.6208857423
+  },
+  {
+    "Fighter":"Chance Rencountre",
+    "Peak Elo":1029.5531360234
+  },
+  {
+    "Fighter":"Jack Marshman",
+    "Peak Elo":1029.4990272874
+  },
+  {
+    "Fighter":"Marc-Andre Barriault",
+    "Peak Elo":1029.359556505
+  },
+  {
+    "Fighter":"Kyle Nelson",
+    "Peak Elo":1029.1968363871
+  },
+  {
+    "Fighter":"Cung Le",
+    "Peak Elo":1028.9522292668
+  },
+  {
+    "Fighter":"Stephanie Egger",
+    "Peak Elo":1028.7093752017
+  },
+  {
+    "Fighter":"James Head",
+    "Peak Elo":1028.6860435121
+  },
+  {
+    "Fighter":"Khalid Murtazaliev",
+    "Peak Elo":1028.4717580728
+  },
+  {
+    "Fighter":"Dwight Grant",
+    "Peak Elo":1028.454954788
+  },
+  {
+    "Fighter":"Brad Pickett",
+    "Peak Elo":1028.4425275365
+  },
+  {
+    "Fighter":"Piotr Hallmann",
+    "Peak Elo":1028.4054211165
+  },
+  {
+    "Fighter":"Reza Madadi",
+    "Peak Elo":1028.3494553207
+  },
+  {
+    "Fighter":"Eric Spicely",
+    "Peak Elo":1028.0015003244
+  },
+  {
+    "Fighter":"Mason Jones",
+    "Peak Elo":1027.9728271123
+  },
+  {
+    "Fighter":"Cyrille Diabate",
+    "Peak Elo":1027.9316574031
+  },
+  {
+    "Fighter":"Jafel Filho",
+    "Peak Elo":1027.6528336032
+  },
+  {
+    "Fighter":"Yousri Belgaroui",
+    "Peak Elo":1027.591603682
+  },
+  {
+    "Fighter":"Nikolas Motta",
+    "Peak Elo":1027.5375067941
+  },
+  {
+    "Fighter":"Zak Ottow",
+    "Peak Elo":1027.5295312435
+  },
+  {
+    "Fighter":"Megan Anderson",
+    "Peak Elo":1027.3265620453
+  },
+  {
+    "Fighter":"Cam Rowston",
+    "Peak Elo":1027.1517530538
+  },
+  {
+    "Fighter":"Jutaro Nakao",
+    "Peak Elo":1027.0882607568
+  },
+  {
+    "Fighter":"Paul Varelans",
+    "Peak Elo":1027.0430648221
+  },
+  {
+    "Fighter":"Diego Nunes",
+    "Peak Elo":1027.0343297403
+  },
+  {
+    "Fighter":"Yoshiyuki Yoshida",
+    "Peak Elo":1027.0110887525
+  },
+  {
+    "Fighter":"Justin Tafa",
+    "Peak Elo":1026.9956479558
+  },
+  {
+    "Fighter":"Mike Grundy",
+    "Peak Elo":1026.9899692224
+  },
+  {
+    "Fighter":"Jake Hecht",
+    "Peak Elo":1026.9885492917
+  },
+  {
+    "Fighter":"DaMarques Johnson",
+    "Peak Elo":1026.9424798731
+  },
+  {
+    "Fighter":"Jonathan Goulet",
+    "Peak Elo":1026.6837583124
+  },
+  {
+    "Fighter":"Gabe Green",
+    "Peak Elo":1026.5650265615
+  },
+  {
+    "Fighter":"Joe Charles",
+    "Peak Elo":1026.4486398585
+  },
+  {
+    "Fighter":"Gan McGee",
+    "Peak Elo":1026.4356971122
+  },
+  {
+    "Fighter":"Shane Roller",
+    "Peak Elo":1026.4241277164
+  },
+  {
+    "Fighter":"Pete Spratt",
+    "Peak Elo":1026.3959992049
+  },
+  {
+    "Fighter":"Mounir Lazzez",
+    "Peak Elo":1026.3610999351
+  },
+  {
+    "Fighter":"Leandro Silva",
+    "Peak Elo":1026.3043565888
+  },
+  {
+    "Fighter":"Keith Hackney",
+    "Peak Elo":1026.2147795593
+  },
+  {
+    "Fighter":"Roan Carneiro",
+    "Peak Elo":1026.1938410824
+  },
+  {
+    "Fighter":"Chelsea Chandler",
+    "Peak Elo":1026.1791653969
+  },
+  {
+    "Fighter":"Will Brooks",
+    "Peak Elo":1026.150600917
+  },
+  {
+    "Fighter":"Brian Johnston",
+    "Peak Elo":1026.1494042992
+  },
+  {
+    "Fighter":"Luigi Fioravanti",
+    "Peak Elo":1025.9252196906
+  },
+  {
+    "Fighter":"Trevin Jones",
+    "Peak Elo":1025.8977940827
+  },
+  {
+    "Fighter":"Neil Seery",
+    "Peak Elo":1025.8454578057
+  },
+  {
+    "Fighter":"Brian Melancon",
+    "Peak Elo":1025.8321295488
+  },
+  {
+    "Fighter":"Veronica Hardy",
+    "Peak Elo":1025.8082607623
+  },
+  {
+    "Fighter":"Elvis Sinosic",
+    "Peak Elo":1025.6782159626
+  },
+  {
+    "Fighter":"Andreas Gustafsson",
+    "Peak Elo":1025.6295092483
+  },
+  {
+    "Fighter":"Maiquel Falcao",
+    "Peak Elo":1025.6141808288
+  },
+  {
+    "Fighter":"Semmy Schilt",
+    "Peak Elo":1025.6110789885
+  },
+  {
+    "Fighter":"Trey Ogden",
+    "Peak Elo":1025.5770430636
+  },
+  {
+    "Fighter":"Leandro Issa",
+    "Peak Elo":1025.5383448659
+  },
+  {
+    "Fighter":"Johnny Eduardo",
+    "Peak Elo":1025.4273414358
+  },
+  {
+    "Fighter":"Ryan Jimmo",
+    "Peak Elo":1025.3990086738
+  },
+  {
+    "Fighter":"Akihiro Gono",
+    "Peak Elo":1025.3870532564
+  },
+  {
+    "Fighter":"Shinsho Anzai",
+    "Peak Elo":1025.3360024978
+  },
+  {
+    "Fighter":"Seokhyeon Ko",
+    "Peak Elo":1025.3184579077
+  },
+  {
+    "Fighter":"Ashlee Evans-Smith",
+    "Peak Elo":1025.2252474541
+  },
+  {
+    "Fighter":"Ikuhisa Minowa",
+    "Peak Elo":1025.2066828058
+  },
+  {
+    "Fighter":"Dmitry Sosnovskiy",
+    "Peak Elo":1025.1931201373
+  },
+  {
+    "Fighter":"Gabriella Fernandes",
+    "Peak Elo":1025.1402726799
+  },
+  {
+    "Fighter":"Luis Henrique",
+    "Peak Elo":1025.1285886304
+  },
+  {
+    "Fighter":"Darrick Minner",
+    "Peak Elo":1025.0799338616
+  },
+  {
+    "Fighter":"SeungWoo Choi",
+    "Peak Elo":1025.0717851274
+  },
+  {
+    "Fighter":"Emily Whitmire",
+    "Peak Elo":1025.0407325034
+  },
+  {
+    "Fighter":"Antonina Shevchenko",
+    "Peak Elo":1024.9956206567
+  },
+  {
+    "Fighter":"Sanae Kikuta",
+    "Peak Elo":1024.995463225
+  },
+  {
+    "Fighter":"Dave Beneteau",
+    "Peak Elo":1024.9643921331
+  },
+  {
+    "Fighter":"Takashi Sato",
+    "Peak Elo":1024.9405258826
+  },
+  {
+    "Fighter":"Scott Ferrozzo",
+    "Peak Elo":1024.9193597719
+  },
+  {
+    "Fighter":"Dustin Kimura",
+    "Peak Elo":1024.8755381187
+  },
+  {
+    "Fighter":"Brian Foster",
+    "Peak Elo":1024.8688809466
+  },
+  {
+    "Fighter":"Lucas Almeida",
+    "Peak Elo":1024.8009113671
+  },
+  {
+    "Fighter":"Isaac Vallie-Flagg",
+    "Peak Elo":1024.7916536269
+  },
+  {
+    "Fighter":"Tony Fryklund",
+    "Peak Elo":1024.7712811499
+  },
+  {
+    "Fighter":"Ketlen Souza",
+    "Peak Elo":1024.7215800641
+  },
+  {
+    "Fighter":"Jonny Parsons",
+    "Peak Elo":1024.6787331825
+  },
+  {
+    "Fighter":"Shauna Bannon",
+    "Peak Elo":1024.6503194629
+  },
+  {
+    "Fighter":"Dennis Hallman",
+    "Peak Elo":1024.5859716123
+  },
+  {
+    "Fighter":"Melissa Croden",
+    "Peak Elo":1024.5710175066
+  },
+  {
+    "Fighter":"Sheymon Moraes",
+    "Peak Elo":1024.5587092505
+  },
+  {
+    "Fighter":"Bart Palaszewski",
+    "Peak Elo":1024.55815779
+  },
+  {
+    "Fighter":"Felicia Spencer",
+    "Peak Elo":1024.516536919
+  },
+  {
+    "Fighter":"Hector Sandoval",
+    "Peak Elo":1024.4429198501
+  },
+  {
+    "Fighter":"Tom Niinimaki",
+    "Peak Elo":1024.433051742
+  },
+  {
+    "Fighter":"Antonio Carvalho",
+    "Peak Elo":1024.3451999846
+  },
+  {
+    "Fighter":"Remco Pardoel",
+    "Peak Elo":1024.3413668923
+  },
+  {
+    "Fighter":"Yoshihiro Akiyama",
+    "Peak Elo":1024.2849890137
+  },
+  {
+    "Fighter":"Damian Stasiak",
+    "Peak Elo":1024.2363509621
+  },
+  {
+    "Fighter":"Kamuela Kirk",
+    "Peak Elo":1024.2138339739
+  },
+  {
+    "Fighter":"Mike Wilkinson",
+    "Peak Elo":1024.175854278
+  },
+  {
+    "Fighter":"Andrew Holbrook",
+    "Peak Elo":1024.1229004662
+  },
+  {
+    "Fighter":"Alden Coria",
+    "Peak Elo":1024.0647043951
+  },
+  {
+    "Fighter":"Isaac Dulgarian",
+    "Peak Elo":1024.0385862352
+  },
+  {
+    "Fighter":"Shane Young",
+    "Peak Elo":1023.9857804909
+  },
+  {
+    "Fighter":"Jason Day",
+    "Peak Elo":1023.9245731359
+  },
+  {
+    "Fighter":"Luke Sanders",
+    "Peak Elo":1023.9134729015
+  },
+  {
+    "Fighter":"Alexander Yakovlev",
+    "Peak Elo":1023.8860600099
+  },
+  {
+    "Fighter":"Lance Benoist",
+    "Peak Elo":1023.8342685069
+  },
+  {
+    "Fighter":"Katsunori Kikuno",
+    "Peak Elo":1023.7272219799
+  },
+  {
+    "Fighter":"Fernando Padilla",
+    "Peak Elo":1023.7219168145
+  },
+  {
+    "Fighter":"Irina Alekseeva",
+    "Peak Elo":1023.7102416912
+  },
+  {
+    "Fighter":"Daria Zhelezniakova",
+    "Peak Elo":1023.6873588108
+  },
+  {
+    "Fighter":"Michelle Montague",
+    "Peak Elo":1023.5599297635
+  },
+  {
+    "Fighter":"Jessica Eye",
+    "Peak Elo":1023.552244284
+  },
+  {
+    "Fighter":"Carmelo Marrero",
+    "Peak Elo":1023.4827084989
+  },
+  {
+    "Fighter":"Timothy Johnson",
+    "Peak Elo":1023.4303113623
+  },
+  {
+    "Fighter":"Andrei Semenov",
+    "Peak Elo":1023.3986363249
+  },
+  {
+    "Fighter":"Niklas Backstrom",
+    "Peak Elo":1023.2980501156
+  },
+  {
+    "Fighter":"Brianna Fortino",
+    "Peak Elo":1023.284637437
+  },
+  {
+    "Fighter":"Tom Duquesnoy",
+    "Peak Elo":1023.2126268433
+  },
+  {
+    "Fighter":"Junior Albini",
+    "Peak Elo":1023.2017188027
+  },
+  {
+    "Fighter":"Stanislav Nedkov",
+    "Peak Elo":1023.1954405588
+  },
+  {
+    "Fighter":"Emil Meek",
+    "Peak Elo":1023.1695304235
+  },
+  {
+    "Fighter":"Humberto Bandenay",
+    "Peak Elo":1023.1605500129
+  },
+  {
+    "Fighter":"Serhiy Sidey",
+    "Peak Elo":1023.158539611
+  },
+  {
+    "Fighter":"Michinori Tanaka",
+    "Peak Elo":1023.1125212338
+  },
+  {
+    "Fighter":"Alessio Di Chirico",
+    "Peak Elo":1023.0687379175
+  },
+  {
+    "Fighter":"Andre Winner",
+    "Peak Elo":1023.0516134004
+  },
+  {
+    "Fighter":"Lee Murray",
+    "Peak Elo":1023.0512053658
+  },
+  {
+    "Fighter":"Lina Lansberg",
+    "Peak Elo":1023.0182668604
+  },
+  {
+    "Fighter":"Ricardo Abreu",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Dave Herman",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Martin Bravo",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Nick Pace",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Simeon Thoresen",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Dalcha Lungiambula",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Robert McDaniel",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Junie Browning",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Henry Briones",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Rolando Delgado",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Baisangur Susurkaev",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Nick Catone",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Shana Dobson",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Jesse Lennox",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Ryan Loder",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Rob Broughton",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Justin Lawrence",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Aliaskhab Khizriev",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"James McSweeney",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Nathan Fletcher",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Shi Ming",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Sasha Palatnikov",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"John Cholish",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Genki Sudo",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Lance Gibson",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Anshul Jubli",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Marcos Vinicius",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Kay Hansen",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Paul Taylor",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Thiago Perpetuo",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"John Lewis",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Yuki Kondo",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Josh Sampo",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"War Machine",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Bob Cook",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Tom Murphy",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Juliana Miller",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Sam Sicilia",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Glaico Franca Moreira",
+    "Peak Elo":1023.0
+  },
+  {
+    "Fighter":"Issei Tamura",
+    "Peak Elo":1022.9163001765
+  },
+  {
+    "Fighter":"Jose Torres",
+    "Peak Elo":1022.8988660259
+  },
+  {
+    "Fighter":"Che Mills",
+    "Peak Elo":1022.8884484194
+  },
+  {
+    "Fighter":"Jon Tuck",
+    "Peak Elo":1022.8717717169
+  },
+  {
+    "Fighter":"Luke Cummo",
+    "Peak Elo":1022.8456739107
+  },
+  {
+    "Fighter":"Pat Barry",
+    "Peak Elo":1022.8148817208
+  },
+  {
+    "Fighter":"Tim Hague",
+    "Peak Elo":1022.8060152252
+  },
+  {
+    "Fighter":"Mark Schultz",
+    "Peak Elo":1022.7986745196
+  },
+  {
+    "Fighter":"Justin McCully",
+    "Peak Elo":1022.7801374447
+  },
+  {
+    "Fighter":"Masanori Kanehara",
+    "Peak Elo":1022.7444930233
+  },
+  {
+    "Fighter":"Justin Eilers",
+    "Peak Elo":1022.6900559158
+  },
+  {
+    "Fighter":"Mike Massenzio",
+    "Peak Elo":1022.5018439994
+  },
+  {
+    "Fighter":"Eric Schafer",
+    "Peak Elo":1022.4576178985
+  },
+  {
+    "Fighter":"Kron Gracie",
+    "Peak Elo":1022.3783748686
+  },
+  {
+    "Fighter":"Ji Yeon Kim",
+    "Peak Elo":1022.3744405729
+  },
+  {
+    "Fighter":"Jason Von Flue",
+    "Peak Elo":1022.3606111061
+  },
+  {
+    "Fighter":"Tony Kelley",
+    "Peak Elo":1022.350412759
+  },
+  {
+    "Fighter":"Gilbert Melendez",
+    "Peak Elo":1022.3345058436
+  },
+  {
+    "Fighter":"Damien Brown",
+    "Peak Elo":1022.3339555463
+  },
+  {
+    "Fighter":"Melissa Mullins",
+    "Peak Elo":1022.2902791253
+  },
+  {
+    "Fighter":"Leslie Smith",
+    "Peak Elo":1022.2173297188
+  },
+  {
+    "Fighter":"Kalib Starnes",
+    "Peak Elo":1022.2096743738
+  },
+  {
+    "Fighter":"Pete Sell",
+    "Peak Elo":1022.1524087721
+  },
+  {
+    "Fighter":"Steve Bosse",
+    "Peak Elo":1022.1349526321
+  },
+  {
+    "Fighter":"Tristan Connelly",
+    "Peak Elo":1022.122878105
+  },
+  {
+    "Fighter":"Lauren Mueller",
+    "Peak Elo":1022.0576666789
+  },
+  {
+    "Fighter":"Yuta Sasaki",
+    "Peak Elo":1022.0540607753
+  },
+  {
+    "Fighter":"Drew McFedries",
+    "Peak Elo":1022.0395222168
+  },
+  {
+    "Fighter":"Lucie Pudilova",
+    "Peak Elo":1021.9477081316
+  },
+  {
+    "Fighter":"Rodolfo Bellato",
+    "Peak Elo":1021.9384239528
+  },
+  {
+    "Fighter":"Chris Kelades",
+    "Peak Elo":1021.8976289143
+  },
+  {
+    "Fighter":"Carlo Prater",
+    "Peak Elo":1021.875419897
+  },
+  {
+    "Fighter":"Jonathan Micallef",
+    "Peak Elo":1021.8734112606
+  },
+  {
+    "Fighter":"Waylon Lowe",
+    "Peak Elo":1021.8417026658
+  },
+  {
+    "Fighter":"Muin Gafurov",
+    "Peak Elo":1021.8410412308
+  },
+  {
+    "Fighter":"Pascal Krauss",
+    "Peak Elo":1021.7916409102
+  },
+  {
+    "Fighter":"Stephanie Luciano",
+    "Peak Elo":1021.7845232324
+  },
+  {
+    "Fighter":"Jonathan Brookins",
+    "Peak Elo":1021.7369014554
+  },
+  {
+    "Fighter":"Christian Wellisch",
+    "Peak Elo":1021.726562824
+  },
+  {
+    "Fighter":"Sam Adkins",
+    "Peak Elo":1021.715589213
+  },
+  {
+    "Fighter":"Tallison Teixeira",
+    "Peak Elo":1021.6836297664
+  },
+  {
+    "Fighter":"Bibulatov Magomed",
+    "Peak Elo":1021.6479487664
+  },
+  {
+    "Fighter":"Hans Stringer",
+    "Peak Elo":1021.6340492658
+  },
+  {
+    "Fighter":"Juliana Lima",
+    "Peak Elo":1021.6285379953
+  },
+  {
+    "Fighter":"Bruno Lopes",
+    "Peak Elo":1021.6213528452
+  },
+  {
+    "Fighter":"Renato Verissimo",
+    "Peak Elo":1021.6098681839
+  },
+  {
+    "Fighter":"Hamdy Abdelwahab",
+    "Peak Elo":1021.5960411961
+  },
+  {
+    "Fighter":"Bojan Velickovic",
+    "Peak Elo":1021.5791638894
+  },
+  {
+    "Fighter":"Alptekin Ozkilic",
+    "Peak Elo":1021.5715582129
+  },
+  {
+    "Fighter":"Montse Rendon",
+    "Peak Elo":1021.5711893826
+  },
+  {
+    "Fighter":"Javier Vazquez",
+    "Peak Elo":1021.5397303036
+  },
+  {
+    "Fighter":"Maheshate",
+    "Peak Elo":1021.5130553732
+  },
+  {
+    "Fighter":"Joe Slick",
+    "Peak Elo":1021.4772589162
+  },
+  {
+    "Fighter":"Jamey-Lyn Horth",
+    "Peak Elo":1021.4234451968
+  },
+  {
+    "Fighter":"Ariane Carnelossi",
+    "Peak Elo":1021.4126215768
+  },
+  {
+    "Fighter":"Travis Lutter",
+    "Peak Elo":1021.4104174697
+  },
+  {
+    "Fighter":"Wang Guan",
+    "Peak Elo":1021.3943652434
+  },
+  {
+    "Fighter":"Cody Brundage",
+    "Peak Elo":1021.3796428091
+  },
+  {
+    "Fighter":"Austin Lingo",
+    "Peak Elo":1021.3527931277
+  },
+  {
+    "Fighter":"Mark Godbeer",
+    "Peak Elo":1021.3477084653
+  },
+  {
+    "Fighter":"Cole Smith",
+    "Peak Elo":1021.3116162756
+  },
+  {
+    "Fighter":"Jake Hadley",
+    "Peak Elo":1021.2458828103
+  },
+  {
+    "Fighter":"Islam Dulatov",
+    "Peak Elo":1021.2288833192
+  },
+  {
+    "Fighter":"Austin Vanderford",
+    "Peak Elo":1021.21561325
+  },
+  {
+    "Fighter":"Johnny Rhodes",
+    "Peak Elo":1021.171087122
+  },
+  {
+    "Fighter":"Chad Anheliger",
+    "Peak Elo":1021.1433182441
+  },
+  {
+    "Fighter":"Hunter Azure",
+    "Peak Elo":1021.1098469066
+  },
+  {
+    "Fighter":"Jonathan Wilson",
+    "Peak Elo":1021.0924112001
+  },
+  {
+    "Fighter":"Wesley Correira",
+    "Peak Elo":1021.089007184
+  },
+  {
+    "Fighter":"Dan Christison",
+    "Peak Elo":1021.0271498391
+  },
+  {
+    "Fighter":"Talita Alencar",
+    "Peak Elo":1021.0254780729
+  },
+  {
+    "Fighter":"Mark Weir",
+    "Peak Elo":1021.0133772447
+  },
+  {
+    "Fighter":"Rachael Ostovich",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Mara Romero Borella",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Yorgan De Castro",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Christian Aguilera",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Aisling Daly",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Tony Sims",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Brando Pericic",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Charles Byrd",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Joseph Morales",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Daniil Donchenko",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"DongHun Choi",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Jimmy Flick",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Eddie Gordon",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Polyana Viana",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Spike Carlyle",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Alvaro Herrera Mendoza",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Yanal Ashmouz",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Scott Morris",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Roberto Traven",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Paul Jones",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Gary Goodridge",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Cesar Marscucci",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Mike Ciesnolevicz",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Mike Nickels",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Walel Watson",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Tulio Palhares",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Kazushi Sakuraba",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Justin Martin",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Roman Mitichyan",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Marcelo Mello",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Troy Mandaloniz",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Ron Waterman",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Enson Inoue",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Sione Latu",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Chris Brennan",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Jonathan Wiezorek",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Scott Bessac",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Matt Arroyo",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Onassis Parungao",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Ben Alloway",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Dwayne Cason",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Jon Hess",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Tor Troeng",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"John Albert",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Anying Wang",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Mikey Burnett",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Rafael Carino",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Branden Lee Hinkle",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Nate Loughran",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Anthony Torres",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Steve Nelmark",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Rory Markham",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Cody McKenzie",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Shannon Gugerty",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Frank Hamaker",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Steve Cantwell",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Alex Karalexis",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Sean McCorkle",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Scott Adams",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Mackens Semerzier",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Antonio Braga Neto",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"James Wilks",
+    "Peak Elo":1021.0
+  },
+  {
+    "Fighter":"Aleksa Camur",
+    "Peak Elo":1020.9803248283
+  },
+  {
+    "Fighter":"Bia Mesquita",
+    "Peak Elo":1020.9671259568
+  },
+  {
+    "Fighter":"Sarah Moras",
+    "Peak Elo":1020.9564644317
+  },
+  {
+    "Fighter":"Juan Adams",
+    "Peak Elo":1020.9479996935
+  },
+  {
+    "Fighter":"Corey Hill",
+    "Peak Elo":1020.9307423211
+  },
+  {
+    "Fighter":"Matt Veach",
+    "Peak Elo":1020.9079298291
+  },
+  {
+    "Fighter":"Adam Milstead",
+    "Peak Elo":1020.7596770921
+  },
+  {
+    "Fighter":"Bogdan Grad",
+    "Peak Elo":1020.7476147578
+  },
+  {
+    "Fighter":"Mike Rio",
+    "Peak Elo":1020.7385884434
+  },
+  {
+    "Fighter":"Bec Rawlings",
+    "Peak Elo":1020.6596220899
+  },
+  {
+    "Fighter":"Abu Azaitar",
+    "Peak Elo":1020.5077875765
+  },
+  {
+    "Fighter":"Marcus Aurelio",
+    "Peak Elo":1020.4972486832
+  },
+  {
+    "Fighter":"Emily Ducote",
+    "Peak Elo":1020.4939307044
+  },
+  {
+    "Fighter":"Carli Judice",
+    "Peak Elo":1020.4693466689
+  },
+  {
+    "Fighter":"Philip De Fries",
+    "Peak Elo":1020.4513348751
+  },
+  {
+    "Fighter":"Shamil Gamzatov",
+    "Peak Elo":1020.4389145527
+  },
+  {
+    "Fighter":"Jorge Gurgel",
+    "Peak Elo":1020.3332691097
+  },
+  {
+    "Fighter":"Loik Radzhabov",
+    "Peak Elo":1020.3029866974
+  },
+  {
+    "Fighter":"Cameron Smotherman",
+    "Peak Elo":1020.292684187
+  },
+  {
+    "Fighter":"Santiago Luna",
+    "Peak Elo":1020.2532422414
+  },
+  {
+    "Fighter":"Miguel Torres",
+    "Peak Elo":1020.1091421604
+  },
+  {
+    "Fighter":"Ken Stone",
+    "Peak Elo":1020.1079294869
+  },
+  {
+    "Fighter":"Noad Lahat",
+    "Peak Elo":1020.1077947692
+  },
+  {
+    "Fighter":"Kazuki Tokudome",
+    "Peak Elo":1020.1046976453
+  },
+  {
+    "Fighter":"Yui Chul Nam",
+    "Peak Elo":1020.0083657394
+  },
+  {
+    "Fighter":"Dione Barbosa",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Victor Hugo",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Kai Kamaka",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Bolaji Oki",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Chris Cope",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"John Gunther",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Masio Fullen",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Benji Radach",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Reginaldo Vieira",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Heather Clark",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Justin Salas",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Ramon Taveras",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Ben Earwood",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Mark Hughes",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Logan Clark",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Yoshiki Takahashi",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Jessica Penne",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Jessamyn Duke",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Carlos Hernandez",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Shamar Bailey",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Jeff Hougland",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Ryan Janes",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Clay Harvison",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Chris Gruetzemacher",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Sam Hoger",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Sarah Kaufman",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Jessin Ayari",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Clifford Starks",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Richard Walsh",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Buddy Roberts",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Ernest Chavez",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Ricky Turcios",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Tafon Nchukwi",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Naoki Inoue",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Miranda Granger",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Tiago dos Santos e Silva",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Geraldo de Freitas",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Dave Strasser",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Ian Loveland",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Guram Kutateladze",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Kyle Watson",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Patrick Walsh",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Josh Stansbury",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Joe Ellenberger",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Leah Letson",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Nick Thompson",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Mark Eddiva",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Erick Montano",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Colton Smith",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Aleksandre Topuria",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Jim Alers",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Nah-Shon Burrell",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Montserrat Conejo Ruiz",
+    "Peak Elo":1020.0
+  },
+  {
+    "Fighter":"Tyson Nam",
+    "Peak Elo":1019.9480894355
+  },
+  {
+    "Fighter":"Sergey Morozov",
+    "Peak Elo":1019.8876912396
+  },
+  {
+    "Fighter":"Daichi Abe",
+    "Peak Elo":1019.8720658891
+  },
+  {
+    "Fighter":"Danielle Taylor",
+    "Peak Elo":1019.8694521553
+  },
+  {
+    "Fighter":"Marcel Fortuna",
+    "Peak Elo":1019.8609182373
+  },
+  {
+    "Fighter":"Rei Tsuruya",
+    "Peak Elo":1019.8420938447
+  },
+  {
+    "Fighter":"Benito Lopez",
+    "Peak Elo":1019.8195864083
+  },
+  {
+    "Fighter":"Levan Makashvili",
+    "Peak Elo":1019.7559184553
+  },
+  {
+    "Fighter":"Zachary Reese",
+    "Peak Elo":1019.7331509044
+  },
+  {
+    "Fighter":"Azat Maksum",
+    "Peak Elo":1019.7301589782
+  },
+  {
+    "Fighter":"Evan Elder",
+    "Peak Elo":1019.6982490108
+  },
+  {
+    "Fighter":"Dan Cramer",
+    "Peak Elo":1019.6375205187
+  },
+  {
+    "Fighter":"Jorge Santiago",
+    "Peak Elo":1019.6082118228
+  },
+  {
+    "Fighter":"Josh Quinlan",
+    "Peak Elo":1019.5862401104
+  },
+  {
+    "Fighter":"Zhang Tiequan",
+    "Peak Elo":1019.5075130688
+  },
+  {
+    "Fighter":"Robert Whiteford",
+    "Peak Elo":1019.4817105822
+  },
+  {
+    "Fighter":"Darko Stosic",
+    "Peak Elo":1019.4733427549
+  },
+  {
+    "Fighter":"Jamal Pogues",
+    "Peak Elo":1019.4561806694
+  },
+  {
+    "Fighter":"Edwin Figueroa",
+    "Peak Elo":1019.424852207
+  },
+  {
+    "Fighter":"Manvel Gamburyan",
+    "Peak Elo":1019.3978335712
+  },
+  {
+    "Fighter":"Albert Duraev",
+    "Peak Elo":1019.3686078436
+  },
+  {
+    "Fighter":"Garrett Armfield",
+    "Peak Elo":1019.3118460877
+  },
+  {
+    "Fighter":"Ebenezer Fontes Braga",
+    "Peak Elo":1019.3034920547
+  },
+  {
+    "Fighter":"Augusto Montano",
+    "Peak Elo":1019.2978591751
+  },
+  {
+    "Fighter":"Ricardo Romero",
+    "Peak Elo":1019.2185653659
+  },
+  {
+    "Fighter":"Jordan Espinosa",
+    "Peak Elo":1019.2075299485
+  },
+  {
+    "Fighter":"Victor Altamirano",
+    "Peak Elo":1019.205276661
+  },
+  {
+    "Fighter":"Justin Jaynes",
+    "Peak Elo":1019.2009757874
+  },
+  {
+    "Fighter":"Jakub Wiklacz",
+    "Peak Elo":1019.1423271382
+  },
+  {
+    "Fighter":"Viacheslav Borshchev",
+    "Peak Elo":1019.1242308759
+  },
+  {
+    "Fighter":"Nick Denis",
+    "Peak Elo":1019.1106777715
+  },
+  {
+    "Fighter":"Galore Bofando",
+    "Peak Elo":1019.1106777715
+  },
+  {
+    "Fighter":"Abdul-Kerim Edilov",
+    "Peak Elo":1019.0954299607
+  },
+  {
+    "Fighter":"Cody Donovan",
+    "Peak Elo":1019.0774688481
+  },
+  {
+    "Fighter":"Francis Marshall",
+    "Peak Elo":1019.0748968815
+  },
+  {
+    "Fighter":"Axel Sola",
+    "Peak Elo":1019.0228653803
+  },
+  {
+    "Fighter":"Marcelo Golm",
+    "Peak Elo":1018.9560446917
+  },
+  {
+    "Fighter":"Rob Kimmons",
+    "Peak Elo":1018.9508306699
+  },
+  {
+    "Fighter":"Billy Ray Goff",
+    "Peak Elo":1018.9415288949
+  },
+  {
+    "Fighter":"Carlos Eduardo Rocha",
+    "Peak Elo":1018.9352329266
+  },
+  {
+    "Fighter":"Tedd Williams",
+    "Peak Elo":1018.9231170528
+  },
+  {
+    "Fighter":"Carlo Pedersoli Jr.",
+    "Peak Elo":1018.8889496619
+  },
+  {
+    "Fighter":"JooSang Yoo",
+    "Peak Elo":1018.8095315178
+  },
+  {
+    "Fighter":"Tucker Lutz",
+    "Peak Elo":1018.7171712975
+  },
+  {
+    "Fighter":"Gokhan Saki",
+    "Peak Elo":1018.6762260381
+  },
+  {
+    "Fighter":"Jesus Pinedo",
+    "Peak Elo":1018.5274215579
+  },
+  {
+    "Fighter":"Nadia Kassem",
+    "Peak Elo":1018.5174691695
+  },
+  {
+    "Fighter":"Francisco Trevino",
+    "Peak Elo":1018.5096786124
+  },
+  {
+    "Fighter":"Jenel Lausa",
+    "Peak Elo":1018.4943056532
+  },
+  {
+    "Fighter":"Blake Bilder",
+    "Peak Elo":1018.4913653758
+  },
+  {
+    "Fighter":"Jordan Wright",
+    "Peak Elo":1018.4270766012
+  },
+  {
+    "Fighter":"Andre Roberts",
+    "Peak Elo":1018.4211028953
+  },
+  {
+    "Fighter":"Impa Kasanganay",
+    "Peak Elo":1018.3992238476
+  },
+  {
+    "Fighter":"Luke Jumeau",
+    "Peak Elo":1018.3870732766
+  },
+  {
+    "Fighter":"Cody Haddon",
+    "Peak Elo":1018.3587318799
+  },
+  {
+    "Fighter":"Cheyanne Vlismas",
+    "Peak Elo":1018.3208191039
+  },
+  {
+    "Fighter":"Chico Camus",
+    "Peak Elo":1018.3061077233
+  },
+  {
+    "Fighter":"Nicco Montano",
+    "Peak Elo":1018.284478121
+  },
+  {
+    "Fighter":"Jarred Brooks",
+    "Peak Elo":1018.284478121
+  },
+  {
+    "Fighter":"Milana Dudieva",
+    "Peak Elo":1018.284478121
+  },
+  {
+    "Fighter":"Puja Tomar",
+    "Peak Elo":1018.284478121
+  },
+  {
+    "Fighter":"Mariya Agapova",
+    "Peak Elo":1018.282872178
+  },
+  {
+    "Fighter":"Eduardo Garagorri",
+    "Peak Elo":1018.2331151214
+  },
+  {
+    "Fighter":"Magomed Gadzhiyasulov",
+    "Peak Elo":1018.2006454966
+  },
+  {
+    "Fighter":"Forrest Petz",
+    "Peak Elo":1018.2006454966
+  },
+  {
+    "Fighter":"Marcelo Guimaraes",
+    "Peak Elo":1018.2006454966
+  },
+  {
+    "Fighter":"Anthony Perosh",
+    "Peak Elo":1018.184608519
+  },
+  {
+    "Fighter":"Cristian Quinonez",
+    "Peak Elo":1018.1526989431
+  },
+  {
+    "Fighter":"Tyrone Roberts",
+    "Peak Elo":1018.1485522852
+  },
+  {
+    "Fighter":"Kevin Ferguson",
+    "Peak Elo":1018.1425439098
+  },
+  {
+    "Fighter":"Syuri Kondo",
+    "Peak Elo":1018.1349103129
+  },
+  {
+    "Fighter":"Brok Weaver",
+    "Peak Elo":1018.1008559436
+  },
+  {
+    "Fighter":"Mike Kyle",
+    "Peak Elo":1018.0705756423
+  },
+  {
+    "Fighter":"Trevor Peek",
+    "Peak Elo":1018.0630867415
+  },
+  {
+    "Fighter":"Torrez Finney",
+    "Peak Elo":1018.0335551682
+  },
+  {
+    "Fighter":"Francisco Figueiredo",
+    "Peak Elo":1017.9658806152
+  },
+  {
+    "Fighter":"Felipe Silva",
+    "Peak Elo":1017.9401506268
+  },
+  {
+    "Fighter":"Yan Cabral",
+    "Peak Elo":1017.893012054
+  },
+  {
+    "Fighter":"Luis Saldana",
+    "Peak Elo":1017.8653143221
+  },
+  {
+    "Fighter":"Ange Loosa",
+    "Peak Elo":1017.8542745258
+  },
+  {
+    "Fighter":"Danny Chavez",
+    "Peak Elo":1017.7416136241
+  },
+  {
+    "Fighter":"Kanako Murata",
+    "Peak Elo":1017.6967300692
+  },
+  {
+    "Fighter":"Hector Urbina",
+    "Peak Elo":1017.6524301275
+  },
+  {
+    "Fighter":"Tamires Vidal",
+    "Peak Elo":1017.6463621811
+  },
+  {
+    "Fighter":"Sean Spencer",
+    "Peak Elo":1017.5279663794
+  },
+  {
+    "Fighter":"Alex White",
+    "Peak Elo":1017.469553078
+  },
+  {
+    "Fighter":"Taiyilake Nueraji",
+    "Peak Elo":1017.4671277334
+  },
+  {
+    "Fighter":"Robelis Despaigne",
+    "Peak Elo":1017.4661124379
+  },
+  {
+    "Fighter":"Patricio Freire",
+    "Peak Elo":1017.4544849143
+  },
+  {
+    "Fighter":"Dusko Todorovic",
+    "Peak Elo":1017.2517696911
+  },
+  {
+    "Fighter":"Charles Rosa",
+    "Peak Elo":1017.12694116
+  },
+  {
+    "Fighter":"Yadier del Valle",
+    "Peak Elo":1017.0115931066
+  },
+  {
+    "Fighter":"Mana Martinez",
+    "Peak Elo":1016.8755735786
+  },
+  {
+    "Fighter":"Ode Osbourne",
+    "Peak Elo":1016.8706405211
+  },
+  {
+    "Fighter":"Jamie Moyle",
+    "Peak Elo":1016.7202280072
+  },
+  {
+    "Fighter":"Dong Hyun Ma",
+    "Peak Elo":1016.6280210599
+  },
+  {
+    "Fighter":"Sirwan Kakai",
+    "Peak Elo":1016.565836108
+  },
+  {
+    "Fighter":"CJ Vergara",
+    "Peak Elo":1016.4673496532
+  },
+  {
+    "Fighter":"Chris Clements",
+    "Peak Elo":1016.4227840637
+  },
+  {
+    "Fighter":"Deron Winn",
+    "Peak Elo":1016.4070599373
+  },
+  {
+    "Fighter":"Mark De La Rosa",
+    "Peak Elo":1016.0073827191
+  },
+  {
+    "Fighter":"Natan Levy",
+    "Peak Elo":1015.5864791843
+  },
+  {
+    "Fighter":"Lando Vannata",
+    "Peak Elo":1015.5001185054
+  },
+  {
+    "Fighter":"Gaston Bolanos",
+    "Peak Elo":1015.1653025034
+  },
+  {
+    "Fighter":"Ivan Jorge",
+    "Peak Elo":1015.1475157812
+  },
+  {
+    "Fighter":"Don'Tale Mayes",
+    "Peak Elo":1015.0934048411
+  },
+  {
+    "Fighter":"Abubakar Nurmagomedov",
+    "Peak Elo":1015.0382488858
+  },
+  {
+    "Fighter":"Randy Costa",
+    "Peak Elo":1015.0149515421
+  },
+  {
+    "Fighter":"Ryan Benoit",
+    "Peak Elo":1014.7081275331
+  },
+  {
+    "Fighter":"Priscila Cachoeira",
+    "Peak Elo":1014.7038318311
+  },
+  {
+    "Fighter":"Anthony Njokuani",
+    "Peak Elo":1014.2503397635
+  },
+  {
+    "Fighter":"Hannah Cifers",
+    "Peak Elo":1014.242420587
+  },
+  {
+    "Fighter":"Gabriel Santos",
+    "Peak Elo":1013.5564359078
+  },
+  {
+    "Fighter":"Carlos Leal",
+    "Peak Elo":1013.2564778809
+  },
+  {
+    "Fighter":"Jordan Rinaldi",
+    "Peak Elo":1013.2526230533
+  },
+  {
+    "Fighter":"Sedriques Dumas",
+    "Peak Elo":1012.7591212847
+  },
+  {
+    "Fighter":"Julia Polastri",
+    "Peak Elo":1012.3859838115
+  },
+  {
+    "Fighter":"Dhiego Lima",
+    "Peak Elo":1012.1127831929
+  },
+  {
+    "Fighter":"Jake Rosholt",
+    "Peak Elo":1011.9338852452
+  },
+  {
+    "Fighter":"Wellington Turman",
+    "Peak Elo":1011.469276305
+  },
+  {
+    "Fighter":"Austin Hubbard",
+    "Peak Elo":1011.2745237627
+  },
+  {
+    "Fighter":"Kyle Daukaus",
+    "Peak Elo":1011.0976286672
+  },
+  {
+    "Fighter":"Mitch Clarke",
+    "Peak Elo":1011.016081767
+  },
+  {
+    "Fighter":"Ian McCall",
+    "Peak Elo":1010.8774796842
+  },
+  {
+    "Fighter":"Chris Wilson",
+    "Peak Elo":1010.6837324351
+  },
+  {
+    "Fighter":"Preston Parsons",
+    "Peak Elo":1010.4773460136
+  },
+  {
+    "Fighter":"Alessandro Costa",
+    "Peak Elo":1010.4671794604
+  },
+  {
+    "Fighter":"Vince Morales",
+    "Peak Elo":1010.2139869891
+  },
+  {
+    "Fighter":"Tom Watson",
+    "Peak Elo":1009.995709463
+  },
+  {
+    "Fighter":"James Moontasri",
+    "Peak Elo":1009.5220147954
+  },
+  {
+    "Fighter":"Sean O'Connell",
+    "Peak Elo":1009.0055130774
+  },
+  {
+    "Fighter":"Jason High",
+    "Peak Elo":1008.8251019476
+  },
+  {
+    "Fighter":"Bassil Hafez",
+    "Peak Elo":1008.6631827647
+  },
+  {
+    "Fighter":"Robert Bryczek",
+    "Peak Elo":1008.649453828
+  },
+  {
+    "Fighter":"Artem Lobov",
+    "Peak Elo":1008.5904579645
+  },
+  {
+    "Fighter":"Ryo Chonan",
+    "Peak Elo":1008.5827699149
+  },
+  {
+    "Fighter":"Leonard Garcia",
+    "Peak Elo":1008.2961282766
+  },
+  {
+    "Fighter":"Jared Hamman",
+    "Peak Elo":1008.2860718342
+  },
+  {
+    "Fighter":"Jamall Emmers",
+    "Peak Elo":1008.2583553367
+  },
+  {
+    "Fighter":"Bekzat Almakhan",
+    "Peak Elo":1008.2105990537
+  },
+  {
+    "Fighter":"Maxim Grishin",
+    "Peak Elo":1008.1986487537
+  },
+  {
+    "Fighter":"Justin Buchholz",
+    "Peak Elo":1008.1075616235
+  },
+  {
+    "Fighter":"Mike de la Torre",
+    "Peak Elo":1007.9915057216
+  },
+  {
+    "Fighter":"Steven Peterson",
+    "Peak Elo":1007.9905239529
+  },
+  {
+    "Fighter":"Tresean Gore",
+    "Peak Elo":1007.8996485191
+  },
+  {
+    "Fighter":"Sultan Aliev",
+    "Peak Elo":1007.8315684985
+  },
+  {
+    "Fighter":"Jason Witt",
+    "Peak Elo":1007.7952782396
+  },
+  {
+    "Fighter":"Roxanne Modafferi",
+    "Peak Elo":1007.7515402914
+  },
+  {
+    "Fighter":"Rafael Alves",
+    "Peak Elo":1007.7084628764
+  },
+  {
+    "Fighter":"Heath Herring",
+    "Peak Elo":1007.4910294106
+  },
+  {
+    "Fighter":"Ihor Potieria",
+    "Peak Elo":1007.3852773166
+  },
+  {
+    "Fighter":"Malcolm Gordon",
+    "Peak Elo":1007.3300459172
+  },
+  {
+    "Fighter":"Mario Miranda",
+    "Peak Elo":1007.2176070902
+  },
+  {
+    "Fighter":"Geane Herrera",
+    "Peak Elo":1007.2059182504
+  },
+  {
+    "Fighter":"Vagner Rocha",
+    "Peak Elo":1007.1029157737
+  },
+  {
+    "Fighter":"Kyle Bochniak",
+    "Peak Elo":1007.0657650283
+  },
+  {
+    "Fighter":"Brad Scott",
+    "Peak Elo":1007.0108575021
+  },
+  {
+    "Fighter":"Terry Martin",
+    "Peak Elo":1007.0046780785
+  },
+  {
+    "Fighter":"Shane Campbell",
+    "Peak Elo":1006.8745953068
+  },
+  {
+    "Fighter":"Randa Markos",
+    "Peak Elo":1006.7825060676
+  },
+  {
+    "Fighter":"Darrell Horcher",
+    "Peak Elo":1006.7584025325
+  },
+  {
+    "Fighter":"David Bielkheden",
+    "Peak Elo":1006.5153812097
+  },
+  {
+    "Fighter":"Greg Soto",
+    "Peak Elo":1006.5060688468
+  },
+  {
+    "Fighter":"Alvin Robinson",
+    "Peak Elo":1006.4814032574
+  },
+  {
+    "Fighter":"Caolan Loughran",
+    "Peak Elo":1006.2901816758
+  },
+  {
+    "Fighter":"Markus Perez",
+    "Peak Elo":1006.2584500768
+  },
+  {
+    "Fighter":"Austin Bashi",
+    "Peak Elo":1006.0820957387
+  },
+  {
+    "Fighter":"Kuniyoshi Hironaka",
+    "Peak Elo":1006.0590390843
+  },
+  {
+    "Fighter":"Jose Ochoa",
+    "Peak Elo":1006.0561311096
+  },
+  {
+    "Fighter":"Francisco Prado",
+    "Peak Elo":1006.0404279775
+  },
+  {
+    "Fighter":"Augusto Mendes",
+    "Peak Elo":1005.9639819685
+  },
+  {
+    "Fighter":"Brendson Ribeiro",
+    "Peak Elo":1005.9497981905
+  },
+  {
+    "Fighter":"Fabricio Camoes",
+    "Peak Elo":1005.9317072349
+  },
+  {
+    "Fighter":"Dominique Steele",
+    "Peak Elo":1005.6883259755
+  },
+  {
+    "Fighter":"Junior Tafa",
+    "Peak Elo":1005.6663009423
+  },
+  {
+    "Fighter":"Chris Barnett",
+    "Peak Elo":1005.6565908579
+  },
+  {
+    "Fighter":"Cortney Casey",
+    "Peak Elo":1005.6391436452
+  },
+  {
+    "Fighter":"Scott Smith",
+    "Peak Elo":1005.6300826034
+  },
+  {
+    "Fighter":"Carlos Vera",
+    "Peak Elo":1005.602872582
+  },
+  {
+    "Fighter":"Luigi Vendramini",
+    "Peak Elo":1005.5516904105
+  },
+  {
+    "Fighter":"Amaury Bitetti",
+    "Peak Elo":1005.5098599599
+  },
+  {
+    "Fighter":"Dongi Yang",
+    "Peak Elo":1005.4052745512
+  },
+  {
+    "Fighter":"Justin Edwards",
+    "Peak Elo":1005.3096108088
+  },
+  {
+    "Fighter":"Gustavo Lopez",
+    "Peak Elo":1005.2016660517
+  },
+  {
+    "Fighter":"Jason DeLucia",
+    "Peak Elo":1005.1647690576
+  },
+  {
+    "Fighter":"Reuben Duran",
+    "Peak Elo":1005.0522017172
+  },
+  {
+    "Fighter":"Garreth McLellan",
+    "Peak Elo":1005.0522017172
+  },
+  {
+    "Fighter":"Tae Hyun Bang",
+    "Peak Elo":1005.0522017172
+  },
+  {
+    "Fighter":"Aoriqileng",
+    "Peak Elo":1005.0393661335
+  },
+  {
+    "Fighter":"Klidson Abreu",
+    "Peak Elo":1004.9881554102
+  },
+  {
+    "Fighter":"Guido Cannetti",
+    "Peak Elo":1004.9869407862
+  },
+  {
+    "Fighter":"Bruna Brasil",
+    "Peak Elo":1004.9738651903
+  },
+  {
+    "Fighter":"Thomas Petersen",
+    "Peak Elo":1004.9377293692
+  },
+  {
+    "Fighter":"Cody Gibson",
+    "Peak Elo":1004.8602934892
+  },
+  {
+    "Fighter":"Anthony Hamilton",
+    "Peak Elo":1004.8350525356
+  },
+  {
+    "Fighter":"Daniel Sarafian",
+    "Peak Elo":1004.7780733597
+  },
+  {
+    "Fighter":"Jose Johnson",
+    "Peak Elo":1004.6905062272
+  },
+  {
+    "Fighter":"Andrey Pulyaev",
+    "Peak Elo":1004.6537786849
+  },
+  {
+    "Fighter":"Christian Morecraft",
+    "Peak Elo":1004.6320065098
+  },
+  {
+    "Fighter":"TJ Brown",
+    "Peak Elo":1004.5984957941
+  },
+  {
+    "Fighter":"Irwin Rivera",
+    "Peak Elo":1004.5902349428
+  },
+  {
+    "Fighter":"Uran Satybaldiev",
+    "Peak Elo":1004.5703067762
+  },
+  {
+    "Fighter":"Curt Warburton",
+    "Peak Elo":1004.4873702999
+  },
+  {
+    "Fighter":"Valmir Lazaro",
+    "Peak Elo":1004.3977644372
+  },
+  {
+    "Fighter":"Felipe Colares",
+    "Peak Elo":1004.3213317515
+  },
+  {
+    "Fighter":"Dan Argueta",
+    "Peak Elo":1004.320784751
+  },
+  {
+    "Fighter":"Rafael Cavalcante",
+    "Peak Elo":1004.3175741073
+  },
+  {
+    "Fighter":"Felipe dos Santos",
+    "Peak Elo":1004.262568672
+  },
+  {
+    "Fighter":"Frank Camacho",
+    "Peak Elo":1004.2424470522
+  },
+  {
+    "Fighter":"Chris Tuchscherer",
+    "Peak Elo":1004.2117287561
+  },
+  {
+    "Fighter":"Johnny Munoz",
+    "Peak Elo":1004.1168124494
+  },
+  {
+    "Fighter":"Michael Kuiper",
+    "Peak Elo":1003.9949334858
+  },
+  {
+    "Fighter":"Scott Askham",
+    "Peak Elo":1003.9696817957
+  },
+  {
+    "Fighter":"Mickael Lebout",
+    "Peak Elo":1003.9079945537
+  },
+  {
+    "Fighter":"Tra Telligman",
+    "Peak Elo":1003.8643619396
+  },
+  {
+    "Fighter":"Yaotzin Meza",
+    "Peak Elo":1003.8554673108
+  },
+  {
+    "Fighter":"Bruno Santos",
+    "Peak Elo":1003.8154798309
+  },
+  {
+    "Fighter":"Jamie Pickett",
+    "Peak Elo":1003.7981925277
+  },
+  {
+    "Fighter":"Nick Sanzo",
+    "Peak Elo":1003.7416809756
+  },
+  {
+    "Fighter":"Xiao Long",
+    "Peak Elo":1003.7253497622
+  },
+  {
+    "Fighter":"Geza Kalman",
+    "Peak Elo":1003.6783279194
+  },
+  {
+    "Fighter":"Rameau Thierry Sokoudjou",
+    "Peak Elo":1003.5839170077
+  },
+  {
+    "Fighter":"Wu Yanan",
+    "Peak Elo":1003.5421506632
+  },
+  {
+    "Fighter":"Albert Morales",
+    "Peak Elo":1003.5256837321
+  },
+  {
+    "Fighter":"Dale Hartt",
+    "Peak Elo":1003.506992882
+  },
+  {
+    "Fighter":"Travis Fulton",
+    "Peak Elo":1003.4087055844
+  },
+  {
+    "Fighter":"Gina Mazany",
+    "Peak Elo":1003.3012626651
+  },
+  {
+    "Fighter":"Mads Burnell",
+    "Peak Elo":1003.3001508486
+  },
+  {
+    "Fighter":"Gil Castillo",
+    "Peak Elo":1003.22126082
+  },
+  {
+    "Fighter":"Luke Zachrich",
+    "Peak Elo":1002.9115787749
+  },
+  {
+    "Fighter":"Billy Elekana",
+    "Peak Elo":1002.9112108887
+  },
+  {
+    "Fighter":"Edgar Chairez",
+    "Peak Elo":1002.9043922433
+  },
+  {
+    "Fighter":"Khalid Taha",
+    "Peak Elo":1002.873749394
+  },
+  {
+    "Fighter":"Yosdenis Cedeno",
+    "Peak Elo":1002.873749394
+  },
+  {
+    "Fighter":"Junior Assuncao",
+    "Peak Elo":1002.8644104532
+  },
+  {
+    "Fighter":"Joachim Christensen",
+    "Peak Elo":1002.8086721321
+  },
+  {
+    "Fighter":"Lara Procopio",
+    "Peak Elo":1002.7950313236
+  },
+  {
+    "Fighter":"Clay Collard",
+    "Peak Elo":1002.7311985991
+  },
+  {
+    "Fighter":"Anthony Birchak",
+    "Peak Elo":1002.6221838062
+  },
+  {
+    "Fighter":"George Roop",
+    "Peak Elo":1002.593887774
+  },
+  {
+    "Fighter":"Ozzy Diaz",
+    "Peak Elo":1002.5931371722
+  },
+  {
+    "Fighter":"Jeremy Kimball",
+    "Peak Elo":1002.5733437856
+  },
+  {
+    "Fighter":"Elise Reed",
+    "Peak Elo":1002.5455638719
+  },
+  {
+    "Fighter":"Mike Rodriguez",
+    "Peak Elo":1002.5359976785
+  },
+  {
+    "Fighter":"Chris Fishgold",
+    "Peak Elo":1002.5258888579
+  },
+  {
+    "Fighter":"Allen Crowder",
+    "Peak Elo":1002.5130959439
+  },
+  {
+    "Fighter":"Adam Fugitt",
+    "Peak Elo":1002.4833549525
+  },
+  {
+    "Fighter":"Oluwale Bamgbose",
+    "Peak Elo":1002.4660510708
+  },
+  {
+    "Fighter":"Jake Collier",
+    "Peak Elo":1002.4432097947
+  },
+  {
+    "Fighter":"Joe Moreira",
+    "Peak Elo":1002.3938895175
+  },
+  {
+    "Fighter":"Louis Gaudinot",
+    "Peak Elo":1002.3663166808
+  },
+  {
+    "Fighter":"Katsuhisa Fujii",
+    "Peak Elo":1002.3663166808
+  },
+  {
+    "Fighter":"Julius Walker",
+    "Peak Elo":1002.2239599926
+  },
+  {
+    "Fighter":"Karlos Vemola",
+    "Peak Elo":1002.1989615815
+  },
+  {
+    "Fighter":"Eric McConico",
+    "Peak Elo":1002.1850380918
+  },
+  {
+    "Fighter":"Patrick Williams",
+    "Peak Elo":1002.1071409836
+  },
+  {
+    "Fighter":"Steve Bruno",
+    "Peak Elo":1002.0865500839
+  },
+  {
+    "Fighter":"Pete Rodriguez",
+    "Peak Elo":1002.0528729031
+  },
+  {
+    "Fighter":"Alex Nicholson",
+    "Peak Elo":1002.0318333741
+  },
+  {
+    "Fighter":"Harold Howard",
+    "Peak Elo":1001.9691908918
+  },
+  {
+    "Fighter":"Rob MacDonald",
+    "Peak Elo":1001.9691908918
+  },
+  {
+    "Fighter":"Ian Entwistle",
+    "Peak Elo":1001.9691908918
+  },
+  {
+    "Fighter":"Tai Bowden",
+    "Peak Elo":1001.9691908918
+  },
+  {
+    "Fighter":"Steven Graham",
+    "Peak Elo":1001.9691908918
+  },
+  {
+    "Fighter":"Felipe Bunes",
+    "Peak Elo":1001.9421259176
+  },
+  {
+    "Fighter":"Gilbert Urbina",
+    "Peak Elo":1001.884898586
+  },
+  {
+    "Fighter":"Djorden Santos",
+    "Peak Elo":1001.8783695731
+  },
+  {
+    "Fighter":"Alex Chambers",
+    "Peak Elo":1001.7990000111
+  },
+  {
+    "Fighter":"Ernesta Kareckaite",
+    "Peak Elo":1001.7845232324
+  },
+  {
+    "Fighter":"Rafaello Oliveira",
+    "Peak Elo":1001.7845232324
+  },
+  {
+    "Fighter":"Viktor Pesta",
+    "Peak Elo":1001.7845232324
+  },
+  {
+    "Fighter":"Luan Chagas",
+    "Peak Elo":1001.7797839741
+  },
+  {
+    "Fighter":"Rongzhu",
+    "Peak Elo":1001.7785363658
+  },
+  {
+    "Fighter":"Eddie Yagin",
+    "Peak Elo":1001.7609115023
+  },
+  {
+    "Fighter":"Kevin Casey",
+    "Peak Elo":1001.7138109909
+  },
+  {
+    "Fighter":"Per Eklund",
+    "Peak Elo":1001.6445599963
+  },
+  {
+    "Fighter":"Yao Zhikui",
+    "Peak Elo":1001.5655577659
+  },
+  {
+    "Fighter":"Matt Sayles",
+    "Peak Elo":1001.5252065388
+  },
+  {
+    "Fighter":"Mike Guymon",
+    "Peak Elo":1001.520813077
+  },
+  {
+    "Fighter":"Brendan O'Reilly",
+    "Peak Elo":1001.5088614831
+  },
+  {
+    "Fighter":"Teemu Packalen",
+    "Peak Elo":1001.4510740774
+  },
+  {
+    "Fighter":"Michael Aswell Jr.",
+    "Peak Elo":1001.4489241166
+  },
+  {
+    "Fighter":"Jerrod Sanders",
+    "Peak Elo":1001.4481926922
+  },
+  {
+    "Fighter":"Henry Martinez",
+    "Peak Elo":1001.4384166308
+  },
+  {
+    "Fighter":"Denis Kang",
+    "Peak Elo":1001.4221454232
+  },
+  {
+    "Fighter":"Akbarh Arreola",
+    "Peak Elo":1001.333027829
+  },
+  {
+    "Fighter":"Dan Bobish",
+    "Peak Elo":1001.3288301741
+  },
+  {
+    "Fighter":"Jonathan Meunier",
+    "Peak Elo":1001.2285407129
+  },
+  {
+    "Fighter":"Roger Narvaez",
+    "Peak Elo":1001.1963908817
+  },
+  {
+    "Fighter":"Cristiano Marcello",
+    "Peak Elo":1001.1942580832
+  },
+  {
+    "Fighter":"Jarjis Danho",
+    "Peak Elo":1001.0787432952
+  },
+  {
+    "Fighter":"Kleydson Rodrigues",
+    "Peak Elo":1001.0767590397
+  },
+  {
+    "Fighter":"Joe Doerksen",
+    "Peak Elo":1001.0439308527
+  },
+  {
+    "Fighter":"Willie Gates",
+    "Peak Elo":1001.0106546683
+  },
+  {
+    "Fighter":"Chris Dempsey",
+    "Peak Elo":1001.004101472
+  },
+  {
+    "Fighter":"Vik Grujic",
+    "Peak Elo":1001.0
+  },
+  {
+    "Fighter":"Nate Mohr",
+    "Peak Elo":1000.956523411
+  },
+  {
+    "Fighter":"Riki Fukuda",
+    "Peak Elo":1000.9452635847
+  },
+  {
+    "Fighter":"John Salter",
+    "Peak Elo":1000.941305105
+  },
+  {
+    "Fighter":"Marcus Bossett",
+    "Peak Elo":1000.9091663415
+  },
+  {
+    "Fighter":"Richie Vaculik",
+    "Peak Elo":1000.875419897
+  },
+  {
+    "Fighter":"Mike Jackson",
+    "Peak Elo":1000.875419897
+  },
+  {
+    "Fighter":"Frankie Perez",
+    "Peak Elo":1000.8202912537
+  },
+  {
+    "Fighter":"Kimo Leopoldo",
+    "Peak Elo":1000.671320754
+  },
+  {
+    "Fighter":"Cyril Asker",
+    "Peak Elo":1000.6500074616
+  },
+  {
+    "Fighter":"Brandon Davis",
+    "Peak Elo":1000.6392319065
+  },
+  {
+    "Fighter":"Maki Pitolo",
+    "Peak Elo":1000.6107037605
+  },
+  {
+    "Fighter":"Keita Nakamura",
+    "Peak Elo":1000.5643029232
+  },
+  {
+    "Fighter":"Gasan Umalatov",
+    "Peak Elo":1000.5541478107
+  },
+  {
+    "Fighter":"Jinh Yu Frey",
+    "Peak Elo":1000.5058296949
+  },
+  {
+    "Fighter":"Denis Tiuliulin",
+    "Peak Elo":1000.4438495013
+  },
+  {
+    "Fighter":"Todd Medina",
+    "Peak Elo":1000.4165158966
+  },
+  {
+    "Fighter":"Brad Kohler",
+    "Peak Elo":1000.3690258006
+  },
+  {
+    "Fighter":"Orlando Wiet",
+    "Peak Elo":1000.3513267211
+  },
+  {
+    "Fighter":"Lucas Alexander",
+    "Peak Elo":1000.2817099878
+  },
+  {
+    "Fighter":"Dustin Pague",
+    "Peak Elo":1000.2735368689
+  },
+  {
+    "Fighter":"Joby Sanchez",
+    "Peak Elo":1000.2538605576
+  },
+  {
+    "Fighter":"Renee Forte",
+    "Peak Elo":1000.2151661451
+  },
+  {
+    "Fighter":"Jack Nilson",
+    "Peak Elo":1000.1884065383
+  },
+  {
+    "Fighter":"Jeka Saragih",
+    "Peak Elo":1000.1875545158
+  },
+  {
+    "Fighter":"Sai Wang",
+    "Peak Elo":1000.1768652812
+  },
+  {
+    "Fighter":"Matt Dwyer",
+    "Peak Elo":1000.1637742141
+  },
+  {
+    "Fighter":"John Gunderson",
+    "Peak Elo":1000.1623133163
+  },
+  {
+    "Fighter":"Josh Fremd",
+    "Peak Elo":1000.0900148756
+  },
+  {
+    "Fighter":"Chase Sherman",
+    "Peak Elo":1000.067919279
+  },
+  {
+    "Fighter":"Cal Worsham",
+    "Peak Elo":1000.0224158427
+  },
+  {
+    "Fighter":"Mike Ricci",
+    "Peak Elo":1000.0
+  },
+  {
+    "Fighter":"Ron Stallings",
+    "Peak Elo":999.9859006991
+  },
+  {
+    "Fighter":"Seo Hee Ham",
+    "Peak Elo":999.977908734
+  },
+  {
+    "Fighter":"Colby Thicknesse",
+    "Peak Elo":999.7740620451
+  },
+  {
+    "Fighter":"Anton Kuivanen",
+    "Peak Elo":999.738087513
+  },
+  {
+    "Fighter":"Callan Potter",
+    "Peak Elo":999.7003203771
+  },
+  {
+    "Fighter":"Gauge Young",
+    "Peak Elo":999.6805301009
+  },
+  {
+    "Fighter":"Robert Sanchez",
+    "Peak Elo":999.6722684479
+  },
+  {
+    "Fighter":"Claudio Ribeiro",
+    "Peak Elo":999.3456749118
+  },
+  {
+    "Fighter":"Amanda Cooper",
+    "Peak Elo":999.3344239811
+  },
+  {
+    "Fighter":"Andreas Michailidis",
+    "Peak Elo":999.282568004
+  },
+  {
+    "Fighter":"Jason Gonzalez",
+    "Peak Elo":999.2683186887
+  },
+  {
+    "Fighter":"Raphael Pessoa",
+    "Peak Elo":999.2457975802
+  },
+  {
+    "Fighter":"Tereza Bleda",
+    "Peak Elo":999.207199881
+  },
+  {
+    "Fighter":"Vaughan Lee",
+    "Peak Elo":999.2066842321
+  },
+  {
+    "Fighter":"Nathan Coy",
+    "Peak Elo":999.1939430658
+  },
+  {
+    "Fighter":"Klaudia Sygula",
+    "Peak Elo":999.1305094847
+  },
+  {
+    "Fighter":"Lucas Rocha",
+    "Peak Elo":999.080696972
+  },
+  {
+    "Fighter":"Matt Grice",
+    "Peak Elo":998.9976226981
+  },
+  {
+    "Fighter":"Marcus LeVesseur",
+    "Peak Elo":998.9698959398
+  },
+  {
+    "Fighter":"Aaron Rosa",
+    "Peak Elo":998.8643432855
+  },
+  {
+    "Fighter":"Phil Harris",
+    "Peak Elo":998.8238585568
+  },
+  {
+    "Fighter":"Jesse Taylor",
+    "Peak Elo":998.5544339529
+  },
+  {
+    "Fighter":"Charles McCarthy",
+    "Peak Elo":998.4080300134
+  },
+  {
+    "Fighter":"Benardo Sopaj",
+    "Peak Elo":998.3234663361
+  },
+  {
+    "Fighter":"Daniel Spitz",
+    "Peak Elo":998.3152723448
+  },
+  {
+    "Fighter":"David Michaud",
+    "Peak Elo":998.2006454966
+  },
+  {
+    "Fighter":"Maria Oliveira",
+    "Peak Elo":998.1299171874
+  },
+  {
+    "Fighter":"Jared Vanderaa",
+    "Peak Elo":997.9148588105
+  },
+  {
+    "Fighter":"Melissa Martinez",
+    "Peak Elo":997.8910931846
+  },
+  {
+    "Fighter":"Matt Hobar",
+    "Peak Elo":997.8085683915
+  },
+  {
+    "Fighter":"Keith Rockel",
+    "Peak Elo":997.7855342425
+  },
+  {
+    "Fighter":"Jai Herbert",
+    "Peak Elo":997.7375931334
+  },
+  {
+    "Fighter":"Alex Da Silva",
+    "Peak Elo":997.7087790973
+  },
+  {
+    "Fighter":"Steven Nguyen",
+    "Peak Elo":997.5006567074
+  },
+  {
+    "Fighter":"Ivana Petrovic",
+    "Peak Elo":997.485258116
+  },
+  {
+    "Fighter":"Joseph Holmes",
+    "Peak Elo":997.4564684487
+  },
+  {
+    "Fighter":"Gabriel Miranda",
+    "Peak Elo":997.4543449468
+  },
+  {
+    "Fighter":"Daniel Barez",
+    "Peak Elo":997.2849372012
+  },
+  {
+    "Fighter":"Andy Ogle",
+    "Peak Elo":996.4993480066
+  },
+  {
+    "Fighter":"Yohan Lainesse",
+    "Peak Elo":996.2067542478
+  },
+  {
+    "Fighter":"Josh Parisian",
+    "Peak Elo":996.1742754318
+  },
+  {
+    "Fighter":"Cody Pfister",
+    "Peak Elo":995.7783570915
+  },
+  {
+    "Fighter":"Mallory Martin",
+    "Peak Elo":995.6612233515
+  },
+  {
+    "Fighter":"William Macario",
+    "Peak Elo":995.6032579267
+  },
+  {
+    "Fighter":"Orion Cosce",
+    "Peak Elo":995.3959802636
+  },
+  {
+    "Fighter":"Pawel Pawlak",
+    "Peak Elo":995.1714875788
+  },
+  {
+    "Fighter":"Andre Soukhamthath",
+    "Peak Elo":995.0492515585
+  },
+  {
+    "Fighter":"Zac Pauga",
+    "Peak Elo":994.7704079404
+  },
+  {
+    "Fighter":"Liana Jojua",
+    "Peak Elo":994.4718336187
+  },
+  {
+    "Fighter":"Marcin Prachnio",
+    "Peak Elo":994.3969615989
+  },
+  {
+    "Fighter":"Aaron Riley",
+    "Peak Elo":994.2499857295
+  },
+  {
+    "Fighter":"Mike Brown",
+    "Peak Elo":994.2492839464
+  },
+  {
+    "Fighter":"Vinny Magalhaes",
+    "Peak Elo":993.4280432298
+  },
+  {
+    "Fighter":"Jordan Griffin",
+    "Peak Elo":992.6496020898
+  },
+  {
+    "Fighter":"Quang Le",
+    "Peak Elo":991.8109101789
+  },
+  {
+    "Fighter":"David Zawada",
+    "Peak Elo":991.1027336615
+  },
+  {
+    "Fighter":"Rizvan Kuniev",
+    "Peak Elo":990.8681870657
+  },
+  {
+    "Fighter":"Eric Shelton",
+    "Peak Elo":990.8662546985
+  },
+  {
+    "Fighter":"Aaron Pico",
+    "Peak Elo":990.5692427443
+  },
+  {
+    "Fighter":"Kai Asakura",
+    "Peak Elo":990.1240185506
+  },
+  {
+    "Fighter":"Patchy Mix",
+    "Peak Elo":990.107017692
+  },
+  {
+    "Fighter":"AJ Fletcher",
+    "Peak Elo":989.795155647
+  },
+  {
+    "Fighter":"Nam Phan",
+    "Peak Elo":989.3904552632
+  },
+  {
+    "Fighter":"Craig White",
+    "Peak Elo":989.1896476442
+  },
+  {
+    "Fighter":"Roman Bogatov",
+    "Peak Elo":988.6735009052
+  },
+  {
+    "Fighter":"Dennis Buzukja",
+    "Peak Elo":988.6142026176
+  },
+  {
+    "Fighter":"Vernon White",
+    "Peak Elo":988.4950391776
+  },
+  {
+    "Fighter":"Derrick Krantz",
+    "Peak Elo":988.3973797793
+  },
+  {
+    "Fighter":"Jesse Butler",
+    "Peak Elo":988.2817535214
+  },
+  {
+    "Fighter":"Ron van Clief",
+    "Peak Elo":988.2559789581
+  },
+  {
+    "Fighter":"Kamal Shalorus",
+    "Peak Elo":988.2475180538
+  },
+  {
+    "Fighter":"James Toney",
+    "Peak Elo":988.1959042338
+  },
+  {
+    "Fighter":"David Mitchell",
+    "Peak Elo":987.9846046444
+  },
+  {
+    "Fighter":"Ashley Yoder",
+    "Peak Elo":987.7928494961
+  },
+  {
+    "Fighter":"Kaan Ofli",
+    "Peak Elo":987.7439472643
+  },
+  {
+    "Fighter":"Papy Abedi",
+    "Peak Elo":987.5789881284
+  },
+  {
+    "Fighter":"Renzo Gracie",
+    "Peak Elo":987.5141347742
+  },
+  {
+    "Fighter":"Jon Delos Reyes",
+    "Peak Elo":987.5121954341
+  },
+  {
+    "Fighter":"Anthony Macias",
+    "Peak Elo":987.4490951999
+  },
+  {
+    "Fighter":"Tuco Tokkos",
+    "Peak Elo":986.9871531019
+  },
+  {
+    "Fighter":"Mizuto Hirota",
+    "Peak Elo":986.8558839014
+  },
+  {
+    "Fighter":"Westin Wilson",
+    "Peak Elo":986.7006228422
+  },
+  {
+    "Fighter":"Journey Newson",
+    "Peak Elo":986.606428574
+  },
+  {
+    "Fighter":"Alexander Munoz",
+    "Peak Elo":986.5055628388
+  },
+  {
+    "Fighter":"Zachary Scroggin",
+    "Peak Elo":986.4775792823
+  },
+  {
+    "Fighter":"Don Shainis",
+    "Peak Elo":986.3456102175
+  },
+  {
+    "Fighter":"Chris Haseman",
+    "Peak Elo":986.0815930539
+  },
+  {
+    "Fighter":"Cole Williams",
+    "Peak Elo":986.0370192033
+  },
+  {
+    "Fighter":"Kevin Borjas",
+    "Peak Elo":986.0336237952
+  },
+  {
+    "Fighter":"Amar Suloev",
+    "Peak Elo":985.995342967
+  },
+  {
+    "Fighter":"Roger Hollett",
+    "Peak Elo":985.9934597969
+  },
+  {
+    "Fighter":"Timmy Cuamba",
+    "Peak Elo":985.8416316137
+  },
+  {
+    "Fighter":"Marcus Buchecha",
+    "Peak Elo":985.5984804049
+  },
+  {
+    "Fighter":"Charlie Ontiveros",
+    "Peak Elo":985.5905825263
+  },
+  {
+    "Fighter":"Jeff Joslin",
+    "Peak Elo":985.5049182421
+  },
+  {
+    "Fighter":"John Alessio",
+    "Peak Elo":985.1954246445
+  },
+  {
+    "Fighter":"Brock Jardine",
+    "Peak Elo":985.1370806895
+  },
+  {
+    "Fighter":"Jamey Simmons",
+    "Peak Elo":985.1226675872
+  },
+  {
+    "Fighter":"Dustin Stoltzfus",
+    "Peak Elo":985.0018922292
+  },
+  {
+    "Fighter":"Jared Gooden",
+    "Peak Elo":984.999365787
+  },
+  {
+    "Fighter":"Jorge Patino",
+    "Peak Elo":984.8643118143
+  },
+  {
+    "Fighter":"Marcin Held",
+    "Peak Elo":984.8240738103
+  },
+  {
+    "Fighter":"Robert Ruchala",
+    "Peak Elo":984.8147711271
+  },
+  {
+    "Fighter":"Koji Oishi",
+    "Peak Elo":984.7281706561
+  },
+  {
+    "Fighter":"Jason Dent",
+    "Peak Elo":984.7244950796
+  },
+  {
+    "Fighter":"Liudvik Sholinian",
+    "Peak Elo":984.6658772694
+  },
+  {
+    "Fighter":"Justin Levens",
+    "Peak Elo":984.6228539598
+  },
+  {
+    "Fighter":"Chad Griggs",
+    "Peak Elo":984.6167180038
+  },
+  {
+    "Fighter":"Sean Salmon",
+    "Peak Elo":984.5958211925
+  },
+  {
+    "Fighter":"Erick Gonzalez",
+    "Peak Elo":984.5642692617
+  },
+  {
+    "Fighter":"Antonio Mendes",
+    "Peak Elo":984.4577182278
+  },
+  {
+    "Fighter":"Julian Sanchez",
+    "Peak Elo":984.4298987618
+  },
+  {
+    "Fighter":"Gilbert Yvel",
+    "Peak Elo":984.4220510789
+  },
+  {
+    "Fighter":"John Lober",
+    "Peak Elo":984.3487848528
+  },
+  {
+    "Fighter":"Rolando Bedoya",
+    "Peak Elo":984.2883844666
+  },
+  {
+    "Fighter":"Wagner Prado",
+    "Peak Elo":984.25876984
+  },
+  {
+    "Fighter":"Stefan Sekulic",
+    "Peak Elo":984.2534920029
+  },
+  {
+    "Fighter":"Saparbeg Safarov",
+    "Peak Elo":984.1909665126
+  },
+  {
+    "Fighter":"Michael McBride",
+    "Peak Elo":984.1452662729
+  },
+  {
+    "Fighter":"Kevin Croom",
+    "Peak Elo":984.1431736542
+  },
+  {
+    "Fighter":"Niklas Stolze",
+    "Peak Elo":984.114186995
+  },
+  {
+    "Fighter":"Mehdi Baghdad",
+    "Peak Elo":984.0865140491
+  },
+  {
+    "Fighter":"Quinn Mulhern",
+    "Peak Elo":984.0512902651
+  },
+  {
+    "Fighter":"Roberto Romero",
+    "Peak Elo":984.0158349842
+  },
+  {
+    "Fighter":"Andy Enz",
+    "Peak Elo":983.9730907252
+  },
+  {
+    "Fighter":"Minoki Ichihara",
+    "Peak Elo":983.9645791889
+  },
+  {
+    "Fighter":"Marvin Eastman",
+    "Peak Elo":983.9533369152
+  },
+  {
+    "Fighter":"Anderson Dos Santos",
+    "Peak Elo":983.8899141829
+  },
+  {
+    "Fighter":"Andre Pederneiras",
+    "Peak Elo":983.8854098505
+  },
+  {
+    "Fighter":"Kris Moutinho",
+    "Peak Elo":983.8719327655
+  },
+  {
+    "Fighter":"Alberto Crane",
+    "Peak Elo":983.8113322962
+  },
+  {
+    "Fighter":"Assuerio Silva",
+    "Peak Elo":983.7659688112
+  },
+  {
+    "Fighter":"Landon Quinones",
+    "Peak Elo":983.7115311792
+  },
+  {
+    "Fighter":"Salim Touahri",
+    "Peak Elo":983.5946596031
+  },
+  {
+    "Fighter":"Alex Reyes",
+    "Peak Elo":983.5443843289
+  },
+  {
+    "Fighter":"Mateus Mendonca",
+    "Peak Elo":983.4993055877
+  },
+  {
+    "Fighter":"Edgar Garcia",
+    "Peak Elo":983.4950094024
+  },
+  {
+    "Fighter":"Jason Reinhardt",
+    "Peak Elo":983.4905012057
+  },
+  {
+    "Fighter":"Kazuhiro Nakamura",
+    "Peak Elo":983.4899850622
+  },
+  {
+    "Fighter":"Luan Lacerda",
+    "Peak Elo":983.4865950014
+  },
+  {
+    "Fighter":"Danny Downes",
+    "Peak Elo":983.4417393796
+  },
+  {
+    "Fighter":"Kurt Holobaugh",
+    "Peak Elo":983.4177569735
+  },
+  {
+    "Fighter":"Darrius Flowers",
+    "Peak Elo":983.3762914142
+  },
+  {
+    "Fighter":"Kazula Vargas",
+    "Peak Elo":983.3633842866
+  },
+  {
+    "Fighter":"Jocelyn Jones-Lybarger",
+    "Peak Elo":983.3549174295
+  },
+  {
+    "Fighter":"Nohelin Hernandez",
+    "Peak Elo":983.3510086072
+  },
+  {
+    "Fighter":"Azunna Anyanwu",
+    "Peak Elo":983.2907787815
+  },
+  {
+    "Fighter":"Wes Sims",
+    "Peak Elo":983.2827347398
+  },
+  {
+    "Fighter":"Josh Hendricks",
+    "Peak Elo":983.2348828742
+  },
+  {
+    "Fighter":"Chad Reiner",
+    "Peak Elo":983.2060819459
+  },
+  {
+    "Fighter":"Oliver Enkamp",
+    "Peak Elo":983.1759368016
+  },
+  {
+    "Fighter":"Peter Barrett",
+    "Peak Elo":983.1682744335
+  },
+  {
+    "Fighter":"Matt Bessette",
+    "Peak Elo":983.0828749602
+  },
+  {
+    "Fighter":"Reese Andy",
+    "Peak Elo":983.0726655574
+  },
+  {
+    "Fighter":"Elizabeth Phillips",
+    "Peak Elo":983.0726037549
+  },
+  {
+    "Fighter":"Moti Horenstein",
+    "Peak Elo":983.0641312685
+  },
+  {
+    "Fighter":"Jason Tan",
+    "Peak Elo":983.0461500838
+  },
+  {
+    "Fighter":"Kaynan Kruschewsky",
+    "Peak Elo":983.0183005943
+  },
+  {
+    "Fighter":"Bobby Hoffman",
+    "Peak Elo":983.0162177909
+  },
+  {
+    "Fighter":"Mats Nilsson",
+    "Peak Elo":982.9971290056
+  },
+  {
+    "Fighter":"AJ Dobson",
+    "Peak Elo":982.9403605652
+  },
+  {
+    "Fighter":"Sabah Homasi",
+    "Peak Elo":982.9211633126
+  },
+  {
+    "Fighter":"Mark Choinski",
+    "Peak Elo":982.9108948556
+  },
+  {
+    "Fighter":"Toshiomi Kazama",
+    "Peak Elo":982.9019024825
+  },
+  {
+    "Fighter":"Devin Powell",
+    "Peak Elo":982.8852535532
+  },
+  {
+    "Fighter":"Joey Gambino",
+    "Peak Elo":982.8778144921
+  },
+  {
+    "Fighter":"Anton Turkalj",
+    "Peak Elo":982.8692938961
+  },
+  {
+    "Fighter":"Bojan Mihajlovic",
+    "Peak Elo":982.8350368164
+  },
+  {
+    "Fighter":"Rudyard Moncayo",
+    "Peak Elo":982.8255362084
+  },
+  {
+    "Fighter":"AJ Cunningham",
+    "Peak Elo":982.7995412032
+  },
+  {
+    "Fighter":"Alexandre Ferreira",
+    "Peak Elo":982.7825409013
+  },
+  {
+    "Fighter":"Mike Breeden",
+    "Peak Elo":982.7796014747
+  },
+  {
+    "Fighter":"Louie Sutherland",
+    "Peak Elo":982.7229192944
+  },
+  {
+    "Fighter":"Terrence Mitchell",
+    "Peak Elo":982.7005794845
+  },
+  {
+    "Fighter":"Shanna Young",
+    "Peak Elo":982.6864666964
+  },
+  {
+    "Fighter":"Thomas Ramirez",
+    "Peak Elo":982.6823900235
+  },
+  {
+    "Fighter":"Mostapha Al-Turk",
+    "Peak Elo":982.6516099235
+  },
+  {
+    "Fighter":"Roman Salazar",
+    "Peak Elo":982.6425567832
+  },
+  {
+    "Fighter":"Tom Gallicchio",
+    "Peak Elo":982.6317519126
+  },
+  {
+    "Fighter":"Mitch Raposo",
+    "Peak Elo":982.6271672819
+  },
+  {
+    "Fighter":"Adam Yandiev",
+    "Peak Elo":982.6202578216
+  },
+  {
+    "Fighter":"Brandon Wolff",
+    "Peak Elo":982.6087879104
+  },
+  {
+    "Fighter":"Rainy Martinez",
+    "Peak Elo":982.5929245347
+  },
+  {
+    "Fighter":"Leonardo Mafra",
+    "Peak Elo":982.5690873074
+  },
+  {
+    "Fighter":"Gabriel Silva",
+    "Peak Elo":982.5635721667
+  },
+  {
+    "Fighter":"Alex Soto",
+    "Peak Elo":982.5082312326
+  },
+  {
+    "Fighter":"Rex Holman",
+    "Peak Elo":982.4554812282
+  },
+  {
+    "Fighter":"Jarno Errens",
+    "Peak Elo":982.4192794797
+  },
+  {
+    "Fighter":"Jessica Aguilar",
+    "Peak Elo":982.4118769361
+  },
+  {
+    "Fighter":"Greg Stott",
+    "Peak Elo":982.4092144755
+  },
+  {
+    "Fighter":"Carl Deaton",
+    "Peak Elo":982.3912348613
+  },
+  {
+    "Fighter":"Darrell Montague",
+    "Peak Elo":982.3911665051
+  },
+  {
+    "Fighter":"Juancamilo Ronderos",
+    "Peak Elo":982.3871055208
+  },
+  {
+    "Fighter":"Steve Vigneault",
+    "Peak Elo":982.3797716139
+  },
+  {
+    "Fighter":"Austen Lane",
+    "Peak Elo":982.3672317426
+  },
+  {
+    "Fighter":"Dan Lauzon",
+    "Peak Elo":982.3487599164
+  },
+  {
+    "Fighter":"Damian Grabowski",
+    "Peak Elo":982.3415275711
+  },
+  {
+    "Fighter":"Cindy Dandois",
+    "Peak Elo":982.3350485042
+  },
+  {
+    "Fighter":"Kyle Prepolec",
+    "Peak Elo":982.3163053792
+  },
+  {
+    "Fighter":"Jackson McVey",
+    "Peak Elo":982.2955361553
+  },
+  {
+    "Fighter":"Doug Evans",
+    "Peak Elo":982.2905454042
+  },
+  {
+    "Fighter":"Dan Moret",
+    "Peak Elo":982.2861335609
+  },
+  {
+    "Fighter":"Yizha",
+    "Peak Elo":982.2562731717
+  },
+  {
+    "Fighter":"KB Bhullar",
+    "Peak Elo":982.2168218612
+  },
+  {
+    "Fighter":"Jason Miller",
+    "Peak Elo":982.2090340149
+  },
+  {
+    "Fighter":"Danyelle Wolf",
+    "Peak Elo":982.1205935518
+  },
+  {
+    "Fighter":"Alvin Hines",
+    "Peak Elo":982.1054214169
+  },
+  {
+    "Fighter":"Ramona Pascual",
+    "Peak Elo":982.1035153899
+  },
+  {
+    "Fighter":"Tre'ston Vines",
+    "Peak Elo":982.1019181884
+  },
+  {
+    "Fighter":"Ryan Couture",
+    "Peak Elo":982.0689564012
+  },
+  {
+    "Fighter":"Ray Rodriguez",
+    "Peak Elo":982.0370930486
+  },
+  {
+    "Fighter":"JC Cottrell",
+    "Peak Elo":982.0308790554
+  },
+  {
+    "Fighter":"Danny Mitchell",
+    "Peak Elo":982.0158334996
+  },
+  {
+    "Fighter":"Tim Gorman",
+    "Peak Elo":982.0025322637
+  },
+  {
+    "Fighter":"Nikolay Veretennikov",
+    "Peak Elo":981.996337421
+  },
+  {
+    "Fighter":"Joao Zeferino",
+    "Peak Elo":981.9881353747
+  },
+  {
+    "Fighter":"Jared Papazian",
+    "Peak Elo":981.9664448318
+  },
+  {
+    "Fighter":"Josh Shockman",
+    "Peak Elo":981.9664448318
+  },
+  {
+    "Fighter":"Tateki Matsuda",
+    "Peak Elo":981.9664448318
+  },
+  {
+    "Fighter":"Mike Whitehead",
+    "Peak Elo":981.9664448318
+  },
+  {
+    "Fighter":"Bruno Souza",
+    "Peak Elo":981.9664448318
+  },
+  {
+    "Fighter":"Joao Roque",
+    "Peak Elo":981.9664448318
+  },
+  {
+    "Fighter":"Ricardo Funch",
+    "Peak Elo":981.9638767176
+  },
+  {
+    "Fighter":"Matt Horwich",
+    "Peak Elo":981.9475844557
+  },
+  {
+    "Fighter":"Jodie Esquibel",
+    "Peak Elo":981.9437789236
+  },
+  {
+    "Fighter":"Alexandre Barros",
+    "Peak Elo":981.9432755281
+  },
+  {
+    "Fighter":"Gaetano Pirrello",
+    "Peak Elo":981.9330987501
+  },
+  {
+    "Fighter":"Yuki Sasaki",
+    "Peak Elo":981.9287434627
+  },
+  {
+    "Fighter":"Caio Machado",
+    "Peak Elo":981.8608625379
+  },
+  {
+    "Fighter":"Danny Martinez",
+    "Peak Elo":981.8597335822
+  },
+  {
+    "Fighter":"Dominic Waters",
+    "Peak Elo":981.8398224019
+  },
+  {
+    "Fighter":"Rolando Dy",
+    "Peak Elo":981.8359317897
+  },
+  {
+    "Fighter":"Austin Springer",
+    "Peak Elo":981.8283791327
+  },
+  {
+    "Fighter":"Justin Jones",
+    "Peak Elo":981.7993545034
+  },
+  {
+    "Fighter":"Jeff Hughes",
+    "Peak Elo":981.7993545034
+  },
+  {
+    "Fighter":"John Marsh",
+    "Peak Elo":981.7993545034
+  },
+  {
+    "Fighter":"Victor Valimaki",
+    "Peak Elo":981.7993545034
+  },
+  {
+    "Fighter":"Seth Petruzelli",
+    "Peak Elo":981.7993545034
+  },
+  {
+    "Fighter":"Ravena Oliveira",
+    "Peak Elo":981.7903018168
+  },
+  {
+    "Fighter":"Jin Soo Son",
+    "Peak Elo":981.7843777433
+  },
+  {
+    "Fighter":"Lukasz Brzeski",
+    "Peak Elo":981.7311534565
+  },
+  {
+    "Fighter":"Yusuke Kasuya",
+    "Peak Elo":981.7297973874
+  },
+  {
+    "Fighter":"Blood Diamond",
+    "Peak Elo":981.7272861496
+  },
+  {
+    "Fighter":"Paul Redmond",
+    "Peak Elo":981.715521879
+  },
+  {
+    "Fighter":"Josh Copeland",
+    "Peak Elo":981.715521879
+  },
+  {
+    "Fighter":"Bobby Moffett",
+    "Peak Elo":981.715521879
+  },
+  {
+    "Fighter":"Jason Young",
+    "Peak Elo":981.715521879
+  },
+  {
+    "Fighter":"Allan Goes",
+    "Peak Elo":981.715521879
+  },
+  {
+    "Fighter":"Adrian Serrano",
+    "Peak Elo":981.715521879
+  },
+  {
+    "Fighter":"Thomas Gifford",
+    "Peak Elo":981.7031239567
+  },
+  {
+    "Fighter":"Tofiq Musayev",
+    "Peak Elo":981.6965198734
+  },
+  {
+    "Fighter":"Alen Amedovski",
+    "Peak Elo":981.6617590191
+  },
+  {
+    "Fighter":"Edwin DeWees",
+    "Peak Elo":981.6591643523
+  },
+  {
+    "Fighter":"Harry Moskowitz",
+    "Peak Elo":981.6248900099
+  },
+  {
+    "Fighter":"Martin Day",
+    "Peak Elo":981.5893554018
+  },
+  {
+    "Fighter":"Austin Arnett",
+    "Peak Elo":981.5519571842
+  },
+  {
+    "Fighter":"Caros Fodor",
+    "Peak Elo":981.5479572465
+  },
+  {
+    "Fighter":"Zviad Lazishvili",
+    "Peak Elo":981.5454109871
+  },
+  {
+    "Fighter":"Hugo Duarte",
+    "Peak Elo":981.5343041755
+  },
+  {
+    "Fighter":"Sarah Frota",
+    "Peak Elo":981.5334653185
+  },
+  {
+    "Fighter":"Diana Belbita",
+    "Peak Elo":981.5227030936
+  },
+  {
+    "Fighter":"John Allan",
+    "Peak Elo":981.5082574036
+  },
+  {
+    "Fighter":"Elvis Mutapcic",
+    "Peak Elo":981.5014491612
+  },
+  {
+    "Fighter":"Steve Lopez",
+    "Peak Elo":981.4471039771
+  },
+  {
+    "Fighter":"Dokonjonosuke Mishima",
+    "Peak Elo":981.4306367956
+  },
+  {
+    "Fighter":"Zhalgas Zhumagulov",
+    "Peak Elo":981.4221557818
+  },
+  {
+    "Fighter":"Ronys Torres",
+    "Peak Elo":981.383528477
+  },
+  {
+    "Fighter":"Kyle Bradley",
+    "Peak Elo":981.3822369849
+  },
+  {
+    "Fighter":"Mark Striegl",
+    "Peak Elo":981.2682841493
+  },
+  {
+    "Fighter":"Azamat Gashimov",
+    "Peak Elo":981.2650560913
+  },
+  {
+    "Fighter":"Joe Brammer",
+    "Peak Elo":981.2530967416
+  },
+  {
+    "Fighter":"Igor Zinoviev",
+    "Peak Elo":981.223926672
+  },
+  {
+    "Fighter":"Jesse Bongfeldt",
+    "Peak Elo":981.210165003
+  },
+  {
+    "Fighter":"Jonavin Webb",
+    "Peak Elo":981.2100595122
+  },
+  {
+    "Fighter":"Jesse Strader",
+    "Peak Elo":981.2019655162
+  },
+  {
+    "Fighter":"Denis Stojnic",
+    "Peak Elo":981.1867631545
+  },
+  {
+    "Fighter":"Brian Houston",
+    "Peak Elo":981.1864076163
+  },
+  {
+    "Fighter":"Joseph Gigliotti",
+    "Peak Elo":981.1639941535
+  },
+  {
+    "Fighter":"Ruan Potts",
+    "Peak Elo":981.1534487766
+  },
+  {
+    "Fighter":"Julio Paulino",
+    "Peak Elo":981.1266465985
+  },
+  {
+    "Fighter":"Chris Heatherly",
+    "Peak Elo":981.1237635015
+  },
+  {
+    "Fighter":"Antonio McKee",
+    "Peak Elo":981.1142916141
+  },
+  {
+    "Fighter":"Shane del Rosario",
+    "Peak Elo":981.1104364253
+  },
+  {
+    "Fighter":"Kevin Jordan",
+    "Peak Elo":981.0762176722
+  },
+  {
+    "Fighter":"Neil Wain",
+    "Peak Elo":981.0681482688
+  },
+  {
+    "Fighter":"Carlos Huachin",
+    "Peak Elo":981.0648701843
+  },
+  {
+    "Fighter":"Koji Kitao",
+    "Peak Elo":981.0627807001
+  },
+  {
+    "Fighter":"Dan Evensen",
+    "Peak Elo":981.0267296066
+  },
+  {
+    "Fighter":"Tonya Evinger",
+    "Peak Elo":981.01920748
+  },
+  {
+    "Fighter":"Ryan Jensen",
+    "Peak Elo":981.004496319
+  },
+  {
+    "Fighter":"Jay Hieron",
+    "Peak Elo":980.9811932503
+  },
+  {
+    "Fighter":"Paul Creighton",
+    "Peak Elo":980.973157994
+  },
+  {
+    "Fighter":"Talita Bernardo",
+    "Peak Elo":980.944287867
+  },
+  {
+    "Fighter":"Liliya Shakirova",
+    "Peak Elo":980.9348520825
+  },
+  {
+    "Fighter":"Alan Baudot",
+    "Peak Elo":980.9091153556
+  },
+  {
+    "Fighter":"Todd Butler",
+    "Peak Elo":980.8893222285
+  },
+  {
+    "Fighter":"Melton Bowen",
+    "Peak Elo":980.8893222285
+  },
+  {
+    "Fighter":"Valeri Ignatov",
+    "Peak Elo":980.8893222285
+  },
+  {
+    "Fighter":"Tony Halme",
+    "Peak Elo":980.8893222285
+  },
+  {
+    "Fighter":"Guto Inocente",
+    "Peak Elo":980.8893222285
+  },
+  {
+    "Fighter":"Christophe Leninger",
+    "Peak Elo":980.8893222285
+  },
+  {
+    "Fighter":"CM Punk",
+    "Peak Elo":980.8893222285
+  },
+  {
+    "Fighter":"Frank Caracci",
+    "Peak Elo":980.8893222285
+  },
+  {
+    "Fighter":"John Dowdy",
+    "Peak Elo":980.8893222285
+  },
+  {
+    "Fighter":"Askar Mozharov",
+    "Peak Elo":980.8637093595
+  },
+  {
+    "Fighter":"Yanis Ghemmouri",
+    "Peak Elo":980.8507121178
+  },
+  {
+    "Fighter":"Homer Moore",
+    "Peak Elo":980.8479237478
+  },
+  {
+    "Fighter":"Harry Hardwick",
+    "Peak Elo":980.8300155748
+  },
+  {
+    "Fighter":"Anna Elmose",
+    "Peak Elo":980.8106498353
+  },
+  {
+    "Fighter":"Vanessa Melo",
+    "Peak Elo":980.8029443147
+  },
+  {
+    "Fighter":"Bill Mahood",
+    "Peak Elo":980.801297973
+  },
+  {
+    "Fighter":"Chris Price",
+    "Peak Elo":980.801297973
+  },
+  {
+    "Fighter":"Paul Rodriguez",
+    "Peak Elo":980.801297973
+  },
+  {
+    "Fighter":"John Halverson",
+    "Peak Elo":980.801297973
+  },
+  {
+    "Fighter":"Yoji Anjo",
+    "Peak Elo":980.7978868417
+  },
+  {
+    "Fighter":"Stewart Nicoll",
+    "Peak Elo":980.7951485566
+  },
+  {
+    "Fighter":"Eddie Ruiz",
+    "Peak Elo":980.7763592102
+  },
+  {
+    "Fighter":"Rhys McKee",
+    "Peak Elo":980.7608191547
+  },
+  {
+    "Fighter":"Hayato Sakurai",
+    "Peak Elo":980.7459875827
+  },
+  {
+    "Fighter":"Shayna Baszler",
+    "Peak Elo":980.7139513207
+  },
+  {
+    "Fighter":"Mitch Ramirez",
+    "Peak Elo":980.7074785181
+  },
+  {
+    "Fighter":"Yasuhiro Urushitani",
+    "Peak Elo":980.7003115965
+  },
+  {
+    "Fighter":"Victor Martinez",
+    "Peak Elo":980.6912461124
+  },
+  {
+    "Fighter":"Hannah Goldy",
+    "Peak Elo":980.6788838275
+  },
+  {
+    "Fighter":"Ednaldo Oliveira",
+    "Peak Elo":980.6711818361
+  },
+  {
+    "Fighter":"Harry Hunsucker",
+    "Peak Elo":980.6617030522
+  },
+  {
+    "Fighter":"Ashkan Mokhtarian",
+    "Peak Elo":980.6584899945
+  },
+  {
+    "Fighter":"Marcelo Aguiar",
+    "Peak Elo":980.6564340533
+  },
+  {
+    "Fighter":"Martin Sano",
+    "Peak Elo":980.6441340794
+  },
+  {
+    "Fighter":"Rafael Cerqueira",
+    "Peak Elo":980.6215187659
+  },
+  {
+    "Fighter":"Tim Williams",
+    "Peak Elo":980.609984139
+  },
+  {
+    "Fighter":"Joe Merritt",
+    "Peak Elo":980.606262247
+  },
+  {
+    "Fighter":"Larissa Pacheco",
+    "Peak Elo":980.5812857428
+  },
+  {
+    "Fighter":"Val Woodburn",
+    "Peak Elo":980.5631016131
+  },
+  {
+    "Fighter":"Darian Weeks",
+    "Peak Elo":980.471750638
+  },
+  {
+    "Fighter":"Hernani Perpetuo",
+    "Peak Elo":980.4634657775
+  },
+  {
+    "Fighter":"Takenori Sato",
+    "Peak Elo":980.4074447938
+  },
+  {
+    "Fighter":"Bevon Lewis",
+    "Peak Elo":980.3588275609
+  },
+  {
+    "Fighter":"Cristina Stanciu",
+    "Peak Elo":980.353735655
+  },
+  {
+    "Fighter":"Jay Silva",
+    "Peak Elo":980.3003384437
+  },
+  {
+    "Fighter":"Zarrukh Adashev",
+    "Peak Elo":980.2994783238
+  },
+  {
+    "Fighter":"Phil Johns",
+    "Peak Elo":980.2548119454
+  },
+  {
+    "Fighter":"Rodney Wallace",
+    "Peak Elo":980.2530820046
+  },
+  {
+    "Fighter":"Pat Audinwood",
+    "Peak Elo":980.197024279
+  },
+  {
+    "Fighter":"Jay Perrin",
+    "Peak Elo":980.1874315421
+  },
+  {
+    "Fighter":"Willamy Freire",
+    "Peak Elo":980.1763577522
+  },
+  {
+    "Fighter":"Fabio Gurgel",
+    "Peak Elo":980.1720954277
+  },
+  {
+    "Fighter":"Ericka Almeida",
+    "Peak Elo":980.155985237
+  },
+  {
+    "Fighter":"Michihiro Omigawa",
+    "Peak Elo":980.1437668218
+  },
+  {
+    "Fighter":"Melinda Fabian",
+    "Peak Elo":980.1381411865
+  },
+  {
+    "Fighter":"Eric Wisely",
+    "Peak Elo":980.135658336
+  },
+  {
+    "Fighter":"Amilcar Alves",
+    "Peak Elo":980.1066974854
+  },
+  {
+    "Fighter":"Brandon Melendez",
+    "Peak Elo":980.0964661819
+  },
+  {
+    "Fighter":"Michal Figlak",
+    "Peak Elo":980.0964375489
+  },
+  {
+    "Fighter":"Juan Manuel Puig",
+    "Peak Elo":980.0766675763
+  },
+  {
+    "Fighter":"Saimon Oliveira",
+    "Peak Elo":980.06012276
+  },
+  {
+    "Fighter":"Iliarde Santos",
+    "Peak Elo":980.055308761
+  },
+  {
+    "Fighter":"Jason Godsey",
+    "Peak Elo":980.0321555446
+  },
+  {
+    "Fighter":"Todd Brown",
+    "Peak Elo":980.0306333672
+  },
+  {
+    "Fighter":"Lukasz Sajewski",
+    "Peak Elo":980.0163232817
+  },
+  {
+    "Fighter":"Mike Wessel",
+    "Peak Elo":980.003089836
+  },
+  {
+    "Fighter":"John Teixeira",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Romie Aram",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Cole Escovedo",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Curtis Stout",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"James Mulheron",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Josh Grispi",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Ryan McGillivray",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Daniel Teymur",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Richard Crunkilton",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Bobby Southworth",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Keith Wisniewski",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Bernardo Magalhaes",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Alex Stiebling",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Chuck O'Neil",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Antonio Banuelos",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"James Zikic",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Donny Walker",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Carlos Candelario",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Alex Ricci",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Chris Tickle",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Keith Berish",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Carls John De Tomas",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Norifumi Yamamoto",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Gadzhi Omargadzhiev",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Brad Gumm",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Terrion Ware",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Steve Berger",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Cory Hendricks",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Josh Clopton",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Stephen Bass",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Nick Fiore",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Nick Serra",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Brad Imes",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Jim Wallhead",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Kwan Ho Kwak",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Alexis Dufresne",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Andreas Stahl",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Igor Severino",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Colin Fletcher",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Julie Kedzie",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Rocky Lee",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Naoyuki Kotani",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Roger Gracie",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Jumabieke Tuerxun",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Rayanne dos Santos",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Justin Wren",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Steve Byrnes",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Rosi Sexton",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Tina Lahdemaki",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Dan Barrera",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Dante Rivera",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Pedro Falcao",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Alex Torres",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Antonio Arroyo",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Rostem Akman",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Peggy Morgan",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Jianping Yang",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Phillipe Nover",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Chris Indich",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Nolan Ticman",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Emily Kagan",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Angela Magana",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Luiz Dutra",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Dave Galera",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Alan Omer",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Mike Rhodes",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Alex Gorgees",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Baergeng Jieleyisi",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Leonardo Morales",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Tyler Diamond",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Allan Zuniga",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Yuri Villefort",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Brendan Loughnane",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Sako Chivitchian",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Marcin Wrzosek",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Abner Lloveras",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Tyler Toner",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Noe Hernandez",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Jon Manley",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Hailey Cowan",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Jordan Williams",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Townsend Saunders",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Enrique Marin",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Horacio Gutierrez",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Mark Scanlon",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Wallid Ismail",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Julija Stoliarenko",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Nazareno Malegarie",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Jay Cucciniello",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Daniel Spohn",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Rodolfo Rubio Perez",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Collin Hart",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Carlton Minus",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Marnic Mann",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Andre Gusmao",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Chris Spang",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Dileno Lopes",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"James Hammortree",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Joe Giannetti",
+    "Peak Elo":980.0
+  },
+  {
+    "Fighter":"Jose Daniel Medina",
+    "Peak Elo":979.9743829271
+  },
+  {
+    "Fighter":"Alice Pereira",
+    "Peak Elo":979.9687969738
+  },
+  {
+    "Fighter":"Vinicius Salvador",
+    "Peak Elo":979.923660277
+  },
+  {
+    "Fighter":"Cameron VanCamp",
+    "Peak Elo":979.8953714033
+  },
+  {
+    "Fighter":"Kailin Curran",
+    "Peak Elo":979.8617807274
+  },
+  {
+    "Fighter":"Brendon Marotte",
+    "Peak Elo":979.8406214198
+  },
+  {
+    "Fighter":"Satoshi Honma",
+    "Peak Elo":979.7822564516
+  },
+  {
+    "Fighter":"Carlos Mota",
+    "Peak Elo":979.7731861218
+  },
+  {
+    "Fighter":"Nick Agallar",
+    "Peak Elo":979.753995417
+  },
+  {
+    "Fighter":"Mohammad Yahya",
+    "Peak Elo":979.6884337611
+  },
+  {
+    "Fighter":"Travis Wiuff",
+    "Peak Elo":979.6774394297
+  },
+  {
+    "Fighter":"Ben Sosoli",
+    "Peak Elo":979.6210950886
+  },
+  {
+    "Fighter":"Ramiro Hernandez",
+    "Peak Elo":979.5779150185
+  },
+  {
+    "Fighter":"Estevan Payan",
+    "Peak Elo":979.5421906135
+  },
+  {
+    "Fighter":"Joe Son",
+    "Peak Elo":979.5246848725
+  },
+  {
+    "Fighter":"Reza Nasri",
+    "Peak Elo":979.5181486549
+  },
+  {
+    "Fighter":"Cortavious Romious",
+    "Peak Elo":979.4749897062
+  },
+  {
+    "Fighter":"Gilbert Aldana",
+    "Peak Elo":979.4687628511
+  },
+  {
+    "Fighter":"Antonio Trocoli",
+    "Peak Elo":979.4299659148
+  },
+  {
+    "Fighter":"Asbel Cancio",
+    "Peak Elo":979.399487202
+  },
+  {
+    "Fighter":"Chase Gormley",
+    "Peak Elo":979.3879681153
+  },
+  {
+    "Fighter":"Alberta Cerra Leon",
+    "Peak Elo":979.3369610271
+  },
+  {
+    "Fighter":"Jason Novelli",
+    "Peak Elo":979.2614115566
+  },
+  {
+    "Fighter":"John Matua",
+    "Peak Elo":979.2243157815
+  },
+  {
+    "Fighter":"Kelly Dullanty",
+    "Peak Elo":979.222063331
+  },
+  {
+    "Fighter":"Mike Stumpf",
+    "Peak Elo":979.2156170525
+  },
+  {
+    "Fighter":"Trent Jenkins",
+    "Peak Elo":979.1997314905
+  },
+  {
+    "Fighter":"Ray Wizard",
+    "Peak Elo":979.1807001991
+  },
+  {
+    "Fighter":"Chris de la Rocha",
+    "Peak Elo":979.1791720023
+  },
+  {
+    "Fighter":"Gerry Harris",
+    "Peak Elo":979.1768519054
+  },
+  {
+    "Fighter":"Stevie Lynch",
+    "Peak Elo":979.1721035584
+  },
+  {
+    "Fighter":"Jesse Sanders",
+    "Peak Elo":979.1637844989
+  },
+  {
+    "Fighter":"Dakota Bush",
+    "Peak Elo":979.1541186612
+  },
+  {
+    "Fighter":"Jim Mullen",
+    "Peak Elo":979.1445456037
+  },
+  {
+    "Fighter":"Floyd Sword",
+    "Peak Elo":979.1326238885
+  },
+  {
+    "Fighter":"Rodrigo de Lima",
+    "Peak Elo":979.1254980514
+  },
+  {
+    "Fighter":"Jordan Radev",
+    "Peak Elo":979.1051229054
+  },
+  {
+    "Fighter":"Ryan Parker",
+    "Peak Elo":979.0966346807
+  },
+  {
+    "Fighter":"Joey Gomez",
+    "Peak Elo":979.092275819
+  },
+  {
+    "Fighter":"Brian Camozzi",
+    "Peak Elo":979.0823380088
+  },
+  {
+    "Fighter":"Carlos Barreto",
+    "Peak Elo":979.0807623948
+  },
+  {
+    "Fighter":"Scott Junk",
+    "Peak Elo":979.07350214
+  },
+  {
+    "Fighter":"Brian Gassaway",
+    "Peak Elo":979.0692576789
+  },
+  {
+    "Fighter":"Keiichiro Yamamiya",
+    "Peak Elo":979.0625878002
+  },
+  {
+    "Fighter":"Pearl Gonzalez",
+    "Peak Elo":979.0618155996
+  },
+  {
+    "Fighter":"Lucio Linhares",
+    "Peak Elo":979.045459676
+  },
+  {
+    "Fighter":"David Levicki",
+    "Peak Elo":979.0173194163
+  },
+  {
+    "Fighter":"Derrick Noble",
+    "Peak Elo":979.0147590895
+  },
+  {
+    "Fighter":"Pat Healy",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Adam Cella",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Daniel Jolly",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Houston Dorr",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"John Phillips",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Royce Alger",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Manolo Zecchini",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Crafton Wallace",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jimmy Quinlan",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Joseph Sandoval",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Cory Walmsley",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"David Lee",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Eric Martin",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Richie Smullen",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Steve Montgomery",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Anthony Ivy",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Marcus Silveira",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Courtney Turner",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Maia Stevenson",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Josh Stuart",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Aaron Wilkinson",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Bharat Kandare",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"David Roberts",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Chris Condo",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Fredson Paixao",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Joey Roberts",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Darrel Gholar",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Victor Rodriguez",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Manuel Rodriguez",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Adriano Santos",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Christina Marks",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Paulo Santos",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Karine Gevorgyan",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Cesar Arzamendia",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Joe Pardo",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Danny Abbadi",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jesse Forbes",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Vernon Ramos Ho",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Wes Combs",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Eugenio Tadeu",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Ross Pointon",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Sheila Gaff",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Dave Berry",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Sherman Pendergarst",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Aalon Cruz",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Albert Cheng",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Andy Anderson",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Kevin Rosier",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jason Fairn",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jules Bruchez",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Vinicius Moreira",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Cain Carrizosa",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Emmanuel Yarborough",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jack May",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Felix Lee Mitchell",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Sean Daugherty",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Razak Al-Hassan",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Brad Morris",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Thaddeus Luster",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Cale Yarbrough",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Matt Van Buren",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Brodie Farber",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Rodrigo Sezinando",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Richardson Moreira",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Elisha Ellison",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Josh Shockley",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Dorian Price",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Kiru Sahota",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Richie Hightower",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Francesco Maturi",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Ulysses Gomez",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Matt Andersen",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Garett Whiteley",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"James Llontop",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Frank Lester",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jessica Rakoczy",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Tim McKenzie",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Andy Wang",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Ben Wall",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"David Hood",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Suman Mokhtarian",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Neil Grove",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Joe Veres",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jack McGlaughlin",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Justin Frazier",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Michel Batista",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Tommy Speer",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Billy Miles",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Tom Egan",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"John Kolosci",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Flavio Luiz Moura",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Kiefer Crosbie",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Johnny Rees",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Josh Rafferty",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Chris Saunders",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Charlie Ward",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Dan Stittgen",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jason Thacker",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Anistavio Medeiros",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Joey Gilbert",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Wade Shipp",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Delson Heleno",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Sean Gannon",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Pat Schilling",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Alex Schoenauer",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Aaron Brink",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Lodune Sincaid",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Sammy Morgan",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Kalindra Faria",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Luis Ramos",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Gerald Strebendt",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Zach Light",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jeremy Larsen",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Chris Sanford",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Damacio Page",
+    "Peak Elo":979.0
+  },
+  {
+    "Fighter":"Jason Black",
+    "Peak Elo":978.9728501609
+  },
+  {
+    "Fighter":"Daniel Lacerda",
+    "Peak Elo":978.9728501609
+  },
+  {
+    "Fighter":"Ryan Thomas",
+    "Peak Elo":978.9728501609
+  },
+  {
+    "Fighter":"Silvana Gomez Juarez",
+    "Peak Elo":978.9724081482
+  },
+  {
+    "Fighter":"Ryan Madigan",
+    "Peak Elo":978.9594883252
+  },
+  {
+    "Fighter":"Ryan Roberts",
+    "Peak Elo":978.9490647035
+  },
+  {
+    "Fighter":"CJ Keith",
+    "Peak Elo":978.9439390387
+  },
+  {
+    "Fighter":"Tom DeBlass",
+    "Peak Elo":978.9435206406
+  },
+  {
+    "Fighter":"Yoshinori Horie",
+    "Peak Elo":978.9318803843
+  },
+  {
+    "Fighter":"Anthony Christodoulou",
+    "Peak Elo":978.9311222209
+  },
+  {
+    "Fighter":"Michael Patt",
+    "Peak Elo":978.9284819551
+  },
+  {
+    "Fighter":"Luis Pajuelo",
+    "Peak Elo":978.9257080397
+  },
+  {
+    "Fighter":"Anthony Lapsley",
+    "Peak Elo":978.9136669106
+  },
+  {
+    "Fighter":"Jeff Cox",
+    "Peak Elo":978.9075561439
+  },
+  {
+    "Fighter":"Nissen Osterneck",
+    "Peak Elo":978.90752278
+  },
+  {
+    "Fighter":"Gideon Ray",
+    "Peak Elo":978.9033935655
+  },
+  {
+    "Fighter":"Nick Klein",
+    "Peak Elo":978.8786597027
+  },
+  {
+    "Fighter":"Gabe Ruediger",
+    "Peak Elo":978.8605933191
+  },
+  {
+    "Fighter":"Marcin Bandel",
+    "Peak Elo":978.8547463915
+  },
+  {
+    "Fighter":"Cameron Else",
+    "Peak Elo":978.8278532577
+  },
+  {
+    "Fighter":"Paul Herrera",
+    "Peak Elo":978.8185966683
+  },
+  {
+    "Fighter":"Fabio Cherant",
+    "Peak Elo":978.7999031824
+  },
+  {
+    "Fighter":"Rick Davis",
+    "Peak Elo":978.7805749434
+  },
+  {
+    "Fighter":"Hector Aldana",
+    "Peak Elo":978.7158974499
+  },
+  {
+    "Fighter":"Lewis Gonzalez",
+    "Peak Elo":978.7056205133
+  },
+  {
+    "Fighter":"Jose Maria",
+    "Peak Elo":978.6616825777
+  },
+  {
+    "Fighter":"Nick Penner",
+    "Peak Elo":978.6221361393
+  },
+  {
+    "Fighter":"Jeff Curran",
+    "Peak Elo":978.606632827
+  },
+  {
+    "Fighter":"Rob Wilkinson",
+    "Peak Elo":978.5984748457
+  },
+  {
+    "Fighter":"Alex Andrade",
+    "Peak Elo":978.5861905186
+  },
+  {
+    "Fighter":"Khusein Askhabov",
+    "Peak Elo":978.5685087027
+  },
+  {
+    "Fighter":"Jordan Vucenic",
+    "Peak Elo":978.5098146347
+  },
+  {
+    "Fighter":"Angel Pacheco",
+    "Peak Elo":978.508660676
+  },
+  {
+    "Fighter":"Ali AlQaisi",
+    "Peak Elo":978.4949431549
+  },
+  {
+    "Fighter":"Maciej Jewtuszko",
+    "Peak Elo":978.4847257775
+  },
+  {
+    "Fighter":"Nick Aguirre",
+    "Peak Elo":978.468174465
+  },
+  {
+    "Fighter":"TJ O'Brien",
+    "Peak Elo":978.4645303949
+  },
+  {
+    "Fighter":"Motonobu Tezuka",
+    "Peak Elo":978.4638197765
+  },
+  {
+    "Fighter":"Bobby Voelker",
+    "Peak Elo":978.4239533896
+  },
+  {
+    "Fighter":"Paul Bradley",
+    "Peak Elo":978.3937740819
+  },
+  {
+    "Fighter":"David Dodd",
+    "Peak Elo":978.3774522584
+  },
+  {
+    "Fighter":"Vince Cachero",
+    "Peak Elo":978.3573893506
+  },
+  {
+    "Fighter":"Tim Lajcik",
+    "Peak Elo":978.3529330211
+  },
+  {
+    "Fighter":"Guilherme Vasconcelos",
+    "Peak Elo":978.3279323279
+  },
+  {
+    "Fighter":"Alice Ardelean",
+    "Peak Elo":978.3268392052
+  },
+  {
+    "Fighter":"Rin Nakai",
+    "Peak Elo":978.2767795587
+  },
+  {
+    "Fighter":"Yuri Vaulin",
+    "Peak Elo":978.2763103816
+  },
+  {
+    "Fighter":"Jesse Ronson",
+    "Peak Elo":978.2654676713
+  },
+  {
+    "Fighter":"Diego Saraiva",
+    "Peak Elo":978.2245472173
+  },
+  {
+    "Fighter":"Nicolle Caliari",
+    "Peak Elo":978.2154767676
+  },
+  {
+    "Fighter":"Domingo Pilarte",
+    "Peak Elo":978.2154767676
+  },
+  {
+    "Fighter":"Milton Vieira",
+    "Peak Elo":978.2154767676
+  },
+  {
+    "Fighter":"Konstantin Erokhin",
+    "Peak Elo":978.2154767676
+  },
+  {
+    "Fighter":"Jorge Lopez",
+    "Peak Elo":978.2154767676
+  },
+  {
+    "Fighter":"Chan-Mi Jeon",
+    "Peak Elo":978.2142749172
+  },
+  {
+    "Fighter":"Nick Roehrick",
+    "Peak Elo":978.2053595807
+  },
+  {
+    "Fighter":"Xavier Foupa-Pokam",
+    "Peak Elo":978.1792644845
+  },
+  {
+    "Fighter":"Zelim Imadaev",
+    "Peak Elo":978.1413883845
+  },
+  {
+    "Fighter":"Ryan MacDonald",
+    "Peak Elo":978.1340173829
+  },
+  {
+    "Fighter":"Luke Caudillo",
+    "Peak Elo":978.1326960232
+  },
+  {
+    "Fighter":"Leonardo Guimaraes",
+    "Peak Elo":978.124580103
+  },
+  {
+    "Fighter":"Roldan Sangcha'an",
+    "Peak Elo":978.124580103
+  },
+  {
+    "Fighter":"Jorge de Oliveira",
+    "Peak Elo":978.124580103
+  },
+  {
+    "Fighter":"Dean Barry",
+    "Peak Elo":978.124580103
+  },
+  {
+    "Fighter":"Victoria Leonardo",
+    "Peak Elo":978.1231684243
+  },
+  {
+    "Fighter":"Aaron Phillips",
+    "Peak Elo":978.1195228579
+  },
+  {
+    "Fighter":"Nyamjargal Tumendemberel",
+    "Peak Elo":978.0655404932
+  },
+  {
+    "Fighter":"Mark Holst",
+    "Peak Elo":978.0531634513
+  },
+  {
+    "Fighter":"Samy Schiavo",
+    "Peak Elo":977.9964378298
+  },
+  {
+    "Fighter":"Charalampos Grigoriou",
+    "Peak Elo":977.9501615325
+  },
+  {
+    "Fighter":"Gloria de Paula",
+    "Peak Elo":977.9377362878
+  },
+  {
+    "Fighter":"Braxton Smith",
+    "Peak Elo":977.9308576588
+  },
+  {
+    "Fighter":"Daiju Takase",
+    "Peak Elo":977.9307713189
+  },
+  {
+    "Fighter":"Matt Lucas",
+    "Peak Elo":977.9229119912
+  },
+  {
+    "Fighter":"Genaro Valdez",
+    "Peak Elo":977.8491932927
+  },
+  {
+    "Fighter":"Bobby Nash",
+    "Peak Elo":977.834893169
+  },
+  {
+    "Fighter":"Anton Zafir",
+    "Peak Elo":977.8222153464
+  },
+  {
+    "Fighter":"Grigory Popov",
+    "Peak Elo":977.7787500687
+  },
+  {
+    "Fighter":"Solomon Hutcherson",
+    "Peak Elo":977.6566699813
+  },
+  {
+    "Fighter":"Kit Cope",
+    "Peak Elo":977.6393888939
+  },
+  {
+    "Fighter":"Denys Bondar",
+    "Peak Elo":977.5938360048
+  },
+  {
+    "Fighter":"Kyle Stewart",
+    "Peak Elo":977.5830694388
+  },
+  {
+    "Fighter":"Ivan Erslan",
+    "Peak Elo":977.56527418
+  },
+  {
+    "Fighter":"Zarah Fairn",
+    "Peak Elo":977.5554091702
+  },
+  {
+    "Fighter":"Tony Petarra",
+    "Peak Elo":977.5257352037
+  },
+  {
+    "Fighter":"John Yannis",
+    "Peak Elo":977.4633333556
+  },
+  {
+    "Fighter":"Tommy Hayden",
+    "Peak Elo":977.4475833698
+  },
+  {
+    "Fighter":"Allen Berube",
+    "Peak Elo":977.439190571
+  },
+  {
+    "Fighter":"Ernie Verdicia",
+    "Peak Elo":977.4298335332
+  },
+  {
+    "Fighter":"Joe Jordan",
+    "Peak Elo":977.4253831652
+  },
+  {
+    "Fighter":"Scott Fiedler",
+    "Peak Elo":977.4199067503
+  },
+  {
+    "Fighter":"Josias Musasa",
+    "Peak Elo":977.4131275528
+  },
+  {
+    "Fighter":"Joe Vedepo",
+    "Peak Elo":977.4107402798
+  },
+  {
+    "Fighter":"Brian Cobb",
+    "Peak Elo":977.4096326481
+  },
+  {
+    "Fighter":"Paul Georgieff",
+    "Peak Elo":977.4083348128
+  },
+  {
+    "Fighter":"Joshua Weems",
+    "Peak Elo":977.3954535786
+  },
+  {
+    "Fighter":"Wes Albritton",
+    "Peak Elo":977.3671853348
+  },
+  {
+    "Fighter":"Scott Baker",
+    "Peak Elo":977.3671853348
+  },
+  {
+    "Fighter":"Eddie Mendez",
+    "Peak Elo":977.3265989926
+  },
+  {
+    "Fighter":"Wendell Oliveira Marques",
+    "Peak Elo":977.304541328
+  },
+  {
+    "Fighter":"Christian Colombo",
+    "Peak Elo":977.2377280504
+  },
+  {
+    "Fighter":"TJ Laramie",
+    "Peak Elo":977.2351254035
+  },
+  {
+    "Fighter":"Keith Mielke",
+    "Peak Elo":977.2274407724
+  },
+  {
+    "Fighter":"Jackie Lee",
+    "Peak Elo":977.2176611133
+  },
+  {
+    "Fighter":"Dieusel Berto",
+    "Peak Elo":977.2109943091
+  },
+  {
+    "Fighter":"Rodrigo Ruas",
+    "Peak Elo":977.1979097419
+  },
+  {
+    "Fighter":"Will Chope",
+    "Peak Elo":977.1789999582
+  },
+  {
+    "Fighter":"Rob Yundt",
+    "Peak Elo":977.1781817408
+  },
+  {
+    "Fighter":"Charlie Valencia",
+    "Peak Elo":977.1736902923
+  },
+  {
+    "Fighter":"Marcos Mariano",
+    "Peak Elo":977.144293396
+  },
+  {
+    "Fighter":"Shane Howell",
+    "Peak Elo":977.1384718574
+  },
+  {
+    "Fighter":"Boston Salmon",
+    "Peak Elo":977.126250606
+  },
+  {
+    "Fighter":"Bob Gilstrap",
+    "Peak Elo":977.126250606
+  },
+  {
+    "Fighter":"Edward Faaloloto",
+    "Peak Elo":977.126250606
+  },
+  {
+    "Fighter":"Mandy Bohm",
+    "Peak Elo":977.1112043519
+  },
+  {
+    "Fighter":"Jason Gilliam",
+    "Peak Elo":977.0905405146
+  },
+  {
+    "Fighter":"Yusaku Kinoshita",
+    "Peak Elo":977.0719312085
+  },
+  {
+    "Fighter":"Ivan Serati",
+    "Peak Elo":977.0438295672
+  },
+  {
+    "Fighter":"Barb Honchak",
+    "Peak Elo":977.0374575464
+  },
+  {
+    "Fighter":"Kristian Rothaermel",
+    "Peak Elo":977.0308091082
+  },
+  {
+    "Fighter":"Dmitri Stepanov",
+    "Peak Elo":977.0308091082
+  },
+  {
+    "Fighter":"Roland Payne",
+    "Peak Elo":977.0308091082
+  },
+  {
+    "Fighter":"Donnie Chappell",
+    "Peak Elo":977.0308091082
+  },
+  {
+    "Fighter":"Sean Soriano",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Steven Koslow",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Dequan Townsend",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Jon Olav Einemo",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Will Campuzano",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Icho Larenas",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Wagner Campos",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Louis Cosce",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Jared Rollins",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Jeremy Jackson",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Dustin Neace",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Khadis Ibragimov",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Feng Xiaocan",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Sheldon Westcott",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Humberto Brown Morrison",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Michel Quinones",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Micheal Gillmore",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Shane Primm",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Martin Svensson",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Derek Downey",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"James Bochnovic",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"SeungGuk Choi",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Collin Anglin",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Lisa Ellis",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Robert Valentin",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Zygimantas Ramaska",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Mike King",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"David Kaplan",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Brogan Walker",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Rolles Gracie",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Lowell Anderson",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Hayder Hassan",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Mike Lullo",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Bristol Marunde",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Besam Yousef",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Mario Neto",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Kris McCray",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Fabiano Scherner",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Jamie Yager",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Yoislandy Izquierdo",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Gilbert Smith",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Jermaine Andre",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Leigh Remedios",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Josh Bryant",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Kristof Midoux",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Bruno Korea",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Fernando Bruno",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Mike Santiago",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Vinicius Queiroz",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Dashon Johnson",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Byron Bloodworth",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"John Cofer",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Roque Martinez",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Justin James",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"James Giboo",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Tiki Ghosn",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Alexandre Dantas",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Josh Ferguson",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Te Edwards",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Dylan Budka",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Jacob Kilburn",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Bentley Syler",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Kerry Schall",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Duda Santana",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Keigo Kunihara",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Ariel Beck",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Nandor Guelmino",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Danillo Villefort",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Izabela Badurek",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"David Velasquez",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Edilberto de Oliveira",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"David Baron",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Darrill Schoonover",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Leo Kuntz",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Josh Haynes",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Marcus Jones",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Eric Nolan",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Marcio Alexandre Junior",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Wagner Silva",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Oli Thompson",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"John Polakowski",
+    "Peak Elo":977.0
+  },
+  {
+    "Fighter":"Brian Geraghty",
+    "Peak Elo":976.9965086852
+  },
+  {
+    "Fighter":"Jake Lindsey",
+    "Peak Elo":976.9856393754
+  },
+  {
+    "Fighter":"Colin Robinson",
+    "Peak Elo":976.9838301638
+  },
+  {
+    "Fighter":"Thibault Gouti",
+    "Peak Elo":976.9760624174
+  },
+  {
+    "Fighter":"Filip Pejic",
+    "Peak Elo":976.9755628827
+  },
+  {
+    "Fighter":"John Campetella",
+    "Peak Elo":976.9592717069
+  },
+  {
+    "Fighter":"Shannon Ross",
+    "Peak Elo":976.9364747193
+  },
+  {
+    "Fighter":"Eldo Xavier Dias",
+    "Peak Elo":976.9187403479
+  },
+  {
+    "Fighter":"Larry Cureton",
+    "Peak Elo":976.8665742521
+  },
+  {
+    "Fighter":"Steve Judson",
+    "Peak Elo":976.8615428598
+  },
+  {
+    "Fighter":"Robert Lucarelli",
+    "Peak Elo":976.859667588
+  },
+  {
+    "Fighter":"James Lee",
+    "Peak Elo":976.8528898261
+  },
+  {
+    "Fighter":"Sam Fulton",
+    "Peak Elo":976.8424025699
+  },
+  {
+    "Fighter":"Saeed Hosseini",
+    "Peak Elo":976.8424025699
+  },
+  {
+    "Fighter":"Fred Ettish",
+    "Peak Elo":976.8424025699
+  },
+  {
+    "Fighter":"Ansar Chalangov",
+    "Peak Elo":976.8394499871
+  },
+  {
+    "Fighter":"Zane Frazier",
+    "Peak Elo":976.8248063689
+  },
+  {
+    "Fighter":"Istela Nunes",
+    "Peak Elo":976.8219100372
+  },
+  {
+    "Fighter":"Yuneisy Duben",
+    "Peak Elo":976.7771380028
+  },
+  {
+    "Fighter":"Drako Rodriguez",
+    "Peak Elo":976.7217326862
+  },
+  {
+    "Fighter":"Abdul-Kareem Al-Selwady",
+    "Peak Elo":976.6970133026
+  },
+  {
+    "Fighter":"Kevin Natividad",
+    "Peak Elo":976.6948035475
+  },
+  {
+    "Fighter":"Fernie Garcia",
+    "Peak Elo":976.6767648663
+  },
+  {
+    "Fighter":"Isabela de Padua",
+    "Peak Elo":976.6642641756
+  },
+  {
+    "Fighter":"Jeff Newton",
+    "Peak Elo":976.6331604557
+  },
+  {
+    "Fighter":"Chris Liguori",
+    "Peak Elo":976.5871141265
+  },
+  {
+    "Fighter":"Kody Steele",
+    "Peak Elo":976.4526167778
+  },
+  {
+    "Fighter":"Chris Avila",
+    "Peak Elo":976.321820093
+  },
+  {
+    "Fighter":"Marcelo Rojo",
+    "Peak Elo":976.2643890945
+  },
+  {
+    "Fighter":"Steve Kennedy",
+    "Peak Elo":976.2104328161
+  },
+  {
+    "Fighter":"Jerome Rivera",
+    "Peak Elo":976.1873286846
+  },
+  {
+    "Fighter":"Wulijiburen",
+    "Peak Elo":976.1843175035
+  },
+  {
+    "Fighter":"Roger Bowling",
+    "Peak Elo":976.0099716212
+  },
+  {
+    "Fighter":"Matheus Camilo",
+    "Peak Elo":975.8449326234
+  },
+  {
+    "Fighter":"Sarah Alpar",
+    "Peak Elo":975.7251264273
+  },
+  {
+    "Fighter":"Max Rohskopf",
+    "Peak Elo":975.5342038161
+  },
+  {
+    "Fighter":"He-Man Gipson",
+    "Peak Elo":975.4754932982
+  },
+  {
+    "Fighter":"Ronald Jhun",
+    "Peak Elo":975.424345954
+  },
+  {
+    "Fighter":"Hector Ramirez",
+    "Peak Elo":975.2355388294
+  },
+  {
+    "Fighter":"Cameron Dollar",
+    "Peak Elo":975.1789947845
+  },
+  {
+    "Fighter":"Eiji Mitsuoka",
+    "Peak Elo":975.1730002871
+  },
+  {
+    "Fighter":"Joao Pierini",
+    "Peak Elo":975.1377404683
+  },
+  {
+    "Fighter":"Danilo Belluardo",
+    "Peak Elo":975.1267144486
+  },
+  {
+    "Fighter":"Diyar Nurgozhay",
+    "Peak Elo":975.0523812452
+  },
+  {
+    "Fighter":"Bubba Bush",
+    "Peak Elo":974.9477982828
+  },
+  {
+    "Fighter":"Ricky Rainey",
+    "Peak Elo":974.8972318826
+  },
+  {
+    "Fighter":"Erik Silva",
+    "Peak Elo":974.8948600276
+  },
+  {
+    "Fighter":"Shunichi Shimizu",
+    "Peak Elo":974.887303286
+  },
+  {
+    "Fighter":"Nate Schroeder",
+    "Peak Elo":974.8432671185
+  },
+  {
+    "Fighter":"Roger Zapata",
+    "Peak Elo":974.8432671185
+  },
+  {
+    "Fighter":"Alibi Idiris",
+    "Peak Elo":974.6859602297
+  },
+  {
+    "Fighter":"Dmitrii Smoliakov",
+    "Peak Elo":974.6336833192
+  },
+  {
+    "Fighter":"Sean Alvarez",
+    "Peak Elo":974.6336833192
+  },
+  {
+    "Fighter":"Masutatsu Yano",
+    "Peak Elo":974.6336833192
+  },
+  {
+    "Fighter":"Brandon Jenkins",
+    "Peak Elo":974.5646246104
+  },
+  {
+    "Fighter":"Ike Villanueva",
+    "Peak Elo":974.5304648023
+  },
+  {
+    "Fighter":"Sung Bin Jo",
+    "Peak Elo":974.4625931139
+  },
+  {
+    "Fighter":"Alberto Uda",
+    "Peak Elo":974.4381562433
+  },
+  {
+    "Fighter":"Hu Yaozong",
+    "Peak Elo":974.4320532719
+  },
+  {
+    "Fighter":"Elias Garcia",
+    "Peak Elo":974.3272557756
+  },
+  {
+    "Fighter":"Liang Na",
+    "Peak Elo":974.1471076053
+  },
+  {
+    "Fighter":"Antonio Dos Santos",
+    "Peak Elo":973.8475367948
+  },
+  {
+    "Fighter":"Steve Steinbeiss",
+    "Peak Elo":973.7671002691
+  },
+  {
+    "Fighter":"Sean Sharaf",
+    "Peak Elo":973.3548127257
+  },
+  {
+    "Fighter":"Cody East",
+    "Peak Elo":973.350066612
+  },
+  {
+    "Fighter":"Tom Blackledge",
+    "Peak Elo":973.3109979312
+  },
+  {
+    "Fighter":"Felipe Olivieri",
+    "Peak Elo":973.2836183366
+  },
+  {
+    "Fighter":"JP Buys",
+    "Peak Elo":973.0100307776
+  },
+  {
+    "Fighter":"Connor Matthews",
+    "Peak Elo":972.9990407587
+  },
+  {
+    "Fighter":"Kelly Faszholz",
+    "Peak Elo":972.6776023151
+  },
+  {
+    "Fighter":"Luis Gurule",
+    "Peak Elo":972.3895482797
+  },
+  {
+    "Fighter":"Daniel Frunza",
+    "Peak Elo":972.2824739747
+  },
+  {
+    "Fighter":"Rashad Coulter",
+    "Peak Elo":972.1764841177
+  }
+]
