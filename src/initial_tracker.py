@@ -90,9 +90,24 @@ f["Fighter1_Elo_Start"]=0.0
 f["Fighter2_Elo_Start"]=0.0
 f["Fighter1_Elo_End"]=0.0
 f["Fighter2_Elo_End"]=0.0
+
+records = {}
+
 for i,r in f.iterrows():
     f1,f2=r["Fighter 1"],r["Fighter 2"]
     e1,e2=elo.get(f1,initial_elo),elo.get(f2,initial_elo)
+    if f1 not in records: records[f1] = {"W":0,"L":0,"D":0}
+    if f2 not in records: records[f2] = {"W":0,"L":0,"D":0}
+    if r["Winner"] == f1:
+        records[f1]["W"] += 1
+        records[f2]["L"] += 1
+    elif r["Winner"] == f2:
+      records[f2]["W"] += 1
+      records[f1]["L"] += 1
+    elif str(r["Winner"]).lower() == "draw":
+      records[f1]["D"] += 1
+      records[f2]["D"] += 1
+
     fcount[f1]=fcount.get(f1,0)+1
     fcount[f2]=fcount.get(f2,0)+1
     k=get_k(r["method"],fcount[f1],e2-e1,r["Round"])
@@ -161,6 +176,18 @@ print(f" - Peak Elo leaderboard: {ELO_PEAK_PATH}")
 # intended for frontend, produce JSONs
 
 import json
+
+final["Record"] = final["Fighter"].apply(
+    lambda x: f"{records.get(x,{'W':0,'L':0,'D':0})['W']}-"
+              f"{records.get(x,{'W':0,'L':0,'D':0})['L']}-"
+              f"{records.get(x,{'W':0,'L':0,'D':0})['D']}"
+)
+peak_df["Record"] = peak_df["Fighter"].apply(   
+    lambda x: f"{records.get(x,{'W':0,'L':0,'D':0})['W']}-"
+              f"{records.get(x,{'W':0,'L':0,'D':0})['L']}-"
+              f"{records.get(x,{'W':0,'L':0,'D':0})['D']}"
+)
+
 
 final.sort_values("Elo", ascending=False).to_json(os.path.join(DATA_DIR, "elo_current.json"), orient="records", indent=2)
 peak_df.sort_values("Peak Elo", ascending=False).to_json(os.path.join(DATA_DIR, "elo_peak.json"), orient="records", indent=2)
