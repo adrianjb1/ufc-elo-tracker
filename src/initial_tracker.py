@@ -2,6 +2,29 @@ import pandas as pd, os, math
 from datetime import datetime
 
 DATA_DIR=os.path.join(os.path.dirname(os.path.dirname(__file__)),"data")
+
+#make sure data exists
+os.makedirs(DATA_DIR, exist_ok=True)
+
+#adjustments.csv, contextual_overrides.csv, and manual_champions.csv 
+# are required to run this but not posted on the github since i use them experimentally
+required_files = [
+    "fights_clean2.csv",
+    "manual_champions.csv",
+    "contextual_overrides.csv",
+    "adjustments.csv"
+]
+
+missing_files = [f for f in required_files if not os.path.exists(os.path.join(DATA_DIR, f))]
+
+if missing_files:
+    print("\nmissing required input files:")
+    for f in missing_files:
+        print(f" - {f}")
+    print("\nPlease ensure all required data files are present in the /data directory before running the tracker.")
+    raise SystemExit(1)
+
+
 FIGHTS_PATH=os.path.join(DATA_DIR,"fights_clean2.csv")
 MANUAL_CHAMPS_PATH=os.path.join(DATA_DIR,"manual_champions.csv")
 CONTEXTUAL_OVERRIDES_PATH=os.path.join(DATA_DIR,"contextual_overrides.csv")
@@ -139,9 +162,9 @@ print(f" - Peak Elo leaderboard: {ELO_PEAK_PATH}")
 
 import json
 
-final.sort_values("Elo", ascending=False).to_json("elo_current.json", orient="records", indent=2)
-peak_df.sort_values("Peak Elo", ascending=False).to_json("elo_peak.json", orient="records", indent=2)
+final.sort_values("Elo", ascending=False).to_json(os.path.join(DATA_DIR, "elo_current.json"), orient="records", indent=2)
+peak_df.sort_values("Peak Elo", ascending=False).to_json(os.path.join(DATA_DIR, "elo_peak.json"), orient="records", indent=2)
 
 print("\nJSON exports created:")
-print(" - elo_current.json (current elo")
-print(" - elo_peak.json (peak elo)")
+print(f" - {os.path.join(DATA_DIR, 'elo_current.json')} (current elo)")
+print(f" - {os.path.join(DATA_DIR, 'elo_peak.json')} (peak elo)")
