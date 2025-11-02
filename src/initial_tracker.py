@@ -31,7 +31,7 @@ CONTEXTUAL_OVERRIDES_PATH=os.path.join(DATA_DIR,"contextual_overrides.csv")
 ADJUSTMENTS_PATH=os.path.join(DATA_DIR,"adjustments.csv")
 ELO_CURRENT_PATH=os.path.join(DATA_DIR,"initial_current_elo.csv")
 ELO_PEAK_PATH=os.path.join(DATA_DIR,"initial_elo_peak.csv")
-FIGHTS_ELO_PATH=None
+FIGHTS_ELO_PATH=os.path.join(DATA_DIR, "fights_with_elo.csv")
 
 initial_elo=1000
 base_k=40
@@ -144,8 +144,8 @@ if os.path.exists(CONTEXTUAL_OVERRIDES_PATH):
         final.loc[final["Fighter"]==n,"Elo"]+=add
         peak_df.loc[peak_df["Fighter"]==n,"Peak Elo"]*=pmult
 
-if FIGHTS_ELO_PATH:
-    f.to_csv(FIGHTS_ELO_PATH, index=False)
+f.to_csv(FIGHTS_ELO_PATH, index=False)
+
 
 final.sort_values("Elo", ascending=False).to_csv(ELO_CURRENT_PATH, index=False)
 peak_df.sort_values("Peak Elo", ascending=False).to_csv(ELO_PEAK_PATH, index=False)

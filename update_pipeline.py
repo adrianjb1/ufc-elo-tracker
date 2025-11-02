@@ -21,7 +21,7 @@ for s in scripts:
 stamp = datetime.now().strftime("%Y-%m-%d %H:%M")
 print("\nCommitting updated files")
 
-os.system("git add data/initial_current_elo.csv data/initial_peak_elo.csv data/elo_current.json data/elo_peak.json")
+os.system("git add data/initial_current_elo.csv data/initial_peak_elo.csv data/elo_current.json data/elo_peak.json data/fights_with_elo.csv")
 os.system(f'git commit -m "update data ({stamp})"')
 os.system("git push origin main")
 
