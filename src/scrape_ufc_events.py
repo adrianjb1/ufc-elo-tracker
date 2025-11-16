@@ -18,23 +18,25 @@ def get_soup(url):
 def scrape_ufc_events():
     soup = get_soup(URL)
 
-    event_links = soup.find_all("a", class_="b-link b-link_style_black")
-    event_dates = soup.find_all("span", class_="b-statistics__date")
-    event_locations = soup.find_all(
-        "td", class_="b-statistics__table-col b-statistics__table-col_style_big-top-padding"
-    )
-
-    if event_links and ("upcoming" in event_links[0]["href"].lower() or not event_links[0]["href"]):
-        event_links = event_links[1:]
-        event_dates = event_dates[1:]
-        event_locations = event_locations[1:]
+    rows = soup.select('tr.b-statistics__table-row')
 
     events = []
-    for link, date_tag, loc_tag in zip(event_links, event_dates, event_locations):
+    for row in rows:
+        link = row.find('a', class_='b-link b-link_style_black')
+        date_span = row.find('span', class_='b-statistics__date')
+        loc_td = row.find('td', class_='b-statistics__table-col b-statistics__table-col_style_big-top-padding')
+
+        if not link or not date_span or not loc_td:
+            continue
+
         name = link.text.strip()
-        href = link["href"].strip()
-        date = date_tag.text.strip()
-        location = loc_tag.text.strip()
+        href = link.get('href', '').strip()
+        date = date_span.text.strip()
+        location = loc_td.text.strip()
+
+        if not href or 'upcoming' in href.lower():
+            continue
+
         events.append([name, href, date, location])
 
     df = pd.DataFrame(events, columns=["Event", "URL", "Date", "Location"])
