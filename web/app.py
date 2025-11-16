@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, send_from_directory, abort
+from flask import Flask, jsonify, send_from_directory, abort, request
 import os, json
 
 app = Flask(__name__)
@@ -25,17 +25,32 @@ def read_json(path):
 
 @app.route("/api/current", methods=["GET"])
 def get_current():
-    data_path = os.path.join(DATA_DIR, "elo_current.json")
-    return jsonify(read_json(data_path))
+    data_path = os.path.join(DATA_DIR, "current_elo_2.0.json")
+    data = read_json(data_path)
+
+    search_query = request.args.get('search', '').lower()
+    weight_class = request.args.get('weight_class', '').lower()
+    limit = request.args.get('limit', type=int)
+
+    if search_query:
+        data = [f for f in data if search_query in f["Fighter"].lower()]
+
+    if weight_class and weight_class != 'all':
+        data = [f for f in data if f.get("Weight Class", "").lower() == weight_class]
+
+    if limit and limit > 0:
+        data = data[:limit]
+
+    return jsonify(data)
 
 @app.route("/api/peak", methods=["GET"])
 def get_peak():
-    data_path = os.path.join(DATA_DIR, "elo_peak.json")
+    data_path = os.path.join(DATA_DIR, "peak_elo_2.0.json")
     return jsonify(read_json(data_path))
 
 @app.route("/api/fighter/<string:name>", methods=["GET"])
 def get_fighter(name):
-    data_path = os.path.join(DATA_DIR, "elo_current.json")
+    data_path = os.path.join(DATA_DIR, "current_elo_2.0.json")
     data = read_json(data_path)
     results = [f for f in data if f["Fighter"].lower() == name.lower()]
     if not results:
@@ -44,7 +59,7 @@ def get_fighter(name):
 
 @app.route("/api/trends/<string:name>", methods=["GET"])
 def get_trends(name):
-    path = os.path.join(DATA_DIR, "fights_with_elo.csv")
+    path = os.path.join(DATA_DIR, "fights_with_elo_2.0.csv")
     if not os.path.exists(path):
         abort(404, description="Fight data not available")
     import pandas as pd
