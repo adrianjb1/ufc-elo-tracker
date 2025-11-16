@@ -1,0 +1,762 @@
+Fighter,Elo,Last_Fight,Weight Class,Is_Champion,Title_Defenses,Is_Former_Champion,Status,Record
+Islam Makhachev,1647.848773327103,2025-11-15,Welterweight,True,0,False,Champion (0 defenses),17-1-0
+Merab Dvalishvili,1607.574317265716,2025-10-04,Bantamweight,True,2,False,Champion (2 defenses),14-2-0
+Ilia Topuria,1606.7219264706139,2025-06-28,Lightweight,True,0,False,Champion (0 defenses),9-0-0
+Khamzat Chimaev,1561.5321086017175,2025-08-16,Middleweight,True,0,False,Champion (0 defenses),9-0-0
+Alexandre Pantoja,1494.9165385890992,2025-06-28,Flyweight,True,1,False,Champion (1 defenses),14-3-0
+Alex Pereira,1490.3426887788064,2025-10-04,Light Heavyweight,True,0,False,Champion (0 defenses),10-2-0
+Alexander Volkanovski,1482.6173963943186,2025-04-12,Featherweight,True,0,False,Champion (0 defenses),14-3-0
+Valentina Shevchenko,1452.3275464044013,2025-11-15,Women's Flyweight,False,0,True,Former Champion,15-3-1
+Tom Aspinall,1421.0057217310589,2025-10-25,Heavyweight,True,1,False,Champion (1 defenses),8-1-1
+Kamaru Usman,1325.6338840172991,2025-06-14,Welterweight,False,0,True,Former Champion,16-3-0
+Aljamain Sterling,1311.7405821160658,2025-08-23,Catch Weight,False,0,True,Former Champion,17-5-0
+Dricus Du Plessis,1302.8536282399684,2025-08-16,Middleweight,False,0,True,Former Champion,9-1-0
+Max Holloway,1290.7917057734946,2025-07-19,Lightweight,False,0,True,Former Champion,23-8-0
+Leon Edwards,1283.645509034803,2025-11-15,Welterweight,False,0,True,Former Champion,14-5-1
+Zhang Weili,1283.0064645653047,2025-11-15,Women's Flyweight,False,0,True,Former Champion,10-3-0
+Charles Oliveira,1281.7633551506026,2025-10-11,Lightweight,False,0,True,Former Champion,24-11-1
+Ciryl Gane,1268.1361024791827,2025-10-25,Heavyweight,False,0,True,Former Champion,10-2-1
+Magomed Ankalaev,1263.9064044082888,2025-10-04,Light Heavyweight,False,0,True,Former Champion,12-2-2
+Jack Della Maddalena,1261.4515571723791,2025-11-15,Welterweight,False,0,True,Former Champion,8-1-0
+Jon Jones,1247.4196716451595,2024-11-16,Heavyweight,False,0,True,Former Champion,22-1-1
+Petr Yan,1236.4025447674528,2025-07-26,Bantamweight,False,0,True,Former Champion,11-4-0
+Dustin Poirier,1235.904496310004,2025-07-19,Lightweight,False,0,True,Former Champion,22-9-1
+Deiveson Figueiredo,1221.6452265007024,2025-10-11,Bantamweight,False,0,True,Former Champion,14-5-1
+Tatiana Suarez,1213.3578036592912,2025-09-13,Women's Strawweight,False,0,True,Former Champion,8-1-0
+Belal Muhammad,1208.5130855176558,2025-05-10,Welterweight,False,0,True,Former Champion,15-4-1
+Robert Whittaker,1195.3667628396493,2025-07-26,Middleweight,False,0,True,Former Champion,17-7-0
+Jiri Prochazka,1192.8522582009377,2025-10-04,Light Heavyweight,False,0,True,Former Champion,6-2-0
+Rose Namajunas,1187.9223651394157,2025-06-14,Women's Flyweight,False,0,True,Former Champion,12-6-0
+Nassourdine Imavov,1177.6143458379204,2025-09-06,Middleweight,False,0,False,,9-2-1
+Michael Chiesa,1175.14152273995,2025-06-14,Welterweight,False,0,True,Former Champion,14-7-0
+Sean O'Malley,1172.207819003774,2025-06-07,Bantamweight,False,0,True,Former Champion,10-3-1
+Brendan Allen,1167.68441475239,2025-10-18,Middleweight,False,0,False,,14-4-0
+Alexander Volkov,1166.943419908713,2025-10-25,Heavyweight,False,0,False,,13-5-0
+Anthony Hernandez,1163.5342852241963,2025-08-09,Middleweight,False,0,False,,9-2-0
+Lerone Murphy,1163.5030444991248,2025-08-16,Featherweight,False,0,False,,9-0-1
+Carlos Ulberg,1159.8527799132669,2025-09-27,Light Heavyweight,False,0,False,,9-1-0
+Michael Morales,1158.293943530352,2025-11-15,Welterweight,False,0,False,,7-0-0
+Sean Brady,1150.1428949898987,2025-11-15,Welterweight,False,0,False,,8-2-0
+Beneil Dariush,1147.634013351436,2025-11-15,Lightweight,False,0,False,,17-7-1
+Manon Fiorot,1147.0330427367226,2025-10-18,Women's Flyweight,False,0,False,,8-1-0
+Erin Blanchfield,1145.9839637040818,2025-11-15,Women's Flyweight,False,0,False,,8-1-0
+SuYoung You,1141.0807180563625,2025-08-23,Bantamweight,False,0,True,Former Champion,3-0-0
+Norma Dumont,1139.8101423477658,2025-11-01,Women's Bantamweight,False,0,False,,9-2-0
+Kelvin Gastelum,1138.0903855317742,2025-09-13,Middleweight,False,0,True,Former Champion,14-10-1
+Carlos Prates,1134.586496388512,2025-11-15,Welterweight,False,0,False,,6-1-0
+Rinya Nakamura,1132.3027774915447,2025-08-02,Bantamweight,False,0,True,Former Champion,4-1-0
+Julianna Pena,1131.424275696007,2025-06-07,Women's Bantamweight,False,0,True,Former Champion,8-4-0
+Cory Sandhagen,1131.0196341659303,2025-10-04,Bantamweight,False,0,False,,11-5-0
+Umar Nurmagomedov,1128.656495404848,2025-10-25,Bantamweight,False,0,False,,7-1-0
+Joel Alvarez,1128.1911585618943,2025-10-11,Welterweight,False,0,False,,8-2-0
+Mario Bautista,1127.778416029181,2025-10-25,Bantamweight,False,0,False,,10-3-0
+Aiemann Zahabi,1126.110716465033,2025-10-18,Bantamweight,False,0,False,,8-2-0
+Neil Magny,1123.6809393366987,2025-09-27,Welterweight,False,0,False,,24-12-0
+Steve Garcia,1121.8920038791482,2025-11-01,Featherweight,False,0,False,,8-2-0
+Jailton Almeida,1121.1008446611072,2025-10-25,Heavyweight,False,0,False,,8-2-0
+Benoit Saint Denis,1120.0179464562966,2025-11-15,Lightweight,False,0,False,,8-3-0
+Azamat Murzakanov,1119.7514513884964,2025-10-25,Light Heavyweight,False,0,False,,6-0-0
+Gabriel Bonfim,1118.883875195209,2025-11-08,Welterweight,False,0,False,,6-1-0
+Drakkar Klose,1118.8112808372741,2025-08-16,Lightweight,False,0,False,,10-3-0
+Jose Aldo,1118.5871007576045,2025-05-10,Featherweight,False,0,True,Former Champion,14-9-0
+Sergei Pavlovich,1118.2578767438313,2025-08-23,Heavyweight,False,0,False,,8-3-0
+Mateusz Gamrot,1117.8325834832349,2025-10-11,Lightweight,False,0,False,,8-4-0
+Daniel Rodriguez,1117.780607507339,2025-07-19,Welterweight,False,0,False,,10-4-0
+Curtis Blaydes,1117.1324142325552,2025-06-21,Heavyweight,False,0,False,,14-5-1
+Mackenzie Dern,1116.5298525915882,2025-10-25,Women's Strawweight,False,0,False,,11-5-0
+Caio Borralho,1114.9614843303498,2025-09-06,Middleweight,False,0,False,,7-1-0
+Randy Brown,1114.8100789030486,2025-11-08,Welterweight,False,0,False,,14-7-0
+Diego Lopes,1112.326466613461,2025-09-13,Featherweight,False,0,False,,6-2-0
+Tatsuro Taira,1111.8529073830452,2025-08-02,Flyweight,False,0,False,,7-1-0
+Nathaniel Wood,1111.1248185572006,2025-10-25,Featherweight,False,0,False,,10-3-0
+Gregory Rodrigues,1111.0944762701033,2025-11-15,Middleweight,False,0,False,,9-3-0
+Montel Jackson,1109.902535547122,2025-10-11,Bantamweight,False,0,False,,9-3-0
+Rinat Fakhretdinov,1107.6839415347854,2025-09-06,Welterweight,False,0,False,,6-0-1
+Pat Sabatini,1107.6044671757218,2025-11-15,Featherweight,False,0,False,,8-2-0
+Daniil Donchenko,1106.3693,2025-09-13,Welterweight,False,0,True,Former Champion,1-0-0
+Joaquin Buckley,1104.9290586642603,2025-06-14,Welterweight,False,0,False,,11-5-0
+Yair Rodriguez,1103.96960235769,2025-04-12,Featherweight,False,0,True,Former Champion,11-4-1
+Mike Malott,1103.027951153,2025-10-18,Welterweight,False,0,False,,6-1-0
+Waldo Cortes Acosta,1102.648737260415,2025-11-01,Heavyweight,False,0,False,,8-2-0
+Justin Gaethje,1102.1895969026307,2025-03-08,Lightweight,False,0,True,Former Champion,9-5-0
+Raoni Barcelos,1102.0572889796183,2025-11-08,Bantamweight,False,0,False,,10-4-0
+Derrick Lewis,1100.698985885981,2025-07-12,Heavyweight,False,0,False,,20-10-0
+Farid Basharat,1100.1497998336895,2025-10-04,Bantamweight,False,0,False,,5-0-0
+Joe Pyfer,1099.4368944133819,2025-10-04,Middleweight,False,0,False,,6-1-0
+Jake Matthews,1098.4272994162225,2025-09-27,Welterweight,False,0,False,,15-8-0
+Alexa Grasso,1098.425463285676,2025-05-10,Women's Flyweight,False,0,True,Former Champion,8-5-1
+Jessica Andrade,1097.5923450090245,2025-08-16,Women's Strawweight,False,0,True,Former Champion,17-13-0
+Vicente Luque,1096.696328822482,2025-10-11,Welterweight,False,0,False,,16-8-0
+Bryce Mitchell,1095.567957665783,2025-07-26,Bantamweight,False,0,False,,9-3-0
+Jamahal Hill,1095.2809081100525,2025-06-21,Light Heavyweight,False,0,True,Former Champion,6-4-1
+Roman Dolidze,1093.797124586768,2025-08-09,Middleweight,False,0,False,,9-4-0
+Joshua Van,1093.7778907289787,2025-06-28,Flyweight,False,0,False,,8-1-0
+Youssef Zalal,1092.6608908995695,2025-10-04,Featherweight,False,0,False,,8-3-1
+Jasmine Jasudavicius,1092.2301138379903,2025-10-18,Women's Flyweight,False,0,False,,8-3-0
+Vinicius Oliveira,1090.6976004766914,2025-07-19,Bantamweight,False,0,False,,4-0-0
+Martin Buday,1090.3319520529192,2025-07-26,Heavyweight,False,0,False,,7-1-0
+Marcin Tybura,1089.4146079605305,2025-09-06,Heavyweight,False,0,False,,14-9-0
+Chris Gutierrez,1088.9690308211689,2025-10-04,Bantamweight,False,0,False,,10-4-1
+Jacqueline Cavalcanti,1088.9289123887872,2025-11-08,Women's Bantamweight,False,0,False,,5-0-0
+HyunSung Park,1088.3552412332585,2025-10-18,Flyweight,False,0,True,Former Champion,3-2-0
+Nasrat Haqparast,1087.4753407584965,2025-10-25,Lightweight,False,0,False,,10-5-0
+Marlon Vera,1085.5523588981678,2025-10-18,Bantamweight,False,0,False,,15-10-0
+Brandon Moreno,1084.5714917652283,2025-03-29,Flyweight,False,0,True,Former Champion,11-5-2
+Denise Gomes,1084.3479231950098,2025-11-08,Women's Strawweight,False,0,False,,6-2-0
+Ludovit Klein,1084.2798403519253,2025-10-25,Lightweight,False,0,False,,8-3-1
+Israel Adesanya,1084.016748146988,2025-02-01,Middleweight,False,0,True,Former Champion,13-5-0
+Rob Font,1082.77952452562,2025-09-13,Bantamweight,False,0,False,,12-8-0
+Virna Jandiroba,1082.3170412589382,2025-10-25,Women's Strawweight,False,0,False,,8-4-0
+Reinier de Ridder,1081.8582948836859,2025-10-18,Middleweight,False,0,False,,4-1-0
+Jean Silva,1081.01934000328,2025-09-13,Featherweight,False,0,False,,5-1-0
+Muslim Salikhov,1080.9674694477667,2025-11-08,Welterweight,False,0,False,,9-5-0
+Alexander Hernandez,1080.645003420624,2025-09-13,Lightweight,False,0,False,,10-7-0
+Christian Leroy Duncan,1080.5077945450134,2025-11-08,Middleweight,False,0,False,,6-2-0
+Renato Moicano,1080.4625872688964,2025-06-28,Lightweight,False,0,False,,12-7-0
+Mairon Santos,1080.4024849426194,2025-05-17,Lightweight,False,0,True,Former Champion,3-0-0
+Brian Ortega,1079.0754480208423,2025-08-23,Catch Weight,False,0,False,,8-5-1
+Tabatha Ricci,1078.4663808841274,2025-07-26,Women's Strawweight,False,0,False,,7-3-0
+Jared Cannonier,1078.1391764402908,2025-08-16,Middleweight,False,0,False,,11-9-0
+Chris Duncan,1077.5799428485825,2025-08-02,Lightweight,False,0,False,,5-1-0
+Ikram Aliskerov,1077.0821276622096,2025-10-25,Middleweight,False,0,False,,4-1-0
+Chepe Mariscal,1076.9503698672195,2025-11-15,Featherweight,False,0,False,,5-1-0
+Dominick Reyes,1076.3090788932943,2025-09-27,Light Heavyweight,False,0,False,,9-5-0
+JunYong Park,1076.1851801362882,2025-10-25,Middleweight,False,0,False,,9-4-0
+Cody Garbrandt,1075.6225523265791,2025-06-14,Bantamweight,False,0,True,Former Champion,9-7-0
+Daniel Marcos,1075.338801047007,2025-11-08,Bantamweight,False,0,False,,5-1-1
+Geoff Neal,1075.0541656656223,2025-08-16,Welterweight,False,0,False,,8-5-0
+Chris Padilla,1074.6842250693483,2025-11-08,Lightweight,False,0,False,,4-0-0
+William Gomis,1074.665360597008,2025-09-06,Featherweight,False,0,False,,5-1-0
+Bo Nickal,1073.1366281175049,2025-11-15,Middleweight,False,0,False,,5-1-0
+Edmen Shahbazyan,1072.7897412743641,2025-10-04,Middleweight,False,0,False,,9-5-0
+Loopy Godinez,1072.053736442221,2025-08-16,Women's Strawweight,False,0,False,,9-5-0
+Karine Silva,1071.6271533465795,2025-08-16,Women's Flyweight,False,0,False,,5-1-0
+Jan Blachowicz,1071.5510987190423,2025-03-22,Light Heavyweight,False,0,True,Former Champion,12-8-1
+Tracy Cortez,1070.8955519866015,2025-11-15,Women's Flyweight,False,0,False,,6-2-0
+Shara Magomedov,1070.8464421745362,2025-07-26,Middleweight,False,0,False,,5-1-0
+Asu Almabayev,1070.0207714705384,2025-07-26,Flyweight,False,0,False,,5-1-0
+Bogdan Guskov,1069.8241097775297,2025-07-26,Light Heavyweight,False,0,False,,4-1-0
+Ricky Simon,1068.2393967748237,2025-11-08,Bantamweight,False,0,False,,10-6-0
+Quillan Salkilld,1067.2692243433055,2025-10-25,Lightweight,False,0,False,,3-0-0
+Amanda Lemos,1066.7787717662447,2025-09-13,Women's Strawweight,False,0,False,,9-5-0
+Daniel Santos,1066.7380166231005,2025-10-04,Catch Weight,False,0,False,,4-1-0
+Josh Emmett,1066.09855649289,2025-10-04,Featherweight,False,0,False,,10-6-0
+Henry Cejudo,1066.0492663703162,2025-02-22,Bantamweight,False,0,True,Former Champion,10-5-0
+Ketlen Vieira,1065.3858920827358,2025-11-01,Women's Bantamweight,False,0,False,,9-5-0
+Chase Hooper,1064.9596076531552,2025-08-16,Lightweight,False,0,False,,8-4-0
+David Onama,1064.514821161389,2025-11-01,Featherweight,False,0,False,,6-3-0
+Vitor Petrino,1063.6740574642379,2025-10-11,Heavyweight,False,0,False,,6-2-0
+Rafa Garcia,1063.5580322185276,2025-09-13,Lightweight,False,0,False,,6-4-0
+Michael Page,1063.309894003758,2025-08-16,Middleweight,False,0,False,,3-1-0
+Iasmin Lucindo,1063.2461980634314,2025-08-09,Women's Strawweight,False,0,False,,5-2-0
+Marcus McGhee,1063.233996027999,2025-07-26,Bantamweight,False,0,False,,4-1-0
+Tagir Ulanbekov,1062.3021868533824,2025-06-21,Flyweight,False,0,False,,6-1-0
+Paulo Costa,1062.1603237854486,2025-07-19,Middleweight,False,0,False,,7-4-0
+Uros Medic,1062.028957202715,2025-11-08,Welterweight,False,0,False,,6-3-0
+Sam Patterson,1061.97595233411,2025-09-06,Welterweight,False,0,False,,4-1-0
+Allan Nascimento,1061.9301065510128,2025-11-01,Catch Weight,False,0,False,,4-1-0
+Modestas Bukauskas,1061.6293988078605,2025-09-06,Light Heavyweight,False,0,False,,7-4-0
+Ian Machado Garry,1060.8334393483635,2025-04-26,Welterweight,False,0,False,,9-1-0
+Diego Ferreira,1059.5813496221247,2025-09-13,Lightweight,False,0,False,,10-7-0
+Valter Walker,1058.2628740764906,2025-10-25,Heavyweight,False,0,False,,4-1-0
+Brandon Royval,1057.7610928464387,2025-06-28,Flyweight,False,0,False,,7-4-0
+Rafael Estevam,1057.4911213954058,2025-08-02,Flyweight,False,0,False,,3-0-0
+Natalia Silva,1057.3573995105567,2025-05-10,Women's Flyweight,False,0,False,,7-0-0
+Jeremiah Wells,1057.2585457232392,2025-11-01,Welterweight,False,0,False,,5-2-0
+Tom Nolan,1055.5843964837863,2025-09-27,Lightweight,False,0,False,,4-1-0
+Brunno Ferreira,1055.5839392722705,2025-07-19,Middleweight,False,0,False,,5-2-0
+Michel Pereira,1055.1111318331536,2025-08-23,Middleweight,False,0,False,,9-5-0
+Mike Davis,1054.8778060215907,2025-07-12,Lightweight,False,0,False,,5-2-0
+Kayla Harrison,1054.4312015552632,2025-06-07,Women's Bantamweight,False,0,False,,3-0-0
+Elizeu Zaleski dos Santos,1053.987310274497,2025-08-02,Welterweight,False,0,False,,11-6-1
+Loma Lookboonmee,1053.980187583305,2025-09-27,Women's Strawweight,False,0,False,,7-3-0
+Navajo Stirling,1053.471936273154,2025-09-27,Light Heavyweight,False,0,False,,3-0-0
+Karol Rosa,1053.4616762681144,2025-08-02,Women's Bantamweight,False,0,False,,8-4-0
+Rafael Fiziev,1053.1131131634472,2025-06-21,Lightweight,False,0,False,,7-4-0
+Edson Barboza,1053.077500890691,2025-08-16,Lightweight,False,0,False,,18-13-0
+Ateba Gautier,1052.9650441165663,2025-10-04,Middleweight,False,0,False,,3-0-0
+Johnny Walker,1052.0620080846757,2025-08-23,Light Heavyweight,False,0,False,,8-6-1
+Kyler Phillips,1052.040856789766,2025-07-19,Bantamweight,False,0,False,,6-3-0
+Khalil Rountree Jr.,1051.945463593267,2025-10-04,Light Heavyweight,False,0,False,,10-7-1
+Jack Hermansson,1051.7207186181975,2025-06-28,Middleweight,False,0,False,,11-7-0
+Said Nurmagomedov,1050.964436655949,2025-07-26,Bantamweight,False,0,False,,7-4-0
+Charles Johnson,1050.3193207112586,2025-08-23,Flyweight,False,0,False,,7-5-0
+Joselyne Edwards,1050.26673281242,2025-08-09,Women's Bantamweight,False,0,False,,7-4-0
+Kevin Holland,1048.35733127419,2025-10-18,Welterweight,False,0,False,,15-12-1
+Nikita Krylov,1048.190200745205,2025-07-26,Light Heavyweight,False,0,False,,11-9-0
+Esteban Ribovics,1048.1069794598911,2025-08-02,Lightweight,False,0,False,,4-2-0
+Sean Strickland,1047.0434416242829,2025-02-08,Middleweight,False,0,True,Former Champion,16-7-0
+Fatima Kline,1047.0054614783128,2025-11-15,Women's Strawweight,False,0,False,,3-1-0
+Yana Santos,1045.6515117699098,2025-10-04,Women's Bantamweight,False,0,False,,7-5-0
+Sam Hughes,1045.6423650127524,2025-09-06,Women's Strawweight,False,0,False,,6-5-0
+Seokhyeon Ko,1045.184764247176,2025-11-01,Welterweight,False,0,False,,2-0-0
+Tecia Pennington,1045.020502265106,2025-11-08,Women's Strawweight,False,0,False,,11-8-0
+Jean Matsumoto,1044.875323155368,2025-08-09,Bantamweight,False,0,False,,3-1-0
+Alexia Thainara,1044.8496494924996,2025-09-27,Women's Strawweight,False,0,False,,2-0-0
+David Martinez,1044.6806473066663,2025-09-13,Bantamweight,False,0,False,,2-0-0
+Mario Pinto,1043.6965130019566,2025-10-11,Heavyweight,False,0,False,,2-0-0
+Nazim Sadykhov,1043.1525140008218,2025-06-21,Lightweight,False,0,False,,4-0-1
+Andre Petroski,1043.130205579349,2025-09-27,Middleweight,False,0,False,,8-4-0
+Ramiz Brahimaj,1042.9273445227452,2025-10-04,Welterweight,False,0,False,,5-3-0
+Talita Alencar,1042.923710264728,2025-11-01,Women's Strawweight,False,0,False,,3-1-0
+Baisangur Susurkaev,1042.3568142763454,2025-11-15,Middleweight,False,0,False,,2-0-0
+Muhammad Naimov,1042.1254093159873,2025-06-21,Featherweight,False,0,False,,5-1-0
+Dan Ige,1041.4590322367578,2025-07-19,Featherweight,False,0,False,,11-9-0
+Alonzo Menifield,1041.4276039075085,2025-06-14,Light Heavyweight,False,0,False,,10-5-1
+Charles Jourdain,1040.932181559511,2025-10-18,Bantamweight,False,0,False,,8-7-1
+Jaqueline Amorim,1040.5895194996872,2025-10-25,Women's Strawweight,False,0,False,,4-2-0
+Drew Dober,1040.2951830073368,2025-10-18,Lightweight,False,0,False,,14-11-1
+Kevin Vallejos,1039.9942627068704,2025-08-02,Featherweight,False,0,False,,2-0-0
+Mizuki,1039.7433573630988,2025-10-25,Women's Strawweight,False,0,False,,3-1-0
+Ryan Spann,1039.429242594572,2025-07-19,Heavyweight,False,0,False,,9-6-0
+Kaue Fernandes,1039.1895113571127,2025-09-06,Lightweight,False,0,False,,3-1-0
+Oumar Sy,1039.1790800830652,2025-09-06,Light Heavyweight,False,0,False,,3-1-0
+Abus Magomedov,1038.856878761502,2025-10-04,Middleweight,False,0,False,,4-3-0
+Yadier del Valle,1038.5269832254685,2025-11-01,Featherweight,False,0,False,,2-0-0
+Stephen Thompson,1038.5186102574999,2025-07-12,Welterweight,False,0,False,,12-9-1
+Payton Talbott,1038.4326394061643,2025-06-28,Bantamweight,False,0,False,,4-1-0
+Mauricio Ruffy,1038.2680377889603,2025-09-06,Lightweight,False,0,False,,3-1-0
+Stipe Miocic,1037.9776068894307,2024-11-16,Heavyweight,False,0,True,Former Champion,14-5-0
+Jared Gordon,1036.716198599188,2025-09-13,Lightweight,False,0,False,,9-7-1
+Michael Johnson,1036.4978731295005,2025-07-19,Lightweight,False,0,False,,16-15-0
+Michal Oleksiejczuk,1036.3447777569772,2025-08-16,Middleweight,False,0,False,,9-7-1
+Joseph Morales,1036.3339518660162,2025-11-08,Flyweight,False,0,False,,3-2-0
+Piera Rodriguez,1036.270939517045,2025-08-02,Women's Strawweight,False,0,False,,4-2-0
+Miranda Maverick,1036.2604681501477,2025-06-14,Women's Flyweight,False,0,False,,8-4-0
+Chris Curtis,1036.178428831009,2025-07-12,Welterweight,False,0,False,,6-4-1
+Andre Fili,1036.1491508511933,2025-08-09,Featherweight,False,0,False,,13-11-1
+Tim Elliott,1035.5553990049746,2025-08-16,Flyweight,False,0,False,,10-11-0
+Ignacio Bahamondes,1035.3036522392708,2025-06-21,Lightweight,False,0,False,,6-3-0
+Punahele Soriano,1035.1287985232984,2025-10-04,Welterweight,False,0,False,,6-4-0
+Eduarda Moura,1035.0321361527817,2025-07-12,Women's Flyweight,False,0,False,,3-1-0
+Marvin Vettori,1034.8502314223133,2025-07-19,Middleweight,False,0,False,,9-7-1
+Jesus Aguilar,1034.6623945440397,2025-09-13,Flyweight,False,0,False,,4-2-0
+Elijah Smith,1034.451099794131,2025-08-09,Bantamweight,False,0,False,,2-0-0
+Davey Grant,1034.0016592143752,2025-10-18,Bantamweight,False,0,False,,8-7-0
+Joaquim Silva,1033.9857794141174,2025-09-13,Lightweight,False,0,False,,7-5-0
+Zhang Mingyang,1033.980801429328,2025-08-23,Light Heavyweight,False,0,False,,3-1-0
+Brad Tavares,1033.8661510707043,2025-09-06,Middleweight,False,0,False,,16-11-0
+Macy Chiasson,1033.7239925642054,2025-10-04,Women's Bantamweight,False,0,False,,8-5-0
+Charles Radtke,1033.5974566035775,2025-11-01,Welterweight,False,0,False,,4-2-0
+Rodolfo Vieira,1031.8501915893391,2025-11-15,Middleweight,False,0,False,,6-4-0
+Roman Kopylov,1031.3960947508924,2025-11-15,Middleweight,False,0,False,,6-5-0
+Aleksandar Rakic,1031.141982012607,2025-10-25,Light Heavyweight,False,0,False,,6-5-0
+Andre Muniz,1030.541754766855,2025-10-04,Middleweight,False,0,False,,6-4-0
+Paddy Pimblett,1029.7717078481694,2025-04-12,Lightweight,False,0,False,,7-0-0
+Jamall Emmers,1029.0936247744617,2025-11-08,Featherweight,False,0,False,,5-4-0
+Da'Mon Blackshear,1027.305433985157,2025-07-26,Bantamweight,False,0,False,,5-4-1
+Jack Jenkins,1027.1098423743974,2025-09-27,Featherweight,False,0,False,,4-2-0
+Jose Delgado,1026.103537520133,2025-10-25,Featherweight,False,0,False,,2-1-0
+Cam Rowston,1025.999172296387,2025-09-27,Middleweight,False,0,False,,1-0-0
+Gillian Robertson,1025.836242281364,2025-05-03,Women's Strawweight,False,0,False,,13-6-0
+Jafel Filho,1025.8319721915227,2025-10-11,Flyweight,False,0,False,,3-2-0
+Yousri Belgaroui,1025.4791872176515,2025-10-18,Middleweight,False,0,False,,1-0-0
+Zach Reese,1025.2218595679121,2025-11-08,Catch Weight,False,0,False,,4-2-1
+Morgan Charriere,1024.485222813133,2025-07-12,Featherweight,False,0,False,,3-2-0
+Kennedy Nzechukwu,1024.2344038127171,2025-07-12,Heavyweight,False,0,False,,8-6-0
+Terrance McKinney,1023.6332338240437,2025-06-28,Lightweight,False,0,False,,7-4-0
+Melissa Croden,1023.402525721388,2025-10-18,Women's Bantamweight,False,0,False,,1-0-0
+Gabriella Fernandes,1023.0942123105017,2025-08-09,Women's Flyweight,False,0,False,,3-2-0
+Michelle Montague,1022.9503359384735,2025-09-27,Women's Bantamweight,False,0,False,,1-0-0
+Billy Elekana,1022.7881265325332,2025-11-01,Light Heavyweight,False,0,False,,2-1-0
+Ethyn Ewing,1022.7558956340757,2025-11-15,Featherweight,False,0,False,,1-0-0
+Alden Coria,1022.5635645994732,2025-09-13,Flyweight,False,0,False,,1-0-0
+Nora Cornolle,1021.691917805927,2025-08-02,Women's Bantamweight,False,0,False,,3-2-0
+Mateusz Rebecki,1021.3842148898241,2025-10-25,Lightweight,False,0,False,,4-3-0
+Islam Dulatov,1020.7099234801789,2025-07-19,Welterweight,False,0,False,,1-0-0
+Stephanie Luciano,1020.614365061223,2025-10-18,Women's Strawweight,False,0,False,,2-1-0
+Josh Hokit,1020.6,2025-11-08,Heavyweight,False,0,False,,1-0-0
+Brando Pericic,1020.6,2025-09-27,Heavyweight,False,0,False,,1-0-0
+Trey Waters,1020.5462285128291,2025-09-06,Welterweight,False,0,False,,2-1-0
+Donte Johnson,1020.4781189462407,2025-11-01,Middleweight,False,0,False,,1-0-0
+Bia Mesquita,1020.4769218844436,2025-10-11,Women's Bantamweight,False,0,False,,1-0-0
+Jacobe Smith,1019.976781981585,2025-06-28,Welterweight,False,0,False,,2-0-0
+Carli Judice,1019.8497712235046,2025-07-19,Women's Flyweight,False,0,False,,2-1-0
+Montse Rendon,1019.7699005709517,2025-09-13,Women's Bantamweight,False,0,False,,2-1-0
+Santiago Luna,1019.7296347261645,2025-09-13,Bantamweight,False,0,False,,1-0-0
+Chidi Njokuani,1019.4961006234436,2025-07-12,Welterweight,False,0,False,,5-4-0
+Jakub Wiklacz,1019.1907707803871,2025-10-04,Bantamweight,False,0,False,,1-0-0
+Jimmy Crute,1019.0777254027133,2025-09-27,Light Heavyweight,False,0,False,,6-4-2
+Luana Carolina,1018.5649152234896,2025-09-27,Women's Bantamweight,False,0,False,,6-4-0
+Axel Sola,1018.4752916514642,2025-09-06,Welterweight,False,0,False,,1-0-0
+Myktybek Orolbai,1018.4038820407278,2025-06-21,Catch Weight,False,0,False,,3-1-0
+Danny Silva,1018.3603735741887,2025-08-02,Featherweight,False,0,False,,2-1-0
+Azamat Bekoev,1018.234926259309,2025-10-18,Middleweight,False,0,False,,2-1-0
+Charlie Campbell,1018.1899488953395,2025-09-27,Lightweight,False,0,False,,2-1-0
+Mason Jones,1018.148290012809,2025-09-06,Lightweight,False,0,False,,3-2-1
+Marco Tulio,1018.1131966698846,2025-11-08,Middleweight,False,0,False,,2-1-0
+Themba Gorimbo,1018.0384919835027,2025-11-01,Welterweight,False,0,False,,4-3-0
+Taiyilake Nueraji,1017.7723266919584,2025-08-23,Welterweight,False,0,False,,1-0-0
+Jhonata Diniz,1017.4310742260786,2025-10-11,Heavyweight,False,0,False,,3-2-0
+Hyder Amil,1017.334376591837,2025-11-08,Featherweight,False,0,False,,3-2-0
+Veronica Hardy,1017.2766548952275,2025-10-04,Women's Flyweight,False,0,False,,5-5-0
+Serghei Spivac,1017.02549052889,2025-06-07,Heavyweight,False,0,False,,8-6-0
+Kyle Nelson,1016.6789881357299,2025-10-18,Lightweight,False,0,False,,5-5-1
+Phil Rowe,1016.0118903729884,2025-11-01,Welterweight,False,0,False,,4-4-0
+Malcolm Wellmaker,1015.3236780286549,2025-11-15,Featherweight,False,0,False,,2-1-0
+Christian Rodriguez,1015.2215794780064,2025-08-09,Featherweight,False,0,False,,5-4-0
+ChangHo Lee,1015.0638771886978,2025-11-01,Bantamweight,False,0,False,,2-1-0
+Lone'er Kavanagh,1014.7558639677776,2025-08-23,Flyweight,False,0,False,,2-1-0
+Steve Erceg,1014.2885920005818,2025-08-09,Bantamweight,False,0,False,,4-3-0
+Patricio Freire,1013.6358920042557,2025-07-19,Featherweight,False,0,False,,1-1-0
+Gilbert Burns,1012.6866253687007,2025-05-17,Welterweight,False,0,False,,15-9-0
+Ante Delija,1012.6444190674295,2025-11-01,Heavyweight,False,0,False,,1-1-0
+Calvin Kattar,1011.6573346782043,2025-07-12,Featherweight,False,0,False,,7-8-0
+Kai Kara-France,1011.6512520409867,2025-06-28,Flyweight,False,0,False,,8-5-0
+Court McGee,1011.5255596938583,2025-06-14,Welterweight,False,0,True,Former Champion,11-13-0
+Sumudaerji,1011.4104284534857,2025-08-23,Flyweight,False,0,False,,5-4-0
+Hamdy Abdelwahab,1011.2484732367487,2025-10-25,Heavyweight,False,0,False,,2-1-1
+MarQuel Mederos,1010.7580238276166,2025-06-07,Lightweight,False,0,False,,3-0-0
+Kyle Daukaus,1010.7162740047272,2025-11-15,Middleweight,False,0,False,,4-4-1
+Eryk Anders,1010.4982825274909,2025-08-09,Middleweight,False,0,False,,9-9-1
+Julia Polastri,1009.3290417715947,2025-10-11,Women's Strawweight,False,0,False,,2-2-0
+Andreas Gustafsson,1008.3456606135854,2025-09-06,Welterweight,False,0,False,,1-1-0
+Melquizael Costa,1008.2767024885106,2025-05-17,Featherweight,False,0,False,,5-2-0
+Felipe Lima,1008.1964393687398,2025-06-28,Bantamweight,False,0,False,,2-1-0
+Timmy Cuamba,1007.8607852763109,2025-11-01,Bantamweight,False,0,False,,2-2-0
+Amanda Ribas,1007.8094912236814,2025-07-26,Women's Strawweight,False,0,False,,7-6-0
+Jamie Mullarkey,1007.29361543148,2025-09-27,Lightweight,False,0,False,,6-6-0
+Dustin Jacoby,1007.1468447786758,2025-05-31,Light Heavyweight,False,0,False,,9-6-1
+Robert Bryczek,1006.7829999272028,2025-09-06,Middleweight,False,0,False,,1-1-0
+Ryan Loder,1006.1395932432271,2025-05-03,Middleweight,False,0,True,Former Champion,1-1-0
+Oban Elliott,1005.9717602325552,2025-06-21,Welterweight,False,0,False,,3-1-0
+JeongYeong Lee,1005.6824731100102,2025-05-10,Featherweight,False,0,True,Former Champion,2-2-0
+Max Griffin,1005.3123538701495,2025-07-12,Welterweight,False,0,False,,8-10-0
+Claudio Puelles,1005.2519796114998,2025-09-13,Lightweight,False,0,False,,5-4-0
+Austin Bashi,1004.5824975413099,2025-08-02,Featherweight,False,0,False,,1-1-0
+Lauren Murphy,1003.8968764395165,2025-07-12,Women's Flyweight,False,0,False,,8-7-0
+Uran Satybaldiev,1003.8728047253651,2025-08-23,Light Heavyweight,False,0,False,,1-1-0
+Viviane Araujo,1003.5093391735917,2025-06-28,Women's Flyweight,False,0,False,,7-6-0
+Andrey Pulyaev,1003.2028568828486,2025-08-02,Middleweight,False,0,False,,1-1-0
+Mohammed Usman,1002.3016320981824,2025-06-21,Heavyweight,False,0,False,,4-2-0
+Daniel Zellhuber,1002.0104530232968,2025-07-19,Lightweight,False,0,False,,3-3-0
+Isaac Dulgarian,1001.5614948164636,2025-11-01,Featherweight,False,0,False,,2-2-0
+Djorden Santos,1001.5493041571162,2025-10-18,Middleweight,False,0,False,,1-1-0
+Shauna Bannon,1001.3683126909503,2025-09-06,Women's Strawweight,False,0,False,,2-2-0
+Dione Barbosa,1001.2490881479374,2025-08-16,Women's Flyweight,False,0,False,,2-2-0
+Julius Walker,1001.2184827053787,2025-08-09,Light Heavyweight,False,0,False,,1-1-0
+Rongzhu,1001.1706025135658,2025-08-23,Lightweight,False,0,False,,3-3-0
+Michael Aswell Jr.,1000.8414757929503,2025-10-11,Featherweight,False,0,False,,1-1-0
+Colby Thicknesse,999.8079870010084,2025-09-27,Bantamweight,False,0,False,,1-1-0
+Gauge Young,999.6976941651266,2025-08-23,Lightweight,False,0,False,,1-1-0
+Lucas Rocha,999.4476442596707,2025-10-11,Flyweight,False,0,False,,1-1-0
+Tallison Teixeira,999.0929591082564,2025-07-12,Heavyweight,False,0,False,,1-1-0
+Clayton Carpenter,999.0038477726841,2025-10-11,Flyweight,False,0,False,,2-2-0
+Elves Brener,998.8615840273393,2025-08-02,Lightweight,False,0,False,,3-3-0
+Ariane Carnelossi,998.5498788988583,2025-11-01,Women's Strawweight,False,0,False,,3-3-0
+Austin Vanderford,998.5178602592586,2025-10-04,Welterweight,False,0,False,,1-1-0
+JooSang Yoo,998.0955550287266,2025-10-04,Catch Weight,False,0,False,,1-1-0
+Steven Nguyen,997.7258435998386,2025-07-26,Featherweight,False,0,False,,1-1-0
+Nursulton Ruziboev,997.6396935338031,2025-05-17,Middleweight,False,0,False,,4-1-0
+Alice Ardelean,997.146063922594,2025-11-01,Women's Strawweight,False,0,False,,2-2-0
+Giga Chikadze,996.1032053711106,2025-04-26,Featherweight,False,0,False,,8-3-0
+Daria Zhelezniakova,995.872062501757,2025-06-21,Women's Bantamweight,False,0,False,,2-1-0
+Matheus Camilo,995.6766518479513,2025-11-15,Lightweight,False,0,False,,1-1-0
+Miles Johns,995.4961161860484,2025-11-08,Bantamweight,False,0,False,,6-5-1
+Bolaji Oki,995.3368342863666,2025-09-06,Lightweight,False,0,False,,2-2-0
+Danny Barlow,995.3197217428659,2025-10-18,Middleweight,False,0,False,,2-2-0
+Carlos Leal,994.9365394702484,2025-07-26,Welterweight,False,0,False,,1-2-0
+Nate Landwehr,994.8583993622276,2025-07-12,Featherweight,False,0,False,,5-5-0
+Mansur Abdul-Malik,994.8152904315374,2025-06-14,Middleweight,False,0,False,,2-0-1
+Miesha Tate,994.6171165965169,2025-05-03,Women's Bantamweight,False,0,True,Former Champion,7-7-0
+Angela Hill,994.3390388932161,2025-11-15,Women's Strawweight,False,0,False,,13-16-0
+Khaos Williams,994.313887429755,2025-06-07,Welterweight,False,0,False,,6-4-0
+Aoriqileng,994.2363988620156,2025-10-18,Bantamweight,False,0,False,,4-4-1
+Tainara Lisboa,993.3557095086264,2025-10-18,Women's Bantamweight,False,0,False,,2-2-0
+Luana Santos,992.3627830541151,2025-05-17,Women's Bantamweight,False,0,False,,4-1-0
+Wang Cong,991.6062665488735,2025-06-07,Women's Flyweight,False,0,False,,3-1-0
+Song Yadong,990.6085863314644,2025-02-22,Bantamweight,False,0,False,,11-3-1
+Ismael Bonfim,990.4119555821594,2025-11-08,Lightweight,False,0,False,,2-3-0
+Matt Frevola,990.3880227408722,2025-10-18,Lightweight,False,0,False,,5-6-1
+Ibo Aslan,990.2186158076576,2025-07-26,Light Heavyweight,False,0,False,,2-2-0
+Aaron Pico,988.8158876682661,2025-08-16,Featherweight,False,0,False,,0-1-0
+Jose Ochoa,987.2803707566089,2025-07-26,Flyweight,False,0,False,,1-2-0
+Ismail Naurdiev,987.15557506226,2025-06-21,Middleweight,False,0,False,,3-3-0
+Jamey-Lyn Horth,987.0087601292147,2025-06-14,Women's Flyweight,False,0,False,,3-2-0
+Ricardo Ramos,986.9132122829881,2025-10-11,Featherweight,False,0,False,,8-7-0
+Julian Erosa,986.8847866249776,2025-05-17,Featherweight,False,0,False,,9-8-0
+Santiago Ponzinibbio,985.5325197116301,2025-05-03,Welterweight,False,0,False,,12-8-0
+Xiao Long,985.4789810332425,2025-08-23,Bantamweight,False,0,False,,1-2-0
+Alessandro Costa,985.3642589106104,2025-09-13,Flyweight,False,0,False,,2-3-0
+Ketlen Souza,985.0046639882257,2025-08-02,Women's Strawweight,False,0,False,,2-3-0
+Marcus Buchecha,984.853340597216,2025-07-26,Heavyweight,False,0,False,,0-1-0
+Thomas Petersen,984.2941992023527,2025-10-11,Heavyweight,False,0,False,,2-3-0
+Felipe Bunes,983.9750730681682,2025-08-02,Flyweight,False,0,False,,1-2-0
+Robert Ruchala,983.8227380065686,2025-09-06,Featherweight,False,0,False,,0-1-0
+Rodolfo Bellato,982.9368208537749,2025-09-27,Light Heavyweight,False,0,False,,1-1-2
+Jordan Leavitt,982.7627875916809,2025-05-31,Lightweight,False,0,False,,5-3-0
+Louie Sutherland,982.1536918305324,2025-10-25,Heavyweight,False,0,False,,0-1-0
+Mitch Raposo,982.0760323568232,2025-10-25,Flyweight,False,0,False,,1-2-0
+Tre'ston Vines,981.7751253683416,2025-10-04,Middleweight,False,0,False,,0-1-0
+Adam Fugitt,981.5349148284618,2025-07-19,Welterweight,False,0,False,,2-3-0
+Bruno Silva,981.3749534551456,2025-10-18,Flyweight,False,0,False,,9-11-1
+Nathan Fletcher,981.3523365620688,2025-08-02,Bantamweight,False,0,False,,1-2-0
+Harry Hardwick,980.7763492258633,2025-09-06,Lightweight,False,0,False,,0-1-0
+Karolina Kowalkiewicz,980.3351493683886,2025-10-11,Women's Strawweight,False,0,False,,9-10-0
+Ramon Taveras,980.1718934304358,2025-09-27,Featherweight,False,0,False,,1-2-0
+Alice Pereira,979.9833250292602,2025-09-13,Women's Bantamweight,False,0,False,,0-1-0
+Eric McConico,979.9138643235741,2025-11-15,Middleweight,False,0,False,,1-2-0
+Luan Lacerda,979.855808493234,2025-10-11,Bantamweight,False,0,False,,1-2-0
+Paul Craig,979.5684865491534,2025-09-06,Light Heavyweight,False,0,False,,9-10-2
+Kevin Christian,979.5634863533725,2025-11-01,Light Heavyweight,False,0,False,,0-1-0
+Elisha Ellison,979.4,2025-09-27,Heavyweight,False,0,False,,0-1-0
+Max Gimenis,979.4,2025-11-08,Heavyweight,False,0,False,,0-1-0
+Tuco Tokkos,978.9707223313557,2025-07-12,Light Heavyweight,False,0,False,,1-2-0
+Matt Schnell,978.8172317266173,2025-11-08,Flyweight,False,0,False,,7-8-1
+John Yannis,978.1933954106223,2025-08-02,Featherweight,False,0,False,,0-1-0
+Eric Nolan,978.0,2025-08-16,Middleweight,False,0,False,,0-1-0
+Priscila Cachoeira,975.949938157055,2025-08-09,Women's Bantamweight,False,0,False,,5-7-0
+Bogdan Grad,975.6269564258929,2025-06-21,Featherweight,False,0,False,,1-1-0
+Gerald Meerschaert,975.4770662291837,2025-11-15,Middleweight,False,0,False,,12-13-0
+Brad Katona,974.9888524282212,2025-05-10,Bantamweight,False,0,True,Former Champion,4-5-0
+Kaan Ofli,974.0113814063942,2025-10-11,Featherweight,False,0,False,,1-2-0
+Melissa Mullins,973.5442470440722,2025-06-21,Women's Bantamweight,False,0,False,,2-2-0
+Grant Dawson,973.1297089351239,2025-01-18,Lightweight,False,0,False,,11-1-1
+Klaudia Sygula,972.9573917814457,2025-06-21,Women's Bantamweight,False,0,False,,1-1-0
+Sodiq Yusuff,972.6157395005557,2025-05-17,Lightweight,False,0,False,,6-4-0
+Nikolas Motta,972.4861860208716,2025-06-21,Lightweight,False,0,False,,3-3-1
+Melissa Martinez,971.2285936445984,2025-07-12,Women's Strawweight,False,0,False,,1-2-0
+Brendson Ribeiro,970.839137396407,2025-09-06,Light Heavyweight,False,0,False,,2-4-0
+Sean Woodson,970.0923313922568,2025-04-12,Featherweight,False,0,False,,7-2-1
+Yizha,969.9355593806,2025-08-23,Featherweight,False,0,False,,1-2-0
+Patchy Mix,969.3173692360964,2025-10-04,Bantamweight,False,0,False,,0-2-0
+Quang Le,969.2030692770824,2025-09-13,Bantamweight,False,0,False,,1-3-0
+Yan Xiaonan,969.0605872195807,2025-04-12,Women's Strawweight,False,0,False,,9-4-0
+Tresean Gore,968.2654556365552,2025-08-02,Middleweight,False,0,False,,2-4-0
+Thiago Moises,968.0674253470174,2025-05-17,Lightweight,False,0,False,,8-7-0
+Marc-Andre Barriault,967.4243465764436,2025-07-26,Middleweight,False,0,False,,6-9-1
+Rodrigo Sezinando,966.01,2025-09-13,Welterweight,False,0,False,,0-1-0
+Cody Brundage,966.0014888084855,2025-08-09,Light Heavyweight,False,0,False,,5-6-2
+Mayra Bueno Silva,965.9757339397601,2025-11-08,Women's Bantamweight,False,0,False,,5-6-2
+Kevin Borjas,965.500862200386,2025-08-23,Flyweight,False,0,False,,1-3-0
+Darren Elkins,964.7994934550147,2025-04-12,Featherweight,False,0,False,,19-11-0
+Kai Asakura,964.7676362840297,2025-08-16,Flyweight,False,0,False,,0-2-0
+Cody Durden,964.6797010911843,2025-11-01,Catch Weight,False,0,False,,6-7-1
+Chris Barnett,964.6176301061819,2025-10-25,Heavyweight,False,0,False,,2-4-0
+Nikolay Veretennikov,964.0580993705563,2025-10-04,Welterweight,False,0,False,,1-3-0
+Gilbert Urbina,963.790884029522,2025-08-09,Welterweight,False,0,False,,1-3-0
+Nicolas Dalby,963.4172201594963,2025-04-26,Welterweight,False,0,False,,7-5-2
+Lucas Almeida,963.2949548325286,2025-10-11,Featherweight,False,0,False,,2-4-0
+Dusko Todorovic,963.1742656579738,2025-09-13,Middleweight,False,0,False,,4-6-0
+Ode Osbourne,962.8456227470938,2025-08-09,Bantamweight,False,0,False,,5-7-0
+Alvin Hines,962.084723809434,2025-06-28,Heavyweight,False,0,False,,0-1-0
+Rizvan Kuniev,961.9786490335987,2025-06-21,Heavyweight,False,0,False,,0-1-0
+Jackson McVey,961.7151034205849,2025-11-08,Catch Weight,False,0,False,,0-2-0
+Alibi Idiris,960.9705843458596,2025-08-16,Flyweight,False,0,False,,0-1-0
+Westin Wilson,960.9698960948189,2025-08-23,Featherweight,False,0,False,,1-3-0
+Ravena Oliveira,960.8274477657387,2025-10-18,Women's Strawweight,False,0,False,,0-2-0
+Stewart Nicoll,960.7370751400986,2025-10-11,Flyweight,False,0,False,,0-2-0
+Niko Price,960.2896963056018,2025-06-28,Welterweight,False,0,False,,8-9-2
+Yanal Ashmouz,960.0917033643525,2025-06-07,Lightweight,False,0,False,,2-2-0
+Colby Covington,960.0363700584567,2024-12-14,Welterweight,False,0,True,Former Champion,12-5-0
+Sedriques Dumas,959.3048973815402,2025-11-01,Middleweight,False,0,False,,3-4-1
+Junior Tafa,959.2979829491911,2025-07-12,Light Heavyweight,False,0,False,,2-4-0
+Azat Maksum,959.2883467835377,2025-10-25,Flyweight,False,0,False,,1-3-0
+Irina Alekseeva,958.7664759488387,2025-10-11,Women's Bantamweight,False,0,False,,1-3-0
+Josias Musasa,958.4166028709204,2025-09-27,Bantamweight,False,0,False,,0-2-0
+Nicolle Caliari,958.2431364723892,2025-07-19,Women's Flyweight,False,0,False,,0-2-0
+Luis Gurule,957.6322106387239,2025-09-13,Flyweight,False,0,False,,0-2-0
+Nick Klein,957.6263432244165,2025-08-02,Middleweight,False,0,False,,0-2-0
+Mitch Ramirez,957.2948781763776,2025-07-12,Lightweight,False,0,False,,0-2-0
+Maheshate,956.9410037369835,2025-08-23,Lightweight,False,0,False,,2-4-0
+Diyar Nurgozhay,956.5450675427807,2025-08-23,Light Heavyweight,False,0,False,,0-2-0
+Gunnar Nelson,955.8227975304625,2025-03-22,Welterweight,False,0,False,,10-6-0
+Raul Rosas Jr.,955.8141966300009,2025-03-29,Bantamweight,False,0,False,,5-1-0
+Daniel Frunza,955.3783639543899,2025-11-01,Welterweight,False,0,False,,0-2-0
+Tofiq Musayev,955.152175387591,2025-06-21,Catch Weight,False,0,False,,0-1-0
+Vanessa Demopoulos,954.9315937106513,2025-06-14,Women's Flyweight,False,0,False,,5-5-0
+Arman Tsarukyan,954.854605310116,2024-04-13,Lightweight,False,0,False,,9-2-0
+Bruno Lopes,954.7997684786624,2025-05-31,Light Heavyweight,False,0,False,,1-1-0
+Toshiomi Kazama,953.4074288547871,2025-08-09,Bantamweight,False,0,False,,1-3-0
+Francisco Prado,951.1346727219988,2025-07-19,Welterweight,False,0,False,,1-4-0
+Germaine de Randamie,950.8417418251089,2024-04-06,Women's Bantamweight,False,0,True,Former Champion,7-3-0
+Cameron Smotherman,950.6773091463597,2025-06-14,Bantamweight,False,0,False,,1-2-0
+Dustin Stoltzfus,949.5938872773933,2025-09-13,Middleweight,False,0,False,,3-7-0
+Marcin Prachnio,949.3686906033221,2025-07-19,Light Heavyweight,False,0,False,,4-7-0
+Gabe Green,949.0912073783247,2025-05-17,Lightweight,False,0,False,,3-3-0
+Andre Lima,947.8335985238987,2025-03-15,Flyweight,False,0,False,,4-0-0
+Serhiy Sidey,947.7111256746094,2025-05-03,Bantamweight,False,0,False,,2-1-0
+Manuel Torres,946.7652360608582,2025-03-29,Lightweight,False,0,False,,4-1-0
+Anthony Smith,945.9604380017344,2025-04-26,Light Heavyweight,False,0,False,,13-12-0
+Joanderson Brito,945.8460611955537,2025-04-05,Featherweight,False,0,False,,5-3-0
+Movsar Evloev,945.3567786087975,2024-12-07,Featherweight,False,0,False,,9-0-0
+Ariane da Silva,943.9260766051689,2025-06-07,Women's Flyweight,False,0,False,,6-8-0
+Rafael Cerquiera,943.4040844713863,2025-08-09,Light Heavyweight,False,0,False,,0-3-0
+Mark Choinski,942.8876269498769,2025-06-07,Lightweight,False,0,False,,0-1-0
+Kiefer Crosbie,942.5025041831393,2025-08-23,Welterweight,False,0,False,,0-3-0
+Ivan Erslan,942.2848257777993,2025-09-27,Light Heavyweight,False,0,False,,0-3-0
+Alatengheili,942.2805394081454,2025-04-26,Bantamweight,False,0,False,,5-3-1
+Brogan Walker,941.1031235993298,2025-10-04,Women's Flyweight,False,0,False,,0-3-0
+Manel Kape,940.3929925255537,2025-03-01,Flyweight,False,0,False,,6-3-0
+Bekzat Almakhan,940.0037849138312,2025-05-10,Bantamweight,False,0,False,,1-1-0
+Viacheslav Borshchev,939.4105911107818,2025-11-15,Lightweight,False,0,False,,3-6-1
+Mick Parkin,939.364653680837,2025-03-22,Heavyweight,False,0,False,,4-1-0
+Jose Daniel Medina,939.005865032655,2025-09-13,Middleweight,False,0,False,,0-3-0
+Mohammad Yahya,938.6773996037497,2025-07-26,Featherweight,False,0,False,,0-3-0
+Montserrat Conejo Ruiz,938.4296401517719,2025-11-01,Women's Strawweight,False,0,False,,1-4-0
+Evan Elder,938.1736962295457,2025-04-26,Lightweight,False,0,False,,3-2-0
+Jim Miller,937.5325192167169,2025-04-12,Lightweight,False,0,False,,27-18-1
+Cody Gibson,936.7823766419748,2025-10-18,Bantamweight,False,0,False,,3-7-0
+Ange Loosa,936.6012146648135,2025-06-14,Welterweight,False,0,False,,2-3-1
+Shavkat Rakhmonov,936.5478547712062,2024-12-07,Welterweight,False,0,False,,7-0-0
+Rhys McKee,936.1483687111993,2025-09-06,Welterweight,False,0,False,,1-5-0
+Marina Rodriguez,935.4499226632734,2025-05-03,Women's Strawweight,False,0,False,,7-6-2
+Victor Henry,933.8744347449788,2025-04-05,Bantamweight,False,0,False,,4-2-1
+Austin Hubbard,933.7295649191867,2025-08-23,Lightweight,False,0,False,,4-8-0
+Billy Ray Goff,932.6927008012709,2025-05-31,Welterweight,False,0,False,,1-2-0
+Austen Lane,932.5742446269566,2025-07-12,Heavyweight,False,0,False,,1-4-1
+Kyle Prepolec,930.9102308697715,2025-10-18,Lightweight,False,0,False,,0-4-0
+Robert Valentin,930.6295158678761,2025-07-19,Middleweight,False,0,False,,0-3-0
+John Castaneda,930.199747755703,2025-04-26,Featherweight,False,0,False,,4-4-0
+Fares Ziam,929.1713223359575,2025-02-01,Lightweight,False,0,False,,7-2-0
+Julija Stoliarenko,928.9740777694242,2025-08-09,Women's Flyweight,False,0,False,,2-7-0
+Rolando Bedoya,928.2092311036929,2025-09-27,Lightweight,False,0,False,,0-4-0
+Maycee Barber,925.6903663263043,2024-03-09,Women's Flyweight,False,0,False,,9-2-0
+Lukasz Brzeski,925.0400178616621,2025-07-19,Heavyweight,False,0,False,,1-6-0
+Carlos Hernandez,924.1071663715171,2025-05-17,Flyweight,False,0,False,,3-4-0
+Juliana Miller,923.5606042781828,2025-05-03,Women's Flyweight,False,0,False,,2-2-0
+Saimon Oliveira,921.3395630717995,2025-10-11,Bantamweight,False,0,False,,0-4-0
+Ion Cutelaba,921.2698887698012,2025-05-10,Light Heavyweight,False,0,False,,8-10-1
+Chris Weidman,920.3309313148627,2024-12-07,Catch Weight,False,0,True,Former Champion,12-8-0
+Elise Reed,920.1792915951185,2025-05-17,Women's Strawweight,False,0,False,,4-5-0
+Vinc Pichel,918.3272847739394,2025-03-29,Lightweight,False,0,False,,7-5-0
+Gaston Bolanos,917.1320751391637,2025-05-03,Bantamweight,False,0,False,,2-2-0
+Torrez Finney,916.9844175704455,2025-04-05,Middleweight,False,0,False,,1-0-0
+Luana Pinheiro,914.456601451846,2025-05-17,Women's Strawweight,False,0,False,,3-4-0
+Cameron Saaiman,912.5170685334082,2025-04-26,Bantamweight,False,0,False,,3-3-0
+Kris Moutinho,912.0826329787353,2025-06-14,Bantamweight,False,0,False,,0-3-0
+Michael Chandler,910.070615097616,2025-04-12,Lightweight,False,0,False,,2-5-0
+JJ Aldrich,909.4370117915506,2025-03-01,Women's Flyweight,False,0,False,,10-6-0
+Jeka Saragih,908.4984489941473,2025-06-07,Featherweight,False,0,False,,1-3-0
+King Green,907.3483669785535,2025-03-08,Lightweight,False,0,False,,13-12-2
+Ramazan Temirov,907.1167848658523,2025-03-01,Flyweight,False,0,False,,2-0-0
+Jairzinho Rozenstruik,906.1301395277654,2025-02-01,Heavyweight,False,0,False,,9-6-0
+Ronaldo Rodriguez,904.3382432275937,2025-03-29,Flyweight,False,0,False,,2-1-0
+Jalin Turner,903.9379483853536,2025-03-08,Lightweight,False,0,False,,7-6-0
+Chelsea Chandler,903.0829931793769,2025-04-26,Women's Bantamweight,False,0,False,,2-3-0
+Anshul Jubli,898.9291388964845,2025-02-08,Lightweight,False,0,True,Former Champion,1-2-0
+Rayanne dos Santos,897.2253352184724,2025-05-31,Women's Strawweight,False,0,False,,0-3-0
+Ailin Perez,895.9566154068884,2025-01-18,Women's Bantamweight,False,0,False,,5-1-0
+Jeremy Stephens,893.6769407574299,2025-05-03,Lightweight,False,0,False,,15-19-1
+Caolan Loughran,893.1009615887522,2025-03-22,Bantamweight,False,0,False,,2-2-0
+Alex Morono,892.7242303767623,2025-03-08,Welterweight,False,0,False,,13-9-1
+Edgar Chairez,889.234922506909,2025-03-29,Flyweight,False,0,False,,2-2-1
+Ivana Petrovic,887.800659846484,2025-05-03,Women's Flyweight,False,0,False,,1-3-0
+Holly Holm,887.4714482189755,2024-04-13,Women's Bantamweight,False,0,True,Former Champion,8-7-1
+Carlos Vera,886.9041381502389,2025-03-15,Bantamweight,False,0,False,,1-1-0
+Raquel Pennington,886.691126285913,2024-10-05,Women's Bantamweight,False,0,True,Former Champion,13-6-0
+Kurt Holobaugh,885.0914849187137,2025-05-31,Lightweight,False,0,False,,2-7-0
+Bryan Battle,884.9085967870011,2024-12-07,Welterweight,False,0,False,,7-1-1
+Puja Tomar,884.3637312686329,2025-03-22,Women's Strawweight,False,0,False,,1-1-0
+Shamil Gaziev,883.6318844715396,2025-02-01,Heavyweight,False,0,False,,3-1-0
+Roberto Romero,882.9673682845234,2025-04-26,Featherweight,False,0,False,,0-2-0
+Connor Matthews,882.3317694003356,2025-05-17,Featherweight,False,0,False,,0-3-0
+Jimmy Flick,882.1513212369181,2025-04-26,Flyweight,False,0,False,,2-4-0
+Rei Tsuruya,878.8066478453419,2025-03-08,Flyweight,False,0,False,,1-1-0
+Ozzy Diaz,878.2031899300275,2025-03-08,Middleweight,False,0,False,,1-1-0
+Melsik Baghdasaryan,877.0245945352117,2025-02-22,Featherweight,False,0,False,,3-2-0
+Marcos Rogerio de Lima,876.7459084613387,2024-02-17,Heavyweight,False,0,False,,11-7-0
+Rafael Dos Anjos,876.6266850556786,2024-10-26,Welterweight,False,0,True,Former Champion,21-15-0
+Don'Tale Mayes,876.5304673413666,2025-05-03,Heavyweight,False,0,False,,4-7-1
+Shi Ming,874.8658887967343,2024-11-23,Women's Strawweight,False,0,True,Former Champion,1-0-0
+Guram Kutateladze,874.1860379085215,2025-03-22,Lightweight,False,0,False,,2-3-0
+DongHun Choi,872.9157390301413,2024-11-23,Flyweight,False,0,True,Former Champion,1-0-0
+Hailey Cowan,872.3813665545432,2025-04-12,Women's Bantamweight,False,0,False,,0-2-0
+Josiane Nunes,871.3415734298061,2025-03-15,Women's Bantamweight,False,0,False,,3-3-0
+Javid Basharat,871.0858308266365,2025-02-22,Bantamweight,False,0,False,,3-2-1
+Katlyn Cerminara,871.0310583178136,2024-03-09,Women's Flyweight,False,0,False,,11-6-0
+Polyana Viana,870.9421806413745,2025-04-26,Women's Strawweight,False,0,False,,4-7-0
+Jonathan Micallef,870.4883294523169,2025-02-08,Welterweight,False,0,False,,1-0-0
+Molly McCann,869.7417690482491,2025-03-22,Women's Strawweight,False,0,False,,7-7-0
+Aleksandre Topuria,869.1866647455356,2025-02-08,Bantamweight,False,0,False,,1-0-0
+Pedro Falcao,867.5473988367374,2025-04-05,Bantamweight,False,0,False,,0-2-0
+Carla Esparza,866.9120111599342,2024-10-05,Women's Strawweight,False,0,True,Former Champion,10-6-0
+Cortavious Romious,865.7874618243318,2025-04-05,Bantamweight,False,0,False,,0-2-0
+Cub Swanson,865.7543628005739,2024-12-14,Featherweight,False,0,False,,15-10-0
+Rani Yahya,865.6410178948211,2024-04-27,Bantamweight,False,0,False,,13-6-2
+Daniel Barez,865.041502028719,2025-03-15,Flyweight,False,0,False,,1-2-0
+Yuneisy Duben,862.9089924369503,2025-03-15,Women's Flyweight,False,0,False,,0-1-0
+Nurullo Aliev,862.4917049651564,2025-01-11,Lightweight,False,0,False,,2-0-0
+Jai Herbert,862.2796267619223,2025-03-22,Lightweight,False,0,False,,3-5-1
+Alex Caceres,862.1523467524161,2024-05-11,Featherweight,False,0,False,,16-13-1
+Cesar Almeida,860.7473824480787,2025-01-11,Middleweight,False,0,False,,3-1-0
+Felipe dos Santos,860.1209940234044,2025-03-22,Flyweight,False,0,False,,1-3-0
+Gabriel Santos,860.1035560053133,2025-02-08,Featherweight,False,0,False,,2-2-0
+Francis Marshall,859.8854428593094,2025-03-08,Featherweight,False,0,False,,2-3-0
+Armen Petrosyan,858.8760749396187,2025-03-08,Middleweight,False,0,False,,3-4-0
+Philipe Lins,858.0268132304673,2024-03-09,Light Heavyweight,False,0,False,,4-2-0
+Jonathan Martinez,857.2845500929835,2024-11-16,Bantamweight,False,0,False,,10-5-0
+Gabriel Miranda,855.9864637263966,2025-03-29,Featherweight,False,0,False,,1-3-0
+CJ Vergara,855.8086913077121,2025-03-29,Flyweight,False,0,False,,3-5-0
+Jordan Vucenic,854.2592801852338,2025-03-22,Lightweight,False,0,False,,0-2-0
+Julio Arce,851.6994536823383,2024-03-30,Featherweight,False,0,False,,6-4-0
+AJ Cunningham,851.6576493635672,2025-03-15,Bantamweight,False,0,False,,0-2-0
+Kevin Jousset,851.0906212299916,2025-02-08,Welterweight,False,0,False,,2-2-0
+Julia Avila,849.7672909452474,2025-02-15,Women's Bantamweight,False,0,False,,3-3-0
+Muin Gafurov,849.6835824640688,2025-01-18,Bantamweight,False,0,False,,2-2-0
+Carlston Harris,847.3337369608884,2025-01-11,Welterweight,False,0,False,,4-3-0
+Jacob Malkoun,844.0699492129621,2024-03-30,Middleweight,False,0,False,,4-3-0
+Adrian Yanez,843.5361221143656,2024-12-14,Bantamweight,False,0,False,,6-3-0
+Joe Solecki,843.4074685853274,2025-01-11,Lightweight,False,0,False,,5-4-0
+Makhmud Muradov,843.1788934147322,2024-02-03,Middleweight,False,0,False,,4-2-1
+Jamal Pogues,843.0419314944032,2025-02-01,Heavyweight,False,0,False,,2-2-0
+SeungWoo Choi,838.6955930564242,2025-03-15,Featherweight,False,0,False,,4-7-0
+Bruna Brasil,838.357362264443,2025-02-08,Women's Flyweight,False,0,False,,2-3-0
+Diana Belbita,838.2305330051963,2025-04-05,Women's Flyweight,False,0,False,,2-6-0
+Joanne Wood,837.9072662860351,2024-03-09,Women's Flyweight,False,0,False,,9-8-0
+Benardo Sopaj,833.6945812187294,2025-01-18,Bantamweight,False,0,False,,1-1-0
+Kody Steele,832.8071064131061,2025-02-08,Lightweight,False,0,False,,0-1-0
+Justin Tafa,831.6486225711019,2025-02-08,Heavyweight,False,0,False,,4-5-1
+Vince Morales,831.0330805931474,2025-03-29,Bantamweight,False,0,False,,3-8-0
+Ernesta Kareckaite,829.7428850334547,2025-01-11,Women's Flyweight,False,0,False,,1-1-0
+Aliaskhab Khizriev,829.6596,2024-02-03,Middleweight,False,0,False,,1-0-1
+Dooho Choi,829.0337517209356,2024-12-07,Featherweight,False,0,False,,5-3-1
+Amir Albazi,828.8891357284241,2024-11-02,Flyweight,False,0,False,,5-1-0
+Magomed Gadzhiyasulov,826.3188776035812,2025-01-11,Light Heavyweight,False,0,False,,1-1-0
+Alexandr Romanov,826.1898259976823,2024-11-02,Heavyweight,False,0,False,,7-3-0
+Trey Ogden,825.6596160214999,2025-01-11,Lightweight,False,0,False,,3-3-1
+Damir Hadzovic,825.658420668414,2025-02-01,Lightweight,False,0,False,,4-6-0
+Tyson Pedro,825.1868582962088,2024-03-02,Light Heavyweight,False,0,False,,6-5-0
+Julian Marquez,824.940649864993,2025-03-01,Middleweight,False,0,False,,3-5-0
+Volkan Oezdemir,824.7353528369804,2024-11-23,Light Heavyweight,False,0,False,,8-7-0
+Istela Nunes,821.205897964472,2025-04-05,Women's Strawweight,False,0,False,,0-5-0
+Josefine Knutsson,818.179600405463,2024-12-14,Women's Strawweight,False,0,False,,2-1-0
+Bryan Barberena,817.2755298557046,2024-03-16,Middleweight,False,0,False,,9-10-0
+Natan Levy,816.9448471993048,2024-03-16,Lightweight,False,0,False,,2-2-0
+Viktoriia Dudakova,815.0397111388929,2025-01-11,Women's Strawweight,False,0,False,,2-2-0
+Billy Quarantillo,814.9946914301139,2024-12-14,Featherweight,False,0,False,,6-5-0
+Andrea Lee,813.3708074674313,2025-03-01,Women's Flyweight,False,0,False,,5-9-0
+Dylan Budka,811.7853736457375,2025-02-15,Middleweight,False,0,False,,0-3-0
+Ricky Turcios,811.6284059608005,2025-01-18,Bantamweight,False,0,False,,2-3-0
+Maryna Moroz,811.3279479086582,2024-03-09,Women's Flyweight,False,0,False,,6-6-0
+Dan Hooker,810.0306530144537,2024-08-17,Lightweight,False,0,False,,14-8-0
+Phil Hawes,809.644720044074,2024-01-13,Middleweight,False,0,False,,4-4-0
+Lucas Alexander,809.5109486730654,2025-02-01,Featherweight,False,0,False,,1-3-0
+Fernando Padilla,807.416828326913,2024-12-14,Featherweight,False,0,False,,2-2-0
+Arnold Allen,807.3248829860736,2024-07-27,Featherweight,False,0,False,,11-2-0
+Stephanie Egger,807.3200097456568,2023-12-09,Women's Bantamweight,False,0,False,,3-4-0
+Igor Severino,803.5999999999999,2024-03-23,Flyweight,False,0,False,,0-1-0
+Preston Parsons,803.4340782214005,2025-01-11,Welterweight,False,0,False,,2-4-0
+Pete Rodriguez,803.4263902969118,2024-02-03,Welterweight,False,0,False,,1-2-0
+Cristian Quinonez,803.297665196611,2024-02-24,Bantamweight,False,0,False,,1-2-0
+Luis Pajuelo,802.9918169567155,2024-03-23,Featherweight,False,0,False,,0-1-0
+Angel Pacheco,802.6268111168147,2024-03-30,Bantamweight,False,0,False,,0-1-0
+Devin Clark,801.8424322346997,2024-02-10,Light Heavyweight,False,0,False,,8-9-0
+Abdul-Kareem Al-Selwady,801.8335339150188,2024-03-02,Lightweight,False,0,False,,0-1-0
+Jack Shore,801.6925207972753,2024-11-02,Featherweight,False,0,False,,6-3-0
+Abdul Razak Alhassan,800.4862760054808,2025-01-11,Middleweight,False,0,False,,6-7-1
+Blake Bilder,800.0677680186933,2024-02-03,Featherweight,False,0,False,,1-2-0
+Jose Johnson,799.161945026906,2025-01-11,Flyweight,False,0,False,,1-3-0
+Gabriel Benitez,798.6632977469851,2024-04-27,Lightweight,False,0,False,,7-8-0
+Taylor Lapilus,797.5968393168815,2024-09-28,Bantamweight,False,0,False,,6-2-0
+Christos Giagos,796.2670109785017,2024-04-06,Lightweight,False,0,False,,6-8-0
+Song Kenan,793.5063826661163,2024-11-23,Welterweight,False,0,False,,6-5-0
+AJ Dobson,790.4844510142048,2024-03-23,Middleweight,False,0,False,,1-3-0
+Landon Quinones,790.4770184053804,2024-02-03,Lightweight,False,0,False,,0-2-0
+Muhammad Mokaev,789.1478097013272,2024-07-27,Flyweight,False,0,False,,7-0-0
+Val Woodburn,788.8220553835406,2024-02-17,Welterweight,False,0,False,,0-2-0
+Erik Silva,787.8545329588624,2024-02-24,Featherweight,False,0,False,,0-2-0
+Damon Jackson,787.4404605286257,2024-11-16,Lightweight,False,0,False,,6-6-2
+Matheus Nicolau,787.3068967230124,2024-10-19,Flyweight,False,0,False,,7-4-0
+Marnic Mann,787.2993207038809,2024-04-27,Women's Strawweight,False,0,False,,0-2-0
+Claudio Ribeiro,786.5675954975666,2024-03-02,Middleweight,False,0,False,,1-3-0
+Michal Figlak,786.5602508395764,2024-04-27,Lightweight,False,0,False,,0-2-0
+Ottman Azaitar,786.523266933632,2024-12-14,Lightweight,False,0,False,,2-3-0
+Nick Aguirre,785.8440325766613,2023-11-18,Bantamweight,False,0,False,,0-2-0
+Yohan Lainesse,785.4382321621227,2024-01-20,Welterweight,False,0,False,,1-3-0
+Pedro Munhoz,785.1295580351623,2024-11-02,Bantamweight,False,0,False,,10-10-2
+Rodrigo Nascimento,783.7422571432769,2024-11-02,Heavyweight,False,0,False,,4-3-1
+Zac Pauga,783.3052065590045,2024-02-10,Light Heavyweight,False,0,False,,1-3-0
+Wellington Turman,783.2797957660229,2023-12-02,Welterweight,False,0,False,,3-6-0
+Clay Guida,779.4565308951746,2024-12-07,Lightweight,False,0,False,,18-19-0
+Ihor Potieria,779.322448032862,2025-01-11,Middleweight,False,0,False,,2-6-0
+Irene Aldana,777.9437451879966,2024-09-14,Women's Bantamweight,False,0,False,,8-6-0
+Tony Ferguson,777.0159815916167,2024-08-03,Welterweight,False,0,True,Former Champion,15-9-0
+Mateus Mendonca,776.659878153955,2024-02-24,Flyweight,False,0,False,,0-3-0
+Malcolm Gordon,775.3321862243577,2024-01-20,Flyweight,False,0,False,,2-5-0
+Bassil Hafez,773.7164742391781,2024-11-16,Welterweight,False,0,False,,1-2-0
+Kron Gracie,773.2983551325401,2024-12-07,Featherweight,False,0,False,,1-3-0
+Josh Parisian,772.1653142752616,2024-03-09,Heavyweight,False,0,False,,2-5-0
+Jonathan Pearce,772.1039289062991,2024-10-12,Featherweight,False,0,False,,5-4-0
+Nyamjargal Tumendemberel,772.0749000944143,2024-11-23,Flyweight,False,0,False,,0-1-0
+Shannon Ross,771.9076004048135,2023-12-09,Flyweight,False,0,False,,0-3-0
+Denys Bondar,771.4146741236094,2024-02-24,Flyweight,False,0,False,,0-3-0
+Cody Haddon,769.6931142971935,2024-10-12,Bantamweight,False,0,False,,1-0-0
+Victor Hugo,769.1897235225424,2024-10-26,Featherweight,False,0,False,,1-1-0
+Cody Stamann,766.7329097514527,2024-11-09,Bantamweight,False,0,False,,7-7-1
+Zachary Scroggin,766.3243959340267,2024-11-09,Welterweight,False,0,False,,0-1-0
+Baergeng Jieleyisi,762.9545755130285,2024-11-23,Bantamweight,False,0,False,,0-1-0
+Trevin Giles,762.4647173768976,2024-11-02,Welterweight,False,0,False,,7-7-0
+Kiru Sahota,762.173474137891,2024-11-23,Flyweight,False,0,False,,0-1-0
+Anton Turkalj,761.0119146719383,2024-03-30,Light Heavyweight,False,0,False,,0-4-0
+Feng Xiaocan,760.3509042625705,2024-11-23,Women's Strawweight,False,0,False,,0-1-0
+Li Jingliang,760.1885704292325,2024-08-17,Welterweight,False,0,False,,11-7-0
+Matthew Semelsberger,759.5197784863387,2024-11-09,Welterweight,False,0,False,,5-6-0
+Ovince Saint Preux,758.8534850245603,2024-10-05,Light Heavyweight,False,0,False,,15-13-0
+Fernie Garcia,758.1159998213238,2024-02-10,Featherweight,False,0,False,,0-4-0
+Garrett Armfield,754.3790720600324,2024-11-02,Bantamweight,False,0,False,,2-3-0
+Mickey Gall,753.8301211343855,2024-11-16,Welterweight,False,0,False,,6-7-0
+Chad Anheliger,753.684666697407,2024-11-02,Bantamweight,False,0,False,,2-3-0
+Liang Na,753.0067890073312,2024-04-27,Women's Flyweight,False,0,False,,0-4-0
+Cory McKenna,751.191775007532,2024-10-12,Women's Strawweight,False,0,False,,3-3-0
+Casey O'Neill,748.2354064499441,2024-08-17,Women's Flyweight,False,0,False,,5-2-0
+Jake Hadley,747.6759966417189,2024-10-19,Bantamweight,False,0,False,,3-4-0
+Antonio Trocoli,746.5802474370786,2024-11-09,Middleweight,False,0,False,,0-2-0
+Jamie Pickett,744.5751740208035,2024-03-02,Middleweight,False,0,False,,2-7-0
+Robelis Despaigne,743.7584065300209,2024-10-19,Heavyweight,False,0,False,,1-2-0
+Yazmin Jauregui,742.9398590803617,2024-09-14,Women's Strawweight,False,0,False,,3-2-0
+Tim Means,739.4525170754121,2024-10-05,Welterweight,False,0,False,,15-14-1
+James Llontop,739.0065029029704,2024-11-16,Catch Weight,False,0,False,,0-3-0
+Sean Sharaf,737.8708579569002,2024-10-12,Heavyweight,False,0,False,,0-1-0
+Daniel Lacerda,735.0769304534609,2024-02-24,Flyweight,False,0,False,,0-5-1
+Da Woon Jung,734.8401759542932,2024-09-28,Light Heavyweight,False,0,False,,4-4-1
+Karl Williams,730.8129905203508,2024-08-10,Heavyweight,False,0,False,,3-1-0
+Daniel Pineda,729.2629126466771,2024-10-19,Featherweight,False,0,False,,5-8-1
+Caio Machado,727.5767448787956,2024-11-02,Light Heavyweight,False,0,False,,0-3-0
+Tamires Vidal,726.8949433644133,2024-10-19,Women's Bantamweight,False,0,False,,1-3-0
+Roosevelt Roberts,725.062645752881,2024-09-28,Lightweight,False,0,False,,4-5-1
+Jared Gooden,724.9192258940463,2024-10-12,Welterweight,False,0,False,,2-5-0
+Tai Tuivasa,721.4867714089834,2024-08-17,Heavyweight,False,0,False,,8-8-0
+Jessica Penne,715.8745923780307,2024-10-19,Women's Strawweight,False,0,False,,3-6-0
+Zygimantas Ramaska,714.4476095399176,2024-09-07,Featherweight,False,0,False,,0-1-0
+Dan Argueta,714.4201064503864,2024-10-12,Bantamweight,False,0,False,,1-3-2
+Andrei Arlovski,714.1700767047213,2024-06-29,Heavyweight,False,0,True,Former Champion,23-18-1
+Trevor Peek,714.0191361564182,2024-09-07,Lightweight,False,0,False,,2-3-0
+Victor Altamirano,713.403357221273,2024-09-28,Flyweight,False,0,False,,2-4-0
+Nate Maness,707.2848531696884,2024-06-15,Flyweight,False,0,False,,5-2-0
+Brendon Marotte,701.1644531299157,2024-09-07,Featherweight,False,0,False,,0-2-0
+Brady Hiestand,700.8794286986117,2024-06-15,Bantamweight,False,0,False,,3-1-0
+Pannie Kianzad,699.6724518106397,2024-08-10,Women's Bantamweight,False,0,False,,5-6-0
+Kyung Ho Kang,699.0623497154003,2024-06-22,Bantamweight,False,0,False,,8-5-1
+Josh Culibao,699.0057699893134,2024-08-17,Featherweight,False,0,False,,3-4-1
+Alex Perez,697.7650891751938,2024-06-15,Flyweight,False,0,False,,7-5-0
+Bill Algeo,696.484459868975,2024-07-20,Featherweight,False,0,False,,5-5-0
+Dennis Buzukja,695.5645533124083,2024-08-24,Lightweight,False,0,False,,1-3-0
+Loik Radzhabov,694.3242677725439,2024-07-20,Lightweight,False,0,False,,2-2-0
+Ricky Glenn,688.5726839341872,2024-08-17,Welterweight,False,0,False,,4-6-1
+Douglas Silva de Andrade,688.0238558467765,2024-06-15,Bantamweight,False,0,False,,7-6-0
+Warlley Alves,687.608935349542,2024-05-18,Middleweight,False,0,True,Former Champion,8-8-0
+Jarno Errens,684.0081515413672,2024-08-10,Featherweight,False,0,False,,1-3-0
+Herbert Burns,682.3544236957639,2024-08-17,Featherweight,False,0,False,,2-4-0
+Victoria Leonardo,680.6021132331597,2024-08-24,Women's Flyweight,False,0,False,,1-4-0
+Charalampos Grigoriou,677.757388178077,2024-08-10,Bantamweight,False,0,False,,0-2-0
+Alex Reyes,676.5829813439277,2024-08-17,Lightweight,False,0,False,,0-3-0
+Brian Kelleher,676.4143450444745,2024-07-20,Bantamweight,False,0,False,,8-9-0
+Montana De La Rosa,671.8121956534632,2024-06-08,Women's Flyweight,False,0,False,,6-5-1
+Melissa Gatto,667.6467477608409,2024-05-18,Women's Bantamweight,False,0,False,,3-2-0
+Kaynan Kruschewsky,667.3294669563572,2024-07-20,Lightweight,False,0,False,,0-2-0
+Josh Fremd,666.0534276440853,2024-07-13,Middleweight,False,0,False,,2-4-0
+Mariya Agapova,662.4180803603809,2024-07-13,Women's Flyweight,False,0,False,,2-4-0
+Shayilan Nuerdanbieke,661.5918883583441,2024-06-15,Featherweight,False,0,False,,3-3-0
+Yanis Ghemmouri,657.0089740895532,2024-06-29,Bantamweight,False,0,False,,0-2-0
+Denis Tiuliulin,655.959369188141,2024-08-03,Middleweight,False,0,False,,1-5-0
+Miguel Baeza,654.7725225818243,2024-06-08,Welterweight,False,0,False,,3-4-0
+Darrius Flowers,652.3530856094997,2024-07-13,Welterweight,False,0,False,,0-3-0
+Michelle Waterson-Gomez,648.9219555934026,2024-06-29,Women's Strawweight,False,0,False,,6-9-0
+Jesse Butler,646.1453849918984,2024-06-08,Bantamweight,False,0,False,,0-2-0
+Josh Quinlan,642.511505772877,2024-06-15,Welterweight,False,0,False,,1-3-0
+Emily Ducote,638.7339240735836,2024-05-18,Women's Strawweight,False,0,False,,2-3-0
+Lucie Pudilova,637.3274181450553,2024-07-20,Women's Flyweight,False,0,False,,3-8-0
+Kleydson Rodrigues,629.9450242572517,2024-05-18,Bantamweight,False,0,False,,1-3-0
+Victor Martinez,626.9592901039337,2024-05-18,Lightweight,False,0,False,,0-2-0
+Vinicius Salvador,618.3764470259091,2024-05-18,Bantamweight,False,0,False,,0-3-0

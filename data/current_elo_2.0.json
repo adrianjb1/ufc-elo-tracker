@@ -1,0 +1,6090 @@
+[
+  {
+    "Fighter":"Islam Makhachev",
+    "Elo":1647.8487733271,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Welterweight",
+    "Status":"Champion (0 defenses)",
+    "Record":"17-1-0"
+  },
+  {
+    "Fighter":"Merab Dvalishvili",
+    "Elo":1607.5743172657,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Bantamweight",
+    "Status":"Champion (2 defenses)",
+    "Record":"14-2-0"
+  },
+  {
+    "Fighter":"Ilia Topuria",
+    "Elo":1606.7219264706,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Lightweight",
+    "Status":"Champion (0 defenses)",
+    "Record":"9-0-0"
+  },
+  {
+    "Fighter":"Khamzat Chimaev",
+    "Elo":1561.5321086017,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Middleweight",
+    "Status":"Champion (0 defenses)",
+    "Record":"9-0-0"
+  },
+  {
+    "Fighter":"Alexandre Pantoja",
+    "Elo":1494.9165385891,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Flyweight",
+    "Status":"Champion (1 defenses)",
+    "Record":"14-3-0"
+  },
+  {
+    "Fighter":"Alex Pereira",
+    "Elo":1490.3426887788,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Light Heavyweight",
+    "Status":"Champion (0 defenses)",
+    "Record":"10-2-0"
+  },
+  {
+    "Fighter":"Alexander Volkanovski",
+    "Elo":1482.6173963943,
+    "Last_Fight":1744416000000,
+    "Weight Class":"Featherweight",
+    "Status":"Champion (0 defenses)",
+    "Record":"14-3-0"
+  },
+  {
+    "Fighter":"Valentina Shevchenko",
+    "Elo":1452.3275464044,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":"Former Champion",
+    "Record":"15-3-1"
+  },
+  {
+    "Fighter":"Tom Aspinall",
+    "Elo":1421.0057217311,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Heavyweight",
+    "Status":"Champion (1 defenses)",
+    "Record":"8-1-1"
+  },
+  {
+    "Fighter":"Kamaru Usman",
+    "Elo":1325.6338840173,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"16-3-0"
+  },
+  {
+    "Fighter":"Aljamain Sterling",
+    "Elo":1311.7405821161,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Catch Weight",
+    "Status":"Former Champion",
+    "Record":"17-5-0"
+  },
+  {
+    "Fighter":"Dricus Du Plessis",
+    "Elo":1302.85362824,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Middleweight",
+    "Status":"Former Champion",
+    "Record":"9-1-0"
+  },
+  {
+    "Fighter":"Max Holloway",
+    "Elo":1290.7917057735,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Lightweight",
+    "Status":"Former Champion",
+    "Record":"23-8-0"
+  },
+  {
+    "Fighter":"Leon Edwards",
+    "Elo":1283.6455090348,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"14-5-1"
+  },
+  {
+    "Fighter":"Zhang Weili",
+    "Elo":1283.0064645653,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":"Former Champion",
+    "Record":"10-3-0"
+  },
+  {
+    "Fighter":"Charles Oliveira",
+    "Elo":1281.7633551506,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Lightweight",
+    "Status":"Former Champion",
+    "Record":"24-11-1"
+  },
+  {
+    "Fighter":"Ciryl Gane",
+    "Elo":1268.1361024792,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Heavyweight",
+    "Status":"Former Champion",
+    "Record":"10-2-1"
+  },
+  {
+    "Fighter":"Magomed Ankalaev",
+    "Elo":1263.9064044083,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Light Heavyweight",
+    "Status":"Former Champion",
+    "Record":"12-2-2"
+  },
+  {
+    "Fighter":"Jack Della Maddalena",
+    "Elo":1261.4515571724,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"8-1-0"
+  },
+  {
+    "Fighter":"Jon Jones",
+    "Elo":1247.4196716452,
+    "Last_Fight":1731715200000,
+    "Weight Class":"Heavyweight",
+    "Status":"Former Champion",
+    "Record":"22-1-1"
+  },
+  {
+    "Fighter":"Petr Yan",
+    "Elo":1236.4025447675,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Bantamweight",
+    "Status":"Former Champion",
+    "Record":"11-4-0"
+  },
+  {
+    "Fighter":"Dustin Poirier",
+    "Elo":1235.90449631,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Lightweight",
+    "Status":"Former Champion",
+    "Record":"22-9-1"
+  },
+  {
+    "Fighter":"Deiveson Figueiredo",
+    "Elo":1221.6452265007,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Bantamweight",
+    "Status":"Former Champion",
+    "Record":"14-5-1"
+  },
+  {
+    "Fighter":"Tatiana Suarez",
+    "Elo":1213.3578036593,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":"Former Champion",
+    "Record":"8-1-0"
+  },
+  {
+    "Fighter":"Belal Muhammad",
+    "Elo":1208.5130855177,
+    "Last_Fight":1746835200000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"15-4-1"
+  },
+  {
+    "Fighter":"Robert Whittaker",
+    "Elo":1195.3667628396,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Middleweight",
+    "Status":"Former Champion",
+    "Record":"17-7-0"
+  },
+  {
+    "Fighter":"Jiri Prochazka",
+    "Elo":1192.8522582009,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Light Heavyweight",
+    "Status":"Former Champion",
+    "Record":"6-2-0"
+  },
+  {
+    "Fighter":"Rose Namajunas",
+    "Elo":1187.9223651394,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":"Former Champion",
+    "Record":"12-6-0"
+  },
+  {
+    "Fighter":"Nassourdine Imavov",
+    "Elo":1177.6143458379,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-2-1"
+  },
+  {
+    "Fighter":"Michael Chiesa",
+    "Elo":1175.14152274,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"14-7-0"
+  },
+  {
+    "Fighter":"Sean O'Malley",
+    "Elo":1172.2078190038,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Bantamweight",
+    "Status":"Former Champion",
+    "Record":"10-3-1"
+  },
+  {
+    "Fighter":"Brendan Allen",
+    "Elo":1167.6844147524,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"14-4-0"
+  },
+  {
+    "Fighter":"Alexander Volkov",
+    "Elo":1166.9434199087,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"13-5-0"
+  },
+  {
+    "Fighter":"Anthony Hernandez",
+    "Elo":1163.5342852242,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-2-0"
+  },
+  {
+    "Fighter":"Lerone Murphy",
+    "Elo":1163.5030444991,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"9-0-1"
+  },
+  {
+    "Fighter":"Carlos Ulberg",
+    "Elo":1159.8527799133,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"9-1-0"
+  },
+  {
+    "Fighter":"Michael Morales",
+    "Elo":1158.2939435304,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"7-0-0"
+  },
+  {
+    "Fighter":"Sean Brady",
+    "Elo":1150.1428949899,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"8-2-0"
+  },
+  {
+    "Fighter":"Beneil Dariush",
+    "Elo":1147.6340133514,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"17-7-1"
+  },
+  {
+    "Fighter":"Manon Fiorot",
+    "Elo":1147.0330427367,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"8-1-0"
+  },
+  {
+    "Fighter":"Erin Blanchfield",
+    "Elo":1145.9839637041,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"8-1-0"
+  },
+  {
+    "Fighter":"SuYoung You",
+    "Elo":1141.0807180564,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Bantamweight",
+    "Status":"Former Champion",
+    "Record":"3-0-0"
+  },
+  {
+    "Fighter":"Norma Dumont",
+    "Elo":1139.8101423478,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"9-2-0"
+  },
+  {
+    "Fighter":"Kelvin Gastelum",
+    "Elo":1138.0903855318,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Middleweight",
+    "Status":"Former Champion",
+    "Record":"14-10-1"
+  },
+  {
+    "Fighter":"Carlos Prates",
+    "Elo":1134.5864963885,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-1-0"
+  },
+  {
+    "Fighter":"Rinya Nakamura",
+    "Elo":1132.3027774915,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Bantamweight",
+    "Status":"Former Champion",
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Julianna Pena",
+    "Elo":1131.424275696,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":"Former Champion",
+    "Record":"8-4-0"
+  },
+  {
+    "Fighter":"Cory Sandhagen",
+    "Elo":1131.0196341659,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"11-5-0"
+  },
+  {
+    "Fighter":"Umar Nurmagomedov",
+    "Elo":1128.6564954048,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"7-1-0"
+  },
+  {
+    "Fighter":"Joel Alvarez",
+    "Elo":1128.1911585619,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"8-2-0"
+  },
+  {
+    "Fighter":"Mario Bautista",
+    "Elo":1127.7784160292,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"10-3-0"
+  },
+  {
+    "Fighter":"Aiemann Zahabi",
+    "Elo":1126.110716465,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"8-2-0"
+  },
+  {
+    "Fighter":"Neil Magny",
+    "Elo":1123.6809393367,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"24-12-0"
+  },
+  {
+    "Fighter":"Steve Garcia",
+    "Elo":1121.8920038791,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"8-2-0"
+  },
+  {
+    "Fighter":"Jailton Almeida",
+    "Elo":1121.1008446611,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"8-2-0"
+  },
+  {
+    "Fighter":"Benoit Saint Denis",
+    "Elo":1120.0179464563,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"8-3-0"
+  },
+  {
+    "Fighter":"Azamat Murzakanov",
+    "Elo":1119.7514513885,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"6-0-0"
+  },
+  {
+    "Fighter":"Gabriel Bonfim",
+    "Elo":1118.8838751952,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-1-0"
+  },
+  {
+    "Fighter":"Drakkar Klose",
+    "Elo":1118.8112808373,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"10-3-0"
+  },
+  {
+    "Fighter":"Jose Aldo",
+    "Elo":1118.5871007576,
+    "Last_Fight":1746835200000,
+    "Weight Class":"Featherweight",
+    "Status":"Former Champion",
+    "Record":"14-9-0"
+  },
+  {
+    "Fighter":"Sergei Pavlovich",
+    "Elo":1118.2578767438,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"8-3-0"
+  },
+  {
+    "Fighter":"Mateusz Gamrot",
+    "Elo":1117.8325834832,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"8-4-0"
+  },
+  {
+    "Fighter":"Daniel Rodriguez",
+    "Elo":1117.7806075073,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"10-4-0"
+  },
+  {
+    "Fighter":"Curtis Blaydes",
+    "Elo":1117.1324142326,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"14-5-1"
+  },
+  {
+    "Fighter":"Mackenzie Dern",
+    "Elo":1116.5298525916,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"11-5-0"
+  },
+  {
+    "Fighter":"Caio Borralho",
+    "Elo":1114.9614843303,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"7-1-0"
+  },
+  {
+    "Fighter":"Randy Brown",
+    "Elo":1114.810078903,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"14-7-0"
+  },
+  {
+    "Fighter":"Diego Lopes",
+    "Elo":1112.3264666135,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"6-2-0"
+  },
+  {
+    "Fighter":"Tatsuro Taira",
+    "Elo":1111.852907383,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"7-1-0"
+  },
+  {
+    "Fighter":"Nathaniel Wood",
+    "Elo":1111.1248185572,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"10-3-0"
+  },
+  {
+    "Fighter":"Gregory Rodrigues",
+    "Elo":1111.0944762701,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-3-0"
+  },
+  {
+    "Fighter":"Montel Jackson",
+    "Elo":1109.9025355471,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"9-3-0"
+  },
+  {
+    "Fighter":"Rinat Fakhretdinov",
+    "Elo":1107.6839415348,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-0-1"
+  },
+  {
+    "Fighter":"Pat Sabatini",
+    "Elo":1107.6044671757,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"8-2-0"
+  },
+  {
+    "Fighter":"Daniil Donchenko",
+    "Elo":1106.3693,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Joaquin Buckley",
+    "Elo":1104.9290586643,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"11-5-0"
+  },
+  {
+    "Fighter":"Yair Rodriguez",
+    "Elo":1103.9696023577,
+    "Last_Fight":1744416000000,
+    "Weight Class":"Featherweight",
+    "Status":"Former Champion",
+    "Record":"11-4-1"
+  },
+  {
+    "Fighter":"Mike Malott",
+    "Elo":1103.027951153,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-1-0"
+  },
+  {
+    "Fighter":"Waldo Cortes Acosta",
+    "Elo":1102.6487372604,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"8-2-0"
+  },
+  {
+    "Fighter":"Justin Gaethje",
+    "Elo":1102.1895969026,
+    "Last_Fight":1741392000000,
+    "Weight Class":"Lightweight",
+    "Status":"Former Champion",
+    "Record":"9-5-0"
+  },
+  {
+    "Fighter":"Raoni Barcelos",
+    "Elo":1102.0572889796,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"10-4-0"
+  },
+  {
+    "Fighter":"Derrick Lewis",
+    "Elo":1100.698985886,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"20-10-0"
+  },
+  {
+    "Fighter":"Farid Basharat",
+    "Elo":1100.1497998337,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"5-0-0"
+  },
+  {
+    "Fighter":"Joe Pyfer",
+    "Elo":1099.4368944134,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"6-1-0"
+  },
+  {
+    "Fighter":"Jake Matthews",
+    "Elo":1098.4272994162,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"15-8-0"
+  },
+  {
+    "Fighter":"Alexa Grasso",
+    "Elo":1098.4254632857,
+    "Last_Fight":1746835200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":"Former Champion",
+    "Record":"8-5-1"
+  },
+  {
+    "Fighter":"Jessica Andrade",
+    "Elo":1097.592345009,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":"Former Champion",
+    "Record":"17-13-0"
+  },
+  {
+    "Fighter":"Vicente Luque",
+    "Elo":1096.6963288225,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"16-8-0"
+  },
+  {
+    "Fighter":"Bryce Mitchell",
+    "Elo":1095.5679576658,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"9-3-0"
+  },
+  {
+    "Fighter":"Jamahal Hill",
+    "Elo":1095.2809081101,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Light Heavyweight",
+    "Status":"Former Champion",
+    "Record":"6-4-1"
+  },
+  {
+    "Fighter":"Roman Dolidze",
+    "Elo":1093.7971245868,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-4-0"
+  },
+  {
+    "Fighter":"Joshua Van",
+    "Elo":1093.777890729,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"8-1-0"
+  },
+  {
+    "Fighter":"Youssef Zalal",
+    "Elo":1092.6608908996,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"8-3-1"
+  },
+  {
+    "Fighter":"Jasmine Jasudavicius",
+    "Elo":1092.230113838,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"8-3-0"
+  },
+  {
+    "Fighter":"Vinicius Oliveira",
+    "Elo":1090.6976004767,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"4-0-0"
+  },
+  {
+    "Fighter":"Martin Buday",
+    "Elo":1090.3319520529,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"7-1-0"
+  },
+  {
+    "Fighter":"Marcin Tybura",
+    "Elo":1089.4146079605,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"14-9-0"
+  },
+  {
+    "Fighter":"Chris Gutierrez",
+    "Elo":1088.9690308212,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"10-4-1"
+  },
+  {
+    "Fighter":"Jacqueline Cavalcanti",
+    "Elo":1088.9289123888,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"5-0-0"
+  },
+  {
+    "Fighter":"HyunSung Park",
+    "Elo":1088.3552412333,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Flyweight",
+    "Status":"Former Champion",
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Nasrat Haqparast",
+    "Elo":1087.4753407585,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"10-5-0"
+  },
+  {
+    "Fighter":"Marlon Vera",
+    "Elo":1085.5523588982,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"15-10-0"
+  },
+  {
+    "Fighter":"Brandon Moreno",
+    "Elo":1084.5714917652,
+    "Last_Fight":1743206400000,
+    "Weight Class":"Flyweight",
+    "Status":"Former Champion",
+    "Record":"11-5-2"
+  },
+  {
+    "Fighter":"Denise Gomes",
+    "Elo":1084.347923195,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"6-2-0"
+  },
+  {
+    "Fighter":"Ludovit Klein",
+    "Elo":1084.2798403519,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"8-3-1"
+  },
+  {
+    "Fighter":"Israel Adesanya",
+    "Elo":1084.016748147,
+    "Last_Fight":1738368000000,
+    "Weight Class":"Middleweight",
+    "Status":"Former Champion",
+    "Record":"13-5-0"
+  },
+  {
+    "Fighter":"Rob Font",
+    "Elo":1082.7795245256,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"12-8-0"
+  },
+  {
+    "Fighter":"Virna Jandiroba",
+    "Elo":1082.3170412589,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"8-4-0"
+  },
+  {
+    "Fighter":"Reinier de Ridder",
+    "Elo":1081.8582948837,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Jean Silva",
+    "Elo":1081.0193400033,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Muslim Salikhov",
+    "Elo":1080.9674694478,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"9-5-0"
+  },
+  {
+    "Fighter":"Alexander Hernandez",
+    "Elo":1080.6450034206,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"10-7-0"
+  },
+  {
+    "Fighter":"Christian Leroy Duncan",
+    "Elo":1080.507794545,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"6-2-0"
+  },
+  {
+    "Fighter":"Renato Moicano",
+    "Elo":1080.4625872689,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"12-7-0"
+  },
+  {
+    "Fighter":"Mairon Santos",
+    "Elo":1080.4024849426,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Lightweight",
+    "Status":"Former Champion",
+    "Record":"3-0-0"
+  },
+  {
+    "Fighter":"Brian Ortega",
+    "Elo":1079.0754480208,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"8-5-1"
+  },
+  {
+    "Fighter":"Tabatha Ricci",
+    "Elo":1078.4663808841,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"7-3-0"
+  },
+  {
+    "Fighter":"Jared Cannonier",
+    "Elo":1078.1391764403,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"11-9-0"
+  },
+  {
+    "Fighter":"Chris Duncan",
+    "Elo":1077.5799428486,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Ikram Aliskerov",
+    "Elo":1077.0821276622,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Chepe Mariscal",
+    "Elo":1076.9503698672,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Dominick Reyes",
+    "Elo":1076.3090788933,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"9-5-0"
+  },
+  {
+    "Fighter":"JunYong Park",
+    "Elo":1076.1851801363,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-4-0"
+  },
+  {
+    "Fighter":"Cody Garbrandt",
+    "Elo":1075.6225523266,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Bantamweight",
+    "Status":"Former Champion",
+    "Record":"9-7-0"
+  },
+  {
+    "Fighter":"Daniel Marcos",
+    "Elo":1075.338801047,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"5-1-1"
+  },
+  {
+    "Fighter":"Geoff Neal",
+    "Elo":1075.0541656656,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"8-5-0"
+  },
+  {
+    "Fighter":"Chris Padilla",
+    "Elo":1074.6842250693,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"4-0-0"
+  },
+  {
+    "Fighter":"William Gomis",
+    "Elo":1074.665360597,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Bo Nickal",
+    "Elo":1073.1366281175,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Edmen Shahbazyan",
+    "Elo":1072.7897412744,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-5-0"
+  },
+  {
+    "Fighter":"Loopy Godinez",
+    "Elo":1072.0537364422,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"9-5-0"
+  },
+  {
+    "Fighter":"Karine Silva",
+    "Elo":1071.6271533466,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Jan Blachowicz",
+    "Elo":1071.551098719,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":"Former Champion",
+    "Record":"12-8-1"
+  },
+  {
+    "Fighter":"Tracy Cortez",
+    "Elo":1070.8955519866,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"6-2-0"
+  },
+  {
+    "Fighter":"Shara Magomedov",
+    "Elo":1070.8464421745,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Asu Almabayev",
+    "Elo":1070.0207714705,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Bogdan Guskov",
+    "Elo":1069.8241097775,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Ricky Simon",
+    "Elo":1068.2393967748,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"10-6-0"
+  },
+  {
+    "Fighter":"Quillan Salkilld",
+    "Elo":1067.2692243433,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-0-0"
+  },
+  {
+    "Fighter":"Amanda Lemos",
+    "Elo":1066.7787717662,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"9-5-0"
+  },
+  {
+    "Fighter":"Daniel Santos",
+    "Elo":1066.7380166231,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Josh Emmett",
+    "Elo":1066.0985564929,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"10-6-0"
+  },
+  {
+    "Fighter":"Henry Cejudo",
+    "Elo":1066.0492663703,
+    "Last_Fight":1740182400000,
+    "Weight Class":"Bantamweight",
+    "Status":"Former Champion",
+    "Record":"10-5-0"
+  },
+  {
+    "Fighter":"Ketlen Vieira",
+    "Elo":1065.3858920827,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"9-5-0"
+  },
+  {
+    "Fighter":"Chase Hooper",
+    "Elo":1064.9596076532,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"8-4-0"
+  },
+  {
+    "Fighter":"David Onama",
+    "Elo":1064.5148211614,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"6-3-0"
+  },
+  {
+    "Fighter":"Vitor Petrino",
+    "Elo":1063.6740574642,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"6-2-0"
+  },
+  {
+    "Fighter":"Rafa Garcia",
+    "Elo":1063.5580322185,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"6-4-0"
+  },
+  {
+    "Fighter":"Michael Page",
+    "Elo":1063.3098940038,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Iasmin Lucindo",
+    "Elo":1063.2461980634,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"5-2-0"
+  },
+  {
+    "Fighter":"Marcus McGhee",
+    "Elo":1063.233996028,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Tagir Ulanbekov",
+    "Elo":1062.3021868534,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"6-1-0"
+  },
+  {
+    "Fighter":"Paulo Costa",
+    "Elo":1062.1603237854,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"7-4-0"
+  },
+  {
+    "Fighter":"Uros Medic",
+    "Elo":1062.0289572027,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-3-0"
+  },
+  {
+    "Fighter":"Sam Patterson",
+    "Elo":1061.9759523341,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Allan Nascimento",
+    "Elo":1061.930106551,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Modestas Bukauskas",
+    "Elo":1061.6293988079,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"7-4-0"
+  },
+  {
+    "Fighter":"Ian Machado Garry",
+    "Elo":1060.8334393484,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"9-1-0"
+  },
+  {
+    "Fighter":"Diego Ferreira",
+    "Elo":1059.5813496221,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"10-7-0"
+  },
+  {
+    "Fighter":"Valter Walker",
+    "Elo":1058.2628740765,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Brandon Royval",
+    "Elo":1057.7610928464,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"7-4-0"
+  },
+  {
+    "Fighter":"Rafael Estevam",
+    "Elo":1057.4911213954,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"3-0-0"
+  },
+  {
+    "Fighter":"Natalia Silva",
+    "Elo":1057.3573995106,
+    "Last_Fight":1746835200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"7-0-0"
+  },
+  {
+    "Fighter":"Jeremiah Wells",
+    "Elo":1057.2585457232,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"5-2-0"
+  },
+  {
+    "Fighter":"Tom Nolan",
+    "Elo":1055.5843964838,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Brunno Ferreira",
+    "Elo":1055.5839392723,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"5-2-0"
+  },
+  {
+    "Fighter":"Michel Pereira",
+    "Elo":1055.1111318332,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-5-0"
+  },
+  {
+    "Fighter":"Mike Davis",
+    "Elo":1054.8778060216,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"5-2-0"
+  },
+  {
+    "Fighter":"Kayla Harrison",
+    "Elo":1054.4312015553,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"3-0-0"
+  },
+  {
+    "Fighter":"Elizeu Zaleski dos Santos",
+    "Elo":1053.9873102745,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"11-6-1"
+  },
+  {
+    "Fighter":"Loma Lookboonmee",
+    "Elo":1053.9801875833,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"7-3-0"
+  },
+  {
+    "Fighter":"Navajo Stirling",
+    "Elo":1053.4719362732,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"3-0-0"
+  },
+  {
+    "Fighter":"Karol Rosa",
+    "Elo":1053.4616762681,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"8-4-0"
+  },
+  {
+    "Fighter":"Rafael Fiziev",
+    "Elo":1053.1131131634,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"7-4-0"
+  },
+  {
+    "Fighter":"Edson Barboza",
+    "Elo":1053.0775008907,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"18-13-0"
+  },
+  {
+    "Fighter":"Ateba Gautier",
+    "Elo":1052.9650441166,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"3-0-0"
+  },
+  {
+    "Fighter":"Johnny Walker",
+    "Elo":1052.0620080847,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"8-6-1"
+  },
+  {
+    "Fighter":"Kyler Phillips",
+    "Elo":1052.0408567898,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"6-3-0"
+  },
+  {
+    "Fighter":"Khalil Rountree Jr.",
+    "Elo":1051.9454635933,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"10-7-1"
+  },
+  {
+    "Fighter":"Jack Hermansson",
+    "Elo":1051.7207186182,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"11-7-0"
+  },
+  {
+    "Fighter":"Said Nurmagomedov",
+    "Elo":1050.9644366559,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"7-4-0"
+  },
+  {
+    "Fighter":"Charles Johnson",
+    "Elo":1050.3193207113,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"7-5-0"
+  },
+  {
+    "Fighter":"Joselyne Edwards",
+    "Elo":1050.2667328124,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"7-4-0"
+  },
+  {
+    "Fighter":"Kevin Holland",
+    "Elo":1048.3573312742,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"15-12-1"
+  },
+  {
+    "Fighter":"Nikita Krylov",
+    "Elo":1048.1902007452,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"11-9-0"
+  },
+  {
+    "Fighter":"Esteban Ribovics",
+    "Elo":1048.1069794599,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"4-2-0"
+  },
+  {
+    "Fighter":"Sean Strickland",
+    "Elo":1047.0434416243,
+    "Last_Fight":1738972800000,
+    "Weight Class":"Middleweight",
+    "Status":"Former Champion",
+    "Record":"16-7-0"
+  },
+  {
+    "Fighter":"Fatima Kline",
+    "Elo":1047.0054614783,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Yana Santos",
+    "Elo":1045.6515117699,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"7-5-0"
+  },
+  {
+    "Fighter":"Sam Hughes",
+    "Elo":1045.6423650128,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"6-5-0"
+  },
+  {
+    "Fighter":"Seokhyeon Ko",
+    "Elo":1045.1847642472,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Tecia Pennington",
+    "Elo":1045.0205022651,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"11-8-0"
+  },
+  {
+    "Fighter":"Jean Matsumoto",
+    "Elo":1044.8753231554,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Alexia Thainara",
+    "Elo":1044.8496494925,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"David Martinez",
+    "Elo":1044.6806473067,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Mario Pinto",
+    "Elo":1043.696513002,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Nazim Sadykhov",
+    "Elo":1043.1525140008,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"4-0-1"
+  },
+  {
+    "Fighter":"Andre Petroski",
+    "Elo":1043.1302055793,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"8-4-0"
+  },
+  {
+    "Fighter":"Ramiz Brahimaj",
+    "Elo":1042.9273445227,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"5-3-0"
+  },
+  {
+    "Fighter":"Talita Alencar",
+    "Elo":1042.9237102647,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Baisangur Susurkaev",
+    "Elo":1042.3568142763,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Muhammad Naimov",
+    "Elo":1042.125409316,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Dan Ige",
+    "Elo":1041.4590322368,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"11-9-0"
+  },
+  {
+    "Fighter":"Alonzo Menifield",
+    "Elo":1041.4276039075,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"10-5-1"
+  },
+  {
+    "Fighter":"Charles Jourdain",
+    "Elo":1040.9321815595,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"8-7-1"
+  },
+  {
+    "Fighter":"Jaqueline Amorim",
+    "Elo":1040.5895194997,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"4-2-0"
+  },
+  {
+    "Fighter":"Drew Dober",
+    "Elo":1040.2951830073,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"14-11-1"
+  },
+  {
+    "Fighter":"Kevin Vallejos",
+    "Elo":1039.9942627069,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Mizuki",
+    "Elo":1039.7433573631,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Ryan Spann",
+    "Elo":1039.4292425946,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"9-6-0"
+  },
+  {
+    "Fighter":"Kaue Fernandes",
+    "Elo":1039.1895113571,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Oumar Sy",
+    "Elo":1039.1790800831,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Abus Magomedov",
+    "Elo":1038.8568787615,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"4-3-0"
+  },
+  {
+    "Fighter":"Yadier del Valle",
+    "Elo":1038.5269832255,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Stephen Thompson",
+    "Elo":1038.5186102575,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"12-9-1"
+  },
+  {
+    "Fighter":"Payton Talbott",
+    "Elo":1038.4326394062,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Mauricio Ruffy",
+    "Elo":1038.268037789,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Stipe Miocic",
+    "Elo":1037.9776068894,
+    "Last_Fight":1731715200000,
+    "Weight Class":"Heavyweight",
+    "Status":"Former Champion",
+    "Record":"14-5-0"
+  },
+  {
+    "Fighter":"Jared Gordon",
+    "Elo":1036.7161985992,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"9-7-1"
+  },
+  {
+    "Fighter":"Michael Johnson",
+    "Elo":1036.4978731295,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"16-15-0"
+  },
+  {
+    "Fighter":"Michal Oleksiejczuk",
+    "Elo":1036.344777757,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-7-1"
+  },
+  {
+    "Fighter":"Joseph Morales",
+    "Elo":1036.333951866,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Piera Rodriguez",
+    "Elo":1036.270939517,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"4-2-0"
+  },
+  {
+    "Fighter":"Miranda Maverick",
+    "Elo":1036.2604681501,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"8-4-0"
+  },
+  {
+    "Fighter":"Chris Curtis",
+    "Elo":1036.178428831,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-4-1"
+  },
+  {
+    "Fighter":"Andre Fili",
+    "Elo":1036.1491508512,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"13-11-1"
+  },
+  {
+    "Fighter":"Tim Elliott",
+    "Elo":1035.555399005,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"10-11-0"
+  },
+  {
+    "Fighter":"Ignacio Bahamondes",
+    "Elo":1035.3036522393,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"6-3-0"
+  },
+  {
+    "Fighter":"Punahele Soriano",
+    "Elo":1035.1287985233,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-4-0"
+  },
+  {
+    "Fighter":"Eduarda Moura",
+    "Elo":1035.0321361528,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Marvin Vettori",
+    "Elo":1034.8502314223,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-7-1"
+  },
+  {
+    "Fighter":"Jesus Aguilar",
+    "Elo":1034.662394544,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"4-2-0"
+  },
+  {
+    "Fighter":"Elijah Smith",
+    "Elo":1034.4510997941,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Davey Grant",
+    "Elo":1034.0016592144,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"8-7-0"
+  },
+  {
+    "Fighter":"Joaquim Silva",
+    "Elo":1033.9857794141,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"7-5-0"
+  },
+  {
+    "Fighter":"Zhang Mingyang",
+    "Elo":1033.9808014293,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Brad Tavares",
+    "Elo":1033.8661510707,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"16-11-0"
+  },
+  {
+    "Fighter":"Macy Chiasson",
+    "Elo":1033.7239925642,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"8-5-0"
+  },
+  {
+    "Fighter":"Charles Radtke",
+    "Elo":1033.5974566036,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"4-2-0"
+  },
+  {
+    "Fighter":"Rodolfo Vieira",
+    "Elo":1031.8501915893,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"6-4-0"
+  },
+  {
+    "Fighter":"Roman Kopylov",
+    "Elo":1031.3960947509,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"6-5-0"
+  },
+  {
+    "Fighter":"Aleksandar Rakic",
+    "Elo":1031.1419820126,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"6-5-0"
+  },
+  {
+    "Fighter":"Andre Muniz",
+    "Elo":1030.5417547669,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"6-4-0"
+  },
+  {
+    "Fighter":"Paddy Pimblett",
+    "Elo":1029.7717078482,
+    "Last_Fight":1744416000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"7-0-0"
+  },
+  {
+    "Fighter":"Jamall Emmers",
+    "Elo":1029.0936247745,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-4-0"
+  },
+  {
+    "Fighter":"Da'Mon Blackshear",
+    "Elo":1027.3054339852,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"5-4-1"
+  },
+  {
+    "Fighter":"Jack Jenkins",
+    "Elo":1027.1098423744,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"4-2-0"
+  },
+  {
+    "Fighter":"Jose Delgado",
+    "Elo":1026.1035375201,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Cam Rowston",
+    "Elo":1025.9991722964,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Gillian Robertson",
+    "Elo":1025.8362422814,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"13-6-0"
+  },
+  {
+    "Fighter":"Jafel Filho",
+    "Elo":1025.8319721915,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Yousri Belgaroui",
+    "Elo":1025.4791872177,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Zach Reese",
+    "Elo":1025.2218595679,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"4-2-1"
+  },
+  {
+    "Fighter":"Morgan Charriere",
+    "Elo":1024.4852228131,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Kennedy Nzechukwu",
+    "Elo":1024.2344038127,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"8-6-0"
+  },
+  {
+    "Fighter":"Terrance McKinney",
+    "Elo":1023.633233824,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"7-4-0"
+  },
+  {
+    "Fighter":"Melissa Croden",
+    "Elo":1023.4025257214,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Gabriella Fernandes",
+    "Elo":1023.0942123105,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Michelle Montague",
+    "Elo":1022.9503359385,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Billy Elekana",
+    "Elo":1022.7881265325,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Ethyn Ewing",
+    "Elo":1022.7558956341,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Alden Coria",
+    "Elo":1022.5635645995,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Nora Cornolle",
+    "Elo":1021.6919178059,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Mateusz Rebecki",
+    "Elo":1021.3842148898,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"4-3-0"
+  },
+  {
+    "Fighter":"Islam Dulatov",
+    "Elo":1020.7099234802,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Stephanie Luciano",
+    "Elo":1020.6143650612,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Josh Hokit",
+    "Elo":1020.6,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Brando Pericic",
+    "Elo":1020.6,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Trey Waters",
+    "Elo":1020.5462285128,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Donte Johnson",
+    "Elo":1020.4781189462,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Bia Mesquita",
+    "Elo":1020.4769218844,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Jacobe Smith",
+    "Elo":1019.9767819816,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Carli Judice",
+    "Elo":1019.8497712235,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Montse Rendon",
+    "Elo":1019.769900571,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Santiago Luna",
+    "Elo":1019.7296347262,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Chidi Njokuani",
+    "Elo":1019.4961006234,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"5-4-0"
+  },
+  {
+    "Fighter":"Jakub Wiklacz",
+    "Elo":1019.1907707804,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Jimmy Crute",
+    "Elo":1019.0777254027,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"6-4-2"
+  },
+  {
+    "Fighter":"Luana Carolina",
+    "Elo":1018.5649152235,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"6-4-0"
+  },
+  {
+    "Fighter":"Axel Sola",
+    "Elo":1018.4752916515,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Myktybek Orolbai",
+    "Elo":1018.4038820407,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Danny Silva",
+    "Elo":1018.3603735742,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Azamat Bekoev",
+    "Elo":1018.2349262593,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Charlie Campbell",
+    "Elo":1018.1899488953,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Mason Jones",
+    "Elo":1018.1482900128,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-2-1"
+  },
+  {
+    "Fighter":"Marco Tulio",
+    "Elo":1018.1131966699,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Themba Gorimbo",
+    "Elo":1018.0384919835,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"4-3-0"
+  },
+  {
+    "Fighter":"Taiyilake Nueraji",
+    "Elo":1017.772326692,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Jhonata Diniz",
+    "Elo":1017.4310742261,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Hyder Amil",
+    "Elo":1017.3343765918,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Veronica Hardy",
+    "Elo":1017.2766548952,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"5-5-0"
+  },
+  {
+    "Fighter":"Serghei Spivac",
+    "Elo":1017.0254905289,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"8-6-0"
+  },
+  {
+    "Fighter":"Kyle Nelson",
+    "Elo":1016.6789881357,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"5-5-1"
+  },
+  {
+    "Fighter":"Phil Rowe",
+    "Elo":1016.011890373,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"4-4-0"
+  },
+  {
+    "Fighter":"Malcolm Wellmaker",
+    "Elo":1015.3236780287,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Christian Rodriguez",
+    "Elo":1015.221579478,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-4-0"
+  },
+  {
+    "Fighter":"ChangHo Lee",
+    "Elo":1015.0638771887,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Lone'er Kavanagh",
+    "Elo":1014.7558639678,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Steve Erceg",
+    "Elo":1014.2885920006,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"4-3-0"
+  },
+  {
+    "Fighter":"Patricio Freire",
+    "Elo":1013.6358920043,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Gilbert Burns",
+    "Elo":1012.6866253687,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"15-9-0"
+  },
+  {
+    "Fighter":"Ante Delija",
+    "Elo":1012.6444190674,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Calvin Kattar",
+    "Elo":1011.6573346782,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"7-8-0"
+  },
+  {
+    "Fighter":"Kai Kara-France",
+    "Elo":1011.651252041,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"8-5-0"
+  },
+  {
+    "Fighter":"Court McGee",
+    "Elo":1011.5255596939,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"11-13-0"
+  },
+  {
+    "Fighter":"Sumudaerji",
+    "Elo":1011.4104284535,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"5-4-0"
+  },
+  {
+    "Fighter":"Hamdy Abdelwahab",
+    "Elo":1011.2484732367,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"2-1-1"
+  },
+  {
+    "Fighter":"MarQuel Mederos",
+    "Elo":1010.7580238276,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-0-0"
+  },
+  {
+    "Fighter":"Kyle Daukaus",
+    "Elo":1010.7162740047,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"4-4-1"
+  },
+  {
+    "Fighter":"Eryk Anders",
+    "Elo":1010.4982825275,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-9-1"
+  },
+  {
+    "Fighter":"Julia Polastri",
+    "Elo":1009.3290417716,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Andreas Gustafsson",
+    "Elo":1008.3456606136,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Melquizael Costa",
+    "Elo":1008.2767024885,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-2-0"
+  },
+  {
+    "Fighter":"Felipe Lima",
+    "Elo":1008.1964393687,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Timmy Cuamba",
+    "Elo":1007.8607852763,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Amanda Ribas",
+    "Elo":1007.8094912237,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"7-6-0"
+  },
+  {
+    "Fighter":"Jamie Mullarkey",
+    "Elo":1007.2936154315,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"6-6-0"
+  },
+  {
+    "Fighter":"Dustin Jacoby",
+    "Elo":1007.1468447787,
+    "Last_Fight":1748649600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"9-6-1"
+  },
+  {
+    "Fighter":"Robert Bryczek",
+    "Elo":1006.7829999272,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Ryan Loder",
+    "Elo":1006.1395932432,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Middleweight",
+    "Status":"Former Champion",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Oban Elliott",
+    "Elo":1005.9717602326,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"JeongYeong Lee",
+    "Elo":1005.68247311,
+    "Last_Fight":1746835200000,
+    "Weight Class":"Featherweight",
+    "Status":"Former Champion",
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Max Griffin",
+    "Elo":1005.3123538701,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"8-10-0"
+  },
+  {
+    "Fighter":"Claudio Puelles",
+    "Elo":1005.2519796115,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"5-4-0"
+  },
+  {
+    "Fighter":"Austin Bashi",
+    "Elo":1004.5824975413,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Lauren Murphy",
+    "Elo":1003.8968764395,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"8-7-0"
+  },
+  {
+    "Fighter":"Uran Satybaldiev",
+    "Elo":1003.8728047254,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Viviane Araujo",
+    "Elo":1003.5093391736,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"7-6-0"
+  },
+  {
+    "Fighter":"Andrey Pulyaev",
+    "Elo":1003.2028568828,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Mohammed Usman",
+    "Elo":1002.3016320982,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"4-2-0"
+  },
+  {
+    "Fighter":"Daniel Zellhuber",
+    "Elo":1002.0104530233,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Isaac Dulgarian",
+    "Elo":1001.5614948165,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Djorden Santos",
+    "Elo":1001.5493041571,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Shauna Bannon",
+    "Elo":1001.368312691,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Dione Barbosa",
+    "Elo":1001.2490881479,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Julius Walker",
+    "Elo":1001.2184827054,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Rongzhu",
+    "Elo":1001.1706025136,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Michael Aswell Jr.",
+    "Elo":1000.841475793,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Colby Thicknesse",
+    "Elo":999.807987001,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Gauge Young",
+    "Elo":999.6976941651,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Lucas Rocha",
+    "Elo":999.4476442597,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Tallison Teixeira",
+    "Elo":999.0929591083,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Clayton Carpenter",
+    "Elo":999.0038477727,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Elves Brener",
+    "Elo":998.8615840273,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Ariane Carnelossi",
+    "Elo":998.5498788989,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Austin Vanderford",
+    "Elo":998.5178602593,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"JooSang Yoo",
+    "Elo":998.0955550287,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Steven Nguyen",
+    "Elo":997.7258435998,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Nursulton Ruziboev",
+    "Elo":997.6396935338,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Alice Ardelean",
+    "Elo":997.1460639226,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Giga Chikadze",
+    "Elo":996.1032053711,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"8-3-0"
+  },
+  {
+    "Fighter":"Daria Zhelezniakova",
+    "Elo":995.8720625018,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Matheus Camilo",
+    "Elo":995.676651848,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Miles Johns",
+    "Elo":995.496116186,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"6-5-1"
+  },
+  {
+    "Fighter":"Bolaji Oki",
+    "Elo":995.3368342864,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Danny Barlow",
+    "Elo":995.3197217429,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Carlos Leal",
+    "Elo":994.9365394702,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Nate Landwehr",
+    "Elo":994.8583993622,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-5-0"
+  },
+  {
+    "Fighter":"Mansur Abdul-Malik",
+    "Elo":994.8152904315,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"2-0-1"
+  },
+  {
+    "Fighter":"Miesha Tate",
+    "Elo":994.6171165965,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":"Former Champion",
+    "Record":"7-7-0"
+  },
+  {
+    "Fighter":"Angela Hill",
+    "Elo":994.3390388932,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"13-16-0"
+  },
+  {
+    "Fighter":"Khaos Williams",
+    "Elo":994.3138874298,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-4-0"
+  },
+  {
+    "Fighter":"Aoriqileng",
+    "Elo":994.236398862,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"4-4-1"
+  },
+  {
+    "Fighter":"Tainara Lisboa",
+    "Elo":993.3557095086,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Luana Santos",
+    "Elo":992.3627830541,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Wang Cong",
+    "Elo":991.6062665489,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Song Yadong",
+    "Elo":990.6085863315,
+    "Last_Fight":1740182400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"11-3-1"
+  },
+  {
+    "Fighter":"Ismael Bonfim",
+    "Elo":990.4119555822,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Matt Frevola",
+    "Elo":990.3880227409,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"5-6-1"
+  },
+  {
+    "Fighter":"Ibo Aslan",
+    "Elo":990.2186158077,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Aaron Pico",
+    "Elo":988.8158876683,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jose Ochoa",
+    "Elo":987.2803707566,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Ismail Naurdiev",
+    "Elo":987.1555750623,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Jamey-Lyn Horth",
+    "Elo":987.0087601292,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Ricardo Ramos",
+    "Elo":986.913212283,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"8-7-0"
+  },
+  {
+    "Fighter":"Julian Erosa",
+    "Elo":986.884786625,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"9-8-0"
+  },
+  {
+    "Fighter":"Santiago Ponzinibbio",
+    "Elo":985.5325197116,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"12-8-0"
+  },
+  {
+    "Fighter":"Xiao Long",
+    "Elo":985.4789810332,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Alessandro Costa",
+    "Elo":985.3642589106,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Ketlen Souza",
+    "Elo":985.0046639882,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Marcus Buchecha",
+    "Elo":984.8533405972,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Thomas Petersen",
+    "Elo":984.2941992024,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Felipe Bunes",
+    "Elo":983.9750730682,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Robert Ruchala",
+    "Elo":983.8227380066,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Rodolfo Bellato",
+    "Elo":982.9368208538,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"1-1-2"
+  },
+  {
+    "Fighter":"Jordan Leavitt",
+    "Elo":982.7627875917,
+    "Last_Fight":1748649600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"5-3-0"
+  },
+  {
+    "Fighter":"Louie Sutherland",
+    "Elo":982.1536918305,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Mitch Raposo",
+    "Elo":982.0760323568,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Tre'ston Vines",
+    "Elo":981.7751253683,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Adam Fugitt",
+    "Elo":981.5349148285,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Bruno Silva",
+    "Elo":981.3749534551,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"9-11-1"
+  },
+  {
+    "Fighter":"Nathan Fletcher",
+    "Elo":981.3523365621,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Harry Hardwick",
+    "Elo":980.7763492259,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Karolina Kowalkiewicz",
+    "Elo":980.3351493684,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"9-10-0"
+  },
+  {
+    "Fighter":"Ramon Taveras",
+    "Elo":980.1718934304,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Alice Pereira",
+    "Elo":979.9833250293,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Eric McConico",
+    "Elo":979.9138643236,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Luan Lacerda",
+    "Elo":979.8558084932,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Paul Craig",
+    "Elo":979.5684865492,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"9-10-2"
+  },
+  {
+    "Fighter":"Kevin Christian",
+    "Elo":979.5634863534,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Elisha Ellison",
+    "Elo":979.4,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Max Gimenis",
+    "Elo":979.4,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Tuco Tokkos",
+    "Elo":978.9707223314,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Matt Schnell",
+    "Elo":978.8172317266,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"7-8-1"
+  },
+  {
+    "Fighter":"John Yannis",
+    "Elo":978.1933954106,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Eric Nolan",
+    "Elo":978.0,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Priscila Cachoeira",
+    "Elo":975.9499381571,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"5-7-0"
+  },
+  {
+    "Fighter":"Bogdan Grad",
+    "Elo":975.6269564259,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Gerald Meerschaert",
+    "Elo":975.4770662292,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"12-13-0"
+  },
+  {
+    "Fighter":"Brad Katona",
+    "Elo":974.9888524282,
+    "Last_Fight":1746835200000,
+    "Weight Class":"Bantamweight",
+    "Status":"Former Champion",
+    "Record":"4-5-0"
+  },
+  {
+    "Fighter":"Kaan Ofli",
+    "Elo":974.0113814064,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Melissa Mullins",
+    "Elo":973.5442470441,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Grant Dawson",
+    "Elo":973.1297089351,
+    "Last_Fight":1737158400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"11-1-1"
+  },
+  {
+    "Fighter":"Klaudia Sygula",
+    "Elo":972.9573917814,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Sodiq Yusuff",
+    "Elo":972.6157395006,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"6-4-0"
+  },
+  {
+    "Fighter":"Nikolas Motta",
+    "Elo":972.4861860209,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-3-1"
+  },
+  {
+    "Fighter":"Melissa Martinez",
+    "Elo":971.2285936446,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Brendson Ribeiro",
+    "Elo":970.8391373964,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Sean Woodson",
+    "Elo":970.0923313923,
+    "Last_Fight":1744416000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"7-2-1"
+  },
+  {
+    "Fighter":"Yizha",
+    "Elo":969.9355593806,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Patchy Mix",
+    "Elo":969.3173692361,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Quang Le",
+    "Elo":969.2030692771,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Yan Xiaonan",
+    "Elo":969.0605872196,
+    "Last_Fight":1744416000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"9-4-0"
+  },
+  {
+    "Fighter":"Tresean Gore",
+    "Elo":968.2654556366,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Thiago Moises",
+    "Elo":968.067425347,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"8-7-0"
+  },
+  {
+    "Fighter":"Marc-Andre Barriault",
+    "Elo":967.4243465764,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"6-9-1"
+  },
+  {
+    "Fighter":"Rodrigo Sezinando",
+    "Elo":966.01,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Cody Brundage",
+    "Elo":966.0014888085,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"5-6-2"
+  },
+  {
+    "Fighter":"Mayra Bueno Silva",
+    "Elo":965.9757339398,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"5-6-2"
+  },
+  {
+    "Fighter":"Kevin Borjas",
+    "Elo":965.5008622004,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Darren Elkins",
+    "Elo":964.799493455,
+    "Last_Fight":1744416000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"19-11-0"
+  },
+  {
+    "Fighter":"Kai Asakura",
+    "Elo":964.767636284,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Cody Durden",
+    "Elo":964.6797010912,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"6-7-1"
+  },
+  {
+    "Fighter":"Chris Barnett",
+    "Elo":964.6176301062,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Nikolay Veretennikov",
+    "Elo":964.0580993706,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Gilbert Urbina",
+    "Elo":963.7908840295,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Nicolas Dalby",
+    "Elo":963.4172201595,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"7-5-2"
+  },
+  {
+    "Fighter":"Lucas Almeida",
+    "Elo":963.2949548325,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Dusko Todorovic",
+    "Elo":963.174265658,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"4-6-0"
+  },
+  {
+    "Fighter":"Ode Osbourne",
+    "Elo":962.8456227471,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"5-7-0"
+  },
+  {
+    "Fighter":"Alvin Hines",
+    "Elo":962.0847238094,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Rizvan Kuniev",
+    "Elo":961.9786490336,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jackson McVey",
+    "Elo":961.7151034206,
+    "Last_Fight":1762560000000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Alibi Idiris",
+    "Elo":960.9705843459,
+    "Last_Fight":1755302400000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Westin Wilson",
+    "Elo":960.9698960948,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Ravena Oliveira",
+    "Elo":960.8274477657,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Stewart Nicoll",
+    "Elo":960.7370751401,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Niko Price",
+    "Elo":960.2896963056,
+    "Last_Fight":1751068800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"8-9-2"
+  },
+  {
+    "Fighter":"Yanal Ashmouz",
+    "Elo":960.0917033644,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Colby Covington",
+    "Elo":960.0363700585,
+    "Last_Fight":1734134400000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"12-5-0"
+  },
+  {
+    "Fighter":"Sedriques Dumas",
+    "Elo":959.3048973815,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"3-4-1"
+  },
+  {
+    "Fighter":"Junior Tafa",
+    "Elo":959.2979829492,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Azat Maksum",
+    "Elo":959.2883467835,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Irina Alekseeva",
+    "Elo":958.7664759488,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Josias Musasa",
+    "Elo":958.4166028709,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Nicolle Caliari",
+    "Elo":958.2431364724,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Luis Gurule",
+    "Elo":957.6322106387,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Nick Klein",
+    "Elo":957.6263432244,
+    "Last_Fight":1754092800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Mitch Ramirez",
+    "Elo":957.2948781764,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Maheshate",
+    "Elo":956.941003737,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Diyar Nurgozhay",
+    "Elo":956.5450675428,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Gunnar Nelson",
+    "Elo":955.8227975305,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"10-6-0"
+  },
+  {
+    "Fighter":"Raul Rosas Jr.",
+    "Elo":955.81419663,
+    "Last_Fight":1743206400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Daniel Frunza",
+    "Elo":955.3783639544,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Tofiq Musayev",
+    "Elo":955.1521753876,
+    "Last_Fight":1750464000000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Vanessa Demopoulos",
+    "Elo":954.9315937107,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"5-5-0"
+  },
+  {
+    "Fighter":"Arman Tsarukyan",
+    "Elo":954.8546053101,
+    "Last_Fight":1712966400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"9-2-0"
+  },
+  {
+    "Fighter":"Bruno Lopes",
+    "Elo":954.7997684787,
+    "Last_Fight":1748649600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Toshiomi Kazama",
+    "Elo":953.4074288548,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Francisco Prado",
+    "Elo":951.134672722,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-4-0"
+  },
+  {
+    "Fighter":"Germaine de Randamie",
+    "Elo":950.8417418251,
+    "Last_Fight":1712361600000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":"Former Champion",
+    "Record":"7-3-0"
+  },
+  {
+    "Fighter":"Cameron Smotherman",
+    "Elo":950.6773091464,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Dustin Stoltzfus",
+    "Elo":949.5938872774,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"3-7-0"
+  },
+  {
+    "Fighter":"Marcin Prachnio",
+    "Elo":949.3686906033,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"4-7-0"
+  },
+  {
+    "Fighter":"Gabe Green",
+    "Elo":949.0912073783,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Andre Lima",
+    "Elo":947.8335985239,
+    "Last_Fight":1741996800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"4-0-0"
+  },
+  {
+    "Fighter":"Serhiy Sidey",
+    "Elo":947.7111256746,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Manuel Torres",
+    "Elo":946.7652360609,
+    "Last_Fight":1743206400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Anthony Smith",
+    "Elo":945.9604380017,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"13-12-0"
+  },
+  {
+    "Fighter":"Joanderson Brito",
+    "Elo":945.8460611956,
+    "Last_Fight":1743811200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-3-0"
+  },
+  {
+    "Fighter":"Movsar Evloev",
+    "Elo":945.3567786088,
+    "Last_Fight":1733529600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"9-0-0"
+  },
+  {
+    "Fighter":"Ariane da Silva",
+    "Elo":943.9260766052,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"6-8-0"
+  },
+  {
+    "Fighter":"Rafael Cerquiera",
+    "Elo":943.4040844714,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Mark Choinski",
+    "Elo":942.8876269499,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Kiefer Crosbie",
+    "Elo":942.5025041831,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Ivan Erslan",
+    "Elo":942.2848257778,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Alatengheili",
+    "Elo":942.2805394081,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"5-3-1"
+  },
+  {
+    "Fighter":"Brogan Walker",
+    "Elo":941.1031235993,
+    "Last_Fight":1759536000000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Manel Kape",
+    "Elo":940.3929925256,
+    "Last_Fight":1740787200000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"6-3-0"
+  },
+  {
+    "Fighter":"Bekzat Almakhan",
+    "Elo":940.0037849138,
+    "Last_Fight":1746835200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Viacheslav Borshchev",
+    "Elo":939.4105911108,
+    "Last_Fight":1763164800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-6-1"
+  },
+  {
+    "Fighter":"Mick Parkin",
+    "Elo":939.3646536808,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"4-1-0"
+  },
+  {
+    "Fighter":"Jose Daniel Medina",
+    "Elo":939.0058650327,
+    "Last_Fight":1757721600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Mohammad Yahya",
+    "Elo":938.6773996037,
+    "Last_Fight":1753488000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Montserrat Conejo Ruiz",
+    "Elo":938.4296401518,
+    "Last_Fight":1761955200000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"1-4-0"
+  },
+  {
+    "Fighter":"Evan Elder",
+    "Elo":938.1736962295,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Jim Miller",
+    "Elo":937.5325192167,
+    "Last_Fight":1744416000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"27-18-1"
+  },
+  {
+    "Fighter":"Cody Gibson",
+    "Elo":936.782376642,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"3-7-0"
+  },
+  {
+    "Fighter":"Ange Loosa",
+    "Elo":936.6012146648,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"2-3-1"
+  },
+  {
+    "Fighter":"Shavkat Rakhmonov",
+    "Elo":936.5478547712,
+    "Last_Fight":1733529600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"7-0-0"
+  },
+  {
+    "Fighter":"Rhys McKee",
+    "Elo":936.1483687112,
+    "Last_Fight":1757116800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-5-0"
+  },
+  {
+    "Fighter":"Marina Rodriguez",
+    "Elo":935.4499226633,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"7-6-2"
+  },
+  {
+    "Fighter":"Victor Henry",
+    "Elo":933.874434745,
+    "Last_Fight":1743811200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"4-2-1"
+  },
+  {
+    "Fighter":"Austin Hubbard",
+    "Elo":933.7295649192,
+    "Last_Fight":1755907200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"4-8-0"
+  },
+  {
+    "Fighter":"Billy Ray Goff",
+    "Elo":932.6927008013,
+    "Last_Fight":1748649600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Austen Lane",
+    "Elo":932.574244627,
+    "Last_Fight":1752278400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"1-4-1"
+  },
+  {
+    "Fighter":"Kyle Prepolec",
+    "Elo":930.9102308698,
+    "Last_Fight":1760745600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Robert Valentin",
+    "Elo":930.6295158679,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"John Castaneda",
+    "Elo":930.1997477557,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"4-4-0"
+  },
+  {
+    "Fighter":"Fares Ziam",
+    "Elo":929.171322336,
+    "Last_Fight":1738368000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"7-2-0"
+  },
+  {
+    "Fighter":"Julija Stoliarenko",
+    "Elo":928.9740777694,
+    "Last_Fight":1754697600000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"2-7-0"
+  },
+  {
+    "Fighter":"Rolando Bedoya",
+    "Elo":928.2092311037,
+    "Last_Fight":1758931200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Maycee Barber",
+    "Elo":925.6903663263,
+    "Last_Fight":1709942400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"9-2-0"
+  },
+  {
+    "Fighter":"Lukasz Brzeski",
+    "Elo":925.0400178617,
+    "Last_Fight":1752883200000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"1-6-0"
+  },
+  {
+    "Fighter":"Carlos Hernandez",
+    "Elo":924.1071663715,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"3-4-0"
+  },
+  {
+    "Fighter":"Juliana Miller",
+    "Elo":923.5606042782,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Saimon Oliveira",
+    "Elo":921.3395630718,
+    "Last_Fight":1760140800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Ion Cutelaba",
+    "Elo":921.2698887698,
+    "Last_Fight":1746835200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"8-10-1"
+  },
+  {
+    "Fighter":"Chris Weidman",
+    "Elo":920.3309313149,
+    "Last_Fight":1733529600000,
+    "Weight Class":"Catch Weight",
+    "Status":"Former Champion",
+    "Record":"12-8-0"
+  },
+  {
+    "Fighter":"Elise Reed",
+    "Elo":920.1792915951,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"4-5-0"
+  },
+  {
+    "Fighter":"Vinc Pichel",
+    "Elo":918.3272847739,
+    "Last_Fight":1743206400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"7-5-0"
+  },
+  {
+    "Fighter":"Gaston Bolanos",
+    "Elo":917.1320751392,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Torrez Finney",
+    "Elo":916.9844175704,
+    "Last_Fight":1743811200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Luana Pinheiro",
+    "Elo":914.4566014518,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"3-4-0"
+  },
+  {
+    "Fighter":"Cameron Saaiman",
+    "Elo":912.5170685334,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Kris Moutinho",
+    "Elo":912.0826329787,
+    "Last_Fight":1749859200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Michael Chandler",
+    "Elo":910.0706150976,
+    "Last_Fight":1744416000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-5-0"
+  },
+  {
+    "Fighter":"JJ Aldrich",
+    "Elo":909.4370117916,
+    "Last_Fight":1740787200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"10-6-0"
+  },
+  {
+    "Fighter":"Jeka Saragih",
+    "Elo":908.4984489941,
+    "Last_Fight":1749254400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"King Green",
+    "Elo":907.3483669786,
+    "Last_Fight":1741392000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"13-12-2"
+  },
+  {
+    "Fighter":"Ramazan Temirov",
+    "Elo":907.1167848659,
+    "Last_Fight":1740787200000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Jairzinho Rozenstruik",
+    "Elo":906.1301395278,
+    "Last_Fight":1738368000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"9-6-0"
+  },
+  {
+    "Fighter":"Ronaldo Rodriguez",
+    "Elo":904.3382432276,
+    "Last_Fight":1743206400000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Jalin Turner",
+    "Elo":903.9379483854,
+    "Last_Fight":1741392000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"7-6-0"
+  },
+  {
+    "Fighter":"Chelsea Chandler",
+    "Elo":903.0829931794,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Anshul Jubli",
+    "Elo":898.9291388965,
+    "Last_Fight":1738972800000,
+    "Weight Class":"Lightweight",
+    "Status":"Former Champion",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Rayanne dos Santos",
+    "Elo":897.2253352185,
+    "Last_Fight":1748649600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Ailin Perez",
+    "Elo":895.9566154069,
+    "Last_Fight":1737158400000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Jeremy Stephens",
+    "Elo":893.6769407574,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"15-19-1"
+  },
+  {
+    "Fighter":"Caolan Loughran",
+    "Elo":893.1009615888,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Alex Morono",
+    "Elo":892.7242303768,
+    "Last_Fight":1741392000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"13-9-1"
+  },
+  {
+    "Fighter":"Edgar Chairez",
+    "Elo":889.2349225069,
+    "Last_Fight":1743206400000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"2-2-1"
+  },
+  {
+    "Fighter":"Ivana Petrovic",
+    "Elo":887.8006598465,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Holly Holm",
+    "Elo":887.471448219,
+    "Last_Fight":1712966400000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":"Former Champion",
+    "Record":"8-7-1"
+  },
+  {
+    "Fighter":"Carlos Vera",
+    "Elo":886.9041381502,
+    "Last_Fight":1741996800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Raquel Pennington",
+    "Elo":886.6911262859,
+    "Last_Fight":1728086400000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":"Former Champion",
+    "Record":"13-6-0"
+  },
+  {
+    "Fighter":"Kurt Holobaugh",
+    "Elo":885.0914849187,
+    "Last_Fight":1748649600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-7-0"
+  },
+  {
+    "Fighter":"Bryan Battle",
+    "Elo":884.908596787,
+    "Last_Fight":1733529600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"7-1-1"
+  },
+  {
+    "Fighter":"Puja Tomar",
+    "Elo":884.3637312686,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Shamil Gaziev",
+    "Elo":883.6318844715,
+    "Last_Fight":1738368000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Roberto Romero",
+    "Elo":882.9673682845,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Connor Matthews",
+    "Elo":882.3317694003,
+    "Last_Fight":1747440000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Jimmy Flick",
+    "Elo":882.1513212369,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Rei Tsuruya",
+    "Elo":878.8066478453,
+    "Last_Fight":1741392000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Ozzy Diaz",
+    "Elo":878.20318993,
+    "Last_Fight":1741392000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Melsik Baghdasaryan",
+    "Elo":877.0245945352,
+    "Last_Fight":1740182400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Marcos Rogerio de Lima",
+    "Elo":876.7459084613,
+    "Last_Fight":1708128000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"11-7-0"
+  },
+  {
+    "Fighter":"Rafael Dos Anjos",
+    "Elo":876.6266850557,
+    "Last_Fight":1729900800000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"21-15-0"
+  },
+  {
+    "Fighter":"Don'Tale Mayes",
+    "Elo":876.5304673414,
+    "Last_Fight":1746230400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"4-7-1"
+  },
+  {
+    "Fighter":"Shi Ming",
+    "Elo":874.8658887967,
+    "Last_Fight":1732320000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":"Former Champion",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Guram Kutateladze",
+    "Elo":874.1860379085,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"DongHun Choi",
+    "Elo":872.9157390301,
+    "Last_Fight":1732320000000,
+    "Weight Class":"Flyweight",
+    "Status":"Former Champion",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Hailey Cowan",
+    "Elo":872.3813665545,
+    "Last_Fight":1744416000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Josiane Nunes",
+    "Elo":871.3415734298,
+    "Last_Fight":1741996800000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Javid Basharat",
+    "Elo":871.0858308266,
+    "Last_Fight":1740182400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"3-2-1"
+  },
+  {
+    "Fighter":"Katlyn Cerminara",
+    "Elo":871.0310583178,
+    "Last_Fight":1709942400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"11-6-0"
+  },
+  {
+    "Fighter":"Polyana Viana",
+    "Elo":870.9421806414,
+    "Last_Fight":1745625600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"4-7-0"
+  },
+  {
+    "Fighter":"Jonathan Micallef",
+    "Elo":870.4883294523,
+    "Last_Fight":1738972800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Molly McCann",
+    "Elo":869.7417690482,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"7-7-0"
+  },
+  {
+    "Fighter":"Aleksandre Topuria",
+    "Elo":869.1866647455,
+    "Last_Fight":1738972800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Pedro Falcao",
+    "Elo":867.5473988367,
+    "Last_Fight":1743811200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Carla Esparza",
+    "Elo":866.9120111599,
+    "Last_Fight":1728086400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":"Former Champion",
+    "Record":"10-6-0"
+  },
+  {
+    "Fighter":"Cortavious Romious",
+    "Elo":865.7874618243,
+    "Last_Fight":1743811200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Cub Swanson",
+    "Elo":865.7543628006,
+    "Last_Fight":1734134400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"15-10-0"
+  },
+  {
+    "Fighter":"Rani Yahya",
+    "Elo":865.6410178948,
+    "Last_Fight":1714176000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"13-6-2"
+  },
+  {
+    "Fighter":"Daniel Barez",
+    "Elo":865.0415020287,
+    "Last_Fight":1741996800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Yuneisy Duben",
+    "Elo":862.908992437,
+    "Last_Fight":1741996800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Nurullo Aliev",
+    "Elo":862.4917049652,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Jai Herbert",
+    "Elo":862.2796267619,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-5-1"
+  },
+  {
+    "Fighter":"Alex Caceres",
+    "Elo":862.1523467524,
+    "Last_Fight":1715385600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"16-13-1"
+  },
+  {
+    "Fighter":"Cesar Almeida",
+    "Elo":860.7473824481,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Felipe dos Santos",
+    "Elo":860.1209940234,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Gabriel Santos",
+    "Elo":860.1035560053,
+    "Last_Fight":1738972800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Francis Marshall",
+    "Elo":859.8854428593,
+    "Last_Fight":1741392000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Armen Petrosyan",
+    "Elo":858.8760749396,
+    "Last_Fight":1741392000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"3-4-0"
+  },
+  {
+    "Fighter":"Philipe Lins",
+    "Elo":858.0268132305,
+    "Last_Fight":1709942400000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"4-2-0"
+  },
+  {
+    "Fighter":"Jonathan Martinez",
+    "Elo":857.284550093,
+    "Last_Fight":1731715200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"10-5-0"
+  },
+  {
+    "Fighter":"Gabriel Miranda",
+    "Elo":855.9864637264,
+    "Last_Fight":1743206400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"CJ Vergara",
+    "Elo":855.8086913077,
+    "Last_Fight":1743206400000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"3-5-0"
+  },
+  {
+    "Fighter":"Jordan Vucenic",
+    "Elo":854.2592801852,
+    "Last_Fight":1742601600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Julio Arce",
+    "Elo":851.6994536823,
+    "Last_Fight":1711756800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"6-4-0"
+  },
+  {
+    "Fighter":"AJ Cunningham",
+    "Elo":851.6576493636,
+    "Last_Fight":1741996800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Kevin Jousset",
+    "Elo":851.09062123,
+    "Last_Fight":1738972800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Julia Avila",
+    "Elo":849.7672909452,
+    "Last_Fight":1739577600000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Muin Gafurov",
+    "Elo":849.6835824641,
+    "Last_Fight":1737158400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Carlston Harris",
+    "Elo":847.3337369609,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"4-3-0"
+  },
+  {
+    "Fighter":"Jacob Malkoun",
+    "Elo":844.069949213,
+    "Last_Fight":1711756800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"4-3-0"
+  },
+  {
+    "Fighter":"Adrian Yanez",
+    "Elo":843.5361221144,
+    "Last_Fight":1734134400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"6-3-0"
+  },
+  {
+    "Fighter":"Joe Solecki",
+    "Elo":843.4074685853,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"5-4-0"
+  },
+  {
+    "Fighter":"Makhmud Muradov",
+    "Elo":843.1788934147,
+    "Last_Fight":1706918400000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"4-2-1"
+  },
+  {
+    "Fighter":"Jamal Pogues",
+    "Elo":843.0419314944,
+    "Last_Fight":1738368000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"SeungWoo Choi",
+    "Elo":838.6955930564,
+    "Last_Fight":1741996800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"4-7-0"
+  },
+  {
+    "Fighter":"Bruna Brasil",
+    "Elo":838.3573622644,
+    "Last_Fight":1738972800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Diana Belbita",
+    "Elo":838.2305330052,
+    "Last_Fight":1743811200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"2-6-0"
+  },
+  {
+    "Fighter":"Joanne Wood",
+    "Elo":837.907266286,
+    "Last_Fight":1709942400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"9-8-0"
+  },
+  {
+    "Fighter":"Benardo Sopaj",
+    "Elo":833.6945812187,
+    "Last_Fight":1737158400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Kody Steele",
+    "Elo":832.8071064131,
+    "Last_Fight":1738972800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Justin Tafa",
+    "Elo":831.6486225711,
+    "Last_Fight":1738972800000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"4-5-1"
+  },
+  {
+    "Fighter":"Vince Morales",
+    "Elo":831.0330805931,
+    "Last_Fight":1743206400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"3-8-0"
+  },
+  {
+    "Fighter":"Ernesta Kareckaite",
+    "Elo":829.7428850335,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Aliaskhab Khizriev",
+    "Elo":829.6596,
+    "Last_Fight":1706918400000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-0-1"
+  },
+  {
+    "Fighter":"Dooho Choi",
+    "Elo":829.0337517209,
+    "Last_Fight":1733529600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-3-1"
+  },
+  {
+    "Fighter":"Amir Albazi",
+    "Elo":828.8891357284,
+    "Last_Fight":1730505600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Magomed Gadzhiyasulov",
+    "Elo":826.3188776036,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Alexandr Romanov",
+    "Elo":826.1898259977,
+    "Last_Fight":1730505600000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"7-3-0"
+  },
+  {
+    "Fighter":"Trey Ogden",
+    "Elo":825.6596160215,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"3-3-1"
+  },
+  {
+    "Fighter":"Damir Hadzovic",
+    "Elo":825.6584206684,
+    "Last_Fight":1738368000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"4-6-0"
+  },
+  {
+    "Fighter":"Tyson Pedro",
+    "Elo":825.1868582962,
+    "Last_Fight":1709337600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"6-5-0"
+  },
+  {
+    "Fighter":"Julian Marquez",
+    "Elo":824.940649865,
+    "Last_Fight":1740787200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"3-5-0"
+  },
+  {
+    "Fighter":"Volkan Oezdemir",
+    "Elo":824.735352837,
+    "Last_Fight":1732320000000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"8-7-0"
+  },
+  {
+    "Fighter":"Istela Nunes",
+    "Elo":821.2058979645,
+    "Last_Fight":1743811200000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"0-5-0"
+  },
+  {
+    "Fighter":"Josefine Knutsson",
+    "Elo":818.1796004055,
+    "Last_Fight":1734134400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Bryan Barberena",
+    "Elo":817.2755298557,
+    "Last_Fight":1710547200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"9-10-0"
+  },
+  {
+    "Fighter":"Natan Levy",
+    "Elo":816.9448471993,
+    "Last_Fight":1710547200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Viktoriia Dudakova",
+    "Elo":815.0397111389,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Billy Quarantillo",
+    "Elo":814.9946914301,
+    "Last_Fight":1734134400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"6-5-0"
+  },
+  {
+    "Fighter":"Andrea Lee",
+    "Elo":813.3708074674,
+    "Last_Fight":1740787200000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"5-9-0"
+  },
+  {
+    "Fighter":"Dylan Budka",
+    "Elo":811.7853736457,
+    "Last_Fight":1739577600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Ricky Turcios",
+    "Elo":811.6284059608,
+    "Last_Fight":1737158400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Maryna Moroz",
+    "Elo":811.3279479087,
+    "Last_Fight":1709942400000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"6-6-0"
+  },
+  {
+    "Fighter":"Dan Hooker",
+    "Elo":810.0306530145,
+    "Last_Fight":1723852800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"14-8-0"
+  },
+  {
+    "Fighter":"Phil Hawes",
+    "Elo":809.6447200441,
+    "Last_Fight":1705104000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"4-4-0"
+  },
+  {
+    "Fighter":"Lucas Alexander",
+    "Elo":809.5109486731,
+    "Last_Fight":1738368000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Fernando Padilla",
+    "Elo":807.4168283269,
+    "Last_Fight":1734134400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Arnold Allen",
+    "Elo":807.3248829861,
+    "Last_Fight":1722038400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"11-2-0"
+  },
+  {
+    "Fighter":"Stephanie Egger",
+    "Elo":807.3200097457,
+    "Last_Fight":1702080000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"3-4-0"
+  },
+  {
+    "Fighter":"Igor Severino",
+    "Elo":803.6,
+    "Last_Fight":1711152000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Preston Parsons",
+    "Elo":803.4340782214,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Pete Rodriguez",
+    "Elo":803.4263902969,
+    "Last_Fight":1706918400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Cristian Quinonez",
+    "Elo":803.2976651966,
+    "Last_Fight":1708732800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Luis Pajuelo",
+    "Elo":802.9918169567,
+    "Last_Fight":1711152000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Angel Pacheco",
+    "Elo":802.6268111168,
+    "Last_Fight":1711756800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Devin Clark",
+    "Elo":801.8424322347,
+    "Last_Fight":1707523200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"8-9-0"
+  },
+  {
+    "Fighter":"Abdul-Kareem Al-Selwady",
+    "Elo":801.833533915,
+    "Last_Fight":1709337600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jack Shore",
+    "Elo":801.6925207973,
+    "Last_Fight":1730505600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"6-3-0"
+  },
+  {
+    "Fighter":"Abdul Razak Alhassan",
+    "Elo":800.4862760055,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"6-7-1"
+  },
+  {
+    "Fighter":"Blake Bilder",
+    "Elo":800.0677680187,
+    "Last_Fight":1706918400000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Jose Johnson",
+    "Elo":799.1619450269,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Gabriel Benitez",
+    "Elo":798.663297747,
+    "Last_Fight":1714176000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"7-8-0"
+  },
+  {
+    "Fighter":"Taylor Lapilus",
+    "Elo":797.5968393169,
+    "Last_Fight":1727481600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"6-2-0"
+  },
+  {
+    "Fighter":"Christos Giagos",
+    "Elo":796.2670109785,
+    "Last_Fight":1712361600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"6-8-0"
+  },
+  {
+    "Fighter":"Song Kenan",
+    "Elo":793.5063826661,
+    "Last_Fight":1732320000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-5-0"
+  },
+  {
+    "Fighter":"AJ Dobson",
+    "Elo":790.4844510142,
+    "Last_Fight":1711152000000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Landon Quinones",
+    "Elo":790.4770184054,
+    "Last_Fight":1706918400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Muhammad Mokaev",
+    "Elo":789.1478097013,
+    "Last_Fight":1722038400000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"7-0-0"
+  },
+  {
+    "Fighter":"Val Woodburn",
+    "Elo":788.8220553835,
+    "Last_Fight":1708128000000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Erik Silva",
+    "Elo":787.8545329589,
+    "Last_Fight":1708732800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Damon Jackson",
+    "Elo":787.4404605286,
+    "Last_Fight":1731715200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"6-6-2"
+  },
+  {
+    "Fighter":"Matheus Nicolau",
+    "Elo":787.306896723,
+    "Last_Fight":1729296000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"7-4-0"
+  },
+  {
+    "Fighter":"Marnic Mann",
+    "Elo":787.2993207039,
+    "Last_Fight":1714176000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Claudio Ribeiro",
+    "Elo":786.5675954976,
+    "Last_Fight":1709337600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Michal Figlak",
+    "Elo":786.5602508396,
+    "Last_Fight":1714176000000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Ottman Azaitar",
+    "Elo":786.5232669336,
+    "Last_Fight":1734134400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Nick Aguirre",
+    "Elo":785.8440325767,
+    "Last_Fight":1700265600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Yohan Lainesse",
+    "Elo":785.4382321621,
+    "Last_Fight":1705708800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Pedro Munhoz",
+    "Elo":785.1295580352,
+    "Last_Fight":1730505600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"10-10-2"
+  },
+  {
+    "Fighter":"Rodrigo Nascimento",
+    "Elo":783.7422571433,
+    "Last_Fight":1730505600000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"4-3-1"
+  },
+  {
+    "Fighter":"Zac Pauga",
+    "Elo":783.305206559,
+    "Last_Fight":1707523200000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Wellington Turman",
+    "Elo":783.279795766,
+    "Last_Fight":1701475200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"3-6-0"
+  },
+  {
+    "Fighter":"Clay Guida",
+    "Elo":779.4565308952,
+    "Last_Fight":1733529600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"18-19-0"
+  },
+  {
+    "Fighter":"Ihor Potieria",
+    "Elo":779.3224480329,
+    "Last_Fight":1736553600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"2-6-0"
+  },
+  {
+    "Fighter":"Irene Aldana",
+    "Elo":777.943745188,
+    "Last_Fight":1726272000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"8-6-0"
+  },
+  {
+    "Fighter":"Tony Ferguson",
+    "Elo":777.0159815916,
+    "Last_Fight":1722643200000,
+    "Weight Class":"Welterweight",
+    "Status":"Former Champion",
+    "Record":"15-9-0"
+  },
+  {
+    "Fighter":"Mateus Mendonca",
+    "Elo":776.659878154,
+    "Last_Fight":1708732800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Malcolm Gordon",
+    "Elo":775.3321862244,
+    "Last_Fight":1705708800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"2-5-0"
+  },
+  {
+    "Fighter":"Bassil Hafez",
+    "Elo":773.7164742392,
+    "Last_Fight":1731715200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Kron Gracie",
+    "Elo":773.2983551325,
+    "Last_Fight":1733529600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Josh Parisian",
+    "Elo":772.1653142753,
+    "Last_Fight":1709942400000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"2-5-0"
+  },
+  {
+    "Fighter":"Jonathan Pearce",
+    "Elo":772.1039289063,
+    "Last_Fight":1728691200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-4-0"
+  },
+  {
+    "Fighter":"Nyamjargal Tumendemberel",
+    "Elo":772.0749000944,
+    "Last_Fight":1732320000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Shannon Ross",
+    "Elo":771.9076004048,
+    "Last_Fight":1702080000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Denys Bondar",
+    "Elo":771.4146741236,
+    "Last_Fight":1708732800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Cody Haddon",
+    "Elo":769.6931142972,
+    "Last_Fight":1728691200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Victor Hugo",
+    "Elo":769.1897235225,
+    "Last_Fight":1729900800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Cody Stamann",
+    "Elo":766.7329097515,
+    "Last_Fight":1731110400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"7-7-1"
+  },
+  {
+    "Fighter":"Zachary Scroggin",
+    "Elo":766.324395934,
+    "Last_Fight":1731110400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Baergeng Jieleyisi",
+    "Elo":762.954575513,
+    "Last_Fight":1732320000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Trevin Giles",
+    "Elo":762.4647173769,
+    "Last_Fight":1730505600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"7-7-0"
+  },
+  {
+    "Fighter":"Kiru Sahota",
+    "Elo":762.1734741379,
+    "Last_Fight":1732320000000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Anton Turkalj",
+    "Elo":761.0119146719,
+    "Last_Fight":1711756800000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Feng Xiaocan",
+    "Elo":760.3509042626,
+    "Last_Fight":1732320000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Li Jingliang",
+    "Elo":760.1885704292,
+    "Last_Fight":1723852800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"11-7-0"
+  },
+  {
+    "Fighter":"Matthew Semelsberger",
+    "Elo":759.5197784863,
+    "Last_Fight":1731110400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"5-6-0"
+  },
+  {
+    "Fighter":"Ovince Saint Preux",
+    "Elo":758.8534850246,
+    "Last_Fight":1728086400000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"15-13-0"
+  },
+  {
+    "Fighter":"Fernie Garcia",
+    "Elo":758.1159998213,
+    "Last_Fight":1707523200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Garrett Armfield",
+    "Elo":754.37907206,
+    "Last_Fight":1730505600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Mickey Gall",
+    "Elo":753.8301211344,
+    "Last_Fight":1731715200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"6-7-0"
+  },
+  {
+    "Fighter":"Chad Anheliger",
+    "Elo":753.6846666974,
+    "Last_Fight":1730505600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Liang Na",
+    "Elo":753.0067890073,
+    "Last_Fight":1714176000000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Cory McKenna",
+    "Elo":751.1917750075,
+    "Last_Fight":1728691200000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Casey O'Neill",
+    "Elo":748.2354064499,
+    "Last_Fight":1723852800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"5-2-0"
+  },
+  {
+    "Fighter":"Jake Hadley",
+    "Elo":747.6759966417,
+    "Last_Fight":1729296000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"3-4-0"
+  },
+  {
+    "Fighter":"Antonio Trocoli",
+    "Elo":746.5802474371,
+    "Last_Fight":1731110400000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Jamie Pickett",
+    "Elo":744.5751740208,
+    "Last_Fight":1709337600000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"2-7-0"
+  },
+  {
+    "Fighter":"Robelis Despaigne",
+    "Elo":743.75840653,
+    "Last_Fight":1729296000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Yazmin Jauregui",
+    "Elo":742.9398590804,
+    "Last_Fight":1726272000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Tim Means",
+    "Elo":739.4525170754,
+    "Last_Fight":1728086400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"15-14-1"
+  },
+  {
+    "Fighter":"James Llontop",
+    "Elo":739.006502903,
+    "Last_Fight":1731715200000,
+    "Weight Class":"Catch Weight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Sean Sharaf",
+    "Elo":737.8708579569,
+    "Last_Fight":1728691200000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Daniel Lacerda",
+    "Elo":735.0769304535,
+    "Last_Fight":1708732800000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"0-5-1"
+  },
+  {
+    "Fighter":"Da Woon Jung",
+    "Elo":734.8401759543,
+    "Last_Fight":1727481600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"4-4-1"
+  },
+  {
+    "Fighter":"Karl Williams",
+    "Elo":730.8129905204,
+    "Last_Fight":1723248000000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Daniel Pineda",
+    "Elo":729.2629126467,
+    "Last_Fight":1729296000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-8-1"
+  },
+  {
+    "Fighter":"Caio Machado",
+    "Elo":727.5767448788,
+    "Last_Fight":1730505600000,
+    "Weight Class":"Light Heavyweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Tamires Vidal",
+    "Elo":726.8949433644,
+    "Last_Fight":1729296000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Roosevelt Roberts",
+    "Elo":725.0626457529,
+    "Last_Fight":1727481600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"4-5-1"
+  },
+  {
+    "Fighter":"Jared Gooden",
+    "Elo":724.919225894,
+    "Last_Fight":1728691200000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"2-5-0"
+  },
+  {
+    "Fighter":"Tai Tuivasa",
+    "Elo":721.486771409,
+    "Last_Fight":1723852800000,
+    "Weight Class":"Heavyweight",
+    "Status":null,
+    "Record":"8-8-0"
+  },
+  {
+    "Fighter":"Jessica Penne",
+    "Elo":715.874592378,
+    "Last_Fight":1729296000000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"3-6-0"
+  },
+  {
+    "Fighter":"Zygimantas Ramaska",
+    "Elo":714.4476095399,
+    "Last_Fight":1725667200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Dan Argueta",
+    "Elo":714.4201064504,
+    "Last_Fight":1728691200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-3-2"
+  },
+  {
+    "Fighter":"Andrei Arlovski",
+    "Elo":714.1700767047,
+    "Last_Fight":1719619200000,
+    "Weight Class":"Heavyweight",
+    "Status":"Former Champion",
+    "Record":"23-18-1"
+  },
+  {
+    "Fighter":"Trevor Peek",
+    "Elo":714.0191361564,
+    "Last_Fight":1725667200000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Victor Altamirano",
+    "Elo":713.4033572213,
+    "Last_Fight":1727481600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Nate Maness",
+    "Elo":707.2848531697,
+    "Last_Fight":1718409600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"5-2-0"
+  },
+  {
+    "Fighter":"Brendon Marotte",
+    "Elo":701.1644531299,
+    "Last_Fight":1725667200000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Brady Hiestand",
+    "Elo":700.8794286986,
+    "Last_Fight":1718409600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"3-1-0"
+  },
+  {
+    "Fighter":"Pannie Kianzad",
+    "Elo":699.6724518106,
+    "Last_Fight":1723248000000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"5-6-0"
+  },
+  {
+    "Fighter":"Kyung Ho Kang",
+    "Elo":699.0623497154,
+    "Last_Fight":1719014400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"8-5-1"
+  },
+  {
+    "Fighter":"Josh Culibao",
+    "Elo":699.0057699893,
+    "Last_Fight":1723852800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"3-4-1"
+  },
+  {
+    "Fighter":"Alex Perez",
+    "Elo":697.7650891752,
+    "Last_Fight":1718409600000,
+    "Weight Class":"Flyweight",
+    "Status":null,
+    "Record":"7-5-0"
+  },
+  {
+    "Fighter":"Bill Algeo",
+    "Elo":696.484459869,
+    "Last_Fight":1721433600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"5-5-0"
+  },
+  {
+    "Fighter":"Dennis Buzukja",
+    "Elo":695.5645533124,
+    "Last_Fight":1724457600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Loik Radzhabov",
+    "Elo":694.3242677725,
+    "Last_Fight":1721433600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Ricky Glenn",
+    "Elo":688.5726839342,
+    "Last_Fight":1723852800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"4-6-1"
+  },
+  {
+    "Fighter":"Douglas Silva de Andrade",
+    "Elo":688.0238558468,
+    "Last_Fight":1718409600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"7-6-0"
+  },
+  {
+    "Fighter":"Warlley Alves",
+    "Elo":687.6089353495,
+    "Last_Fight":1715990400000,
+    "Weight Class":"Middleweight",
+    "Status":"Former Champion",
+    "Record":"8-8-0"
+  },
+  {
+    "Fighter":"Jarno Errens",
+    "Elo":684.0081515414,
+    "Last_Fight":1723248000000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Herbert Burns",
+    "Elo":682.3544236958,
+    "Last_Fight":1723852800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Victoria Leonardo",
+    "Elo":680.6021132332,
+    "Last_Fight":1724457600000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"1-4-0"
+  },
+  {
+    "Fighter":"Charalampos Grigoriou",
+    "Elo":677.7573881781,
+    "Last_Fight":1723248000000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Alex Reyes",
+    "Elo":676.5829813439,
+    "Last_Fight":1723852800000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Brian Kelleher",
+    "Elo":676.4143450445,
+    "Last_Fight":1721433600000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"8-9-0"
+  },
+  {
+    "Fighter":"Montana De La Rosa",
+    "Elo":671.8121956535,
+    "Last_Fight":1717804800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"6-5-1"
+  },
+  {
+    "Fighter":"Melissa Gatto",
+    "Elo":667.6467477608,
+    "Last_Fight":1715990400000,
+    "Weight Class":"Women's Bantamweight",
+    "Status":null,
+    "Record":"3-2-0"
+  },
+  {
+    "Fighter":"Kaynan Kruschewsky",
+    "Elo":667.3294669564,
+    "Last_Fight":1721433600000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Josh Fremd",
+    "Elo":666.0534276441,
+    "Last_Fight":1720828800000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Mariya Agapova",
+    "Elo":662.4180803604,
+    "Last_Fight":1720828800000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Shayilan Nuerdanbieke",
+    "Elo":661.5918883583,
+    "Last_Fight":1718409600000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"3-3-0"
+  },
+  {
+    "Fighter":"Yanis Ghemmouri",
+    "Elo":657.0089740896,
+    "Last_Fight":1719619200000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Denis Tiuliulin",
+    "Elo":655.9593691881,
+    "Last_Fight":1722643200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-5-0"
+  },
+  {
+    "Fighter":"Miguel Baeza",
+    "Elo":654.7725225818,
+    "Last_Fight":1717804800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"3-4-0"
+  },
+  {
+    "Fighter":"Darrius Flowers",
+    "Elo":652.3530856095,
+    "Last_Fight":1720828800000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Michelle Waterson-Gomez",
+    "Elo":648.9219555934,
+    "Last_Fight":1719619200000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"6-9-0"
+  },
+  {
+    "Fighter":"Jesse Butler",
+    "Elo":646.1453849919,
+    "Last_Fight":1717804800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Josh Quinlan",
+    "Elo":642.5115057729,
+    "Last_Fight":1718409600000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Emily Ducote",
+    "Elo":638.7339240736,
+    "Last_Fight":1715990400000,
+    "Weight Class":"Women's Strawweight",
+    "Status":null,
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Lucie Pudilova",
+    "Elo":637.3274181451,
+    "Last_Fight":1721433600000,
+    "Weight Class":"Women's Flyweight",
+    "Status":null,
+    "Record":"3-8-0"
+  },
+  {
+    "Fighter":"Kleydson Rodrigues",
+    "Elo":629.9450242573,
+    "Last_Fight":1715990400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Victor Martinez",
+    "Elo":626.9592901039,
+    "Last_Fight":1715990400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Vinicius Salvador",
+    "Elo":618.3764470259,
+    "Last_Fight":1715990400000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"0-3-0"
+  }
+]
