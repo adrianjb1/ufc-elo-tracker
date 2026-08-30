@@ -23,11 +23,7 @@ def read_json(path):
     except json.JSONDecodeError:
         abort(500, description=f"Invalid JSON format: {path}")
 
-@app.route("/api/current", methods=["GET"])
-def get_current():
-    data_path = os.path.join(DATA_DIR, "current_elo_2.0.json")
-    data = read_json(data_path)
-
+def filter_leaderboard(data):
     search_query = request.args.get('search', '').lower()
     weight_class = request.args.get('weight_class', '').lower()
     limit = request.args.get('limit', type=int)
@@ -41,12 +37,19 @@ def get_current():
     if limit and limit > 0:
         data = data[:limit]
 
-    return jsonify(data)
+    return data
+
+@app.route("/api/current", methods=["GET"])
+def get_current():
+    data_path = os.path.join(DATA_DIR, "current_elo_2.0.json")
+    data = read_json(data_path)
+    return jsonify(filter_leaderboard(data))
 
 @app.route("/api/peak", methods=["GET"])
 def get_peak():
     data_path = os.path.join(DATA_DIR, "peak_elo_2.0.json")
-    return jsonify(read_json(data_path))
+    data = read_json(data_path)
+    return jsonify(filter_leaderboard(data))
 
 @app.route("/api/fighter/<string:name>", methods=["GET"])
 def get_fighter(name):
