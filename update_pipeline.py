@@ -1,16 +1,38 @@
-import requests, pandas as pd, os, subprocess
+import pandas as pd, os, subprocess
 from bs4 import BeautifulSoup
 from time import sleep
+from playwright.sync_api import sync_playwright
 
 DATA_DIR = "data"
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 EVENTS_PATH = os.path.join(DATA_DIR, "ufc_events.csv")
 FIGHTS_PATH = os.path.join(DATA_DIR, "fights_enhanced.csv")
 
-def get_soup(url):
-    res = requests.get(url, headers=HEADERS, timeout=10)
-    res.raise_for_status()
-    return BeautifulSoup(res.text, "html.parser")
+# ufcstats.com serves a JS proof-of-work challenge before the real page,
+# so a plain requests.get() only ever sees the challenge shell. Playwright
+# runs the JS and waits for the real table to appear once it resolves.
+_browser_ctx = {"playwright": None, "browser": None, "page": None}
+
+def _get_page():
+    if _browser_ctx["page"] is None:
+        _browser_ctx["playwright"] = sync_playwright().start()
+        _browser_ctx["browser"] = _browser_ctx["playwright"].chromium.launch(headless=True)
+        _browser_ctx["page"] = _browser_ctx["browser"].new_page(user_agent=USER_AGENT)
+    return _browser_ctx["page"]
+
+def close_browser():
+    if _browser_ctx["browser"] is not None:
+        _browser_ctx["browser"].close()
+        _browser_ctx["playwright"].stop()
+        _browser_ctx["page"] = None
+        _browser_ctx["browser"] = None
+        _browser_ctx["playwright"] = None
+
+def get_soup(url, wait_selector):
+    page = _get_page()
+    page.goto(url, wait_until="networkidle", timeout=30000)
+    page.wait_for_selector(wait_selector, timeout=30000)
+    return BeautifulSoup(page.content(), "html.parser")
 
 def scrape_new_events():
     print("\n=== Step 1: Checking for new UFC events ===")
@@ -18,7 +40,7 @@ def scrape_new_events():
     existing_events = pd.read_csv(EVENTS_PATH)
     existing_urls = set(existing_events["URL"].tolist())
 
-    soup = get_soup("http://ufcstats.com/statistics/events/completed?page=all")
+    soup = get_soup("http://ufcstats.com/statistics/events/completed?page=all", "tr.b-statistics__table-row")
     rows = soup.select('tr.b-statistics__table-row')
 
     new_events = []
@@ -56,7 +78,7 @@ def scrape_new_events():
     return new_events
 
 def parse_event_fights(event_name, event_date, event_url):
-    soup = get_soup(event_url)
+    soup = get_soup(event_url, "tr.b-fight-details__table-row__hover")
     rows = soup.find_all("tr", class_="b-fight-details__table-row b-fight-details__table-row__hover js-fight-details-click")
     fights = []
 
@@ -156,8 +178,12 @@ def main():
     print("UFC ELO TRACKER - INCREMENTAL UPDATE PIPELINE")
     print("="*50)
 
-    new_events = scrape_new_events()
-    scrape_new_fights(new_events)
+    try:
+        new_events = scrape_new_events()
+        scrape_new_fights(new_events)
+    finally:
+        close_browser()
+
     run_tracker()
 
     print("\n" + "="*50)
