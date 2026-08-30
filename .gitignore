@@ -211,3 +211,6 @@ data/contextual_overrides.csv
 data/adjustments.csv
 data/manual_champions.csv
 
+# superseded tracker versions and old-format data exports
+archive/
+

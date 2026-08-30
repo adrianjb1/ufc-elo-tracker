@@ -6,3 +6,15 @@ My goal in this project is to properly incorporate an algorithm that contextuali
 
 Additional Notes:
 Despite how much I've played around with it already, this tracker isn't perfect and it can't capture certain contexts perfectly, but I think it's alright. It prioritizes certain things like Championship bouts/status for the current elo leaderboard. There's a lot of factors that go into deciding the elo for fighters, but I try to prioritize Champions a lot along with certain contenders. I'll also continue to work on it as necessary and want to make to make improvements. Overall though, this is mainly just a fun project so I'm fine with it not being perfect.
+
+## How it works
+
+**Data pipeline:** `update_pipeline.py` scrapes ufcstats.com incrementally — it only pulls events and fights that aren't already in `data/`, rather than rescraping full fight history every time. ufcstats.com puts a JavaScript proof-of-work challenge in front of its pages, so the scraper runs a real headless browser (Playwright) instead of a plain HTTP client, which would otherwise just get served the challenge page and silently return no data.
+
+**Elo engine:** `src/tracker2.0.py` is the production tracker. It weighs finishes, activity level, opponent strength, and title-fight context into each rating change, then applies inactivity decay and a championship boost to the final numbers. Title fights and current champions are detected algorithmically (from a belt icon ufcstats.com renders next to true title bouts) rather than hardcoded — the only manual input is a small seed file for who currently holds each belt.
+
+**API:** A Flask backend (`web/app.py`) serves current and peak Elo rankings, a single fighter's data, and a fighter's fight-by-fight Elo history, with search/weight-class/limit filtering built in.
+
+**Frontend:** A React app (Tailwind, black/red theme) shows the leaderboard with search and filters, and a per-fighter modal with an Elo Progression chart built from their fight history.
+
+See [CLAUDE.md](CLAUDE.md) for the full architecture, algorithm parameters, and commands to run each piece.
