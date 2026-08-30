@@ -46,6 +46,24 @@ export default function App() {
     return `https://www.ufc.com/athlete/${slug}`;
   };
 
+  const getInitials = (name) => {
+    const parts = name.split(' ');
+    if (parts.length >= 2) {
+      return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+    }
+    return name.substring(0, 2).toUpperCase();
+  };
+
+  const getFighterPhotoUrl = (name) => {
+    const slug = name
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .trim();
+    return `/fighters/${slug}.jpg`;
+  };
+
   const openFighterDetails = async (fighter) => {
     setSelectedFighter(fighter);
     setHistoryLoading(true);
@@ -219,51 +237,70 @@ export default function App() {
                         </span>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="flex items-center gap-2">
-                          <button
-                            onClick={() => openFighterDetails(f)}
-                            className="text-sm font-medium text-gray-900 hover:text-red-600 hover:underline cursor-pointer flex items-center gap-1"
-                            title="View fight history and details"
-                          >
-                            {f.Fighter}
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="h-3.5 w-3.5 text-gray-400"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M9 5l7 7-7 7"
+                        <div className="flex items-center gap-3">
+                          <div className="flex-shrink-0">
+                            <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
+                              <img
+                                src={getFighterPhotoUrl(f.Fighter)}
+                                alt={f.Fighter}
+                                className="w-full h-full object-cover object-top"
+                                loading="lazy"
+                                onError={(e) => {
+                                  e.target.style.display = 'none';
+                                  e.target.nextSibling.style.display = 'flex';
+                                }}
                               />
-                            </svg>
-                          </button>
-                          <span className="text-gray-300">|</span>
-                          <a
-                            href={getFighterUrl(f.Fighter)}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-gray-400 hover:text-red-600"
-                            title="View UFC.com profile"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="h-4 w-4"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
+                              <div className="hidden w-full h-full items-center justify-center text-gray-700 font-bold text-sm">
+                                {getInitials(f.Fighter)}
+                              </div>
+                            </div>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <button
+                              onClick={() => openFighterDetails(f)}
+                              className="text-sm font-medium text-gray-900 hover:text-red-600 hover:underline cursor-pointer flex items-center gap-1"
+                              title="View fight history and details"
                             >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                              />
-                            </svg>
-                          </a>
+                              {f.Fighter}
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-3.5 w-3.5 text-gray-400"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M9 5l7 7-7 7"
+                                />
+                              </svg>
+                            </button>
+                            <span className="text-gray-300">|</span>
+                            <a
+                              href={getFighterUrl(f.Fighter)}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-gray-400 hover:text-red-600"
+                              title="View UFC.com profile"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-4 w-4"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                />
+                              </svg>
+                            </a>
+                          </div>
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
@@ -291,9 +328,26 @@ export default function App() {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50" onClick={closeFighterDetails}>
           <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
             <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex justify-between items-center">
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900">{selectedFighter.Fighter}</h2>
-                <p className="text-gray-500 text-sm">UFC Record: {selectedFighter.Record || "N/A"}</p>
+              <div className="flex items-center gap-4">
+                <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
+                  <img
+                    src={getFighterPhotoUrl(selectedFighter.Fighter)}
+                    alt={selectedFighter.Fighter}
+                    className="w-full h-full object-cover object-top"
+                    loading="lazy"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
+                  />
+                  <div className="hidden w-full h-full items-center justify-center text-gray-700 font-bold text-xl">
+                    {getInitials(selectedFighter.Fighter)}
+                  </div>
+                </div>
+                <div>
+                  <h2 className="text-2xl font-bold text-gray-900">{selectedFighter.Fighter}</h2>
+                  <p className="text-gray-500 text-sm">UFC Record: {selectedFighter.Record || "N/A"}</p>
+                </div>
               </div>
               <button onClick={closeFighterDetails} className="text-gray-400 hover:text-gray-600 text-2xl font-bold">
                 ×
