@@ -9,15 +9,25 @@ export default function App() {
   const [selectedFighter, setSelectedFighter] = useState(null);
   const [fightHistory, setFightHistory] = useState([]);
   const [historyLoading, setHistoryLoading] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [weightClass, setWeightClass] = useState("all");
+  const [limit, setLimit] = useState(10);
 
-  const fetchData = async (type) => {
+  const fetchData = async (type, search = "", weightFilter = "all", resultLimit = 10) => {
     try {
       setLoading(true);
       setError("");
-      const res = await fetch(`http://127.0.0.1:5000/api/${type}`);
+
+      const params = new URLSearchParams();
+      if (search) params.append('search', search);
+      if (weightFilter && weightFilter !== 'all') params.append('weight_class', weightFilter);
+      if (resultLimit) params.append('limit', resultLimit);
+
+      const url = `http://127.0.0.1:5000/api/${type}${params.toString() ? '?' + params.toString() : ''}`;
+      const res = await fetch(url);
       if (!res.ok) throw new Error(`Failed to fetch ${type} data`);
       const data = await res.json();
-      setFighters(data.slice(0, 10));
+      setFighters(data);
     } catch (err) {
       console.error(err);
       setError("Failed to load data.");
@@ -34,24 +44,6 @@ export default function App() {
       .replace(/-+/g, '-')
       .trim();
     return `https://www.ufc.com/athlete/${slug}`;
-  };
-
-  const getInitials = (name) => {
-    const parts = name.split(' ');
-    if (parts.length >= 2) {
-      return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
-    }
-    return name.substring(0, 2).toUpperCase();
-  };
-
-  const getFighterPhotoUrl = (name) => {
-    const slug = name
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .trim();
-    return `/fighters/${slug}.jpg`;
   };
 
   const openFighterDetails = async (fighter) => {
@@ -76,8 +68,11 @@ export default function App() {
   };
 
   useEffect(() => {
-    fetchData(view);
-  }, [view]);
+    const debounceTimer = setTimeout(() => {
+      fetchData(view, searchQuery, weightClass, limit);
+    }, 300);
+    return () => clearTimeout(debounceTimer);
+  }, [view, searchQuery, weightClass, limit]);
 
   return (
     <div className="min-h-screen bg-white">
@@ -94,7 +89,50 @@ export default function App() {
           </p>
         </div>
 
-        
+        <div className="mb-8 w-full max-w-4xl">
+          <div className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center">
+            <div className="flex-1">
+              <input
+                type="text"
+                placeholder="Search fighters..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+              />
+            </div>
+            <select
+              value={weightClass}
+              onChange={(e) => setWeightClass(e.target.value)}
+              className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent bg-white"
+            >
+              <option value="all">All Weight Classes</option>
+              <option value="flyweight">Flyweight</option>
+              <option value="bantamweight">Bantamweight</option>
+              <option value="featherweight">Featherweight</option>
+              <option value="lightweight">Lightweight</option>
+              <option value="welterweight">Welterweight</option>
+              <option value="middleweight">Middleweight</option>
+              <option value="light heavyweight">Light Heavyweight</option>
+              <option value="heavyweight">Heavyweight</option>
+              <option value="women's strawweight">Women's Strawweight</option>
+              <option value="women's flyweight">Women's Flyweight</option>
+              <option value="women's bantamweight">Women's Bantamweight</option>
+              <option value="women's featherweight">Women's Featherweight</option>
+            </select>
+            <select
+              value={limit}
+              onChange={(e) => setLimit(Number(e.target.value))}
+              className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent bg-white"
+            >
+              <option value={10}>Top 10</option>
+              <option value={25}>Top 25</option>
+              <option value={50}>Top 50</option>
+              <option value={100}>Top 100</option>
+            </select>
+          </div>
+        </div>
+
+
         <div className="mb-10 flex gap-2 text-sm">
           <button
             className={`px-5 py-2 rounded-full font-medium transition-all ${
@@ -131,6 +169,17 @@ export default function App() {
             <p className="text-red-700">{error}</p>
           </div>
         ) : (
+          <>
+            {fighters.length > 0 && (
+              <div className="w-full max-w-4xl mb-4 text-sm text-gray-500 text-right">
+                Showing {fighters.length} fighter{fighters.length !== 1 ? 's' : ''}
+              </div>
+            )}
+            {fighters.length === 0 ? (
+              <div className="w-full max-w-4xl bg-white rounded-lg shadow-lg p-12 text-center border border-gray-200">
+                <p className="text-gray-500">No fighters found matching your search criteria</p>
+              </div>
+            ) : (
           <div className="w-full max-w-4xl bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200" style={{willChange: 'auto', contain: 'layout style paint'}}>
             <table className="w-full">
               <thead>
@@ -170,70 +219,51 @@ export default function App() {
                         </span>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="flex items-center gap-3">
-                          <div className="flex-shrink-0">
-                            <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-                              <img
-                                src={getFighterPhotoUrl(f.Fighter)}
-                                alt={f.Fighter}
-                                className="w-full h-full object-cover object-top"
-                                loading="lazy"
-                                onError={(e) => {
-                                  e.target.style.display = 'none';
-                                  e.target.nextSibling.style.display = 'flex';
-                                }}
+                        <div className="flex items-center gap-2">
+                          <button
+                            onClick={() => openFighterDetails(f)}
+                            className="text-sm font-medium text-gray-900 hover:text-red-600 hover:underline cursor-pointer flex items-center gap-1"
+                            title="View fight history and details"
+                          >
+                            {f.Fighter}
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-3.5 w-3.5 text-gray-400"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M9 5l7 7-7 7"
                               />
-                              <div className="hidden w-full h-full items-center justify-center text-gray-700 font-bold text-sm">
-                                {getInitials(f.Fighter)}
-                              </div>
-                            </div>
-                          </div>
-                          <div className="flex items-center gap-2">
-                            <button
-                              onClick={() => openFighterDetails(f)}
-                              className="text-sm font-medium text-gray-900 hover:text-red-600 hover:underline cursor-pointer flex items-center gap-1"
-                              title="View fight history and details"
+                            </svg>
+                          </button>
+                          <span className="text-gray-300">|</span>
+                          <a
+                            href={getFighterUrl(f.Fighter)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-400 hover:text-red-600"
+                            title="View UFC.com profile"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-4 w-4"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
                             >
-                              {f.Fighter}
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-3.5 w-3.5 text-gray-400"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M9 5l7 7-7 7"
-                                />
-                              </svg>
-                            </button>
-                            <span className="text-gray-300">|</span>
-                            <a
-                              href={getFighterUrl(f.Fighter)}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-gray-400 hover:text-red-600"
-                              title="View UFC.com profile"
-                            >
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-4 w-4"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                />
-                              </svg>
-                            </a>
-                          </div>
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                              />
+                            </svg>
+                          </a>
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
@@ -252,6 +282,8 @@ export default function App() {
               </tbody>
             </table>
           </div>
+            )}
+          </>
         )}
       </div>
 
@@ -259,26 +291,9 @@ export default function App() {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50" onClick={closeFighterDetails}>
           <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
             <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex justify-between items-center">
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-                  <img
-                    src={getFighterPhotoUrl(selectedFighter.Fighter)}
-                    alt={selectedFighter.Fighter}
-                    className="w-full h-full object-cover object-top"
-                    loading="lazy"
-                    onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.nextSibling.style.display = 'flex';
-                    }}
-                  />
-                  <div className="hidden w-full h-full items-center justify-center text-gray-700 font-bold text-xl">
-                    {getInitials(selectedFighter.Fighter)}
-                  </div>
-                </div>
-                <div>
-                  <h2 className="text-2xl font-bold text-gray-900">{selectedFighter.Fighter}</h2>
-                  <p className="text-gray-500 text-sm">UFC Record: {selectedFighter.Record || "N/A"}</p>
-                </div>
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900">{selectedFighter.Fighter}</h2>
+                <p className="text-gray-500 text-sm">UFC Record: {selectedFighter.Record || "N/A"}</p>
               </div>
               <button onClick={closeFighterDetails} className="text-gray-400 hover:text-gray-600 text-2xl font-bold">
                 ×
