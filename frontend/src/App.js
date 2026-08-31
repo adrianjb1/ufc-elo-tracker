@@ -12,6 +12,7 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
   const [weightClass, setWeightClass] = useState("all");
   const [limit, setLimit] = useState(10);
+  const [dataUpdatedThrough, setDataUpdatedThrough] = useState(null);
 
   const fetchData = async (type, search = "", weightFilter = "all", resultLimit = 10) => {
     try {
@@ -92,6 +93,13 @@ export default function App() {
     return () => clearTimeout(debounceTimer);
   }, [view, searchQuery, weightClass, limit]);
 
+  useEffect(() => {
+    fetch("http://127.0.0.1:5000/api/meta")
+      .then((res) => res.json())
+      .then((data) => setDataUpdatedThrough(data.data_updated_through))
+      .catch(() => {});
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
 
@@ -105,6 +113,11 @@ export default function App() {
           <p className="text-gray-500 mt-4 text-sm">
             {view === "current" ? "Current Rankings" : "All-Time Peak Rankings"}
           </p>
+          {dataUpdatedThrough && (
+            <p className="text-gray-400 mt-1 text-xs">
+              Data last updated: {new Date(dataUpdatedThrough).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
+            </p>
+          )}
         </div>
 
         <div className="mb-8 w-full max-w-4xl">

@@ -60,6 +60,13 @@ def get_fighter(name):
         abort(404, description=f"Fighter not found: {name}")
     return jsonify(results[0])
 
+@app.route("/api/meta", methods=["GET"])
+def get_meta():
+    data_path = os.path.join(DATA_DIR, "current_elo_2.0.json")
+    data = read_json(data_path)
+    last_fight = max((f["Last_Fight"] for f in data if f.get("Last_Fight")), default=None)
+    return jsonify({"data_updated_through": last_fight})
+
 @app.route("/api/trends/<string:name>", methods=["GET"])
 def get_trends(name):
     path = os.path.join(DATA_DIR, "fights_with_elo_2.0.csv")
