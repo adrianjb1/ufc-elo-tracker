@@ -5,7 +5,6 @@ DATA_DIR=os.path.join(os.path.dirname(os.path.dirname(__file__)),"data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 FIGHTS_PATH=os.path.join(DATA_DIR,"fights_enhanced.csv")
-MANUAL_CHAMPS_PATH=os.path.join(DATA_DIR,"manual_champions.csv")
 VACANCY_EVENTS_PATH=os.path.join(DATA_DIR,"vacancy_events.csv")
 ELO_CURRENT_PATH=os.path.join(DATA_DIR,"current_elo_2.0.csv")
 ELO_PEAK_PATH=os.path.join(DATA_DIR,"peak_elo_2.0.csv")
@@ -87,11 +86,6 @@ def get_championship_boost(is_champion, title_defenses, is_former_champion):
 f = pd.read_csv(FIGHTS_PATH)
 f["Date"] = pd.to_datetime(f["Date"], errors="coerce")
 f = f.sort_values("Date").reset_index(drop=True)
-
-manual_champs = pd.read_csv(MANUAL_CHAMPS_PATH)
-manual_champs_dict = {}
-for _, row in manual_champs.iterrows():
-    manual_champs_dict[row["Fighter"]] = row["Status"]
 
 # promotes interim_champions[wc] to current_champions[wc] on a recorded vacancy, applied inline by date
 vacancy_events = pd.read_csv(VACANCY_EVENTS_PATH)
@@ -255,10 +249,11 @@ weight_data = weight_data[["Fighter", "Weight Class"]]
 
 final = pd.DataFrame(list(elo.items()), columns=["Fighter", "Elo"]).merge(rd, on="Fighter", how="left").merge(weight_data, on="Fighter", how="left")
 
-# Is_Champion comes from manual_champions.csv, not current_champions above
-final["Is_Champion"] = final["Fighter"].apply(
-    lambda fighter: manual_champs_dict.get(fighter) in ["Champion", "Transition Champion"]
-)
+current_champion_names = set(current_champions.values())
+interim_champion_names = set(interim_champions.values())
+
+final["Is_Champion"] = final["Fighter"].isin(current_champion_names)
+final["Is_Interim_Champion"] = final["Fighter"].isin(interim_champion_names)
 
 final["Elo"] = final.apply(lambda x: apply_decay(x["Elo"], x["Last_Fight"], today, x["Is_Champion"]), axis=1)
 final["Title_Defenses"] = final.apply(
@@ -266,7 +261,7 @@ final["Title_Defenses"] = final.apply(
     axis=1
 )
 final["Is_Former_Champion"] = final["Fighter"].apply(
-    lambda fighter: fighter in former_champions and not manual_champs_dict.get(fighter) in ["Champion", "Transition Champion"]
+    lambda fighter: fighter in former_champions and fighter not in current_champion_names
 )
 
 final["Elo"] = final.apply(
@@ -287,7 +282,8 @@ final["Elo"] = final.apply(
 
 final["Status"] = final.apply(
     lambda x: f"Champion ({x['Title_Defenses']} defenses)" if x["Is_Champion"]
-    else ("Former Champion" if x["Is_Former_Champion"] else None),
+    else ("Interim Champion" if x["Is_Interim_Champion"]
+    else ("Former Champion" if x["Is_Former_Champion"] else None)),
     axis=1
 )
 
@@ -365,8 +361,6 @@ peak_df["Peak Elo"] = peak_df.apply(
 
 def never_won_undisputed_title(fighter_name):
     if fighter_name in undisputed_champions:
-        return False
-    if fighter_name in manual_champs_dict and manual_champs_dict[fighter_name] in ["Champion", "Transition Champion"]:
         return False
     if fighter_name in records:
         losses = records[fighter_name]["L"]
