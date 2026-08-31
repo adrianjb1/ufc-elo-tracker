@@ -11,17 +11,33 @@ export default function App() {
   const [historyLoading, setHistoryLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [weightClass, setWeightClass] = useState("all");
+  const [divisionGroup, setDivisionGroup] = useState("all");
   const [limit, setLimit] = useState(10);
   const [meta, setMeta] = useState(null);
+  const [trending, setTrending] = useState(null);
+  const [trendingLoading, setTrendingLoading] = useState(false);
+  const [trendingError, setTrendingError] = useState("");
 
-  const fetchData = async (type, search = "", weightFilter = "all", resultLimit = 10) => {
+  const menWeightClasses = [
+    "flyweight", "bantamweight", "featherweight", "lightweight",
+    "welterweight", "middleweight", "light heavyweight", "heavyweight",
+  ];
+  const womenWeightClasses = [
+    "women's strawweight", "women's flyweight", "women's bantamweight", "women's featherweight",
+  ];
+
+  const fetchData = async (type, search = "", weightFilter = "all", resultLimit = 10, group = "all") => {
     try {
       setLoading(true);
       setError("");
 
       const params = new URLSearchParams();
       if (search) params.append('search', search);
-      if (weightFilter && weightFilter !== 'all') params.append('weight_class', weightFilter);
+      if (weightFilter && weightFilter !== 'all') {
+        params.append('weight_class', weightFilter);
+      } else if (group && group !== 'all') {
+        params.append('division_group', group);
+      }
       if (resultLimit) params.append('limit', resultLimit);
 
       const url = `http://127.0.0.1:5000/api/${type}${params.toString() ? '?' + params.toString() : ''}`;
@@ -86,12 +102,32 @@ export default function App() {
     setFightHistory([]);
   };
 
+  const fetchTrending = async () => {
+    try {
+      setTrendingLoading(true);
+      setTrendingError("");
+      const res = await fetch("http://127.0.0.1:5000/api/trending?fights=3&limit=10");
+      if (!res.ok) throw new Error("Failed to fetch trending data");
+      const data = await res.json();
+      setTrending(data);
+    } catch (err) {
+      console.error(err);
+      setTrendingError("Failed to load trending data.");
+    } finally {
+      setTrendingLoading(false);
+    }
+  };
+
   useEffect(() => {
+    if (view === "trending") {
+      fetchTrending();
+      return;
+    }
     const debounceTimer = setTimeout(() => {
-      fetchData(view, searchQuery, weightClass, limit);
+      fetchData(view, searchQuery, weightClass, limit, divisionGroup);
     }, 300);
     return () => clearTimeout(debounceTimer);
-  }, [view, searchQuery, weightClass, limit]);
+  }, [view, searchQuery, weightClass, limit, divisionGroup]);
 
   useEffect(() => {
     fetch("http://127.0.0.1:5000/api/meta")
@@ -102,6 +138,9 @@ export default function App() {
 
   const formatUtcDate = (ms) =>
     new Date(ms).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
+
+  const weightClassLabel = (value) =>
+    value.split(" ").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
 
   return (
     <div className="min-h-screen bg-white">
@@ -114,7 +153,15 @@ export default function App() {
           </h1>
           <div className="h-1 w-24 bg-red-600 mx-auto mt-3"></div>
           <p className="text-gray-500 mt-4 text-sm">
-            {view === "current" ? "Current Rankings" : "All-Time Peak Rankings"}
+            {view === "current"
+              ? weightClass !== "all"
+                ? `${weightClassLabel(weightClass)} Top ${limit}`
+                : divisionGroup !== "all"
+                ? `${divisionGroup === "women" ? "Women's" : "Men's"} Top ${limit}`
+                : "Current Rankings"
+              : view === "peak"
+              ? "All-Time Peak Rankings"
+              : "Biggest Elo Movers (Last 3 Fights)"}
           </p>
           {meta && (
             <p className="text-gray-400 mt-1 text-xs">
@@ -142,49 +189,68 @@ export default function App() {
           </div>
         )}
 
-        <div className="mb-8 w-full max-w-4xl">
-          <div className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center">
-            <div className="flex-1">
-              <input
-                type="text"
-                placeholder="Search fighters..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
-              />
+        {view !== "trending" && (
+          <div className="mb-8 w-full max-w-4xl">
+            <div className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center">
+              <div className="flex-1">
+                <input
+                  type="text"
+                  placeholder="Search fighters..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                />
+              </div>
+              <div className="flex rounded-lg border border-gray-300 overflow-hidden text-sm">
+                {[
+                  { value: "all", label: "All" },
+                  { value: "men", label: "Men's" },
+                  { value: "women", label: "Women's" },
+                ].map(({ value, label }) => (
+                  <button
+                    key={value}
+                    onClick={() => {
+                      setDivisionGroup(value);
+                      setWeightClass("all");
+                    }}
+                    className={`px-3 py-2 font-medium transition-colors ${
+                      divisionGroup === value
+                        ? "bg-red-600 text-white"
+                        : "bg-white text-gray-600 hover:bg-gray-50"
+                    }`}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+              <select
+                value={weightClass}
+                onChange={(e) => setWeightClass(e.target.value)}
+                className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent bg-white"
+              >
+                <option value="all">All Weight Classes</option>
+                {(divisionGroup === "women"
+                  ? womenWeightClasses
+                  : divisionGroup === "men"
+                  ? menWeightClasses
+                  : [...menWeightClasses, ...womenWeightClasses]
+                ).map((wc) => (
+                  <option key={wc} value={wc}>{weightClassLabel(wc)}</option>
+                ))}
+              </select>
+              <select
+                value={limit}
+                onChange={(e) => setLimit(Number(e.target.value))}
+                className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent bg-white"
+              >
+                <option value={10}>Top 10</option>
+                <option value={25}>Top 25</option>
+                <option value={50}>Top 50</option>
+                <option value={100}>Top 100</option>
+              </select>
             </div>
-            <select
-              value={weightClass}
-              onChange={(e) => setWeightClass(e.target.value)}
-              className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent bg-white"
-            >
-              <option value="all">All Weight Classes</option>
-              <option value="flyweight">Flyweight</option>
-              <option value="bantamweight">Bantamweight</option>
-              <option value="featherweight">Featherweight</option>
-              <option value="lightweight">Lightweight</option>
-              <option value="welterweight">Welterweight</option>
-              <option value="middleweight">Middleweight</option>
-              <option value="light heavyweight">Light Heavyweight</option>
-              <option value="heavyweight">Heavyweight</option>
-              <option value="women's strawweight">Women's Strawweight</option>
-              <option value="women's flyweight">Women's Flyweight</option>
-              <option value="women's bantamweight">Women's Bantamweight</option>
-              <option value="women's featherweight">Women's Featherweight</option>
-            </select>
-            <select
-              value={limit}
-              onChange={(e) => setLimit(Number(e.target.value))}
-              className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent bg-white"
-            >
-              <option value={10}>Top 10</option>
-              <option value={25}>Top 25</option>
-              <option value={50}>Top 50</option>
-              <option value={100}>Top 100</option>
-            </select>
           </div>
-        </div>
-
+        )}
 
         <div className="mb-10 flex gap-2 text-sm">
           <button
@@ -208,11 +274,64 @@ export default function App() {
           >
             Peak Elo
           </button>
+          <span className="text-gray-300">|</span>
+          <button
+            className={`px-5 py-2 rounded-full font-medium transition-all ${
+              view === "trending"
+                ? "text-red-600 underline underline-offset-4"
+                : "text-gray-500 hover:text-gray-700"
+            }`}
+            onClick={() => setView("trending")}
+          >
+            Trending
+          </button>
         </div>
 
 
 
-        {loading ? (
+        {view === "trending" ? (
+          trendingLoading ? (
+            <div className="flex flex-col items-center gap-3">
+              <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-red-600"></div>
+              <p className="text-gray-500 text-sm">Loading trending fighters...</p>
+            </div>
+          ) : trendingError ? (
+            <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+              <p className="text-red-700">{trendingError}</p>
+            </div>
+          ) : trending ? (
+            <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6">
+              {[
+                { title: "Risers", list: trending.risers, positive: true },
+                { title: "Fallers", list: trending.fallers, positive: false },
+              ].map(({ title, list, positive }) => (
+                <div key={title} className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
+                  <div className="bg-gray-50 border-b border-gray-200 px-5 py-3">
+                    <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wider">{title}</h3>
+                  </div>
+                  <div className="divide-y divide-gray-200">
+                    {list.map((m, i) => (
+                      <div key={m.Fighter} className="flex items-center justify-between px-5 py-3">
+                        <div className="flex items-center gap-3 min-w-0">
+                          <span className="text-xs font-bold text-gray-400 w-4">{i + 1}</span>
+                          <div className="min-w-0">
+                            <div className="text-sm font-medium text-gray-900 truncate">{m.Fighter}</div>
+                            <div className="text-xs text-gray-500 truncate">
+                              {m["Weight Class"] || "—"} · {m.Record || "—"}
+                            </div>
+                          </div>
+                        </div>
+                        <div className={`text-sm font-bold whitespace-nowrap ${positive ? "text-green-600" : "text-red-600"}`}>
+                          {m.EloChange >= 0 ? "+" : ""}{m.EloChange.toFixed(0)}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : null
+        ) : loading ? (
           <div className="flex flex-col items-center gap-3">
             <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-red-600"></div>
             <p className="text-gray-500 text-sm">Loading leaderboard...</p>

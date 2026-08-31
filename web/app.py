@@ -26,6 +26,7 @@ def read_json(path):
 def filter_leaderboard(data):
     search_query = request.args.get('search', '').lower()
     weight_class = request.args.get('weight_class', '').lower()
+    division_group = request.args.get('division_group', '').lower()
     limit = request.args.get('limit', type=int)
 
     if search_query:
@@ -33,6 +34,10 @@ def filter_leaderboard(data):
 
     if weight_class and weight_class != 'all':
         data = [f for f in data if f.get("Weight Class", "").lower() == weight_class]
+    elif division_group == 'women':
+        data = [f for f in data if f.get("Weight Class", "").lower().startswith("women's")]
+    elif division_group == 'men':
+        data = [f for f in data if not f.get("Weight Class", "").lower().startswith("women's")]
 
     if limit and limit > 0:
         data = data[:limit]
@@ -79,6 +84,57 @@ def get_meta():
         "total_fights": len(df),
         "title_fights": title_fights,
     })
+
+@app.route("/api/trending", methods=["GET"])
+def get_trending():
+    import pandas as pd
+    path = os.path.join(DATA_DIR, "fights_with_elo_2.0.csv")
+    if not os.path.exists(path):
+        abort(404, description="Fight data not available")
+
+    n_fights = request.args.get("fights", default=3, type=int)
+    limit = request.args.get("limit", default=10, type=int)
+    retirement_days = 730
+
+    df = pd.read_csv(path)
+    df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+    df = df.sort_values("Date")
+    today = df["Date"].max()
+
+    f1 = df[["Date", "Fighter 1", "Fighter1_Elo_Start", "Fighter1_Elo_End"]].rename(
+        columns={"Fighter 1": "Fighter", "Fighter1_Elo_Start": "Before", "Fighter1_Elo_End": "After"})
+    f2 = df[["Date", "Fighter 2", "Fighter2_Elo_Start", "Fighter2_Elo_End"]].rename(
+        columns={"Fighter 2": "Fighter", "Fighter2_Elo_Start": "Before", "Fighter2_Elo_End": "After"})
+    long = pd.concat([f1, f2], ignore_index=True).sort_values("Date")
+
+    current_data = {f["Fighter"]: f for f in read_json(os.path.join(DATA_DIR, "current_elo_2.0.json"))}
+
+    movers = []
+    for fighter, grp in long.groupby("Fighter"):
+        grp = grp.sort_values("Date")
+        if len(grp) < n_fights:
+            continue
+        last_fight_date = grp.iloc[-1]["Date"]
+        if (today - last_fight_date).days >= retirement_days:
+            continue
+        last_n = grp.tail(n_fights)
+        before, after = last_n.iloc[0]["Before"], last_n.iloc[-1]["After"]
+        info = current_data.get(fighter, {})
+        movers.append({
+            "Fighter": fighter,
+            "EloBefore": before,
+            "EloAfter": after,
+            "EloChange": after - before,
+            "FightsCounted": n_fights,
+            "Weight Class": info.get("Weight Class"),
+            "Record": info.get("Record"),
+        })
+
+    movers.sort(key=lambda m: m["EloChange"], reverse=True)
+    risers = movers[:limit]
+    fallers = sorted(movers, key=lambda m: m["EloChange"])[:limit]
+
+    return jsonify({"risers": risers, "fallers": fallers})
 
 @app.route("/api/trends/<string:name>", methods=["GET"])
 def get_trends(name):
