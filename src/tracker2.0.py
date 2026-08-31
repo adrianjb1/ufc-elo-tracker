@@ -6,6 +6,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 FIGHTS_PATH=os.path.join(DATA_DIR,"fights_enhanced.csv")
 MANUAL_CHAMPS_PATH=os.path.join(DATA_DIR,"manual_champions.csv")
+VACANCY_EVENTS_PATH=os.path.join(DATA_DIR,"vacancy_events.csv")
 ELO_CURRENT_PATH=os.path.join(DATA_DIR,"current_elo_2.0.csv")
 ELO_PEAK_PATH=os.path.join(DATA_DIR,"peak_elo_2.0.csv")
 FIGHTS_ELO_PATH=os.path.join(DATA_DIR,"fights_with_elo_2.0.csv")
@@ -92,12 +93,34 @@ manual_champs_dict = {}
 for _, row in manual_champs.iterrows():
     manual_champs_dict[row["Fighter"]] = row["Status"]
 
+# promotes interim_champions[wc] to current_champions[wc] on a recorded vacancy, applied inline by date
+vacancy_events = pd.read_csv(VACANCY_EVENTS_PATH)
+vacancy_events["Date"] = pd.to_datetime(vacancy_events["Date"], errors="coerce")
+vacancy_events = vacancy_events.sort_values("Date").reset_index(drop=True)
+next_vacancy_idx = 0
+
+def apply_due_vacancies(up_to_date):
+    global next_vacancy_idx
+    while next_vacancy_idx < len(vacancy_events):
+        ve = vacancy_events.iloc[next_vacancy_idx]
+        if pd.isna(ve["Date"]) or ve["Date"] > up_to_date:
+            break
+        wc = ve["Weight Class"]
+        if current_champions.get(wc) == ve["Fighter"]:
+            interim = interim_champions.get(wc)
+            if interim:
+                former_champions.add(ve["Fighter"])
+                current_champions[wc] = interim
+                interim_champions.pop(wc, None)
+        next_vacancy_idx += 1
+
 
 
 elo, peak, fcount = {}, {}, {}
 elo_history = {}
 records = {}
 current_champions = {}  # weight_class -> current_champion_name
+interim_champions = {}  # weight_class -> interim_champion_name
 title_defenses = {}  # fighter_name -> number of defenses
 former_champions = set()
 
@@ -107,6 +130,8 @@ f["Fighter1_Elo_End"] = 0.0
 f["Fighter2_Elo_End"] = 0.0
 
 for i, r in f.iterrows():
+    apply_due_vacancies(r["Date"])
+
     f1, f2 = r["Fighter 1"], r["Fighter 2"]
     e1, e2 = elo.get(f1, initial_elo), elo.get(f2, initial_elo)
 
@@ -153,6 +178,7 @@ for i, r in f.iterrows():
     is_false_positive = (f1 in false_positive_fighters or f2 in false_positive_fighters) or is_tuf_fight
 
     is_title = r["Is_Title_Fight"] and not is_false_positive
+    is_interim = bool(r["Is_Interim"]) if is_title else False
     is_main = r["Is_Main_Event"]
     weight_class = r["Weight Class"]
 
@@ -177,7 +203,13 @@ for i, r in f.iterrows():
                 title_defenses[f1] = title_defenses.get(f1, 0) + 1
             else:
                 title_defenses[f1] = 0
-            current_champions[weight_class] = f1
+
+            if is_interim:
+                interim_champions[weight_class] = f1
+            else:
+                current_champions[weight_class] = f1
+                if interim_champions.get(weight_class) == f1:
+                    interim_champions.pop(weight_class, None)
 
     elif winner == f2:
         n2, n1 = update(e2, e1, 1, k)
@@ -191,7 +223,13 @@ for i, r in f.iterrows():
                 title_defenses[f2] = title_defenses.get(f2, 0) + 1
             else:
                 title_defenses[f2] = 0
-            current_champions[weight_class] = f2
+
+            if is_interim:
+                interim_champions[weight_class] = f2
+            else:
+                current_champions[weight_class] = f2
+                if interim_champions.get(weight_class) == f2:
+                    interim_champions.pop(weight_class, None)
     elif winner == "Draw":
         n1, n2 = e1 * 0.99, e2 * 0.99
     else:
@@ -204,6 +242,7 @@ for i, r in f.iterrows():
     peak[f2] = max(peak.get(f2, n2), n2)
 
 today = f["Date"].max()
+apply_due_vacancies(today)
 d1 = f.groupby("Fighter 1")["Date"].max().reset_index().rename(columns={"Fighter 1": "Fighter"})
 d2 = f.groupby("Fighter 2")["Date"].max().reset_index().rename(columns={"Fighter 2": "Fighter"})
 rd = pd.concat([d1, d2], ignore_index=True).groupby("Fighter")["Date"].max().reset_index()
@@ -216,6 +255,7 @@ weight_data = weight_data[["Fighter", "Weight Class"]]
 
 final = pd.DataFrame(list(elo.items()), columns=["Fighter", "Elo"]).merge(rd, on="Fighter", how="left").merge(weight_data, on="Fighter", how="left")
 
+# Is_Champion comes from manual_champions.csv, not current_champions above
 final["Is_Champion"] = final["Fighter"].apply(
     lambda fighter: manual_champs_dict.get(fighter) in ["Champion", "Transition Champion"]
 )
