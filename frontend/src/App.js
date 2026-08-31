@@ -12,7 +12,7 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
   const [weightClass, setWeightClass] = useState("all");
   const [limit, setLimit] = useState(10);
-  const [dataUpdatedThrough, setDataUpdatedThrough] = useState(null);
+  const [meta, setMeta] = useState(null);
 
   const fetchData = async (type, search = "", weightFilter = "all", resultLimit = 10) => {
     try {
@@ -96,9 +96,12 @@ export default function App() {
   useEffect(() => {
     fetch("http://127.0.0.1:5000/api/meta")
       .then((res) => res.json())
-      .then((data) => setDataUpdatedThrough(data.data_updated_through))
+      .then((data) => setMeta(data))
       .catch(() => {});
   }, []);
+
+  const formatUtcDate = (ms) =>
+    new Date(ms).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
 
   return (
     <div className="min-h-screen bg-white">
@@ -113,12 +116,31 @@ export default function App() {
           <p className="text-gray-500 mt-4 text-sm">
             {view === "current" ? "Current Rankings" : "All-Time Peak Rankings"}
           </p>
-          {dataUpdatedThrough && (
+          {meta && (
             <p className="text-gray-400 mt-1 text-xs">
-              Data last updated: {new Date(dataUpdatedThrough).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
+              Data last updated: {new Date(meta.data_updated_through).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
             </p>
           )}
         </div>
+
+        {meta && (
+          <div className="mb-8 w-full max-w-4xl grid grid-cols-3 gap-4">
+            {[
+              { value: meta.total_fighters.toLocaleString(), label: "Fighters Tracked" },
+              { value: meta.total_fights.toLocaleString(), label: "Fights Tracked" },
+              { value: meta.title_fights.toLocaleString(), label: "Title Fights Tracked" },
+            ].map(({ value, label }) => (
+              <div
+                key={label}
+                className="relative bg-white border border-gray-200 rounded-xl pt-5 pb-4 text-center shadow-sm hover:shadow-md transition-shadow overflow-hidden"
+              >
+                <div className="absolute top-0 left-0 right-0 h-0.5 bg-red-600"></div>
+                <div className="text-3xl font-bold text-gray-900">{value}</div>
+                <div className="text-xs text-gray-500 uppercase tracking-wider mt-1">{label}</div>
+              </div>
+            ))}
+          </div>
+        )}
 
         <div className="mb-8 w-full max-w-4xl">
           <div className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center">

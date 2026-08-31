@@ -62,10 +62,23 @@ def get_fighter(name):
 
 @app.route("/api/meta", methods=["GET"])
 def get_meta():
-    data_path = os.path.join(DATA_DIR, "current_elo_2.0.json")
-    data = read_json(data_path)
-    last_fight = max((f["Last_Fight"] for f in data if f.get("Last_Fight")), default=None)
-    return jsonify({"data_updated_through": last_fight})
+    import pandas as pd
+    path = os.path.join(DATA_DIR, "fights_enhanced.csv")
+    if not os.path.exists(path):
+        abort(404, description="Fight data not available")
+
+    df = pd.read_csv(path)
+    df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+    fighters = set(df["Fighter 1"]) | set(df["Fighter 2"])
+
+    title_fights = int(df["Is_Title_Fight"].sum())
+
+    return jsonify({
+        "data_updated_through": int(df["Date"].max().timestamp() * 1000),
+        "total_fighters": len(fighters),
+        "total_fights": len(df),
+        "title_fights": title_fights,
+    })
 
 @app.route("/api/trends/<string:name>", methods=["GET"])
 def get_trends(name):
