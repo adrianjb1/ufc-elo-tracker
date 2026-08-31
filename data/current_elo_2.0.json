@@ -4428,7 +4428,7 @@
     "Elo":912.4698774753,
     "Last_Fight":1734134400000,
     "Weight Class":"Welterweight",
-    "Status":"Interim Champion",
+    "Status":null,
     "Record":"12-5-0"
   },
   {
@@ -5892,7 +5892,7 @@
     "Elo":752.5880110307,
     "Last_Fight":1744416000000,
     "Weight Class":"Featherweight",
-    "Status":"Interim Champion",
+    "Status":null,
     "Record":"11-4-1"
   },
   {
