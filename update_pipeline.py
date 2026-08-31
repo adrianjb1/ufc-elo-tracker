@@ -1,4 +1,4 @@
-import pandas as pd, os, subprocess
+import pandas as pd, os, re, subprocess
 from bs4 import BeautifulSoup
 from time import sleep
 from playwright.sync_api import sync_playwright
@@ -33,6 +33,25 @@ def get_soup(url, wait_selector):
     page.goto(url, wait_until="networkidle", timeout=30000)
     page.wait_for_selector(wait_selector, timeout=30000)
     return BeautifulSoup(page.content(), "html.parser")
+
+# belt.png marks title fights for OTHER promotions too (e.g. Road to UFC,
+# TUF finals) that ufcstats.com bundles onto a UFC event page. The fight's
+# own detail page has a title string ("UFC ... Title Bout" vs "Road to UFC
+# ... Title Bout") that disambiguates it. Only called when belt.png is
+# already True, since that's a small fraction of all fights.
+def is_real_ufc_title_fight(fight_url):
+    if not fight_url:
+        return False
+    try:
+        soup = get_soup(fight_url, "i.b-fight-details__fight-title")
+        title_el = soup.find("i", class_="b-fight-details__fight-title")
+        if not title_el:
+            return False
+        text = re.sub(r"\s+", " ", title_el.get_text(" ", strip=True)).strip()
+        return text.startswith("UFC")
+    except Exception as e:
+        print(f"    Failed to verify title fight at {fight_url}: {e}")
+        return False
 
 def scrape_new_events():
     print("\n=== Step 1: Checking for new UFC events ===")
@@ -122,6 +141,9 @@ def parse_event_fights(event_name, event_date, event_url):
         round_ = cols[8].get_text(strip=True)
         time_ = cols[9].get_text(strip=True)
         fight_url = row.get("data-link", "").strip()
+
+        if is_title_fight:
+            is_title_fight = is_real_ufc_title_fight(fight_url)
 
         fights.append([
             event_name, event_date, weight_class, fighter1, fighter2,
