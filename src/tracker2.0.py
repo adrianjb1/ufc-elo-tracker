@@ -189,6 +189,9 @@ for i, r in f.iterrows():
         n1, n2 = update(e1, e2, 1, k)
 
         if is_title:
+            if interim_champions.get(weight_class) == f2:
+                interim_champions.pop(weight_class, None)
+
             old_champ = current_champions.get(weight_class)
             if old_champ and old_champ != f1:
                 former_champions.add(old_champ)
@@ -209,6 +212,9 @@ for i, r in f.iterrows():
         n2, n1 = update(e2, e1, 1, k)
 
         if is_title:
+            if interim_champions.get(weight_class) == f1:
+                interim_champions.pop(weight_class, None)
+
             old_champ = current_champions.get(weight_class)
             if old_champ and old_champ != f2:
                 former_champions.add(old_champ)
