@@ -5,11 +5,10 @@
 @layer base {
   body {
     @apply bg-canvas text-ink font-sans antialiased;
-    font-variation-settings: "wdth" 100;
   }
 
   ::selection {
-    @apply bg-ink text-white;
+    @apply bg-blood text-white;
   }
 
   :focus-visible {
@@ -18,16 +17,16 @@
 }
 
 @layer components {
-  .wide {
-    font-variation-settings: "wdth" 125;
+  .display {
+    @apply font-display font-extrabold uppercase leading-[0.88] tracking-[0.005em];
   }
 
-  .narrow {
-    font-variation-settings: "wdth" 85;
+  .mono {
+    @apply font-mono font-semibold uppercase tracking-[0.06em];
   }
 
   .eyebrow {
-    @apply wide text-[11px] font-bold uppercase tracking-[0.08em] text-mute;
+    @apply mono text-[11px] text-mute;
   }
 
   .num {
@@ -41,15 +40,24 @@
   }
 
   .toggle {
-    @apply wide h-12 px-4 sm:px-5 text-xs font-extrabold uppercase tracking-[0.04em] transition-colors;
+    @apply mono h-12 px-4 sm:px-5 text-xs transition-colors;
   }
 
   .tag {
-    @apply wide inline-flex h-7 items-center border-2 border-ink px-2 text-[11px] font-extrabold uppercase tracking-[0.03em] whitespace-nowrap;
+    @apply mono inline-flex h-7 items-center border-2 border-ink px-2 text-[11px] whitespace-nowrap;
   }
 
   .link-plus {
-    @apply wide text-[11px] font-extrabold uppercase tracking-[0.04em] text-ink hover:text-blood transition-colors;
+    @apply mono text-[11px] text-ink hover:text-blood transition-colors;
+  }
+
+  .text-outline-light {
+    -webkit-text-stroke: 2px rgba(250, 248, 243, 0.35);
+    color: transparent;
+  }
+
+  .paper-grain {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 }
 

@@ -19,7 +19,7 @@ function ChartTooltip({ active, payload }) {
         {f.Result} vs {f.Opponent}
       </div>
       <div className="mt-0.5 flex items-baseline gap-2">
-        <span className="wide text-xl font-black num">{Math.round(f.EloAfter)}</span>
+        <span className="display text-3xl num">{Math.round(f.EloAfter)}</span>
         <span className={`text-xs font-bold num ${f.EloChange >= 0 ? "text-win" : "text-blood"}`}>{signed(f.EloChange, 1)}</span>
       </div>
     </div>
@@ -36,7 +36,7 @@ function Stat({ label, children }) {
   return (
     <div className="border-l-2 border-ink pl-3">
       <div className="eyebrow">{label}</div>
-      <div className="wide mt-1 text-xl font-black num">{children}</div>
+      <div className="display mt-1 text-[34px] num">{children}</div>
     </div>
   );
 }
@@ -104,7 +104,7 @@ export default function FighterDetails({ fighter }) {
                   <stop offset="100%" stopColor="#0b0b0c" stopOpacity={0} />
                 </linearGradient>
               </defs>
-              <CartesianGrid stroke="#e6e6e3" vertical={false} />
+              <CartesianGrid stroke="#dcd6ca" vertical={false} />
               <XAxis
                 dataKey="ts"
                 type="number"
@@ -154,16 +154,16 @@ export default function FighterDetails({ fighter }) {
         <ul>
           {recent.map((f) => (
             <li key={`${f.Date}-${f.Opponent}`} className="grid grid-cols-[2.25rem_minmax(0,1fr)_auto] items-center gap-3 border-b border-line py-2.5">
-              <span className={`wide flex h-6 items-center justify-center text-[10px] font-black uppercase ${RESULT_STYLE[f.Result]}`}>
+              <span className={`mono flex h-6 items-center justify-center text-[10px] ${RESULT_STYLE[f.Result]}`}>
                 {f.Result === "NC" ? "NC" : f.Result[0]}
               </span>
               <div className="min-w-0">
                 <div className="truncate text-sm font-bold">{f.Opponent}</div>
-                <div className="wide truncate text-[10px] font-bold uppercase tracking-[0.04em] text-mute">
+                <div className="mono truncate text-[10px] text-mute">
                   {f.Method} · {formatDate(f.Date, { month: "short", year: "numeric" })}
                 </div>
               </div>
-              <span className={`wide text-sm font-black num ${f.EloChange >= 0 ? "text-win" : "text-blood"}`}>
+              <span className={`mono text-[13px] num ${f.EloChange >= 0 ? "text-win" : "text-blood"}`}>
                 {signed(f.EloChange)}
               </span>
             </li>

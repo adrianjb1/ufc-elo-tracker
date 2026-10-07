@@ -8,7 +8,7 @@ function Column({ title, list, up }) {
   return (
     <section>
       <div className="flex items-end justify-between border-b-[3px] border-ink pb-3">
-        <h2 className="wide text-2xl font-black uppercase">{title}</h2>
+        <h2 className="display text-5xl">{title}</h2>
         <span className="eyebrow">Last 3 fights</span>
       </div>
       <ol>
@@ -18,11 +18,11 @@ function Column({ title, list, up }) {
             className="grid grid-cols-[2.5rem_auto_minmax(0,1fr)_auto] items-center gap-3 border-b border-line py-4 animate-fade-up"
             style={{ animationDelay: `${i * 30}ms` }}
           >
-            <span className="wide text-lg font-black num">#{i + 1}</span>
+            <span className="display text-3xl num">#{i + 1}</span>
             <Avatar name={m.Fighter} photo={m.Photo} size="sm" />
             <div className="min-w-0">
-              <div className="truncate text-base font-extrabold">{m.Fighter}</div>
-              <div className="wide truncate text-[10px] font-bold uppercase tracking-[0.04em] text-mute">
+              <div className="truncate text-base font-bold">{m.Fighter}</div>
+              <div className="mono truncate text-[10px] text-mute">
                 {m["Weight Class"] || "—"} · {m.Record || "—"}
               </div>
               <div className="mt-2 h-[3px] bg-line">
@@ -32,7 +32,7 @@ function Column({ title, list, up }) {
                 />
               </div>
             </div>
-            <span className={`wide text-2xl font-black num ${color}`}>{signed(m.EloChange)}</span>
+            <span className={`display text-4xl num ${color}`}>{signed(m.EloChange)}</span>
           </li>
         ))}
       </ol>

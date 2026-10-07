@@ -3,6 +3,7 @@ import Header, { TopBar } from "./components/Header";
 import RankingsTable from "./components/RankingsTable";
 import Trending from "./components/Trending";
 import Methodology from "./components/Methodology";
+import Matchup from "./components/Matchup";
 import { getJSON, getPage, titleCase } from "./lib";
 
 const DEFAULT_SORT = { field: "pos", dir: "asc" };
@@ -34,10 +35,12 @@ export default function App() {
   const [error, setError] = useState("");
   const [meta, setMeta] = useState(null);
   const [accuracy, setAccuracy] = useState(null);
+  const [latest, setLatest] = useState(null);
 
   useEffect(() => {
     getJSON("/api/meta").then(setMeta).catch(() => {});
     getJSON("/api/accuracy").then(setAccuracy).catch(() => {});
+    getJSON("/api/latest").then(setLatest).catch(() => {});
   }, []);
 
   useEffect(() => {
@@ -104,9 +107,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen">
-      <TopBar meta={meta} />
+      <TopBar meta={meta} latest={latest} />
 
-      <main className="mx-auto max-w-[1240px] bg-paper px-4 sm:px-10 pt-10 sm:pt-14 pb-20 shadow-[0_1px_0_0_#e6e6e3,0_30px_80px_-40px_rgba(0,0,0,0.25)]">
+      <main className="paper-grain mx-auto max-w-[1240px] bg-paper px-4 sm:px-10 pt-10 sm:pt-14 pb-20 shadow-[0_30px_80px_-40px_rgba(0,0,0,0.3)]">
         <Header
           view={view}
           onView={onView}
@@ -140,10 +143,14 @@ export default function App() {
           )}
         </div>
 
+        <div className="-mx-4 sm:-mx-10">
+          <Matchup accuracy={accuracy} />
+        </div>
+
         <Methodology accuracy={accuracy} />
       </main>
 
-      <footer className="mx-auto max-w-[1240px] px-4 sm:px-10 py-8 flex flex-col sm:flex-row justify-between gap-2 text-xs font-semibold text-mute">
+      <footer className="mono mx-auto flex max-w-[1240px] flex-col justify-between gap-2 px-4 py-8 text-[10px] text-mute sm:flex-row sm:px-10">
         <span>Fight data from ufcstats.com. Not affiliated with the UFC.</span>
         {meta?.total_fights != null && <span className="num">{meta.total_fights.toLocaleString()} fights · {meta.total_fighters.toLocaleString()} fighters · {meta.title_fights} title fights</span>}
       </footer>
