@@ -92,7 +92,7 @@ def save_events(scraped_events):
     print(f"Updated {EVENTS_PATH}")
 
 def run_tracker():
-    print("\n=== Step 3: Running tracker2.0.py ===")
+    print("\n=== Step 3: Running tracker2.0.py ===", flush=True)
     subprocess.run([sys.executable, TRACKER_PATH], check=True)
     print("Tracker completed successfully")
 

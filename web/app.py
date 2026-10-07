@@ -1,27 +1,47 @@
 from flask import Flask, jsonify, send_from_directory, abort, request
+from flask_cors import CORS
 import os, json
+import pandas as pd
 
-app = Flask(__name__)
-
-@app.after_request
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-    return response
-
-
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
+BUILD_DIR = os.path.join(BASE_DIR, "frontend", "build")
+RETIREMENT_DAYS = 730
+
+app = Flask(__name__, static_folder=None)
+CORS(app, resources={r"/api/*": {"origins": os.environ.get("CORS_ORIGINS", "*").split(",")}})
+
+_cache = {}
+
+def load(name, reader):
+    path = os.path.join(DATA_DIR, name)
+    if not os.path.exists(path):
+        abort(404, description="Data not available")
+    mtime = os.path.getmtime(path)
+    cached = _cache.get(name)
+    if cached and cached[0] == mtime:
+        return cached[1]
+    data = reader(path)
+    _cache[name] = (mtime, data)
+    return data
 
 def read_json(path):
-    try:
-        with open(path, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        abort(404, description=f"File not found: {path}")
-    except json.JSONDecodeError:
-        abort(500, description=f"Invalid JSON format: {path}")
+    with open(path) as f:
+        return json.load(f)
+
+def read_fights(path):
+    df = pd.read_csv(path)
+    df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+    return df.sort_values("Date", kind="stable").reset_index(drop=True)
+
+def current_data():
+    return load("current_elo_2.0.json", read_json)
+
+def peak_data():
+    return load("peak_elo_2.0.json", read_json)
+
+def fights_with_elo():
+    return load("fights_with_elo_2.0.csv", read_fights)
 
 def filter_leaderboard(data):
     search_query = request.args.get('search', '').lower()
@@ -33,93 +53,68 @@ def filter_leaderboard(data):
         data = [f for f in data if search_query in f["Fighter"].lower()]
 
     if weight_class and weight_class != 'all':
-        data = [f for f in data if f.get("Weight Class", "").lower() == weight_class]
+        data = [f for f in data if (f.get("Weight Class") or "").lower() == weight_class]
     elif division_group == 'women':
-        data = [f for f in data if f.get("Weight Class", "").lower().startswith("women's")]
+        data = [f for f in data if (f.get("Weight Class") or "").lower().startswith("women's")]
     elif division_group == 'men':
-        data = [f for f in data if not f.get("Weight Class", "").lower().startswith("women's")]
+        data = [f for f in data if not (f.get("Weight Class") or "").lower().startswith("women's")]
 
     if limit and limit > 0:
         data = data[:limit]
 
     return data
 
-@app.route("/api/current", methods=["GET"])
+@app.route("/api/current")
 def get_current():
-    data_path = os.path.join(DATA_DIR, "current_elo_2.0.json")
-    data = read_json(data_path)
-    return jsonify(filter_leaderboard(data))
+    return jsonify(filter_leaderboard(current_data()))
 
-@app.route("/api/peak", methods=["GET"])
+@app.route("/api/peak")
 def get_peak():
-    data_path = os.path.join(DATA_DIR, "peak_elo_2.0.json")
-    data = read_json(data_path)
-    return jsonify(filter_leaderboard(data))
+    return jsonify(filter_leaderboard(peak_data()))
 
-@app.route("/api/fighter/<string:name>", methods=["GET"])
+@app.route("/api/fighter/<string:name>")
 def get_fighter(name):
-    data_path = os.path.join(DATA_DIR, "current_elo_2.0.json")
-    data = read_json(data_path)
-    results = [f for f in data if f["Fighter"].lower() == name.lower()]
+    results = [f for f in current_data() if f["Fighter"].lower() == name.lower()]
     if not results:
         abort(404, description=f"Fighter not found: {name}")
     return jsonify(results[0])
 
-@app.route("/api/meta", methods=["GET"])
+@app.route("/api/meta")
 def get_meta():
-    import pandas as pd
-    path = os.path.join(DATA_DIR, "fights_enhanced.csv")
-    if not os.path.exists(path):
-        abort(404, description="Fight data not available")
-
-    df = pd.read_csv(path)
-    df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+    df = fights_with_elo()
     fighters = set(df["Fighter 1"]) | set(df["Fighter 2"])
-
-    title_fights = int(df["Is_Title_Fight"].sum())
-
     return jsonify({
         "data_updated_through": int(df["Date"].max().timestamp() * 1000),
         "total_fighters": len(fighters),
         "total_fights": len(df),
-        "title_fights": title_fights,
+        "title_fights": int((df["Is_Title_Fight"] == True).sum()),
     })
 
-@app.route("/api/trending", methods=["GET"])
+@app.route("/api/trending")
 def get_trending():
-    import pandas as pd
-    path = os.path.join(DATA_DIR, "fights_with_elo_2.0.csv")
-    if not os.path.exists(path):
-        abort(404, description="Fight data not available")
-
-    n_fights = request.args.get("fights", default=3, type=int)
+    n_fights = max(1, request.args.get("fights", default=3, type=int))
     limit = request.args.get("limit", default=10, type=int)
-    retirement_days = 730
 
-    df = pd.read_csv(path)
-    df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
-    df = df.sort_values("Date")
+    df = fights_with_elo()
     today = df["Date"].max()
 
     f1 = df[["Date", "Fighter 1", "Fighter1_Elo_Start", "Fighter1_Elo_End"]].rename(
         columns={"Fighter 1": "Fighter", "Fighter1_Elo_Start": "Before", "Fighter1_Elo_End": "After"})
     f2 = df[["Date", "Fighter 2", "Fighter2_Elo_Start", "Fighter2_Elo_End"]].rename(
         columns={"Fighter 2": "Fighter", "Fighter2_Elo_Start": "Before", "Fighter2_Elo_End": "After"})
-    long = pd.concat([f1, f2], ignore_index=True).sort_values("Date")
+    long = pd.concat([f1, f2]).sort_index(kind="stable")
 
-    current_data = {f["Fighter"]: f for f in read_json(os.path.join(DATA_DIR, "current_elo_2.0.json"))}
+    current = {f["Fighter"]: f for f in current_data()}
 
     movers = []
-    for fighter, grp in long.groupby("Fighter"):
-        grp = grp.sort_values("Date")
-        if len(grp) < n_fights:
+    for fighter, grp in long.groupby("Fighter", sort=False):
+        if len(grp) < n_fights or fighter not in current:
             continue
-        last_fight_date = grp.iloc[-1]["Date"]
-        if (today - last_fight_date).days >= retirement_days:
+        if (today - grp.iloc[-1]["Date"]).days >= RETIREMENT_DAYS:
             continue
         last_n = grp.tail(n_fights)
-        before, after = last_n.iloc[0]["Before"], last_n.iloc[-1]["After"]
-        info = current_data.get(fighter, {})
+        before, after = float(last_n.iloc[0]["Before"]), float(last_n.iloc[-1]["After"])
+        info = current[fighter]
         movers.append({
             "Fighter": fighter,
             "EloBefore": before,
@@ -130,42 +125,55 @@ def get_trending():
             "Record": info.get("Record"),
         })
 
-    movers.sort(key=lambda m: m["EloChange"], reverse=True)
-    risers = movers[:limit]
+    risers = sorted(movers, key=lambda m: m["EloChange"], reverse=True)[:limit]
     fallers = sorted(movers, key=lambda m: m["EloChange"])[:limit]
-
     return jsonify({"risers": risers, "fallers": fallers})
 
-@app.route("/api/trends/<string:name>", methods=["GET"])
+@app.route("/api/trends/<string:name>")
 def get_trends(name):
-    path = os.path.join(DATA_DIR, "fights_with_elo_2.0.csv")
-    if not os.path.exists(path):
-        abort(404, description="Fight data not available")
-    import pandas as pd
-    df = pd.read_csv(path)
-    df = df[(df["Fighter 1"].str.lower() == name.lower()) | (df["Fighter 2"].str.lower() == name.lower())]
+    df = fights_with_elo()
+    key = name.lower()
+    rows = df[(df["Fighter 1"].str.lower() == key) | (df["Fighter 2"].str.lower() == key)]
 
-    result_data = []
-    for _, row in df.iterrows():
-        is_fighter1 = row["Fighter 1"].lower() == name.lower()
-        result_data.append({
-            "Date": row["Date"],
-            "Opponent": row["Fighter 2"] if is_fighter1 else row["Fighter 1"],
-            "Result": "Win" if row["Winner"] == (row["Fighter 1"] if is_fighter1 else row["Fighter 2"]) else ("Draw" if row["Winner"] == "Draw" else "Loss"),
+    result = []
+    for _, row in rows.iterrows():
+        is_f1 = row["Fighter 1"].lower() == key
+        me, opp = ("1", "2") if is_f1 else ("2", "1")
+        before, after = float(row[f"Fighter{me}_Elo_Start"]), float(row[f"Fighter{me}_Elo_End"])
+        if row["Winner"] == row[f"Fighter {me}"]:
+            outcome = "Win"
+        elif row["Winner"] == row[f"Fighter {opp}"]:
+            outcome = "Loss"
+        elif str(row["Winner"]).lower() == "draw":
+            outcome = "Draw"
+        else:
+            outcome = "NC"
+        result.append({
+            "Date": row["Date"].strftime("%Y-%m-%d") if pd.notna(row["Date"]) else None,
+            "Opponent": row[f"Fighter {opp}"],
+            "Result": outcome,
             "Method": row["method"],
             "Event": row["Event"],
-            "EloBefore": row["Fighter1_Elo_Start"] if is_fighter1 else row["Fighter2_Elo_Start"],
-            "EloAfter": row["Fighter1_Elo_End"] if is_fighter1 else row["Fighter2_Elo_End"],
-            "EloChange": (row["Fighter1_Elo_End"] - row["Fighter1_Elo_Start"]) if is_fighter1 else (row["Fighter2_Elo_End"] - row["Fighter2_Elo_Start"])
+            "EloBefore": before,
+            "EloAfter": after,
+            "EloChange": after - before,
         })
+    return jsonify(result)
 
-    import json
-    return json.dumps(result_data)
+@app.errorhandler(404)
+def not_found(e):
+    if request.path.startswith("/api/"):
+        return jsonify(error=e.description), 404
+    return serve_frontend("")
 
-@app.route("/")
-def home():
-    return "Elo Tracker API is running."
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve_frontend(path):
+    if not os.path.isdir(BUILD_DIR):
+        return "Elo Tracker API is running."
+    if path and os.path.exists(os.path.join(BUILD_DIR, path)):
+        return send_from_directory(BUILD_DIR, path)
+    return send_from_directory(BUILD_DIR, "index.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
-
+    app.run(port=int(os.environ.get("PORT", 5000)), debug=os.environ.get("FLASK_DEBUG") == "1")
