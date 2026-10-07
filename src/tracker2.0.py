@@ -116,6 +116,7 @@ records = {}
 current_champions = {}  # weight_class -> current_champion_name
 interim_champions = {}  # weight_class -> interim_champion_name
 title_defenses = {}  # fighter_name -> number of defenses
+title_streak = {}  # consecutive title fight wins across all divisions
 former_champions = set()
 
 f["Fighter1_Elo_Start"] = 0.0
@@ -223,6 +224,11 @@ for i, r in f.iterrows():
     else:
         n1, n2 = e1, e2
 
+    if is_title and winner in (f1, f2):
+        loser = f2 if winner == f1 else f1
+        title_streak[winner] = title_streak.get(winner, 0) + 1
+        title_streak[loser] = 0
+
     elo[f1], elo[f2] = n1, n2
     f.at[i, "Fighter1_Elo_End"] = n1
     f.at[i, "Fighter2_Elo_End"] = n2
@@ -252,6 +258,10 @@ final["Is_Interim_Champion"] = final["Fighter"].isin(interim_champion_names)
 final["Elo"] = final.apply(lambda x: apply_decay(x["Elo"], x["Last_Fight"], today, x["Is_Champion"]), axis=1)
 final["Title_Defenses"] = final.apply(
     lambda row: title_defenses.get(row["Fighter"], 0) if row["Is_Champion"] else 0,
+    axis=1
+)
+final["Title_Streak"] = final.apply(
+    lambda row: title_streak.get(row["Fighter"], 0) if row["Is_Champion"] or row["Is_Interim_Champion"] else 0,
     axis=1
 )
 final["Is_Former_Champion"] = final["Fighter"].apply(
@@ -397,7 +407,7 @@ print(f" - Current Elo leaderboard: {ELO_CURRENT_PATH}")
 print(f" - Peak Elo leaderboard: {ELO_PEAK_PATH}")
 print(f"\nFiltered {retired_count} retired fighters (inactive {retirement_threshold_days}+ days or announced) from current Elo")
 
-active_json=active_fighters[["Fighter","Elo","Last_Fight","Weight Class","Status","Record"]].copy()
+active_json=active_fighters[["Fighter","Elo","Last_Fight","Weight Class","Status","Record","Title_Streak"]].copy()
 active_json["Last_Fight"]=active_json["Last_Fight"].astype('int64')//10**6
 
 active_json.sort_values("Elo",ascending=False).to_json(os.path.join(DATA_DIR,"current_elo_2.0.json"),orient="records",indent=2)
