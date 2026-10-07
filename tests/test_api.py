@@ -69,3 +69,13 @@ def test_win_prob():
     assert win_prob(1000, 1000) == 0.5
     assert math.isclose(win_prob(1400, 1000), 10 / 11)
     assert math.isclose(win_prob(1200, 1000) + win_prob(1000, 1200), 1)
+
+
+def test_enriched_fields_and_total(client):
+    res = client.get("/api/current?weight_class=flyweight&limit=5")
+    rows = res.get_json()
+    assert int(res.headers["X-Total-Count"]) >= len(rows) == 5
+    assert [f["Division_Rank"] for f in rows] == [1, 2, 3, 4, 5]
+    top = client.get("/api/current?limit=1").get_json()[0]
+    assert top["Rank"] == 1 and top["Top_Pct"] == 1 and top["Tier"] == "Elite"
+    assert top["Fights"] > 0 and "Last_Change" in top

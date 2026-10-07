@@ -1,71 +1,50 @@
-import { useCallback, useEffect, useState } from "react";
-import Hero from "./components/Hero";
-import { Filters, ViewTabs } from "./components/Controls";
-import Leaderboard from "./components/Leaderboard";
+import { useEffect, useMemo, useState } from "react";
+import Header, { TopBar } from "./components/Header";
+import RankingsTable from "./components/RankingsTable";
 import Trending from "./components/Trending";
-import FighterModal from "./components/FighterModal";
-import { getJSON, statusKind, titleCase } from "./lib";
+import Methodology from "./components/Methodology";
+import { getJSON, getPage, titleCase } from "./lib";
 
-const HOW_IT_WORKS = [
-  {
-    title: "Elo, fight by fight",
-    body: "Everyone starts at 1000. Beat a higher-rated opponent and you take more of their points, the same way chess ratings work.",
-  },
-  {
-    title: "Context matters",
-    body: "Title fights, finishes, main events, and strength of schedule all scale how much a result moves the needle. Sustained title defenses compound.",
-  },
-  {
-    title: "Recency rules",
-    body: "Inactivity decays current ratings, and champions get a boost while they hold the belt. Peak ratings capture each fighter's best-ever form.",
-  },
-];
+const DEFAULT_SORT = { field: "pos", dir: "asc" };
 
-function Spinner({ label }) {
+function Loading({ label }) {
   return (
-    <div className="flex flex-col items-center gap-4 py-24">
-      <div className="h-10 w-10 animate-spin rounded-full border-2 border-ink-700 border-t-blood" />
-      <p className="label">{label}</p>
+    <div className="flex items-center justify-center gap-3 py-28">
+      <div className="h-5 w-5 animate-spin rounded-full border-2 border-line border-t-ink" />
+      <span className="eyebrow">{label}</span>
     </div>
   );
 }
 
-function Empty({ children }) {
-  return <div className="panel py-20 text-center text-zinc-500">{children}</div>;
+function Message({ children }) {
+  return <div className="border-t-2 border-ink py-24 text-center text-mute">{children}</div>;
 }
 
 export default function App() {
   const [view, setView] = useState("current");
   const [search, setSearch] = useState("");
-  const [group, setGroup] = useState("all");
-  const [weightClass, setWeightClass] = useState("all");
+  const [division, setDivision] = useState("all");
   const [limit, setLimit] = useState(25);
+  const [sort, setSort] = useState(DEFAULT_SORT);
+  const [expanded, setExpanded] = useState(null);
 
-  const [fighters, setFighters] = useState([]);
+  const [page, setPage] = useState({ rows: [], total: 0 });
   const [trending, setTrending] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-
   const [meta, setMeta] = useState(null);
-  const [champions, setChampions] = useState([]);
-  const [photos, setPhotos] = useState({});
-  const [selected, setSelected] = useState(null);
+  const [accuracy, setAccuracy] = useState(null);
 
   useEffect(() => {
     getJSON("/api/meta").then(setMeta).catch(() => {});
-    getJSON("/api/current?limit=60")
-      .then((d) => setChampions(d.filter((f) => statusKind(f.Status) === "champ")))
-      .catch(() => {});
-    fetch("/fighters/fighter_photos.json")
-      .then((r) => r.json())
-      .then(setPhotos)
-      .catch(() => {});
+    getJSON("/api/accuracy").then(setAccuracy).catch(() => {});
   }, []);
 
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
     setError("");
+    setExpanded(null);
 
     if (view === "trending") {
       getJSON("/api/trending?fights=3&limit=10")
@@ -77,111 +56,97 @@ export default function App() {
       };
     }
 
-    const params = new URLSearchParams();
-    if (search) params.append("search", search);
-    if (weightClass !== "all") params.append("weight_class", weightClass);
-    else if (group !== "all") params.append("division_group", group);
-    params.append("limit", limit);
+    const params = new URLSearchParams({ limit });
+    if (search) params.set("search", search);
+    if (division === "men" || division === "women") params.set("division_group", division);
+    else if (division !== "all") params.set("weight_class", division);
 
     const timer = setTimeout(() => {
-      getJSON(`/api/${view}?${params}`)
-        .then((d) => !cancelled && setFighters(d))
-        .catch(() => !cancelled && setError("Couldn't load the leaderboard. Is the API running?"))
+      getPage(`/api/${view}?${params}`)
+        .then((d) => !cancelled && setPage(d))
+        .catch(() => !cancelled && setError("Couldn't load the rankings. Is the API running?"))
         .finally(() => !cancelled && setLoading(false));
-    }, search ? 300 : 0);
+    }, search ? 250 : 0);
 
     return () => {
       cancelled = true;
       clearTimeout(timer);
     };
-  }, [view, search, group, weightClass, limit]);
+  }, [view, search, division, limit]);
 
-  const switchView = (next) => {
+  const rows = useMemo(() => {
+    const ranked = page.rows.map((f, i) => ({ ...f, pos: i + 1, elo: f.Elo ?? f["Peak Elo"] }));
+    if (sort.field === "pos" && sort.dir === "asc") return ranked;
+    const dir = sort.dir === "asc" ? 1 : -1;
+    return [...ranked].sort((a, b) => ((a[sort.field] ?? -Infinity) - (b[sort.field] ?? -Infinity)) * dir);
+  }, [page, sort]);
+
+  const onSort = (field) =>
+    setSort((s) => (s.field === field ? { field, dir: s.dir === "asc" ? "desc" : "asc" } : { field, dir: field === "pos" ? "asc" : "desc" }));
+
+  const onView = (next) => {
     if (next === view) return;
-    setFighters([]);
+    setPage({ rows: [], total: 0 });
+    setSort(DEFAULT_SORT);
     setView(next);
   };
 
-  const closeModal = useCallback(() => setSelected(null), []);
-
-  const heading =
+  const scope =
+    division === "all" ? "" : division === "men" ? " men's" : division === "women" ? " women's" : ` ${titleCase(division).toLowerCase()}`;
+  const summary =
     view === "trending"
-      ? "Biggest Movers"
-      : weightClass !== "all"
-      ? titleCase(weightClass)
-      : group === "women"
-      ? "Women's Pound-for-Pound"
-      : group === "men"
-      ? "Men's Pound-for-Pound"
-      : view === "peak"
-      ? "All-Time Greatest"
-      : "Pound-for-Pound";
+      ? "Active fighters with 3+ UFC fights"
+      : loading
+      ? ""
+      : `Showing ${rows.length} of ${page.total.toLocaleString()}${search ? " matching" : ""}${scope} ${view === "current" ? "active " : ""}fighters${
+          meta?.accuracy ? ` · favorites win ${Math.round(meta.accuracy.accuracy * 100)}% of fights` : ""
+        }`;
 
   return (
     <div className="min-h-screen">
-      <Hero meta={meta} champions={champions} />
+      <TopBar meta={meta} />
 
-      <main className="mx-auto max-w-5xl px-4 pb-24">
-        <div className="sm:sticky top-0 z-30 -mx-4 px-4 pt-6 pb-4 bg-ink-950/85 backdrop-blur-lg">
-          <ViewTabs view={view} onChange={switchView} />
-          {view !== "trending" && (
-            <div className="mt-4">
-              <Filters
-                search={search}
-                setSearch={setSearch}
-                group={group}
-                setGroup={setGroup}
-                weightClass={weightClass}
-                setWeightClass={setWeightClass}
-                limit={limit}
-                setLimit={setLimit}
-              />
-            </div>
+      <main className="mx-auto max-w-[1240px] bg-paper px-4 sm:px-10 pt-10 sm:pt-14 pb-20 shadow-[0_1px_0_0_#e6e6e3,0_30px_80px_-40px_rgba(0,0,0,0.25)]">
+        <Header
+          view={view}
+          onView={onView}
+          search={search}
+          setSearch={setSearch}
+          division={division}
+          setDivision={setDivision}
+          limit={limit}
+          setLimit={setLimit}
+          summary={summary}
+        />
+
+        <div className="mt-6 md:mt-4">
+          {loading ? (
+            <Loading label={view === "trending" ? "Finding movers" : "Loading rankings"} />
+          ) : error ? (
+            <Message>{error}</Message>
+          ) : view === "trending" ? (
+            trending && <Trending data={trending} />
+          ) : rows.length === 0 ? (
+            <Message>No fighters match those filters.</Message>
+          ) : (
+            <RankingsTable
+              rows={rows}
+              view={view}
+              sort={sort}
+              onSort={onSort}
+              expanded={expanded}
+              onToggle={(name) => setExpanded((cur) => (cur === name ? null : name))}
+            />
           )}
         </div>
 
-        <div className="mt-6 mb-5 flex items-end justify-between gap-4">
-          <div>
-            <div className="label !text-blood">{view === "peak" ? "All-time peak" : view === "trending" ? "Momentum" : "Current rankings"}</div>
-            <h2 className="mt-1 font-display text-4xl sm:text-5xl leading-none tracking-wide text-white">{heading}</h2>
-          </div>
-          {view !== "trending" && !loading && fighters.length > 0 && (
-            <span className="label num">{fighters.length} fighters</span>
-          )}
-        </div>
-
-        {loading ? (
-          <Spinner label={view === "trending" ? "Finding movers" : "Loading rankings"} />
-        ) : error ? (
-          <Empty>{error}</Empty>
-        ) : view === "trending" ? (
-          trending && <Trending data={trending} photos={photos} onOpen={setSelected} />
-        ) : fighters.length === 0 ? (
-          <Empty>No fighters match those filters.</Empty>
-        ) : (
-          <Leaderboard fighters={fighters} photos={photos} onOpen={setSelected} showPodium={!search} />
-        )}
-
-        <section className="mt-24">
-          <div className="label !text-blood">Methodology</div>
-          <h2 className="mt-1 font-display text-4xl tracking-wide text-white">How it works</h2>
-          <div className="mt-6 grid gap-4 md:grid-cols-3">
-            {HOW_IT_WORKS.map((item, i) => (
-              <div key={item.title} className="panel p-6 transition-colors hover:border-ink-600">
-                <div className="font-display text-5xl leading-none text-outline">0{i + 1}</div>
-                <h3 className="mt-3 font-cond text-lg font-bold uppercase tracking-wide text-white">{item.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-zinc-400">{item.body}</p>
-              </div>
-            ))}
-          </div>
-        </section>
+        <Methodology accuracy={accuracy} />
       </main>
 
-      <footer className="border-t border-ink-800 py-8 text-center text-xs text-zinc-600">
-        Fight data from ufcstats.com · Not affiliated with the UFC
+      <footer className="mx-auto max-w-[1240px] px-4 sm:px-10 py-8 flex flex-col sm:flex-row justify-between gap-2 text-xs font-semibold text-mute">
+        <span>Fight data from ufcstats.com. Not affiliated with the UFC.</span>
+        {meta?.total_fights != null && <span className="num">{meta.total_fights.toLocaleString()} fights · {meta.total_fighters.toLocaleString()} fighters · {meta.title_fights} title fights</span>}
       </footer>
-
-      {selected && <FighterModal fighter={selected} photos={photos} onClose={closeModal} />}
     </div>
   );
 }

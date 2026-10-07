@@ -1,12 +1,13 @@
 from flask import Flask, jsonify, send_from_directory, abort, request
 from flask_cors import CORS
-import os, json
+import os, json, math
 import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 BUILD_DIR = os.path.join(BASE_DIR, "frontend", "build")
 RETIREMENT_DAYS = 730
+TIERS = [(0.02, "Elite"), (0.10, "Contender"), (0.25, "Ranked"), (0.50, "Established")]
 
 app = Flask(__name__, static_folder=None)
 CORS(app, resources={r"/api/*": {"origins": os.environ.get("CORS_ORIGINS", "*").split(",")}})
@@ -34,14 +35,76 @@ def read_fights(path):
     df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
     return df.sort_values("Date", kind="stable").reset_index(drop=True)
 
-def current_data():
-    return load("current_elo_2.0.json", read_json)
-
-def peak_data():
-    return load("peak_elo_2.0.json", read_json)
+def derived(name, deps, build):
+    cached = _cache.get(name)
+    if cached and all(a is b for a, b in zip(cached[0], deps)):
+        return cached[1]
+    data = build()
+    _cache[name] = (deps, data)
+    return data
 
 def fights_with_elo():
     return load("fights_with_elo_2.0.csv", read_fights)
+
+def profiles():
+    if not os.path.exists(os.path.join(DATA_DIR, "fighter_profiles.json")):
+        return {}
+    return load("fighter_profiles.json", read_json)
+
+def fighter_stats():
+    df = fights_with_elo()
+
+    def build():
+        cols = {"Fighter{n}_Elo_Start": "Before", "Fighter{n}_Elo_End": "After"}
+        sides = []
+        for n in ("1", "2"):
+            side = df[["Date", f"Fighter {n}"] + [c.format(n=n) for c in cols]]
+            sides.append(side.rename(columns={f"Fighter {n}": "Fighter", **{c.format(n=n): v for c, v in cols.items()}}))
+        long = pd.concat(sides).sort_index(kind="stable")
+        last = long.groupby("Fighter").tail(1).set_index("Fighter")
+        counts = long.groupby("Fighter").size()
+        return {
+            name: {"Fights": int(counts[name]), "Last_Change": float(row["After"] - row["Before"])}
+            for name, row in last.iterrows()
+        }
+
+    return derived("fighter_stats", (df,), build)
+
+def tier(position, total):
+    share = position / total
+    for cutoff, label in TIERS:
+        if share <= cutoff:
+            return label
+    return "Prospect"
+
+def enrich(name, rows):
+    stats, profs = fighter_stats(), profiles()
+
+    def build():
+        out, division_counts, total = [], {}, len(rows)
+        for i, row in enumerate(rows, 1):
+            wc = row.get("Weight Class")
+            division_counts[wc] = division_counts.get(wc, 0) + 1
+            prof = profs.get(row["Fighter"], {})
+            out.append({
+                **row,
+                **stats.get(row["Fighter"], {}),
+                "Rank": i,
+                "Division_Rank": division_counts[wc],
+                "Tier": tier(i, total),
+                "Top_Pct": max(1, math.ceil(i / total * 100)),
+                "Nickname": prof.get("nickname"),
+                "Photo": prof.get("photo"),
+            })
+        return out
+
+    return derived(name, (rows, stats, profs), build)
+
+def current_data():
+    return enrich("current_enriched", load("current_elo_2.0.json", read_json))
+
+def peak_data():
+    return enrich("peak_enriched", load("peak_elo_2.0.json", read_json))
 
 def filter_leaderboard(data):
     search_query = request.args.get('search', '').lower()
@@ -59,18 +122,22 @@ def filter_leaderboard(data):
     elif division_group == 'men':
         data = [f for f in data if not (f.get("Weight Class") or "").lower().startswith("women's")]
 
-    if limit and limit > 0:
-        data = data[:limit]
+    return data, (data[:limit] if limit and limit > 0 else data)
 
-    return data
+def leaderboard_response(data):
+    matching, page = filter_leaderboard(data)
+    res = jsonify(page)
+    res.headers["X-Total-Count"] = str(len(matching))
+    res.headers["Access-Control-Expose-Headers"] = "X-Total-Count"
+    return res
 
 @app.route("/api/current")
 def get_current():
-    return jsonify(filter_leaderboard(current_data()))
+    return leaderboard_response(current_data())
 
 @app.route("/api/peak")
 def get_peak():
-    return jsonify(filter_leaderboard(peak_data()))
+    return leaderboard_response(peak_data())
 
 @app.route("/api/fighter/<string:name>")
 def get_fighter(name):
@@ -129,6 +196,8 @@ def get_trending():
             "FightsCounted": n_fights,
             "Weight Class": info.get("Weight Class"),
             "Record": info.get("Record"),
+            "Photo": info.get("Photo"),
+            "Nickname": info.get("Nickname"),
         })
 
     risers = sorted(movers, key=lambda m: m["EloChange"], reverse=True)[:limit]

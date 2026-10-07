@@ -1,57 +1,50 @@
 import Avatar from "./Avatar";
 import { signed } from "../lib";
 
-function Column({ title, list, up, photos, onOpen }) {
+function Column({ title, list, up }) {
   const max = Math.max(...list.map((m) => Math.abs(m.EloChange)), 1);
-  const color = up ? "text-emerald-400" : "text-blood-light";
-  const bar = up ? "from-emerald-600 to-emerald-400" : "from-blood-dark to-blood";
+  const color = up ? "text-win" : "text-blood";
 
   return (
-    <div className="panel overflow-hidden animate-fade-up" style={{ animationDelay: up ? "0ms" : "80ms" }}>
-      <div className="flex items-center justify-between border-b border-ink-700 px-5 py-4">
-        <div className="flex items-center gap-2">
-          <svg className={`h-5 w-5 ${color} ${up ? "" : "rotate-180"}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
-            <path d="M4 17l6-6 4 4 6-6M14 9h6v6" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <h3 className="font-display text-2xl tracking-wide text-white">{title}</h3>
-        </div>
-        <span className="label">Last 3 fights</span>
+    <section>
+      <div className="flex items-end justify-between border-b-[3px] border-ink pb-3">
+        <h2 className="wide text-2xl font-black uppercase">{title}</h2>
+        <span className="eyebrow">Last 3 fights</span>
       </div>
-      <div>
+      <ol>
         {list.map((m, i) => (
-          <button
+          <li
             key={m.Fighter}
-            onClick={() => onOpen(m)}
-            className="group grid w-full grid-cols-[1.75rem_auto_1fr_auto] items-center gap-3 border-b border-ink-800 px-5 py-3 text-left last:border-0 hover:bg-ink-850 transition-colors animate-fade-up"
-            style={{ animationDelay: `${i * 35 + 120}ms` }}
+            className="grid grid-cols-[2.5rem_auto_minmax(0,1fr)_auto] items-center gap-3 border-b border-line py-4 animate-fade-up"
+            style={{ animationDelay: `${i * 30}ms` }}
           >
-            <span className="font-display text-xl text-zinc-600 num">{i + 1}</span>
-            <Avatar name={m.Fighter} photos={photos} />
+            <span className="wide text-lg font-black num">#{i + 1}</span>
+            <Avatar name={m.Fighter} photo={m.Photo} size="sm" />
             <div className="min-w-0">
-              <div className="truncate text-sm font-semibold text-zinc-100 group-hover:text-white">{m.Fighter}</div>
-              <div className="truncate text-xs text-zinc-500">
+              <div className="truncate text-base font-extrabold">{m.Fighter}</div>
+              <div className="wide truncate text-[10px] font-bold uppercase tracking-[0.04em] text-mute">
                 {m["Weight Class"] || "—"} · {m.Record || "—"}
               </div>
-              <div className="mt-1.5 h-1 overflow-hidden rounded-full bg-ink-800">
+              <div className="mt-2 h-[3px] bg-line">
                 <div
-                  className={`h-full origin-left rounded-full bg-gradient-to-r ${bar} animate-grow-x`}
-                  style={{ width: `${(Math.abs(m.EloChange) / max) * 100}%`, animationDelay: `${i * 35 + 250}ms` }}
+                  className={`h-full origin-left animate-draw-x ${up ? "bg-win" : "bg-blood"}`}
+                  style={{ width: `${(Math.abs(m.EloChange) / max) * 100}%`, animationDelay: `${i * 30 + 150}ms` }}
                 />
               </div>
             </div>
-            <span className={`font-display text-2xl ${color} num`}>{signed(m.EloChange)}</span>
-          </button>
+            <span className={`wide text-2xl font-black num ${color}`}>{signed(m.EloChange)}</span>
+          </li>
         ))}
-      </div>
-    </div>
+      </ol>
+    </section>
   );
 }
 
-export default function Trending({ data, photos, onOpen }) {
+export default function Trending({ data }) {
   return (
-    <div className="grid gap-5 md:grid-cols-2">
-      <Column title="Rising" list={data.risers} up photos={photos} onOpen={onOpen} />
-      <Column title="Falling" list={data.fallers} up={false} photos={photos} onOpen={onOpen} />
+    <div className="grid gap-12 md:gap-10 md:grid-cols-2">
+      <Column title="Rising" list={data.risers} up />
+      <Column title="Falling" list={data.fallers} up={false} />
     </div>
   );
 }

@@ -8,6 +8,13 @@ export async function getJSON(path) {
   return res.json();
 }
 
+export async function getPage(path) {
+  const res = await fetch(`${API}${path}`);
+  if (!res.ok) throw new Error(`Request failed: ${path}`);
+  const rows = await res.json();
+  return { rows, total: Number(res.headers.get("X-Total-Count") ?? rows.length) };
+}
+
 export const MEN_CLASSES = [
   "flyweight", "bantamweight", "featherweight", "lightweight",
   "welterweight", "middleweight", "light heavyweight", "heavyweight",
