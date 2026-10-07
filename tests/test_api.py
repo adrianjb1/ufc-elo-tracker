@@ -111,3 +111,10 @@ def test_vacated_champion_keeps_activity(client):
     aspinall = client.get("/api/fighter/Tom Aspinall").get_json()
     assert aspinall["Status"] == "Former Champion"
     assert aspinall["Elo"] > 1200
+
+
+def test_title_fight_layoff_is_not_penalized(client):
+    merab = client.get("/api/fighter/Merab Dvalishvili").get_json()
+    rows = client.get("/api/current?limit=20").get_json()
+    assert "Merab Dvalishvili" in {f["Fighter"] for f in rows}
+    assert merab["Status"] == "Former Champion"

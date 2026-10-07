@@ -11,6 +11,7 @@ ELO_PEAK_PATH=os.path.join(DATA_DIR,"peak_elo_2.0.csv")
 FIGHTS_ELO_PATH=os.path.join(DATA_DIR,"fights_with_elo_2.0.csv")
 
 initial_elo=1000
+TITLE_GRACE_DAYS = 365
 base_k=40
 
 def expected(a,b):
@@ -45,10 +46,12 @@ def get_enhanced_k_factor(method, fights_done, elo_diff, round_, is_title, is_ma
 
     return base_k * m_mult * act_mult * strength_mult * title_mult * main_mult * quality_mult
 
-def apply_decay(e, last, ref, is_champion=False):
+def apply_decay(e, last, ref, is_champion=False, title_grace=False):
     if pd.isna(last):
         return e
     d = (ref - last).days
+    if title_grace and not is_champion:
+        d -= TITLE_GRACE_DAYS - 120
 
     if is_champion:
         if d <= 365:
@@ -72,7 +75,7 @@ def apply_decay(e, last, ref, is_champion=False):
             return e * 0.82  # 18% penalty
         else:
             rate = 0.0010
-            return e * math.exp(-rate * decay_days)
+            return e * max(0.82, math.exp(-rate * decay_days))
 
 def get_championship_boost(is_champion, title_defenses, is_former_champion):
     if is_champion:
@@ -121,6 +124,7 @@ title_defenses = {}  # fighter_name -> number of defenses
 title_streak = {}  # consecutive title fight wins across all divisions
 former_champions = set()
 belt_held_until = {}  # champions who gave up the belt outside the cage, and when
+last_fight_was_title = {}
 
 f["Fighter1_Elo_Start"] = 0.0
 f["Fighter2_Elo_Start"] = 0.0
@@ -193,6 +197,8 @@ for i, r in f.iterrows():
             old_champ = current_champions.get(weight_class)
             if old_champ and old_champ != f1:
                 former_champions.add(old_champ)
+                if old_champ not in (f1, f2):
+                    belt_held_until[old_champ] = r["Date"]
                 title_defenses[f1] = 0
             elif old_champ == f1:
                 title_defenses[f1] = title_defenses.get(f1, 0) + 1
@@ -216,6 +222,8 @@ for i, r in f.iterrows():
             old_champ = current_champions.get(weight_class)
             if old_champ and old_champ != f2:
                 former_champions.add(old_champ)
+                if old_champ not in (f1, f2):
+                    belt_held_until[old_champ] = r["Date"]
                 title_defenses[f2] = 0
             elif old_champ == f2:
                 title_defenses[f2] = title_defenses.get(f2, 0) + 1
@@ -237,6 +245,8 @@ for i, r in f.iterrows():
         loser = f2 if winner == f1 else f1
         title_streak[winner] = title_streak.get(winner, 0) + (0 if is_interim else 1)
         title_streak[loser] = 0
+
+    last_fight_was_title[f1] = last_fight_was_title[f2] = bool(is_title)
 
     elo[f1], elo[f2] = n1, n2
     f.at[i, "Fighter1_Elo_End"] = n1
@@ -267,7 +277,8 @@ final["Is_Interim_Champion"] = final["Fighter"].isin(interim_champion_names)
 # time spent holding a belt counts as activity, so a champ who vacates starts their inactivity clock then
 final["Active_Since"] = final.apply(lambda x: max(x["Last_Fight"], belt_held_until.get(x["Fighter"], x["Last_Fight"])), axis=1)
 final["Elo"] = final.apply(
-    lambda x: apply_decay(x["Elo"], x["Active_Since"], today, x["Is_Champion"] or x["Is_Interim_Champion"]),
+    lambda x: apply_decay(x["Elo"], x["Active_Since"], today, x["Is_Champion"] or x["Is_Interim_Champion"],
+                          last_fight_was_title.get(x["Fighter"], False)),
     axis=1
 )
 final["Title_Defenses"] = final.apply(
