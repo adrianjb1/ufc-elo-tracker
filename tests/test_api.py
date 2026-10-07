@@ -105,3 +105,9 @@ def test_no_contest_is_not_a_draw(client):
     fights = client.get("/api/trends/Ciryl Gane").get_json()
     nc = [f for f in fights if f["Opponent"] == "Tom Aspinall"]
     assert nc and nc[0]["Result"] == "NC" and nc[0]["EloChange"] == 0
+
+
+def test_vacated_champion_keeps_activity(client):
+    aspinall = client.get("/api/fighter/Tom Aspinall").get_json()
+    assert aspinall["Status"] == "Former Champion"
+    assert aspinall["Elo"] > 1200

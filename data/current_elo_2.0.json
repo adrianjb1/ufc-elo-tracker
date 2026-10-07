@@ -33,7 +33,7 @@
     "Weight Class":"Heavyweight",
     "Status":"Champion (0 defenses)",
     "Record":"11-2-0 (1 NC)",
-    "Title_Streak":1
+    "Title_Streak":0
   },
   {
     "Fighter":"Justin Gaethje",
@@ -42,7 +42,7 @@
     "Weight Class":"Lightweight",
     "Status":"Champion (0 defenses)",
     "Record":"11-5-0",
-    "Title_Streak":2
+    "Title_Streak":1
   },
   {
     "Fighter":"Petr Yan",
@@ -159,6 +159,15 @@
     "Weight Class":"Light Heavyweight",
     "Status":"Former Champion",
     "Record":"13-2-1 (1 NC)",
+    "Title_Streak":0
+  },
+  {
+    "Fighter":"Tom Aspinall",
+    "Elo":1270.5060185866,
+    "Last_Fight":1761350400000,
+    "Weight Class":"Heavyweight",
+    "Status":"Former Champion",
+    "Record":"8-1-0 (1 NC)",
     "Title_Streak":0
   },
   {
@@ -2484,10 +2493,10 @@
     "Title_Streak":0
   },
   {
-    "Fighter":"Delphine Benouaich",
+    "Fighter":"Bilal Hasan",
     "Elo":1022.0,
-    "Last_Fight":1788566400000,
-    "Weight Class":"Women's Strawweight",
+    "Last_Fight":1787961600000,
+    "Weight Class":"Flyweight",
     "Status":null,
     "Record":"1-0-0",
     "Title_Streak":0
@@ -2502,19 +2511,19 @@
     "Title_Streak":0
   },
   {
-    "Fighter":"Bilal Hasan",
+    "Fighter":"Tahir Abdullayev",
     "Elo":1022.0,
-    "Last_Fight":1787961600000,
-    "Weight Class":"Flyweight",
+    "Last_Fight":1782518400000,
+    "Weight Class":"Welterweight",
     "Status":null,
     "Record":"1-0-0",
     "Title_Streak":0
   },
   {
-    "Fighter":"Tahir Abdullayev",
+    "Fighter":"Delphine Benouaich",
     "Elo":1022.0,
-    "Last_Fight":1782518400000,
-    "Weight Class":"Welterweight",
+    "Last_Fight":1788566400000,
+    "Weight Class":"Women's Strawweight",
     "Status":null,
     "Record":"1-0-0",
     "Title_Streak":0
@@ -2628,10 +2637,19 @@
     "Title_Streak":0
   },
   {
-    "Fighter":"Fabia Sintes",
+    "Fighter":"Ilimbek Akylbek",
     "Elo":1020.0,
-    "Last_Fight":1788566400000,
-    "Weight Class":"Flyweight",
+    "Last_Fight":1790380800000,
+    "Weight Class":"Bantamweight",
+    "Status":null,
+    "Record":"1-0-0",
+    "Title_Streak":0
+  },
+  {
+    "Fighter":"Carol Foro",
+    "Elo":1020.0,
+    "Last_Fight":1786147200000,
+    "Weight Class":"Women's Strawweight",
     "Status":null,
     "Record":"1-0-0",
     "Title_Streak":0
@@ -2646,19 +2664,10 @@
     "Title_Streak":0
   },
   {
-    "Fighter":"Shane Collins",
+    "Fighter":"Fabia Sintes",
     "Elo":1020.0,
-    "Last_Fight":1781913600000,
-    "Weight Class":"Featherweight",
-    "Status":null,
-    "Record":"1-0-0",
-    "Title_Streak":0
-  },
-  {
-    "Fighter":"Ilimbek Akylbek",
-    "Elo":1020.0,
-    "Last_Fight":1790380800000,
-    "Weight Class":"Bantamweight",
+    "Last_Fight":1788566400000,
+    "Weight Class":"Flyweight",
     "Status":null,
     "Record":"1-0-0",
     "Title_Streak":0
@@ -2673,10 +2682,10 @@
     "Title_Streak":0
   },
   {
-    "Fighter":"Carol Foro",
+    "Fighter":"Shane Collins",
     "Elo":1020.0,
-    "Last_Fight":1786147200000,
-    "Weight Class":"Women's Strawweight",
+    "Last_Fight":1781913600000,
+    "Weight Class":"Featherweight",
     "Status":null,
     "Record":"1-0-0",
     "Title_Streak":0
@@ -2841,15 +2850,6 @@
     "Weight Class":"Light Heavyweight",
     "Status":null,
     "Record":"1-0-0",
-    "Title_Streak":0
-  },
-  {
-    "Fighter":"Tom Aspinall",
-    "Elo":1016.5507315893,
-    "Last_Fight":1761350400000,
-    "Weight Class":"Heavyweight",
-    "Status":"Former Champion",
-    "Record":"8-1-0 (1 NC)",
     "Title_Streak":0
   },
   {

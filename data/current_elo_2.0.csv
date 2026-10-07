@@ -2,8 +2,8 @@ Fighter,Elo,Last_Fight,Weight Class,Is_Champion,Is_Interim_Champion,Title_Defens
 Islam Makhachev,1736.680074835874,2026-08-15,Welterweight,True,False,1,7,False,Champion (1 defense),18-1-0
 Alexander Volkanovski,1559.4473838411384,2026-01-31,Featherweight,True,False,1,2,False,Champion (1 defense),15-3-0
 Joshua Van,1548.7090540452648,2026-09-19,Flyweight,True,False,2,3,False,Champion (2 defenses),11-1-0
-Ciryl Gane,1466.9884190195655,2026-06-14,Heavyweight,True,False,0,1,False,Champion (0 defenses),11-2-0 (1 NC)
-Justin Gaethje,1463.9367484918448,2026-06-14,Lightweight,True,False,0,2,False,Champion (0 defenses),11-5-0
+Ciryl Gane,1466.9884190195655,2026-06-14,Heavyweight,True,False,0,0,False,Champion (0 defenses),11-2-0 (1 NC)
+Justin Gaethje,1463.9367484918448,2026-06-14,Lightweight,True,False,0,1,False,Champion (0 defenses),11-5-0
 Petr Yan,1425.3564414247646,2025-12-06,Bantamweight,True,False,0,1,False,Champion (0 defenses),12-4-0
 Sean Strickland,1420.5720008215956,2026-05-09,Middleweight,True,False,0,1,False,Champion (0 defenses),18-7-0
 Carlos Ulberg,1402.5526096763977,2026-04-11,Light Heavyweight,True,False,0,1,False,Champion (0 defenses),10-1-0
@@ -17,6 +17,7 @@ Aljamain Sterling,1300.491501845598,2026-04-25,Featherweight,False,False,0,0,Tru
 Max Holloway,1295.9531137688427,2026-07-11,Welterweight,False,False,0,0,True,Former Champion,24-9-0
 Kayla Harrison,1288.6143812998885,2025-06-07,Women's Bantamweight,True,False,0,1,False,Champion (0 defenses),3-0-0
 Magomed Ankalaev,1288.5095283344053,2026-07-25,Light Heavyweight,False,False,0,0,True,Former Champion,13-2-1 (1 NC)
+Tom Aspinall,1270.5060185866485,2025-10-25,Heavyweight,False,False,0,0,True,Former Champion,8-1-0 (1 NC)
 Sean O'Malley,1262.7228391837102,2026-06-14,Bantamweight,False,False,0,0,True,Former Champion,12-3-0 (1 NC)
 Alexandre Pantoja,1250.0472730552635,2026-09-19,Flyweight,False,False,0,0,True,Former Champion,14-5-0
 Belal Muhammad,1244.9542873434798,2026-06-06,Welterweight,False,False,0,0,True,Former Champion,15-6-0 (1 NC)
@@ -275,10 +276,10 @@ Nora Cornolle,1022.6903534663603,2026-09-05,Women's Bantamweight,False,False,0,0
 Steven Asplund,1022.6497512227804,2026-08-08,Heavyweight,False,False,0,0,False,,2-1-0
 Miles Johns,1022.4668106551072,2026-08-08,Featherweight,False,False,0,0,False,,7-5-0 (1 NC)
 Matthieu Duclos,1022.1204096364297,2026-09-05,Middleweight,False,False,0,0,False,,1-0-0
-Delphine Benouaich,1022.0,2026-09-05,Women's Strawweight,False,False,0,0,False,,1-0-0
-Tina Black,1022.0,2026-09-26,Women's Strawweight,False,False,0,0,False,,1-0-0
 Bilal Hasan,1022.0,2026-08-29,Flyweight,False,False,0,0,False,,1-0-0
+Tina Black,1022.0,2026-09-26,Women's Strawweight,False,False,0,0,False,,1-0-0
 Tahir Abdullayev,1022.0,2026-06-27,Welterweight,False,False,0,0,False,,1-0-0
+Delphine Benouaich,1022.0,2026-09-05,Women's Strawweight,False,False,0,0,False,,1-0-0
 Murtazali Magomedov,1021.7996368450531,2026-06-20,Featherweight,False,False,0,0,False,,1-0-0
 Michael Oliveira,1021.5136559149727,2026-08-01,Welterweight,False,False,0,0,False,,1-0-0
 Stan Dorsainvil,1021.5085584210867,2026-08-22,Lightweight,False,False,0,0,False,,1-0-0
@@ -291,12 +292,12 @@ Levan Chokheli,1020.6,2026-06-20,Welterweight,False,False,0,0,False,,1-0-0
 Matheus Camilo,1020.5873636318422,2026-06-27,Lightweight,False,False,0,0,False,,2-1-0
 Lucas Fernando,1020.2333650137236,2026-08-15,Light Heavyweight,False,False,0,0,False,,1-0-0
 Jim Miller,1020.1739561689907,2026-05-09,Lightweight,False,False,0,0,False,,28-18-0 (1 NC)
-Fabia Sintes,1020.0,2026-09-05,Flyweight,False,False,0,0,False,,1-0-0
-Ezra Elliott,1020.0,2026-07-18,Featherweight,False,False,0,0,False,,1-0-0
-Shane Collins,1020.0,2026-06-20,Featherweight,False,False,0,0,False,,1-0-0
 Ilimbek Akylbek,1020.0,2026-09-26,Bantamweight,False,False,0,0,False,,1-0-0
-Magomed Zaynukov,1020.0,2026-07-25,Lightweight,False,False,0,0,False,,1-0-0
 Carol Foro,1020.0,2026-08-08,Women's Strawweight,False,False,0,0,False,,1-0-0
+Ezra Elliott,1020.0,2026-07-18,Featherweight,False,False,0,0,False,,1-0-0
+Fabia Sintes,1020.0,2026-09-05,Flyweight,False,False,0,0,False,,1-0-0
+Magomed Zaynukov,1020.0,2026-07-25,Lightweight,False,False,0,0,False,,1-0-0
+Shane Collins,1020.0,2026-06-20,Featherweight,False,False,0,0,False,,1-0-0
 Marwan Rahiki,1019.6757575646703,2026-09-12,Featherweight,False,False,0,0,False,,2-1-0
 Kaue Fernandes,1019.6413833869425,2026-08-15,Lightweight,False,False,0,0,False,,3-2-0
 Jose Montanha,1019.5359104532675,2026-08-08,Heavyweight,False,False,0,0,False,,1-0-0
@@ -315,7 +316,6 @@ Abdul Hussein,1017.3962209891029,2026-07-25,Bantamweight,False,False,0,0,False,,
 Kevin Holland,1017.2131938601792,2026-04-11,Welterweight,False,False,0,0,False,,16-12-0 (1 NC)
 Luis Hernandez,1017.0083648640864,2026-09-26,Light Heavyweight,False,False,0,0,False,,1-0-0
 Magomed Tuchalov,1016.8385611053752,2026-07-25,Light Heavyweight,False,False,0,0,False,,1-0-0
-Tom Aspinall,1016.5507315892802,2025-10-25,Heavyweight,False,False,0,0,True,Former Champion,8-1-0 (1 NC)
 Nina Milosevic,1016.4505640642174,2026-08-01,Women's Bantamweight,False,False,0,0,False,,1-0-0
 Edgar Chairez,1016.143250171102,2026-09-12,Catch Weight,False,False,0,0,False,,4-3-0 (1 NC)
 Steve Erceg,1015.6903549425901,2026-07-25,Flyweight,False,False,0,0,False,,5-4-0

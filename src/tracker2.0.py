@@ -102,6 +102,7 @@ def apply_due_vacancies(up_to_date):
         wc = ve["Weight Class"]
         if current_champions.get(wc) == ve["Fighter"]:
             former_champions.add(ve["Fighter"])
+            belt_held_until[ve["Fighter"]] = ve["Date"]
             interim = interim_champions.pop(wc, None)
             if interim:
                 current_champions[wc] = interim
@@ -119,6 +120,7 @@ interim_champions = {}  # weight_class -> interim_champion_name
 title_defenses = {}  # fighter_name -> number of defenses
 title_streak = {}  # consecutive title fight wins across all divisions
 former_champions = set()
+belt_held_until = {}  # champions who gave up the belt outside the cage, and when
 
 f["Fighter1_Elo_Start"] = 0.0
 f["Fighter2_Elo_Start"] = 0.0
@@ -233,7 +235,7 @@ for i, r in f.iterrows():
 
     if is_title and winner in (f1, f2):
         loser = f2 if winner == f1 else f1
-        title_streak[winner] = title_streak.get(winner, 0) + 1
+        title_streak[winner] = title_streak.get(winner, 0) + (0 if is_interim else 1)
         title_streak[loser] = 0
 
     elo[f1], elo[f2] = n1, n2
@@ -262,7 +264,12 @@ interim_champion_names = set(interim_champions.values())
 final["Is_Champion"] = final["Fighter"].isin(current_champion_names)
 final["Is_Interim_Champion"] = final["Fighter"].isin(interim_champion_names)
 
-final["Elo"] = final.apply(lambda x: apply_decay(x["Elo"], x["Last_Fight"], today, x["Is_Champion"]), axis=1)
+# time spent holding a belt counts as activity, so a champ who vacates starts their inactivity clock then
+final["Active_Since"] = final.apply(lambda x: max(x["Last_Fight"], belt_held_until.get(x["Fighter"], x["Last_Fight"])), axis=1)
+final["Elo"] = final.apply(
+    lambda x: apply_decay(x["Elo"], x["Active_Since"], today, x["Is_Champion"] or x["Is_Interim_Champion"]),
+    axis=1
+)
 final["Title_Defenses"] = final.apply(
     lambda row: title_defenses.get(row["Fighter"], 0) if row["Is_Champion"] else 0,
     axis=1
@@ -394,13 +401,13 @@ final["Record"] = final["Fighter"].apply(format_record)
 peak_df["Record"] = peak_df["Fighter"].apply(format_record)
 
 retirement_threshold_days=730
-final["days_inactive"]=(today-final["Last_Fight"]).dt.days
+final["days_inactive"]=(today-final["Active_Since"]).dt.days
 retirements = vacancy_events[vacancy_events["Reason"].str.lower() == "retirement"].groupby("Fighter")["Date"].max()
 final["Retired"] = final.apply(lambda x: x["Fighter"] in retirements and x["Last_Fight"] <= retirements[x["Fighter"]], axis=1)
 active_fighters=final[(final["days_inactive"]<retirement_threshold_days) & ~final["Retired"]].copy()
 
 f.to_csv(FIGHTS_ELO_PATH, index=False)
-active_fighters.drop(columns=["days_inactive","Retired"]).sort_values("Elo",ascending=False).to_csv(ELO_CURRENT_PATH,index=False)
+active_fighters.drop(columns=["days_inactive","Retired","Active_Since"]).sort_values("Elo",ascending=False).to_csv(ELO_CURRENT_PATH,index=False)
 peak_df.sort_values("Peak Elo",ascending=False).to_csv(ELO_PEAK_PATH,index=False)
 
 retired_count=len(final)-len(active_fighters)
