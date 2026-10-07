@@ -5,7 +5,7 @@ This repository will include the following: the webscrapers to collect data, an 
 My goal in this project is to properly incorporate an algorithm that contextualizes the level of fighters to my best ability. My main focus is on making the top 10 fairly accurate, the rest of the roster might have certain issues and it's important to know that things like finishes and win streaks will boost non-champion fighters. There's a lot of factors that I'm trying to consider but at the end of the day this is primarily for fun.
 
 Additional Notes:
-Despite how much I've played around with it already, this tracker isn't perfect and it can't capture certain contexts perfectly, but I think it's alright. It prioritizes certain things like Championship bouts/status for the current elo leaderboard. There's a lot of factors that go into deciding the elo for fighters, but I try to prioritize Champions a lot along with certain contenders. I'll also continue to work on it as necessary and want to make to make improvements. Overall though, this is mainly just a fun project so I'm fine with it not being perfect.
+Despite how much I've played around with it already, this tracker isn't perfect and it can't capture certain contexts perfectly, but I think it's alright. It prioritizes certain things like Championship bouts/status for the current elo leaderboard. There's a lot of factors that go into deciding the elo for fighters, but I try to prioritize Champions a lot along with certain contenders. I'll also continue to work on it as necessary and want to make improvements. Overall though, this is mainly just a fun project so I'm fine with it not being perfect.
 
 ## Running locally
 
