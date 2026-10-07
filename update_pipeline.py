@@ -1,57 +1,15 @@
-import pandas as pd, os, re, subprocess
-from bs4 import BeautifulSoup
+import pandas as pd, os, sys, subprocess
 from time import sleep
-from playwright.sync_api import sync_playwright
 
-DATA_DIR = "data"
-USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+ROOT = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(ROOT, "src"))
+
+from scrape_ufc_fights_enhanced import get_soup, close_browser, parse_event_fights, FIGHT_COLUMNS
+
+DATA_DIR = os.path.join(ROOT, "data")
 EVENTS_PATH = os.path.join(DATA_DIR, "ufc_events.csv")
 FIGHTS_PATH = os.path.join(DATA_DIR, "fights_enhanced.csv")
-
-# ufcstats.com serves a JS proof-of-work challenge before the real page,
-# so a plain requests.get() only ever sees the challenge shell. Playwright
-# runs the JS and waits for the real table to appear once it resolves.
-_browser_ctx = {"playwright": None, "browser": None, "page": None}
-
-def _get_page():
-    if _browser_ctx["page"] is None:
-        _browser_ctx["playwright"] = sync_playwright().start()
-        _browser_ctx["browser"] = _browser_ctx["playwright"].chromium.launch(headless=True)
-        _browser_ctx["page"] = _browser_ctx["browser"].new_page(user_agent=USER_AGENT)
-    return _browser_ctx["page"]
-
-def close_browser():
-    if _browser_ctx["browser"] is not None:
-        _browser_ctx["browser"].close()
-        _browser_ctx["playwright"].stop()
-        _browser_ctx["page"] = None
-        _browser_ctx["browser"] = None
-        _browser_ctx["playwright"] = None
-
-def get_soup(url, wait_selector):
-    page = _get_page()
-    page.goto(url, wait_until="networkidle", timeout=30000)
-    page.wait_for_selector(wait_selector, timeout=30000)
-    return BeautifulSoup(page.content(), "html.parser")
-
-# belt.png marks title fights for OTHER promotions too (e.g. Road to UFC,
-# TUF finals) that ufcstats.com bundles onto a UFC event page. The fight's
-# own detail page has a title string ("UFC ... Title Bout" vs "Road to UFC
-# ... Title Bout") that disambiguates it. Only called when belt.png is
-# already True, since that's a small fraction of all fights.
-def is_real_ufc_title_fight(fight_url):
-    if not fight_url:
-        return False
-    try:
-        soup = get_soup(fight_url, "i.b-fight-details__fight-title")
-        title_el = soup.find("i", class_="b-fight-details__fight-title")
-        if not title_el:
-            return False
-        text = re.sub(r"\s+", " ", title_el.get_text(" ", strip=True)).strip()
-        return text.startswith("UFC")
-    except Exception as e:
-        print(f"    Failed to verify title fight at {fight_url}: {e}")
-        return False
+TRACKER_PATH = os.path.join(ROOT, "src", "tracker2.0.py")
 
 def scrape_new_events():
     print("\n=== Step 1: Checking for new UFC events ===")
@@ -76,10 +34,7 @@ def scrape_new_events():
             continue
 
         if href not in existing_urls:
-            name = link.text.strip()
-            date = date_span.text.strip()
-            location = loc_td.text.strip()
-            new_events.append([name, href, date, location])
+            new_events.append([link.text.strip(), href, date_span.text.strip(), loc_td.text.strip()])
 
     if not new_events:
         print("No new events found.")
@@ -89,110 +44,56 @@ def scrape_new_events():
     for event in new_events:
         print(f"  - {event[0]} ({event[2]})")
 
-    new_df = pd.DataFrame(new_events, columns=["Event", "URL", "Date", "Location"])
-    updated_events = pd.concat([new_df, existing_events], ignore_index=True)
-    updated_events.to_csv(EVENTS_PATH, index=False)
-    print(f"Updated {EVENTS_PATH}")
-
     return new_events
-
-def parse_event_fights(event_name, event_date, event_url):
-    soup = get_soup(event_url, "tr.b-fight-details__table-row__hover")
-    rows = soup.find_all("tr", class_="b-fight-details__table-row b-fight-details__table-row__hover js-fight-details-click")
-    fights = []
-
-    for idx, row in enumerate(rows):
-        cols = row.find_all("td")
-        if not cols or len(cols) < 10:
-            continue
-
-        weight_class_col = cols[6]
-        weight_class_text = weight_class_col.get_text(strip=True)
-        belt_img = weight_class_col.find("img", src=lambda x: x and "belt.png" in x)
-        is_title_fight = belt_img is not None
-        weight_class = weight_class_text.replace("Title Bout", "").replace("Championship", "").strip()
-        is_main_event = (idx == 0)
-
-        fighter_tags = row.find_all("a", class_="b-link b-link_style_black")
-        if len(fighter_tags) < 2:
-            continue
-        fighter1, fighter2 = [t.get_text(strip=True) for t in fighter_tags[:2]]
-
-        flags = row.select("i.b-flag__text")
-        results = [f.get_text(strip=True).lower() for f in flags]
-        if len(results) >= 1 and "win" in results[0]:
-            winner = fighter1
-        elif len(results) >= 2 and "win" in results[1]:
-            winner = fighter2
-        else:
-            winner = "Draw"
-
-        if winner == fighter2:
-            fighter1, fighter2 = fighter2, fighter1
-
-        method = cols[7].get_text(strip=True)
-        if "KO" in method:
-            simplified_method = "KO"
-        elif "SUB" in method:
-            simplified_method = "SUB"
-        else:
-            simplified_method = "DEC"
-
-        round_ = cols[8].get_text(strip=True)
-        time_ = cols[9].get_text(strip=True)
-        fight_url = row.get("data-link", "").strip()
-
-        if is_title_fight:
-            is_title_fight = is_real_ufc_title_fight(fight_url)
-
-        fights.append([
-            event_name, event_date, weight_class, fighter1, fighter2,
-            winner, method, round_, time_, event_url, fight_url, simplified_method,
-            is_title_fight, is_main_event
-        ])
-    return fights
 
 def scrape_new_fights(new_events):
     if not new_events:
-        return
+        return []
 
     print("\n=== Step 2: Scraping fights from new events ===")
 
-    existing_fights = pd.read_csv(FIGHTS_PATH)
     all_new_fights = []
-
+    scraped_events = []
     for event in new_events:
-        event_name, event_url, event_date, _ = event[0], event[1], event[2], event[3]
+        event_name, event_url, event_date = event[0], event[1], event[2]
         print(f"Scraping {event_name}...")
 
         try:
             fights = parse_event_fights(event_name, event_date, event_url)
-            all_new_fights.extend(fights)
-            print(f"  Found {len(fights)} fights")
         except Exception as e:
             print(f"  Failed to scrape: {e}")
+            continue
 
+        if not fights:
+            print("  No fights found, will retry next run")
+            continue
+
+        all_new_fights.extend(fights)
+        scraped_events.append(event)
+        print(f"  Found {len(fights)} fights")
         sleep(0.5)
 
-    if not all_new_fights:
-        print("No new fights to add.")
+    if all_new_fights:
+        existing_fights = pd.read_csv(FIGHTS_PATH)
+        new_fights_df = pd.DataFrame(all_new_fights, columns=FIGHT_COLUMNS)
+        updated_fights = pd.concat([new_fights_df, existing_fights], ignore_index=True)
+        updated_fights = updated_fights.drop_duplicates(subset=["Fight URL", "Event", "Fighter 1", "Fighter 2"], keep="first")
+        updated_fights.to_csv(FIGHTS_PATH, index=False)
+        print(f"Added {len(all_new_fights)} new fights to {FIGHTS_PATH}")
+
+    return scraped_events
+
+def save_events(scraped_events):
+    if not scraped_events:
         return
-
-    new_fights_df = pd.DataFrame(all_new_fights, columns=[
-        "Event", "Date", "Weight Class", "Fighter 1", "Fighter 2",
-        "Winner", "Method", "Round", "Time", "Event URL", "Fight URL", "method",
-        "Is_Title_Fight", "Is_Main_Event"
-    ])
-
-    updated_fights = pd.concat([new_fights_df, existing_fights], ignore_index=True)
-    updated_fights = updated_fights.drop_duplicates(subset=["Fight URL", "Event", "Fighter 1", "Fighter 2"], keep="first")
-    updated_fights.to_csv(FIGHTS_PATH, index=False)
-
-    print(f"Added {len(all_new_fights)} new fights to {FIGHTS_PATH}")
+    existing_events = pd.read_csv(EVENTS_PATH)
+    new_df = pd.DataFrame(scraped_events, columns=["Event", "URL", "Date", "Location"])
+    pd.concat([new_df, existing_events], ignore_index=True).to_csv(EVENTS_PATH, index=False)
+    print(f"Updated {EVENTS_PATH}")
 
 def run_tracker():
     print("\n=== Step 3: Running tracker2.0.py ===")
-    subprocess.run(["python3", "src/tracker2.0.py"], check=True)
+    subprocess.run([sys.executable, TRACKER_PATH], check=True)
     print("Tracker completed successfully")
 
 def main():
@@ -202,24 +103,17 @@ def main():
 
     try:
         new_events = scrape_new_events()
-        scrape_new_fights(new_events)
+        scraped_events = scrape_new_fights(new_events)
     finally:
         close_browser()
 
+    save_events(scraped_events)
     run_tracker()
 
     print("\n" + "="*50)
     print("UPDATE COMPLETE")
     print("="*50)
-    print("\nReview the changes, then manually commit/push to GitHub when ready.")
-    print("\nFiles updated:")
-    print(f"  - {EVENTS_PATH}")
-    print(f"  - {FIGHTS_PATH}")
-    print(f"  - data/current_elo_2.0.csv")
-    print(f"  - data/peak_elo_2.0.csv")
-    print(f"  - data/current_elo_2.0.json")
-    print(f"  - data/peak_elo_2.0.json")
-    print(f"  - data/fights_with_elo_2.0.csv\n")
+    print("\nReview the changes in data/, then commit when ready.\n")
 
 if __name__ == "__main__":
     main()

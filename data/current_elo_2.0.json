@@ -104,14 +104,6 @@
     "Record":"16-4-0"
   },
   {
-    "Fighter":"Jon Jones",
-    "Elo":1313.7703315417,
-    "Last_Fight":1731715200000,
-    "Weight Class":"Heavyweight",
-    "Status":"Former Champion",
-    "Record":"22-1-1"
-  },
-  {
     "Fighter":"Ilia Topuria",
     "Elo":1302.3246147811,
     "Last_Fight":1781395200000,
@@ -2056,6 +2048,14 @@
     "Record":"10-6-1"
   },
   {
+    "Fighter":"Tahir Abdullayev",
+    "Elo":1022.0,
+    "Last_Fight":1782518400000,
+    "Weight Class":"Welterweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
     "Fighter":"Bilal Hasan",
     "Elo":1022.0,
     "Last_Fight":1787961600000,
@@ -2068,14 +2068,6 @@
     "Elo":1022.0,
     "Last_Fight":1778889600000,
     "Weight Class":"Lightweight",
-    "Status":null,
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Tahir Abdullayev",
-    "Elo":1022.0,
-    "Last_Fight":1782518400000,
-    "Weight Class":"Welterweight",
     "Status":null,
     "Record":"1-0-0"
   },
@@ -2112,9 +2104,25 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Anthony Wint",
+    "Fighter":"Luis Felipe Dias",
     "Elo":1020.6,
-    "Last_Fight":1787356800000,
+    "Last_Fight":1780099200000,
+    "Weight Class":"Middleweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Noah Gugnon",
+    "Elo":1020.6,
+    "Last_Fight":1785542400000,
+    "Weight Class":"Lightweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Jovan Leka",
+    "Elo":1020.6,
+    "Last_Fight":1785542400000,
     "Weight Class":"Heavyweight",
     "Status":null,
     "Record":"1-0-0"
@@ -2128,9 +2136,9 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Jovan Leka",
+    "Fighter":"Anthony Wint",
     "Elo":1020.6,
-    "Last_Fight":1785542400000,
+    "Last_Fight":1787356800000,
     "Weight Class":"Heavyweight",
     "Status":null,
     "Record":"1-0-0"
@@ -2140,22 +2148,6 @@
     "Elo":1020.6,
     "Last_Fight":1780099200000,
     "Weight Class":"Featherweight",
-    "Status":null,
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Luis Felipe Dias",
-    "Elo":1020.6,
-    "Last_Fight":1780099200000,
-    "Weight Class":"Middleweight",
-    "Status":null,
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Noah Gugnon",
-    "Elo":1020.6,
-    "Last_Fight":1785542400000,
-    "Weight Class":"Lightweight",
     "Status":null,
     "Record":"1-0-0"
   },
@@ -2176,18 +2168,10 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Ezra Elliott",
+    "Fighter":"Jose Souza",
     "Elo":1020.0,
-    "Last_Fight":1784332800000,
-    "Weight Class":"Featherweight",
-    "Status":null,
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Magomed Zaynukov",
-    "Elo":1020.0,
-    "Last_Fight":1784937600000,
-    "Weight Class":"Lightweight",
+    "Last_Fight":1780099200000,
+    "Weight Class":"Welterweight",
     "Status":null,
     "Record":"1-0-0"
   },
@@ -2200,18 +2184,26 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Jose Souza",
-    "Elo":1020.0,
-    "Last_Fight":1780099200000,
-    "Weight Class":"Welterweight",
-    "Status":null,
-    "Record":"1-0-0"
-  },
-  {
     "Fighter":"Shane Collins",
     "Elo":1020.0,
     "Last_Fight":1781913600000,
     "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Ezra Elliott",
+    "Elo":1020.0,
+    "Last_Fight":1784332800000,
+    "Weight Class":"Featherweight",
+    "Status":null,
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Magomed Zaynukov",
+    "Elo":1020.0,
+    "Last_Fight":1784937600000,
+    "Weight Class":"Lightweight",
     "Status":null,
     "Record":"1-0-0"
   },

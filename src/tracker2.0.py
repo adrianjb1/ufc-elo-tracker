@@ -159,20 +159,8 @@ for i, r in f.iterrows():
     fcount[f1] = fcount.get(f1, 0) + 1
     fcount[f2] = fcount.get(f2, 0) + 1
 
-    
-    #tuf filter? might have to improve some stuff
-    false_positive_fighters = ["Juan Espino", "Justin Frazier", "Macy Chiasson", "Pannie Kianzad",
-                               "Michael Trizano", "Joe Giannetti", "Guangyou Ning", "Jianping Yang",
-                               "Diego Brandao", "Dennis Bermudez", "Rony Jason", "Godofredo Pepey",
-                               "Ramsey Nijem"]  
-
-    
-    is_tuf_fight = (f1 == "Tony Ferguson" and f2 == "Ramsey Nijem") or (f1 == "Ramsey Nijem" and f2 == "Tony Ferguson")
-
-    is_false_positive = (f1 in false_positive_fighters or f2 in false_positive_fighters) or is_tuf_fight
-
-    is_title = r["Is_Title_Fight"] and not is_false_positive
-    is_interim = bool(r["Is_Interim"]) if is_title else False
+    is_title = r["Is_Title_Fight"] == True
+    is_interim = is_title and r["Is_Interim"] == True
     is_main = r["Is_Main_Event"]
     weight_class = r["Weight Class"]
 
@@ -393,10 +381,12 @@ peak_df["Record"] = peak_df["Fighter"].apply(
 
 retirement_threshold_days=730
 final["days_inactive"]=(today-final["Last_Fight"]).dt.days
-active_fighters=final[final["days_inactive"]<retirement_threshold_days].copy()
+retirements = vacancy_events[vacancy_events["Reason"].str.lower() == "retirement"].groupby("Fighter")["Date"].max()
+final["Retired"] = final.apply(lambda x: x["Fighter"] in retirements and x["Last_Fight"] <= retirements[x["Fighter"]], axis=1)
+active_fighters=final[(final["days_inactive"]<retirement_threshold_days) & ~final["Retired"]].copy()
 
 f.to_csv(FIGHTS_ELO_PATH, index=False)
-active_fighters.drop(columns=["days_inactive"]).sort_values("Elo",ascending=False).to_csv(ELO_CURRENT_PATH,index=False)
+active_fighters.drop(columns=["days_inactive","Retired"]).sort_values("Elo",ascending=False).to_csv(ELO_CURRENT_PATH,index=False)
 peak_df.sort_values("Peak Elo",ascending=False).to_csv(ELO_PEAK_PATH,index=False)
 
 retired_count=len(final)-len(active_fighters)
@@ -405,7 +395,7 @@ print("Saved files:")
 print(f" - Fight-by-fight Elo data: {FIGHTS_ELO_PATH}")
 print(f" - Current Elo leaderboard: {ELO_CURRENT_PATH}")
 print(f" - Peak Elo leaderboard: {ELO_PEAK_PATH}")
-print(f"\nFiltered {retired_count} retired fighters (inactive {retirement_threshold_days}+ days) from current Elo")
+print(f"\nFiltered {retired_count} retired fighters (inactive {retirement_threshold_days}+ days or announced) from current Elo")
 
 active_json=active_fighters[["Fighter","Elo","Last_Fight","Weight Class","Status","Record"]].copy()
 active_json["Last_Fight"]=active_json["Last_Fight"].astype('int64')//10**6

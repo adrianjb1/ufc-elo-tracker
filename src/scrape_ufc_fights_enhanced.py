@@ -10,10 +10,13 @@ EVENTS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 OUT_PATH = os.path.join(DATA_DIR, "fights_enhanced.csv")
+FIGHT_COLUMNS = [
+    "Event", "Date", "Weight Class", "Fighter 1", "Fighter 2",
+    "Winner", "Method", "Round", "Time", "Event URL", "Fight URL", "method",
+    "Is_Title_Fight", "Is_Main_Event", "Is_Interim"
+]
 
-# ufcstats.com serves a JS proof-of-work challenge before the real page,
-# so a plain requests.get() only ever sees the challenge shell. Playwright
-# runs the JS and waits for the real content to appear once it resolves.
+# ufcstats.com serves a JS challenge before the real page, so plain requests only see the challenge shell
 _browser_ctx = {"playwright": None, "browser": None, "page": None}
 
 def _get_page():
@@ -37,24 +40,21 @@ def get_soup(url, wait_selector):
     page.wait_for_selector(wait_selector, timeout=30000)
     return BeautifulSoup(page.content(), "html.parser")
 
-# belt.png marks title fights for OTHER promotions too (e.g. Road to UFC,
-# TUF finals) that ufcstats.com bundles onto a UFC event page. The fight's
-# own detail page has a title string ("UFC ... Title Bout" vs "Road to UFC
-# ... Title Bout") that disambiguates it. Only called when belt.png is
-# already True, since that's a small fraction of all fights.
-def is_real_ufc_title_fight(fight_url):
+# belt.png also marks Road to UFC / TUF finals, so the fight page title ("UFC ... Title Bout") decides it
+def check_title_fight(fight_url):
     if not fight_url:
-        return False
+        return False, False
     try:
         soup = get_soup(fight_url, "i.b-fight-details__fight-title")
         title_el = soup.find("i", class_="b-fight-details__fight-title")
         if not title_el:
-            return False
+            return False, False
         text = re.sub(r"\s+", " ", title_el.get_text(" ", strip=True)).strip()
-        return text.startswith("UFC")
+        is_title = text.startswith("UFC")
+        return is_title, is_title and "interim" in text.lower()
     except Exception as e:
         print(f"    Failed to verify title fight at {fight_url}: {e}")
-        return False
+        return False, False
 
 def parse_event_fights(event_name, event_date, event_url):
     soup = get_soup(event_url, "tr.b-fight-details__table-row__hover")
@@ -105,13 +105,14 @@ def parse_event_fights(event_name, event_date, event_url):
         time_ = cols[9].get_text(strip=True)
         fight_url = row.get("data-link", "").strip()
 
+        is_interim = False
         if is_title_fight:
-            is_title_fight = is_real_ufc_title_fight(fight_url)
+            is_title_fight, is_interim = check_title_fight(fight_url)
 
         fights.append([
             event_name, event_date, weight_class, fighter1, fighter2,
             winner, method, round_, time_, event_url, fight_url, simplified_method,
-            is_title_fight, is_main_event
+            is_title_fight, is_main_event, is_interim
         ])
     return fights
 
@@ -133,11 +134,7 @@ def scrape_all_fights():
                 print(f"Failed to scrape {event_name}: {e}")
 
             if (idx + 1) % 25 == 0 or idx == len(events) - 1:
-                df = pd.DataFrame(all_fights, columns=[
-                    "Event", "Date", "Weight Class", "Fighter 1", "Fighter 2",
-                    "Winner", "Method", "Round", "Time", "Event URL", "Fight URL", "method",
-                    "Is_Title_Fight", "Is_Main_Event"
-                ])
+                df = pd.DataFrame(all_fights, columns=FIGHT_COLUMNS)
                 df = df.drop_duplicates(subset=["Fight URL", "Event", "Fighter 1", "Fighter 2"], keep="last")
                 df.to_csv(OUT_PATH, index=False)
                 print(f"Saved progress at {idx + 1}/{len(events)} events, total fights: {len(df)}")
