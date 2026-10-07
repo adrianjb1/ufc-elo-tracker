@@ -27,6 +27,15 @@ python3 update_pipeline.py
 
 Scrapes any new events from ufcstats.com, appends the fights to `data/fights_enhanced.csv`, reruns `src/tracker2.0.py` to regenerate the leaderboards, then backtests the ratings with `src/evaluate.py`. Announced retirements and vacated titles go in `data/vacancy_events.csv`.
 
+Fighter headshots and nicknames come from ufc.com:
+
+```bash
+python3 src/scrape_fighter_photos.py            # only fighters not fetched yet
+python3 src/scrape_fighter_photos.py --refresh  # refetch everyone
+```
+
+Photos are cropped to the head and shoulders and saved to `frontend/public/fighters/`; nicknames and photo filenames go in `data/fighter_profiles.json`.
+
 ## How accurate is it?
 
 `python3 src/evaluate.py` replays every fight and checks whether the higher-rated fighter won, using each fighter's Elo going into the fight. Results are saved to `data/model_accuracy.json` and served at `/api/accuracy`. Between fighters with 3+ prior UFC fights the favorite wins about 56% of the time (about 61% in title fights), and the predicted win probabilities line up closely with actual results.

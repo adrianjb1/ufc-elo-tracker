@@ -1,115 +1,107 @@
+import io, json, os, re, sys, time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 from bs4 import BeautifulSoup
-import os
-import json
-import time
+from PIL import Image
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-FRONTEND_PUBLIC = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend", "public", "fighters")
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(ROOT, "data")
+PHOTO_DIR = os.path.join(ROOT, "frontend", "public", "fighters")
+PROFILES_PATH = os.path.join(DATA_DIR, "fighter_profiles.json")
+HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"}
+SIZE = 192
+PEAK_TOP = 250
+WORKERS = 4
 
-os.makedirs(FRONTEND_PUBLIC, exist_ok=True)
+def slugify(name):
+    name = name.lower().replace("'", "").replace(".", "")
+    name = re.sub(r"[^a-z0-9\s-]", "", name)
+    return re.sub(r"[\s-]+", "-", name).strip("-")
 
-def get_fighter_slug(name):
-    """Convert fighter name"""
-    slug = name.lower().replace(" ", "-")
-    
-    slug = ''.join(c for c in slug if c.isalnum() or c == '-')
-    return slug
-
-def scrape_fighter_photo(fighter_name):
-    """Download fighter photo"""
-    slug = get_fighter_slug(fighter_name)
-    url = f"https://www.ufc.com/athlete/{slug}"
-
-    try:
-        print(f"Fetching photo for {fighter_name}...")
-        response = requests.get(url, headers=HEADERS, timeout=10)
-        response.raise_for_status()
-
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        img_tag = None
-
-        img_tag = soup.find('img', class_='hero-profile__image')
-        if not img_tag:
-            img_tag = soup.find('img', class_='c-hero__image')
-        if not img_tag:
-            for img in soup.find_all('img'):
-                src = img.get('src', '')
-                if 'athlete' in src or 'fighter' in src:
-                    img_tag = img
-                    break
-
-        if img_tag and img_tag.get('src'):
-            img_url = img_tag['src']
-            if not img_url.startswith('http'):
-                img_url = 'https://www.ufc.com' + img_url
-
-            img_response = requests.get(img_url, headers=HEADERS, timeout=10)
-            img_response.raise_for_status()
-
-            filename = f"{slug}.jpg"
-            filepath = os.path.join(FRONTEND_PUBLIC, filename)
-
-            with open(filepath, 'wb') as f:
-                f.write(img_response.content)
-
-            print(f"✓ Downloaded photo for {fighter_name}")
-            return filename
-        else:
-            print(f"✗ No photo found for {fighter_name}")
-            return None
-
-    except Exception as e:
-        print(f"✗ Error fetching {fighter_name}: {str(e)}")
+def headshot(png):
+    img = Image.open(io.BytesIO(png)).convert("RGBA")
+    alpha = img.split()[-1].point(lambda a: 255 if a > 128 else 0)
+    w, h = img.size
+    bbox = alpha.getbbox()
+    if not bbox:
         return None
+    top = bbox[1]
+
+    # head center = mean x of opaque pixels in the band just below the top of the head
+    band = alpha.crop((0, top, w, min(h, top + int(h * 0.12))))
+    xs = [x for x, v in enumerate(band.resize((w, 1), Image.Resampling.BOX).getdata()) if v > 0]
+    cx = sum(xs) / len(xs) if xs else w / 2
+
+    side = int(h * 0.40)
+    left = int(min(max(0, cx - side / 2), max(0, w - side)))
+    upper = max(0, top - int(h * 0.035))
+    crop = img.crop((left, upper, left + side, upper + side))
+    return crop.resize((SIZE, SIZE), Image.Resampling.LANCZOS)
+
+def fetch_profile(name):
+    res = requests.get(f"https://www.ufc.com/athlete/{slugify(name)}", headers=HEADERS, timeout=15)
+    if res.status_code != 200:
+        return None
+    soup = BeautifulSoup(res.text, "html.parser")
+    profile = {}
+
+    nick = soup.select_one(".hero-profile__nickname")
+    if nick:
+        profile["nickname"] = nick.get_text(strip=True).strip('"“”')
+
+    img = soup.select_one("img.hero-profile__image")
+    src = img.get("src") if img else None
+    if src and "athlete_bio_full_body" in src and "silhouette" not in src.lower():
+        png = requests.get(src if src.startswith("http") else "https://www.ufc.com" + src, headers=HEADERS, timeout=15)
+        if png.ok:
+            shot = headshot(png.content)
+            if shot:
+                filename = f"{slugify(name)}.webp"
+                shot.save(os.path.join(PHOTO_DIR, filename), "WEBP", quality=82, method=6)
+                profile["photo"] = filename
+    return profile
+
+def target_fighters():
+    with open(os.path.join(DATA_DIR, "current_elo_2.0.json")) as f:
+        current = [x["Fighter"] for x in json.load(f)]
+    with open(os.path.join(DATA_DIR, "peak_elo_2.0.json")) as f:
+        peak = [x["Fighter"] for x in json.load(f)][:PEAK_TOP]
+    return list(dict.fromkeys(current + peak))
 
 def main():
-    elo_current_path = os.path.join(DATA_DIR, "elo_current.json")
-    elo_peak_path = os.path.join(DATA_DIR, "elo_peak.json")
+    refresh = "--refresh" in sys.argv
+    os.makedirs(PHOTO_DIR, exist_ok=True)
+    profiles = {}
+    if os.path.exists(PROFILES_PATH):
+        with open(PROFILES_PATH) as f:
+            profiles = json.load(f)
 
-    if not os.path.exists(elo_current_path):
-        print("Error: elo_current.json not found")
-        return
+    todo = [n for n in target_fighters() if refresh or n not in profiles]
+    print(f"Fetching {len(todo)} fighter profiles from ufc.com", flush=True)
 
-    if not os.path.exists(elo_peak_path):
-        print("Error: elo_peak.json not found")
-        return
+    def task(name):
+        time.sleep(0.25)
+        return name, fetch_profile(name)
 
-    with open(elo_current_path, 'r') as f:
-        current_fighters = json.load(f)
+    with ThreadPoolExecutor(WORKERS) as pool:
+        futures = [pool.submit(task, n) for n in todo]
+        for i, fut in enumerate(as_completed(futures), 1):
+            try:
+                name, profile = fut.result()
+            except Exception as e:
+                print(f"  error: {e}", flush=True)
+                continue
+            profiles[name] = profile or {}
+            status = "photo" if profile and "photo" in profile else "no photo" if profile is not None else "not found"
+            print(f"  [{i}/{len(todo)}] {name}: {status}", flush=True)
+            if i % 25 == 0:
+                with open(PROFILES_PATH, "w") as f:
+                    json.dump(profiles, f, indent=2, sort_keys=True)
 
-    with open(elo_peak_path, 'r') as f:
-        peak_fighters = json.load(f)
-
-    top_current = current_fighters[:25]
-    top_peak = peak_fighters[:25]
-
-    fighters_dict = {}
-    for fighter in top_current + top_peak:
-        fighters_dict[fighter['Fighter']] = fighter
-
-    top_fighters = list(fighters_dict.values())
-
-    print(f"\nScraping photos for {len(top_fighters)} unique fighters (from top 25 current + top 25 peak)...\n")
-
-    results = {}
-    for fighter in top_fighters:
-        fighter_name = fighter['Fighter']
-        filename = scrape_fighter_photo(fighter_name)
-        if filename:
-            results[fighter_name] = filename
-
-        time.sleep(1)
-
-    mapping_path = os.path.join(FRONTEND_PUBLIC, "fighter_photos.json")
-    with open(mapping_path, 'w') as f:
-        json.dump(results, f, indent=2)
-
-    print(f"\n✓ Complete! Downloaded {len(results)} photos")
-    print(f"✓ Saved to: {FRONTEND_PUBLIC}")
-    print(f"✓ Mapping saved to: {mapping_path}")
+    with open(PROFILES_PATH, "w") as f:
+        json.dump(profiles, f, indent=2, sort_keys=True)
+    with_photo = sum(1 for p in profiles.values() if "photo" in p)
+    print(f"Saved {len(profiles)} profiles ({with_photo} with photos) to {PROFILES_PATH}")
 
 if __name__ == "__main__":
     main()
