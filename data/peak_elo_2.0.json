@@ -120,6 +120,12 @@
     "Record":"5-0-0"
   },
   {
+    "Fighter":"Joshua Van",
+    "Peak Elo":1348.2135710327,
+    "Weight Class":"Flyweight",
+    "Record":"11-1-0"
+  },
+  {
     "Fighter":"Francis Ngannou",
     "Peak Elo":1348.1813873938,
     "Weight Class":"Heavyweight",
@@ -130,12 +136,6 @@
     "Peak Elo":1329.9417012037,
     "Weight Class":"Heavyweight",
     "Record":"11-2-1"
-  },
-  {
-    "Fighter":"Alexandre Pantoja",
-    "Peak Elo":1328.3737838474,
-    "Weight Class":"Flyweight",
-    "Record":"14-4-0"
   },
   {
     "Fighter":"Khamzat Chimaev",
@@ -180,10 +180,10 @@
     "Record":"10-0-0"
   },
   {
-    "Fighter":"Joshua Van",
-    "Peak Elo":1295.9000958545,
-    "Weight Class":"Flyweight",
-    "Record":"10-1-0"
+    "Fighter":"Arman Tsarukyan",
+    "Peak Elo":1296.5474548099,
+    "Weight Class":"Lightweight",
+    "Record":"11-2-0"
   },
   {
     "Fighter":"Jack Della Maddalena",
@@ -208,12 +208,6 @@
     "Peak Elo":1283.2316391582,
     "Weight Class":"Light Heavyweight",
     "Record":"10-1-0"
-  },
-  {
-    "Fighter":"Arman Tsarukyan",
-    "Peak Elo":1281.5166693895,
-    "Weight Class":"Lightweight",
-    "Record":"10-2-0"
   },
   {
     "Fighter":"Tom Aspinall",
@@ -256,6 +250,12 @@
     "Peak Elo":1263.7970723099,
     "Weight Class":"Welterweight",
     "Record":"7-0-0"
+  },
+  {
+    "Fighter":"Alexandre Pantoja",
+    "Peak Elo":1259.9009083913,
+    "Weight Class":"Flyweight",
+    "Record":"14-5-0"
   },
   {
     "Fighter":"Grant Dawson",
@@ -432,6 +432,12 @@
     "Record":"7-3-0"
   },
   {
+    "Fighter":"Jean Silva",
+    "Peak Elo":1218.079561258,
+    "Weight Class":"Featherweight",
+    "Record":"7-1-0"
+  },
+  {
     "Fighter":"Muhammad Mokaev",
     "Peak Elo":1216.6918407816,
     "Weight Class":"Flyweight",
@@ -510,6 +516,12 @@
     "Record":"9-2-0"
   },
   {
+    "Fighter":"Raul Rosas Jr.",
+    "Peak Elo":1206.4181652787,
+    "Weight Class":"Bantamweight",
+    "Record":"7-1-0"
+  },
+  {
     "Fighter":"Gegard Mousasi",
     "Peak Elo":1206.0301944509,
     "Weight Class":"Middleweight",
@@ -564,9 +576,9 @@
     "Record":"6-0-1"
   },
   {
-    "Fighter":"Jean Silva",
-    "Peak Elo":1196.0439870303,
-    "Weight Class":"Featherweight",
+    "Fighter":"Payton Talbott",
+    "Peak Elo":1196.1813209236,
+    "Weight Class":"Bantamweight",
     "Record":"6-1-0"
   },
   {
@@ -585,7 +597,7 @@
     "Fighter":"Waldo Cortes Acosta",
     "Peak Elo":1195.4823251655,
     "Weight Class":"Heavyweight",
-    "Record":"10-3-0"
+    "Record":"10-4-0"
   },
   {
     "Fighter":"Michel Prazeres",
@@ -598,6 +610,12 @@
     "Peak Elo":1194.3747869175,
     "Weight Class":"Welterweight",
     "Record":"7-1-1"
+  },
+  {
+    "Fighter":"Michael Page",
+    "Peak Elo":1191.5497172418,
+    "Weight Class":"Middleweight",
+    "Record":"5-1-0"
   },
   {
     "Fighter":"Reinier de Ridder",
@@ -648,12 +666,6 @@
     "Record":"5-1-0"
   },
   {
-    "Fighter":"Giga Chikadze",
-    "Peak Elo":1187.4537051711,
-    "Weight Class":"Featherweight",
-    "Record":"8-4-0"
-  },
-  {
     "Fighter":"Sergei Pavlovich",
     "Peak Elo":1186.7552581736,
     "Weight Class":"Heavyweight",
@@ -681,7 +693,7 @@
     "Fighter":"Montel Jackson",
     "Peak Elo":1184.7477858676,
     "Weight Class":"Bantamweight",
-    "Record":"9-4-0"
+    "Record":"10-4-0"
   },
   {
     "Fighter":"Mark Kerr",
@@ -724,6 +736,12 @@
     "Peak Elo":1182.7649649735,
     "Weight Class":"Light Heavyweight",
     "Record":"6-4-1"
+  },
+  {
+    "Fighter":"Marcus McGhee",
+    "Peak Elo":1182.0955107857,
+    "Weight Class":"Featherweight",
+    "Record":"6-1-0"
   },
   {
     "Fighter":"Joel Alvarez",
@@ -783,13 +801,13 @@
     "Fighter":"Nathaniel Wood",
     "Peak Elo":1177.9517717462,
     "Weight Class":"Featherweight",
-    "Record":"11-3-0"
+    "Record":"11-4-0"
   },
   {
     "Fighter":"Drakkar Klose",
     "Peak Elo":1177.6680621873,
     "Weight Class":"Lightweight",
-    "Record":"10-3-0"
+    "Record":"10-4-0"
   },
   {
     "Fighter":"Martin Buday",
@@ -798,22 +816,10 @@
     "Record":"7-1-0"
   },
   {
-    "Fighter":"Raul Rosas Jr.",
-    "Peak Elo":1176.7290264773,
-    "Weight Class":"Bantamweight",
-    "Record":"6-1-0"
-  },
-  {
     "Fighter":"Bo Nickal",
     "Peak Elo":1176.6180212257,
     "Weight Class":"Middleweight",
     "Record":"6-1-0"
-  },
-  {
-    "Fighter":"Raoni Barcelos",
-    "Peak Elo":1176.5342394418,
-    "Weight Class":"Bantamweight",
-    "Record":"11-4-0"
   },
   {
     "Fighter":"Damir Ismagulov",
@@ -861,7 +867,7 @@
     "Fighter":"Ateba Gautier",
     "Peak Elo":1174.5362751157,
     "Weight Class":"Middleweight",
-    "Record":"5-0-0"
+    "Record":"5-1-0"
   },
   {
     "Fighter":"Leonardo Santos",
@@ -888,16 +894,16 @@
     "Record":"3-1-0"
   },
   {
-    "Fighter":"Payton Talbott",
-    "Peak Elo":1172.3089940633,
+    "Fighter":"David Martinez",
+    "Peak Elo":1172.3067331172,
     "Weight Class":"Bantamweight",
-    "Record":"5-1-0"
+    "Record":"4-0-0"
   },
   {
     "Fighter":"Fares Ziam",
     "Peak Elo":1172.1720535756,
     "Weight Class":"Lightweight",
-    "Record":"8-3-0"
+    "Record":"8-4-0"
   },
   {
     "Fighter":"Ryan Hall",
@@ -942,10 +948,10 @@
     "Record":"7-2-0"
   },
   {
-    "Fighter":"Michael Page",
-    "Peak Elo":1170.1406068051,
-    "Weight Class":"Welterweight",
-    "Record":"4-1-0"
+    "Fighter":"Mario Pinto",
+    "Peak Elo":1169.4785862961,
+    "Weight Class":"Heavyweight",
+    "Record":"4-0-0"
   },
   {
     "Fighter":"Mike Russow",
@@ -981,7 +987,7 @@
     "Fighter":"Mauricio Ruffy",
     "Peak Elo":1166.785895759,
     "Weight Class":"Lightweight",
-    "Record":"5-1-0"
+    "Record":"5-2-0"
   },
   {
     "Fighter":"Tom Nolan",
@@ -996,10 +1002,10 @@
     "Record":"10-3-0"
   },
   {
-    "Fighter":"Marcus McGhee",
-    "Peak Elo":1165.9558872251,
-    "Weight Class":"Bantamweight",
-    "Record":"5-1-0"
+    "Fighter":"Daniil Donchenko",
+    "Peak Elo":1165.9937797095,
+    "Weight Class":"Welterweight",
+    "Record":"4-0-0"
   },
   {
     "Fighter":"Francis Carmont",
@@ -1035,7 +1041,7 @@
     "Fighter":"Nursulton Ruziboev",
     "Peak Elo":1163.1958912831,
     "Weight Class":"Middleweight",
-    "Record":"5-1-0"
+    "Record":"5-2-0"
   },
   {
     "Fighter":"Elias Theodorou",
@@ -1083,13 +1089,19 @@
     "Fighter":"Mick Parkin",
     "Peak Elo":1161.6538291081,
     "Weight Class":"Heavyweight",
-    "Record":"4-1-0"
+    "Record":"4-2-0"
   },
   {
     "Fighter":"Valter Walker",
     "Peak Elo":1161.3745301783,
     "Weight Class":"Heavyweight",
     "Record":"5-1-0"
+  },
+  {
+    "Fighter":"Jacobe Smith",
+    "Peak Elo":1161.0862725644,
+    "Weight Class":"Welterweight",
+    "Record":"4-0-0"
   },
   {
     "Fighter":"Oleg Taktarov",
@@ -1152,16 +1164,16 @@
     "Record":"9-4-0"
   },
   {
+    "Fighter":"Joanderson Brito",
+    "Peak Elo":1157.6870013862,
+    "Weight Class":"Featherweight",
+    "Record":"8-3-0"
+  },
+  {
     "Fighter":"Nazim Sadykhov",
     "Peak Elo":1157.4323339613,
     "Weight Class":"Lightweight",
     "Record":"4-2-1"
-  },
-  {
-    "Fighter":"Muhammad Naimov",
-    "Peak Elo":1157.2577793651,
-    "Weight Class":"Featherweight",
-    "Record":"5-2-0"
   },
   {
     "Fighter":"Andre Muniz",
@@ -1212,12 +1224,6 @@
     "Record":"7-4-0"
   },
   {
-    "Fighter":"David Martinez",
-    "Peak Elo":1153.5578955698,
-    "Weight Class":"Bantamweight",
-    "Record":"3-0-0"
-  },
-  {
     "Fighter":"Jimmie Rivera",
     "Peak Elo":1153.1290383461,
     "Weight Class":"Bantamweight",
@@ -1240,6 +1246,12 @@
     "Peak Elo":1151.385600089,
     "Weight Class":"Welterweight",
     "Record":"5-2-0"
+  },
+  {
+    "Fighter":"Brady Hiestand",
+    "Peak Elo":1151.3746074238,
+    "Weight Class":"Bantamweight",
+    "Record":"4-1-0"
   },
   {
     "Fighter":"Daniel Santos",
@@ -1266,6 +1278,12 @@
     "Record":"5-3-0"
   },
   {
+    "Fighter":"Yousri Belgaroui",
+    "Peak Elo":1150.3878542017,
+    "Weight Class":"Middleweight",
+    "Record":"3-0-0"
+  },
+  {
     "Fighter":"MarQuel Mederos",
     "Peak Elo":1149.314002977,
     "Weight Class":"Lightweight",
@@ -1275,7 +1293,7 @@
     "Fighter":"Jose Delgado",
     "Peak Elo":1149.2210196205,
     "Weight Class":"Featherweight",
-    "Record":"4-1-0"
+    "Record":"4-2-0"
   },
   {
     "Fighter":"Ryan LaFlare",
@@ -1380,6 +1398,12 @@
     "Record":"3-0-0"
   },
   {
+    "Fighter":"Tommy McMillen",
+    "Peak Elo":1146.1845363826,
+    "Weight Class":"Featherweight",
+    "Record":"3-0-0"
+  },
+  {
     "Fighter":"Cam Rowston",
     "Peak Elo":1146.0369423937,
     "Weight Class":"Middleweight",
@@ -1398,10 +1422,10 @@
     "Record":"3-0-0"
   },
   {
-    "Fighter":"Mario Pinto",
-    "Peak Elo":1145.6762576588,
-    "Weight Class":"Heavyweight",
-    "Record":"3-0-0"
+    "Fighter":"Natalia Silva",
+    "Peak Elo":1145.804174894,
+    "Weight Class":"Women's Flyweight",
+    "Record":"9-0-0"
   },
   {
     "Fighter":"Claude Patrick",
@@ -1464,22 +1488,10 @@
     "Record":"3-0-0"
   },
   {
-    "Fighter":"Daniil Donchenko",
-    "Peak Elo":1144.5957144839,
-    "Weight Class":"Welterweight",
-    "Record":"3-0-0"
-  },
-  {
     "Fighter":"Elias Silverio",
     "Peak Elo":1144.5614673456,
     "Weight Class":"Lightweight",
     "Record":"3-2-0"
-  },
-  {
-    "Fighter":"Joanderson Brito",
-    "Peak Elo":1144.5340170128,
-    "Weight Class":"Featherweight",
-    "Record":"7-3-0"
   },
   {
     "Fighter":"Rousimar Palhares",
@@ -1504,12 +1516,6 @@
     "Peak Elo":1143.182927162,
     "Weight Class":"Flyweight",
     "Record":"3-1-1"
-  },
-  {
-    "Fighter":"Jacobe Smith",
-    "Peak Elo":1143.0854108321,
-    "Weight Class":"Welterweight",
-    "Record":"3-0-0"
   },
   {
     "Fighter":"Alexandr Romanov",
@@ -1578,6 +1584,12 @@
     "Record":"3-1-0"
   },
   {
+    "Fighter":"Damian Pinas",
+    "Peak Elo":1141.4054543263,
+    "Weight Class":"Middleweight",
+    "Record":"3-0-0"
+  },
+  {
     "Fighter":"Nicolae Negumereanu",
     "Peak Elo":1140.5674654824,
     "Weight Class":"Light Heavyweight",
@@ -1641,7 +1653,7 @@
     "Fighter":"Rinya Nakamura",
     "Peak Elo":1138.2542801602,
     "Weight Class":"Bantamweight",
-    "Record":"4-1-0"
+    "Record":"4-2-0"
   },
   {
     "Fighter":"Nate Quarry",
@@ -1662,27 +1674,21 @@
     "Record":"10-5-0"
   },
   {
+    "Fighter":"Ryan Gandra",
+    "Peak Elo":1137.6920454464,
+    "Weight Class":"Middleweight",
+    "Record":"3-0-0"
+  },
+  {
     "Fighter":"Ludovit Klein",
     "Peak Elo":1137.6209546331,
     "Weight Class":"Lightweight",
     "Record":"8-4-1"
   },
   {
-    "Fighter":"Khaos Williams",
-    "Peak Elo":1137.6095624287,
-    "Weight Class":"Welterweight",
-    "Record":"7-4-0"
-  },
-  {
     "Fighter":"Ignacio Bahamondes",
     "Peak Elo":1137.2852799995,
-    "Weight Class":"Lightweight",
-    "Record":"6-4-0"
-  },
-  {
-    "Fighter":"Rafa Garcia",
-    "Peak Elo":1136.547340986,
-    "Weight Class":"Lightweight",
+    "Weight Class":"Welterweight",
     "Record":"7-4-0"
   },
   {
@@ -1692,10 +1698,16 @@
     "Record":"2-1-0"
   },
   {
+    "Fighter":"Tommy Gantt",
+    "Peak Elo":1136.1413637766,
+    "Weight Class":"Lightweight",
+    "Record":"2-0-0"
+  },
+  {
     "Fighter":"Alden Coria",
     "Peak Elo":1136.0567353497,
     "Weight Class":"Flyweight",
-    "Record":"3-0-0"
+    "Record":"3-1-0"
   },
   {
     "Fighter":"Sean Sherk",
@@ -1713,7 +1725,7 @@
     "Fighter":"Iwo Baraniewski",
     "Peak Elo":1135.2533076808,
     "Weight Class":"Light Heavyweight",
-    "Record":"3-0-0"
+    "Record":"3-1-0"
   },
   {
     "Fighter":"Karl Williams",
@@ -1760,8 +1772,8 @@
   {
     "Fighter":"Felipe Lima",
     "Peak Elo":1133.446339999,
-    "Weight Class":"Bantamweight",
-    "Record":"2-1-0"
+    "Weight Class":"Featherweight",
+    "Record":"3-1-0"
   },
   {
     "Fighter":"Aleksei Kunchenko",
@@ -1774,12 +1786,6 @@
     "Peak Elo":1133.0458855228,
     "Weight Class":"Heavyweight",
     "Record":"2-2-0"
-  },
-  {
-    "Fighter":"Yousri Belgaroui",
-    "Peak Elo":1133.0019630306,
-    "Weight Class":"Middleweight",
-    "Record":"2-0-0"
   },
   {
     "Fighter":"Quinton Jackson",
@@ -1890,10 +1896,22 @@
     "Record":"4-2-1"
   },
   {
+    "Fighter":"Esteban Ribovics",
+    "Peak Elo":1128.7183392757,
+    "Weight Class":"Lightweight",
+    "Record":"6-3-0"
+  },
+  {
     "Fighter":"Mansur Abdul-Malik",
     "Peak Elo":1128.6678509286,
     "Weight Class":"Middleweight",
     "Record":"3-2-1"
+  },
+  {
+    "Fighter":"Axel Sola",
+    "Peak Elo":1128.4288784325,
+    "Weight Class":"Lightweight",
+    "Record":"3-1-0"
   },
   {
     "Fighter":"Alan Patrick",
@@ -1938,12 +1956,6 @@
     "Record":"2-2-0"
   },
   {
-    "Fighter":"Brady Hiestand",
-    "Peak Elo":1126.9937825589,
-    "Weight Class":"Bantamweight",
-    "Record":"3-1-0"
-  },
-  {
     "Fighter":"Joe Solecki",
     "Peak Elo":1126.7448851727,
     "Weight Class":"Lightweight",
@@ -1968,15 +1980,15 @@
     "Record":"2-2-0"
   },
   {
-    "Fighter":"Brunno Ferreira",
-    "Peak Elo":1125.9269734755,
-    "Weight Class":"Middleweight",
-    "Record":"6-4-0"
-  },
-  {
     "Fighter":"Adlan Amagov",
     "Peak Elo":1125.8928728802,
     "Weight Class":"Welterweight",
+    "Record":"2-0-0"
+  },
+  {
+    "Fighter":"Imanol Rodriguez",
+    "Peak Elo":1125.8414187374,
+    "Weight Class":"Flyweight",
     "Record":"2-0-0"
   },
   {
@@ -2046,18 +2058,6 @@
     "Record":"2-2-0"
   },
   {
-    "Fighter":"Tommy McMillen",
-    "Peak Elo":1124.5537281197,
-    "Weight Class":"Featherweight",
-    "Record":"2-0-0"
-  },
-  {
-    "Fighter":"Eduarda Moura",
-    "Peak Elo":1124.4637112427,
-    "Weight Class":"Catch Weight",
-    "Record":"3-2-0"
-  },
-  {
     "Fighter":"Fredy Serrano",
     "Peak Elo":1124.4185769991,
     "Weight Class":"Flyweight",
@@ -2073,12 +2073,6 @@
     "Fighter":"Jakub Wiklacz",
     "Peak Elo":1124.2756227061,
     "Weight Class":"Bantamweight",
-    "Record":"2-0-0"
-  },
-  {
-    "Fighter":"Damian Pinas",
-    "Peak Elo":1124.2716491109,
-    "Weight Class":"Middleweight",
     "Record":"2-0-0"
   },
   {
@@ -2160,16 +2154,22 @@
     "Record":"2-0-0"
   },
   {
-    "Fighter":"Marwan Rahiki",
-    "Peak Elo":1122.8805879443,
-    "Weight Class":"Featherweight",
+    "Fighter":"Anthony Wint",
+    "Peak Elo":1122.9628414727,
+    "Weight Class":"Heavyweight",
     "Record":"2-0-0"
   },
   {
-    "Fighter":"Oumar Sy",
-    "Peak Elo":1122.8703563081,
-    "Weight Class":"Light Heavyweight",
-    "Record":"3-2-0"
+    "Fighter":"Marwan Rahiki",
+    "Peak Elo":1122.8805879443,
+    "Weight Class":"Featherweight",
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Muhammad Naimov",
+    "Peak Elo":1122.5400459841,
+    "Weight Class":"Featherweight",
+    "Record":"5-3-0"
   },
   {
     "Fighter":"Charlie Campbell",
@@ -2238,12 +2238,6 @@
     "Record":"3-2-0"
   },
   {
-    "Fighter":"Natalia Silva",
-    "Peak Elo":1121.8677828586,
-    "Weight Class":"Women's Flyweight",
-    "Record":"8-0-0"
-  },
-  {
     "Fighter":"Adam Wieczorek",
     "Peak Elo":1121.8571506771,
     "Weight Class":"Heavyweight",
@@ -2268,15 +2262,15 @@
     "Record":"2-1-0"
   },
   {
-    "Fighter":"Zhang Lipeng",
-    "Peak Elo":1121.7543958835,
-    "Weight Class":"Lightweight",
-    "Record":"2-2-0"
-  },
-  {
     "Fighter":"Nad Narimani",
     "Peak Elo":1121.7543958835,
     "Weight Class":"Catch Weight",
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Zhang Lipeng",
+    "Peak Elo":1121.7543958835,
+    "Weight Class":"Lightweight",
     "Record":"2-2-0"
   },
   {
@@ -2406,12 +2400,6 @@
     "Record":"2-1-0"
   },
   {
-    "Fighter":"Ryan Gandra",
-    "Peak Elo":1119.2418093257,
-    "Weight Class":"Middleweight",
-    "Record":"2-0-0"
-  },
-  {
     "Fighter":"Ronaldo Rodriguez",
     "Peak Elo":1118.7876259552,
     "Weight Class":"Flyweight",
@@ -2475,7 +2463,7 @@
     "Fighter":"Manon Fiorot",
     "Peak Elo":1114.8474775983,
     "Weight Class":"Women's Flyweight",
-    "Record":"8-1-0"
+    "Record":"8-2-0"
   },
   {
     "Fighter":"Jacob Malkoun",
@@ -2553,13 +2541,13 @@
     "Fighter":"Dooho Choi",
     "Peak Elo":1112.7564883291,
     "Weight Class":"Featherweight",
-    "Record":"6-3-1"
+    "Record":"6-4-1"
   },
   {
-    "Fighter":"Edgar Chairez",
-    "Peak Elo":1112.6410462517,
-    "Weight Class":"Flyweight",
-    "Record":"4-2-1"
+    "Fighter":"Salahdine Parnasse",
+    "Peak Elo":1112.6200149752,
+    "Weight Class":"Lightweight",
+    "Record":"1-0-0"
   },
   {
     "Fighter":"Krzysztof Soszynski",
@@ -2583,7 +2571,7 @@
     "Fighter":"Elves Brener",
     "Peak Elo":1112.1456724132,
     "Weight Class":"Lightweight",
-    "Record":"3-3-0"
+    "Record":"4-3-0"
   },
   {
     "Fighter":"Ante Delija",
@@ -2596,6 +2584,12 @@
     "Peak Elo":1111.8838274724,
     "Weight Class":"Featherweight",
     "Record":"4-4-1"
+  },
+  {
+    "Fighter":"Pavel Andrusca",
+    "Peak Elo":1111.4825372332,
+    "Weight Class":"Featherweight",
+    "Record":"1-0-0"
   },
   {
     "Fighter":"Mike Easton",
@@ -2862,10 +2856,10 @@
     "Record":"2-2-0"
   },
   {
-    "Fighter":"Punahele Soriano",
-    "Peak Elo":1105.8586167209,
+    "Fighter":"Roberto Soldic",
+    "Peak Elo":1105.9172353514,
     "Weight Class":"Welterweight",
-    "Record":"7-4-0"
+    "Record":"1-0-0"
   },
   {
     "Fighter":"Marco Polo Reyes",
@@ -3042,6 +3036,12 @@
     "Record":"2-2-0"
   },
   {
+    "Fighter":"Matthieu Duclos",
+    "Peak Elo":1103.8900424073,
+    "Weight Class":"Middleweight",
+    "Record":"1-0-0"
+  },
+  {
     "Fighter":"Che Mills",
     "Peak Elo":1103.8836923349,
     "Weight Class":"Welterweight",
@@ -3084,39 +3084,33 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Joseph Morales",
-    "Peak Elo":1103.7762593031,
-    "Weight Class":"Flyweight",
-    "Record":"3-2-0"
+    "Fighter":"John Lewis",
+    "Peak Elo":1103.76,
+    "Weight Class":"Lightweight",
+    "Record":"1-1-0"
   },
   {
-    "Fighter":"John Cholish",
+    "Fighter":"Glaico Franca Moreira",
     "Peak Elo":1103.76,
     "Weight Class":"Lightweight",
     "Record":"1-2-0"
   },
   {
-    "Fighter":"James McSweeney",
+    "Fighter":"War Machine",
     "Peak Elo":1103.76,
-    "Weight Class":"Light Heavyweight",
-    "Record":"1-2-0"
+    "Weight Class":"Welterweight",
+    "Record":"1-1-0"
   },
   {
-    "Fighter":"Robert McDaniel",
+    "Fighter":"Ricardo Abreu",
     "Peak Elo":1103.76,
     "Weight Class":"Middleweight",
-    "Record":"1-2-0"
+    "Record":"1-1-0"
   },
   {
-    "Fighter":"Keiichiro Nakamura",
+    "Fighter":"Nathan Fletcher",
     "Peak Elo":1103.76,
-    "Weight Class":"Featherweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Rolando Delgado",
-    "Peak Elo":1103.76,
-    "Weight Class":"Lightweight",
+    "Weight Class":"Bantamweight",
     "Record":"1-2-0"
   },
   {
@@ -3126,7 +3120,67 @@
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Ryan Loder",
+    "Fighter":"Sasha Palatnikov",
+    "Peak Elo":1103.76,
+    "Weight Class":"Welterweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Jesse Lennox",
+    "Peak Elo":1103.76,
+    "Weight Class":"Welterweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Rolando Delgado",
+    "Peak Elo":1103.76,
+    "Weight Class":"Lightweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Thiago Perpetuo",
+    "Peak Elo":1103.76,
+    "Weight Class":"Welterweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Simeon Thoresen",
+    "Peak Elo":1103.76,
+    "Weight Class":"Welterweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"John Cholish",
+    "Peak Elo":1103.76,
+    "Weight Class":"Lightweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Nick Pace",
+    "Peak Elo":1103.76,
+    "Weight Class":"Bantamweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Justin Lawrence",
+    "Peak Elo":1103.76,
+    "Weight Class":"Featherweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Keiichiro Nakamura",
+    "Peak Elo":1103.76,
+    "Weight Class":"Featherweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Genki Sudo",
+    "Peak Elo":1103.76,
+    "Weight Class":"Lightweight",
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Robert McDaniel",
     "Peak Elo":1103.76,
     "Weight Class":"Middleweight",
     "Record":"1-2-0"
@@ -3138,21 +3192,57 @@
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Simeon Thoresen",
+    "Fighter":"Marcos Vinicius",
     "Peak Elo":1103.76,
-    "Weight Class":"Welterweight",
+    "Weight Class":"Flyweight",
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Ricardo Abreu",
+    "Fighter":"Yuki Kondo",
     "Peak Elo":1103.76,
-    "Weight Class":"Middleweight",
-    "Record":"1-1-0"
+    "Weight Class":"Light Heavyweight",
+    "Record":"1-2-0"
   },
   {
-    "Fighter":"Sasha Palatnikov",
+    "Fighter":"Bilal Hasan",
+    "Peak Elo":1103.76,
+    "Weight Class":"Flyweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Tahir Abdullayev",
     "Peak Elo":1103.76,
     "Weight Class":"Welterweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Ryan Loder",
+    "Peak Elo":1103.76,
+    "Weight Class":"Middleweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Tom Murphy",
+    "Peak Elo":1103.76,
+    "Weight Class":"Heavyweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Aliaskhab Khizriev",
+    "Peak Elo":1103.76,
+    "Weight Class":"Middleweight",
+    "Record":"1-0-1"
+  },
+  {
+    "Fighter":"James McSweeney",
+    "Peak Elo":1103.76,
+    "Weight Class":"Light Heavyweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Rob Broughton",
+    "Peak Elo":1103.76,
+    "Weight Class":"Heavyweight",
     "Record":"1-2-0"
   },
   {
@@ -3165,108 +3255,6 @@
     "Fighter":"Bob Cook",
     "Peak Elo":1103.76,
     "Weight Class":"Lightweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Nathan Fletcher",
-    "Peak Elo":1103.76,
-    "Weight Class":"Bantamweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Nick Pace",
-    "Peak Elo":1103.76,
-    "Weight Class":"Bantamweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Marcos Vinicius",
-    "Peak Elo":1103.76,
-    "Weight Class":"Flyweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Thiago Perpetuo",
-    "Peak Elo":1103.76,
-    "Weight Class":"Welterweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Bilal Hasan",
-    "Peak Elo":1103.76,
-    "Weight Class":"Flyweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"John Lewis",
-    "Peak Elo":1103.76,
-    "Weight Class":"Lightweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Justin Lawrence",
-    "Peak Elo":1103.76,
-    "Weight Class":"Featherweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Rob Broughton",
-    "Peak Elo":1103.76,
-    "Weight Class":"Heavyweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Yuki Kondo",
-    "Peak Elo":1103.76,
-    "Weight Class":"Light Heavyweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Glaico Franca Moreira",
-    "Peak Elo":1103.76,
-    "Weight Class":"Lightweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Genki Sudo",
-    "Peak Elo":1103.76,
-    "Weight Class":"Lightweight",
-    "Record":"2-1-0"
-  },
-  {
-    "Fighter":"War Machine",
-    "Peak Elo":1103.76,
-    "Weight Class":"Welterweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Aliaskhab Khizriev",
-    "Peak Elo":1103.76,
-    "Weight Class":"Middleweight",
-    "Record":"1-0-1"
-  },
-  {
-    "Fighter":"Tommy Gantt",
-    "Peak Elo":1103.76,
-    "Weight Class":"Lightweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Jesse Lennox",
-    "Peak Elo":1103.76,
-    "Weight Class":"Welterweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Tahir Abdullayev",
-    "Peak Elo":1103.76,
-    "Weight Class":"Welterweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Tom Murphy",
-    "Peak Elo":1103.76,
-    "Weight Class":"Heavyweight",
     "Record":"1-0-0"
   },
   {
@@ -3294,16 +3282,16 @@
     "Record":"2-2-0"
   },
   {
-    "Fighter":"Esteban Ribovics",
-    "Peak Elo":1103.6434947991,
-    "Weight Class":"Lightweight",
-    "Record":"5-3-0"
-  },
-  {
     "Fighter":"Murtazali Magomedov",
     "Peak Elo":1103.5383105888,
     "Weight Class":"Featherweight",
     "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Ismail Naurdiev",
+    "Peak Elo":1103.4411201419,
+    "Weight Class":"Middleweight",
+    "Record":"5-3-0"
   },
   {
     "Fighter":"Jason Von Flue",
@@ -3423,7 +3411,7 @@
     "Fighter":"Rodolfo Bellato",
     "Peak Elo":1102.6394512361,
     "Weight Class":"Light Heavyweight",
-    "Record":"2-1-2"
+    "Record":"2-2-2"
   },
   {
     "Fighter":"Tedd Williams",
@@ -3462,34 +3450,16 @@
     "Record":"6-4-0"
   },
   {
-    "Fighter":"James Wilks",
-    "Peak Elo":1102.248,
-    "Weight Class":"Welterweight",
-    "Record":"2-2-0"
-  },
-  {
-    "Fighter":"Tony Sims",
-    "Peak Elo":1102.248,
-    "Weight Class":"Lightweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Spike Carlyle",
-    "Peak Elo":1102.248,
-    "Weight Class":"Featherweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Antonio Braga Neto",
-    "Peak Elo":1102.248,
-    "Weight Class":"Middleweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Sean McCorkle",
+    "Fighter":"Roberto Traven",
     "Peak Elo":1102.248,
     "Weight Class":"Heavyweight",
-    "Record":"1-2-0"
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Sean King III",
+    "Peak Elo":1102.248,
+    "Weight Class":"Featherweight",
+    "Record":"1-0-0"
   },
   {
     "Fighter":"Nate Loughran",
@@ -3498,16 +3468,28 @@
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Ben Alloway",
+    "Fighter":"Nick Sanzo",
     "Peak Elo":1102.248,
-    "Weight Class":"Welterweight",
-    "Record":"1-2-0"
+    "Weight Class":"Lightweight",
+    "Record":"1-1-0"
   },
   {
-    "Fighter":"Anying Wang",
+    "Fighter":"Noah Gugnon",
+    "Peak Elo":1102.248,
+    "Weight Class":"Lightweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Jon Hess",
+    "Peak Elo":1102.248,
+    "Weight Class":"Open Weight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"James Wilks",
     "Peak Elo":1102.248,
     "Weight Class":"Welterweight",
-    "Record":"1-1-0"
+    "Record":"2-2-0"
   },
   {
     "Fighter":"Mike Ciesnolevicz",
@@ -3516,69 +3498,39 @@
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Mackens Semerzier",
+    "Fighter":"Tony Fryklund",
+    "Peak Elo":1102.248,
+    "Weight Class":"Middleweight",
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Spike Carlyle",
     "Peak Elo":1102.248,
     "Weight Class":"Featherweight",
-    "Record":"1-1-1"
-  },
-  {
-    "Fighter":"Christian Aguilera",
-    "Peak Elo":1102.248,
-    "Weight Class":"Welterweight",
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Scott Morris",
+    "Fighter":"Enson Inoue",
     "Peak Elo":1102.248,
-    "Weight Class":"Open Weight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Mike Nickels",
-    "Peak Elo":1102.248,
-    "Weight Class":"Light Heavyweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Levan Chokheli",
-    "Peak Elo":1102.248,
-    "Weight Class":"Welterweight",
+    "Weight Class":"Lightweight",
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Roman Mitichyan",
-    "Peak Elo":1102.248,
-    "Weight Class":"Welterweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Troy Mandaloniz",
-    "Peak Elo":1102.248,
-    "Weight Class":"Welterweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Matt Arroyo",
-    "Peak Elo":1102.248,
-    "Weight Class":"Welterweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"DongHun Choi",
-    "Peak Elo":1102.248,
-    "Weight Class":"Flyweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Scott Adams",
+    "Fighter":"Justin Martin",
     "Peak Elo":1102.248,
     "Weight Class":"Heavyweight",
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Noah Gugnon",
+    "Fighter":"Yanal Ashmouz",
     "Peak Elo":1102.248,
     "Weight Class":"Lightweight",
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"DongHun Choi",
+    "Peak Elo":1102.248,
+    "Weight Class":"Flyweight",
     "Record":"1-0-0"
   },
   {
@@ -3588,40 +3540,34 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Mikey Burnett",
-    "Peak Elo":1102.248,
-    "Weight Class":"Lightweight",
-    "Record":"2-1-0"
-  },
-  {
-    "Fighter":"Jon Hess",
-    "Peak Elo":1102.248,
-    "Weight Class":"Open Weight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Todd Medina",
-    "Peak Elo":1102.248,
-    "Weight Class":"Open Weight",
-    "Record":"1-1-0"
-  },
-  {
     "Fighter":"Paul Jones",
     "Peak Elo":1102.248,
     "Weight Class":"Middleweight",
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Rafael Carino",
+    "Fighter":"Frank Hamaker",
     "Peak Elo":1102.248,
     "Weight Class":"Open Weight",
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Jovan Leka",
+    "Fighter":"Troy Mandaloniz",
+    "Peak Elo":1102.248,
+    "Weight Class":"Welterweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Scott Adams",
     "Peak Elo":1102.248,
     "Weight Class":"Heavyweight",
     "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Steve Nelmark",
+    "Peak Elo":1102.248,
+    "Weight Class":"Open Weight",
+    "Record":"2-1-0"
   },
   {
     "Fighter":"Scott Bessac",
@@ -3630,34 +3576,10 @@
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Marcelo Mello",
-    "Peak Elo":1102.248,
-    "Weight Class":"Lightweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Ron Waterman",
-    "Peak Elo":1102.248,
-    "Weight Class":"Heavyweight",
-    "Record":"2-1-1"
-  },
-  {
-    "Fighter":"Sione Latu",
-    "Peak Elo":1102.248,
-    "Weight Class":"Heavyweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Alex Karalexis",
+    "Fighter":"Anying Wang",
     "Peak Elo":1102.248,
     "Weight Class":"Welterweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Cesar Marscucci",
-    "Peak Elo":1102.248,
-    "Weight Class":"Lightweight",
-    "Record":"1-0-0"
+    "Record":"1-1-0"
   },
   {
     "Fighter":"Onassis Parungao",
@@ -3666,10 +3588,46 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Steve Nelmark",
+    "Fighter":"Luis Felipe Dias",
     "Peak Elo":1102.248,
-    "Weight Class":"Open Weight",
-    "Record":"2-1-0"
+    "Weight Class":"Middleweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Roman Mitichyan",
+    "Peak Elo":1102.248,
+    "Weight Class":"Welterweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Levan Chokheli",
+    "Peak Elo":1102.248,
+    "Weight Class":"Welterweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Anthony Torres",
+    "Peak Elo":1102.248,
+    "Weight Class":"Welterweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Ben Alloway",
+    "Peak Elo":1102.248,
+    "Weight Class":"Welterweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Mike Nickels",
+    "Peak Elo":1102.248,
+    "Weight Class":"Light Heavyweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Alex Karalexis",
+    "Peak Elo":1102.248,
+    "Weight Class":"Welterweight",
+    "Record":"1-2-0"
   },
   {
     "Fighter":"Branden Lee Hinkle",
@@ -3684,58 +3642,28 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Luis Felipe Dias",
-    "Peak Elo":1102.248,
-    "Weight Class":"Middleweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Roberto Traven",
+    "Fighter":"Sean McCorkle",
     "Peak Elo":1102.248,
     "Weight Class":"Heavyweight",
-    "Record":"1-1-0"
+    "Record":"1-2-0"
   },
   {
-    "Fighter":"Tulio Palhares",
+    "Fighter":"Matt Arroyo",
     "Peak Elo":1102.248,
-    "Weight Class":"Middleweight",
-    "Record":"1-0-0"
+    "Weight Class":"Welterweight",
+    "Record":"1-2-0"
   },
   {
-    "Fighter":"Frank Hamaker",
+    "Fighter":"Scott Morris",
     "Peak Elo":1102.248,
     "Weight Class":"Open Weight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Justin Martin",
-    "Peak Elo":1102.248,
-    "Weight Class":"Heavyweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Nick Sanzo",
-    "Peak Elo":1102.248,
-    "Weight Class":"Lightweight",
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Tony Fryklund",
-    "Peak Elo":1102.248,
-    "Weight Class":"Middleweight",
-    "Record":"2-2-0"
-  },
-  {
-    "Fighter":"Enson Inoue",
+    "Fighter":"Marcelo Mello",
     "Peak Elo":1102.248,
     "Weight Class":"Lightweight",
     "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Yanal Ashmouz",
-    "Peak Elo":1102.248,
-    "Weight Class":"Lightweight",
-    "Record":"2-2-0"
   },
   {
     "Fighter":"Rory Markham",
@@ -3744,16 +3672,76 @@
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Anthony Torres",
+    "Fighter":"Mackens Semerzier",
     "Peak Elo":1102.248,
-    "Weight Class":"Welterweight",
+    "Weight Class":"Featherweight",
+    "Record":"1-1-1"
+  },
+  {
+    "Fighter":"Cesar Marscucci",
+    "Peak Elo":1102.248,
+    "Weight Class":"Lightweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Mikey Burnett",
+    "Peak Elo":1102.248,
+    "Weight Class":"Lightweight",
+    "Record":"2-1-0"
+  },
+  {
+    "Fighter":"Todd Medina",
+    "Peak Elo":1102.248,
+    "Weight Class":"Open Weight",
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Anthony Wint",
+    "Fighter":"Jovan Leka",
     "Peak Elo":1102.248,
     "Weight Class":"Heavyweight",
     "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Sione Latu",
+    "Peak Elo":1102.248,
+    "Weight Class":"Heavyweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Antonio Braga Neto",
+    "Peak Elo":1102.248,
+    "Weight Class":"Middleweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Tulio Palhares",
+    "Peak Elo":1102.248,
+    "Weight Class":"Middleweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Rafael Carino",
+    "Peak Elo":1102.248,
+    "Weight Class":"Open Weight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Tony Sims",
+    "Peak Elo":1102.248,
+    "Weight Class":"Lightweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Ron Waterman",
+    "Peak Elo":1102.248,
+    "Weight Class":"Heavyweight",
+    "Record":"2-1-1"
+  },
+  {
+    "Fighter":"Christian Aguilera",
+    "Peak Elo":1102.248,
+    "Weight Class":"Welterweight",
+    "Record":"1-2-0"
   },
   {
     "Fighter":"Austin Vanderford",
@@ -3852,12 +3840,6 @@
     "Record":"2-2-0"
   },
   {
-    "Fighter":"Regina Tarin",
-    "Peak Elo":1101.6544690196,
-    "Weight Class":"Catch Weight",
-    "Record":"1-0-0"
-  },
-  {
     "Fighter":"Yui Chul Nam",
     "Peak Elo":1101.6449732705,
     "Weight Class":"Featherweight",
@@ -3876,21 +3858,27 @@
     "Record":"2-2-0"
   },
   {
-    "Fighter":"Chris Cope",
+    "Fighter":"Erick Montano",
     "Peak Elo":1101.6,
     "Weight Class":"Welterweight",
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Shane Collins",
+    "Fighter":"Ian Loveland",
     "Peak Elo":1101.6,
-    "Weight Class":"Featherweight",
-    "Record":"1-0-0"
+    "Weight Class":"Bantamweight",
+    "Record":"1-2-0"
   },
   {
-    "Fighter":"Kai Kamaka III",
+    "Fighter":"Shamar Bailey",
     "Peak Elo":1101.6,
-    "Weight Class":"Featherweight",
+    "Weight Class":"Lightweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"John Gunther",
+    "Peak Elo":1101.6,
+    "Weight Class":"Lightweight",
     "Record":"1-1-0"
   },
   {
@@ -3900,81 +3888,27 @@
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Ezra Elliott",
+    "Fighter":"Reginaldo Vieira",
     "Peak Elo":1101.6,
-    "Weight Class":"Featherweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Buddy Roberts",
-    "Peak Elo":1101.6,
-    "Weight Class":"Middleweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Victor Hugo",
-    "Peak Elo":1101.6,
-    "Weight Class":"Featherweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Denzel Freeman",
-    "Peak Elo":1101.6,
-    "Weight Class":"Heavyweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Shamar Bailey",
-    "Peak Elo":1101.6,
-    "Weight Class":"Lightweight",
+    "Weight Class":"Bantamweight",
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Guilherme Pat",
-    "Peak Elo":1101.6,
-    "Weight Class":"Heavyweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Mark Hughes",
-    "Peak Elo":1101.6,
-    "Weight Class":"Middleweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Yoshiki Takahashi",
+    "Fighter":"Kyle Watson",
     "Peak Elo":1101.6,
     "Weight Class":"Lightweight",
-    "Record":"1-0-0"
+    "Record":"1-1-0"
   },
   {
-    "Fighter":"Tiago dos Santos e Silva",
+    "Fighter":"Josh Stansbury",
     "Peak Elo":1101.6,
-    "Weight Class":"Featherweight",
-    "Record":"2-2-0"
+    "Weight Class":"Light Heavyweight",
+    "Record":"1-2-0"
   },
   {
     "Fighter":"Clay Harvison",
     "Peak Elo":1101.6,
     "Weight Class":"Welterweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Nick Thompson",
-    "Peak Elo":1101.6,
-    "Weight Class":"Welterweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Magomed Zaynukov",
-    "Peak Elo":1101.6,
-    "Weight Class":"Lightweight",
-    "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Ramon Taveras",
-    "Peak Elo":1101.6,
-    "Weight Class":"Featherweight",
     "Record":"1-2-0"
   },
   {
@@ -3990,40 +3924,16 @@
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Dom Mar Fan",
+    "Fighter":"Fabia Sintes",
     "Peak Elo":1101.6,
-    "Weight Class":"Lightweight",
-    "Record":"1-1-0"
+    "Weight Class":"Flyweight",
+    "Record":"1-0-0"
   },
   {
-    "Fighter":"Lawrence Lui",
-    "Peak Elo":1101.6,
-    "Weight Class":"Bantamweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Reginaldo Vieira",
-    "Peak Elo":1101.6,
-    "Weight Class":"Bantamweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Ernest Chavez",
-    "Peak Elo":1101.6,
-    "Weight Class":"Featherweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Dave Strasser",
+    "Fighter":"Chris Cope",
     "Peak Elo":1101.6,
     "Weight Class":"Welterweight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Nah-Shon Burrell",
-    "Peak Elo":1101.6,
-    "Weight Class":"Welterweight",
-    "Record":"1-1-0"
+    "Record":"1-2-0"
   },
   {
     "Fighter":"Logan Clark",
@@ -4032,52 +3942,52 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Erick Montano",
+    "Fighter":"Nick Thompson",
     "Peak Elo":1101.6,
     "Weight Class":"Welterweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Josh Stansbury",
-    "Peak Elo":1101.6,
-    "Weight Class":"Light Heavyweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"John Gunther",
-    "Peak Elo":1101.6,
-    "Weight Class":"Lightweight",
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Masio Fullen",
+    "Fighter":"Ramon Taveras",
     "Peak Elo":1101.6,
     "Weight Class":"Featherweight",
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Jeff Hougland",
-    "Peak Elo":1101.6,
-    "Weight Class":"Bantamweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Jim Alers",
-    "Peak Elo":1101.6,
-    "Weight Class":"Featherweight",
-    "Record":"1-2-1"
-  },
-  {
-    "Fighter":"Kyle Watson",
+    "Fighter":"Magomed Zaynukov",
     "Peak Elo":1101.6,
     "Weight Class":"Lightweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Buddy Roberts",
+    "Peak Elo":1101.6,
+    "Weight Class":"Middleweight",
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Kai Kamaka",
+    "Fighter":"Ezra Elliott",
     "Peak Elo":1101.6,
     "Weight Class":"Featherweight",
-    "Record":"1-2-1"
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Tiago dos Santos e Silva",
+    "Peak Elo":1101.6,
+    "Weight Class":"Featherweight",
+    "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Shane Collins",
+    "Peak Elo":1101.6,
+    "Weight Class":"Featherweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Patrick Walsh",
+    "Peak Elo":1101.6,
+    "Weight Class":"Middleweight",
+    "Record":"1-1-0"
   },
   {
     "Fighter":"Joe Ellenberger",
@@ -4092,22 +4002,106 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Ian Loveland",
+    "Fighter":"Jim Alers",
     "Peak Elo":1101.6,
-    "Weight Class":"Bantamweight",
+    "Weight Class":"Featherweight",
+    "Record":"1-2-1"
+  },
+  {
+    "Fighter":"Nah-Shon Burrell",
+    "Peak Elo":1101.6,
+    "Weight Class":"Welterweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Victor Hugo",
+    "Peak Elo":1101.6,
+    "Weight Class":"Featherweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Kai Kamaka",
+    "Peak Elo":1101.6,
+    "Weight Class":"Featherweight",
+    "Record":"1-2-1"
+  },
+  {
+    "Fighter":"Ernest Chavez",
+    "Peak Elo":1101.6,
+    "Weight Class":"Featherweight",
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Patrick Walsh",
+    "Fighter":"Dave Strasser",
+    "Peak Elo":1101.6,
+    "Weight Class":"Welterweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Mark Hughes",
     "Peak Elo":1101.6,
     "Weight Class":"Middleweight",
-    "Record":"1-1-0"
+    "Record":"1-0-0"
   },
   {
     "Fighter":"Ben Earwood",
     "Peak Elo":1101.6,
     "Weight Class":"Welterweight",
     "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Denzel Freeman",
+    "Peak Elo":1101.6,
+    "Weight Class":"Heavyweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Guilherme Pat",
+    "Peak Elo":1101.6,
+    "Weight Class":"Heavyweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Dom Mar Fan",
+    "Peak Elo":1101.6,
+    "Weight Class":"Lightweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Lawrence Lui",
+    "Peak Elo":1101.6,
+    "Weight Class":"Bantamweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Yoshiki Takahashi",
+    "Peak Elo":1101.6,
+    "Weight Class":"Lightweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Kai Kamaka III",
+    "Peak Elo":1101.6,
+    "Weight Class":"Featherweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Ilimbek Akylbek",
+    "Peak Elo":1101.6,
+    "Weight Class":"Bantamweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Jeff Hougland",
+    "Peak Elo":1101.6,
+    "Weight Class":"Bantamweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Masio Fullen",
+    "Peak Elo":1101.6,
+    "Weight Class":"Featherweight",
+    "Record":"1-2-0"
   },
   {
     "Fighter":"Alberto Montes",
@@ -4188,28 +4182,22 @@
     "Record":"3-2-0"
   },
   {
-    "Fighter":"Imanol Rodriguez",
-    "Peak Elo":1100.8858834623,
-    "Weight Class":"Flyweight",
-    "Record":"1-0-0"
-  },
-  {
     "Fighter":"Tatiana Suarez",
     "Peak Elo":1100.8822742235,
     "Weight Class":"Women's Strawweight",
     "Record":"9-1-0"
   },
   {
-    "Fighter":"Ryan Janes",
-    "Peak Elo":1100.8387919737,
-    "Weight Class":"Middleweight",
-    "Record":"2-2-0"
-  },
-  {
     "Fighter":"Borislav Nikolic",
     "Peak Elo":1100.8387919737,
     "Weight Class":"Bantamweight",
     "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Ryan Janes",
+    "Peak Elo":1100.8387919737,
+    "Weight Class":"Middleweight",
+    "Record":"2-2-0"
   },
   {
     "Fighter":"RJ Harris",
@@ -4236,10 +4224,10 @@
     "Record":"2-2-0"
   },
   {
-    "Fighter":"Gable Steveson",
+    "Fighter":"Galore Bofando",
     "Peak Elo":1100.643720517,
-    "Weight Class":"Heavyweight",
-    "Record":"1-0-0"
+    "Weight Class":"Welterweight",
+    "Record":"1-1-0"
   },
   {
     "Fighter":"Nick Denis",
@@ -4248,9 +4236,9 @@
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Galore Bofando",
+    "Fighter":"Gable Steveson",
     "Peak Elo":1100.643720517,
-    "Weight Class":"Welterweight",
+    "Weight Class":"Heavyweight",
     "Record":"1-1-0"
   },
   {
@@ -4280,8 +4268,8 @@
   {
     "Fighter":"JooSang Yoo",
     "Peak Elo":1100.4500001201,
-    "Weight Class":"Catch Weight",
-    "Record":"1-1-0"
+    "Weight Class":"Featherweight",
+    "Record":"1-2-0"
   },
   {
     "Fighter":"Liu Ce",
@@ -4350,16 +4338,16 @@
     "Record":"1-1-0"
   },
   {
-    "Fighter":"Cam Nelson",
-    "Peak Elo":1100.0872145638,
-    "Weight Class":"Welterweight",
-    "Record":"1-0-0"
-  },
-  {
     "Fighter":"Jarred Brooks",
     "Peak Elo":1100.0872145638,
     "Weight Class":"Flyweight",
     "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Cam Nelson",
+    "Peak Elo":1100.0872145638,
+    "Weight Class":"Welterweight",
+    "Record":"1-0-0"
   },
   {
     "Fighter":"Ebenezer Fontes Braga",
@@ -4368,16 +4356,16 @@
     "Record":"1-0-0"
   },
   {
-    "Fighter":"Magomed Gadzhiyasulov",
-    "Peak Elo":1100.0424471039,
-    "Weight Class":"Light Heavyweight",
-    "Record":"1-1-0"
-  },
-  {
     "Fighter":"Marcelo Guimaraes",
     "Peak Elo":1100.0424471039,
     "Weight Class":"Middleweight",
     "Record":"2-2-0"
+  },
+  {
+    "Fighter":"Magomed Gadzhiyasulov",
+    "Peak Elo":1100.0424471039,
+    "Weight Class":"Light Heavyweight",
+    "Record":"1-1-0"
   },
   {
     "Fighter":"Hecher Sosa",
@@ -4390,12 +4378,6 @@
     "Peak Elo":1099.992805436,
     "Weight Class":"Middleweight",
     "Record":"1-0-0"
-  },
-  {
-    "Fighter":"Axel Sola",
-    "Peak Elo":1099.9809996117,
-    "Weight Class":"Lightweight",
-    "Record":"2-1-0"
   },
   {
     "Fighter":"Brok Weaver",
@@ -4527,7 +4509,7 @@
     "Fighter":"Robelis Despaigne",
     "Peak Elo":1099.1484240958,
     "Weight Class":"Heavyweight",
-    "Record":"1-2-0"
+    "Record":"2-2-0"
   },
   {
     "Fighter":"Cristian Quinonez",
@@ -4590,16 +4572,16 @@
     "Record":"5-4-1"
   },
   {
+    "Fighter":"Luis Hernandez",
+    "Peak Elo":1097.7336057551,
+    "Weight Class":"Light Heavyweight",
+    "Record":"1-0-0"
+  },
+  {
     "Fighter":"Natan Levy",
     "Peak Elo":1097.6216073459,
     "Weight Class":"Lightweight",
     "Record":"2-2-0"
-  },
-  {
-    "Fighter":"John Castaneda",
-    "Peak Elo":1097.5700655758,
-    "Weight Class":"Catch Weight",
-    "Record":"4-4-1"
   },
   {
     "Fighter":"Mantas Kondratavicius",
@@ -4677,7 +4659,7 @@
     "Fighter":"Alatengheili",
     "Peak Elo":1095.7848524363,
     "Weight Class":"Bantamweight",
-    "Record":"5-3-1"
+    "Record":"6-3-1"
   },
   {
     "Fighter":"Kevin Aguilar",
@@ -4762,6 +4744,12 @@
     "Peak Elo":1093.285863581,
     "Weight Class":"Flyweight",
     "Record":"7-4-1"
+  },
+  {
+    "Fighter":"Losene Keita",
+    "Peak Elo":1093.2713380714,
+    "Weight Class":"Featherweight",
+    "Record":"1-1-0"
   },
   {
     "Fighter":"Hamdy Abdelwahab",
@@ -5004,6 +4992,12 @@
     "Record":"3-3-0"
   },
   {
+    "Fighter":"Oumar Sy",
+    "Peak Elo":1089.1842456188,
+    "Weight Class":"Light Heavyweight",
+    "Record":"3-3-0"
+  },
+  {
     "Fighter":"Tsuyoshi Kohsaka",
     "Peak Elo":1089.1487153695,
     "Weight Class":"Heavyweight",
@@ -5118,12 +5112,6 @@
     "Record":"2-3-1"
   },
   {
-    "Fighter":"Robert Bryczek",
-    "Peak Elo":1087.3078377097,
-    "Weight Class":"Middleweight",
-    "Record":"1-2-0"
-  },
-  {
     "Fighter":"Rodrigo Damm",
     "Peak Elo":1087.2973565306,
     "Weight Class":"Lightweight",
@@ -5136,6 +5124,12 @@
     "Record":"2-3-1"
   },
   {
+    "Fighter":"Christian Edwards",
+    "Peak Elo":1086.7587410509,
+    "Weight Class":"Light Heavyweight",
+    "Record":"1-1-0"
+  },
+  {
     "Fighter":"Ibo Aslan",
     "Peak Elo":1086.6818034902,
     "Weight Class":"Light Heavyweight",
@@ -5145,6 +5139,12 @@
     "Fighter":"Felipe Franco",
     "Peak Elo":1086.6580734904,
     "Weight Class":"Light Heavyweight",
+    "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Patricio Pitbull",
+    "Peak Elo":1086.289334781,
+    "Weight Class":"Featherweight",
     "Record":"1-1-0"
   },
   {
@@ -5298,12 +5298,6 @@
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Ismail Naurdiev",
-    "Peak Elo":1083.1537556837,
-    "Weight Class":"Middleweight",
-    "Record":"4-3-0"
-  },
-  {
     "Fighter":"Mads Burnell",
     "Peak Elo":1083.1161225312,
     "Weight Class":"Featherweight",
@@ -5340,12 +5334,6 @@
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Ozzy Diaz",
-    "Peak Elo":1082.2949633191,
-    "Weight Class":"Middleweight",
-    "Record":"1-2-0"
-  },
-  {
     "Fighter":"Shayilan Nuerdanbieke",
     "Peak Elo":1082.2682085045,
     "Weight Class":"Featherweight",
@@ -5358,26 +5346,14 @@
     "Record":"1-2-0"
   },
   {
+    "Fighter":"Ailin Perez",
+    "Peak Elo":1082.1217409367,
+    "Weight Class":"Women's Bantamweight",
+    "Record":"7-1-0"
+  },
+  {
     "Fighter":"Katsuhisa Fujii",
     "Peak Elo":1081.7803890294,
-    "Weight Class":"Open Weight",
-    "Record":"1-1-0"
-  },
-  {
-    "Fighter":"Djorden Santos",
-    "Peak Elo":1081.6732154311,
-    "Weight Class":"Middleweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Ian Entwistle",
-    "Peak Elo":1081.5603005754,
-    "Weight Class":"Bantamweight",
-    "Record":"1-2-0"
-  },
-  {
-    "Fighter":"Tai Bowden",
-    "Peak Elo":1081.5603005754,
     "Weight Class":"Open Weight",
     "Record":"1-1-0"
   },
@@ -5392,6 +5368,18 @@
     "Peak Elo":1081.5603005754,
     "Weight Class":"Light Heavyweight",
     "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Ian Entwistle",
+    "Peak Elo":1081.5603005754,
+    "Weight Class":"Bantamweight",
+    "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Tai Bowden",
+    "Peak Elo":1081.5603005754,
+    "Weight Class":"Open Weight",
+    "Record":"1-1-0"
   },
   {
     "Fighter":"Ernesta Kareckaite",
@@ -5422,6 +5410,12 @@
     "Peak Elo":1081.314389921,
     "Weight Class":"Middleweight",
     "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Kurtis Campbell",
+    "Peak Elo":1081.3142823218,
+    "Weight Class":"Featherweight",
+    "Record":"1-1-0"
   },
   {
     "Fighter":"Steve Bruno",
@@ -5571,7 +5565,7 @@
     "Fighter":"Morgan Charriere",
     "Peak Elo":1079.7251740686,
     "Weight Class":"Featherweight",
-    "Record":"3-3-0"
+    "Record":"3-4-0"
   },
   {
     "Fighter":"Robert Sanchez",
@@ -5614,6 +5608,12 @@
     "Peak Elo":1079.2893814202,
     "Weight Class":"Light Heavyweight",
     "Record":"1-2-0"
+  },
+  {
+    "Fighter":"Edgar Chairez",
+    "Peak Elo":1079.2618148641,
+    "Weight Class":"Catch Weight",
+    "Record":"4-3-1"
   },
   {
     "Fighter":"Julianna Pena",
@@ -5718,6 +5718,12 @@
     "Record":"1-3-0"
   },
   {
+    "Fighter":"Rongzhu",
+    "Peak Elo":1075.9431126172,
+    "Weight Class":"Lightweight",
+    "Record":"4-3-0"
+  },
+  {
     "Fighter":"Pawel Pawlak",
     "Peak Elo":1075.9272297182,
     "Weight Class":"Welterweight",
@@ -5739,7 +5745,7 @@
     "Fighter":"Norma Dumont",
     "Peak Elo":1074.5545621932,
     "Weight Class":"Women's Bantamweight",
-    "Record":"9-3-0"
+    "Record":"9-4-0"
   },
   {
     "Fighter":"Piotr Hallmann",
@@ -5988,16 +5994,22 @@
     "Record":"1-4-0"
   },
   {
+    "Fighter":"Joseph Morales",
+    "Peak Elo":1070.662971524,
+    "Weight Class":"Flyweight",
+    "Record":"3-3-0"
+  },
+  {
     "Fighter":"Martin Bravo",
     "Peak Elo":1070.6472,
     "Weight Class":"Featherweight",
     "Record":"1-3-0"
   },
   {
-    "Fighter":"Nick Catone",
+    "Fighter":"Dave Herman",
     "Peak Elo":1070.6472,
-    "Weight Class":"Middleweight",
-    "Record":"4-4-0"
+    "Weight Class":"Heavyweight",
+    "Record":"1-4-0"
   },
   {
     "Fighter":"Henry Briones",
@@ -6012,10 +6024,10 @@
     "Record":"1-3-0"
   },
   {
-    "Fighter":"Dave Herman",
+    "Fighter":"Nick Catone",
     "Peak Elo":1070.6472,
-    "Weight Class":"Heavyweight",
-    "Record":"1-4-0"
+    "Weight Class":"Middleweight",
+    "Record":"4-4-0"
   },
   {
     "Fighter":"Michinori Tanaka",
@@ -6090,39 +6102,9 @@
     "Record":"2-4-0"
   },
   {
-    "Fighter":"Mark Vologdin",
-    "Peak Elo":1069.2,
-    "Weight Class":"Bantamweight",
-    "Record":"0-1-1"
-  },
-  {
-    "Fighter":"Pedro Nobre",
-    "Peak Elo":1069.2,
-    "Weight Class":"Bantamweight",
-    "Record":"0-0-1"
-  },
-  {
-    "Fighter":"CJ Fernandes",
-    "Peak Elo":1069.2,
-    "Weight Class":"Welterweight",
-    "Record":"0-0-1"
-  },
-  {
-    "Fighter":"Milton Vieira",
-    "Peak Elo":1069.2,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-1"
-  },
-  {
-    "Fighter":"Marcus Silveira",
+    "Fighter":"Ben Sosoli",
     "Peak Elo":1069.2,
     "Weight Class":"Heavyweight",
-    "Record":"0-1-1"
-  },
-  {
-    "Fighter":"Bubba Bush",
-    "Peak Elo":1069.2,
-    "Weight Class":"Middleweight",
     "Record":"0-1-1"
   },
   {
@@ -6132,37 +6114,43 @@
     "Record":"0-0-1"
   },
   {
-    "Fighter":"Jesse Bongfeldt",
-    "Peak Elo":1069.2,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-1"
-  },
-  {
-    "Fighter":"John Allan",
-    "Peak Elo":1069.2,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-2-1"
-  },
-  {
-    "Fighter":"Ben Sosoli",
-    "Peak Elo":1069.2,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-1"
-  },
-  {
-    "Fighter":"Bobby Moffett",
-    "Peak Elo":1069.2,
-    "Weight Class":"Featherweight",
-    "Record":"0-2-1"
-  },
-  {
-    "Fighter":"Robert Drysdale",
+    "Fighter":"Ron Faircloth",
     "Peak Elo":1069.2,
     "Weight Class":"Light Heavyweight",
     "Record":"0-0-1"
   },
   {
-    "Fighter":"Wagner Prado",
+    "Fighter":"Pedro Nobre",
+    "Peak Elo":1069.2,
+    "Weight Class":"Bantamweight",
+    "Record":"0-0-1"
+  },
+  {
+    "Fighter":"Bubba Bush",
+    "Peak Elo":1069.2,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-1"
+  },
+  {
+    "Fighter":"Christian Colombo",
+    "Peak Elo":1069.2,
+    "Weight Class":"Heavyweight",
+    "Record":"0-2-1"
+  },
+  {
+    "Fighter":"Mark Vologdin",
+    "Peak Elo":1069.2,
+    "Weight Class":"Bantamweight",
+    "Record":"0-1-1"
+  },
+  {
+    "Fighter":"CJ Fernandes",
+    "Peak Elo":1069.2,
+    "Weight Class":"Welterweight",
+    "Record":"0-0-1"
+  },
+  {
+    "Fighter":"John Allan",
     "Peak Elo":1069.2,
     "Weight Class":"Light Heavyweight",
     "Record":"0-2-1"
@@ -6174,9 +6162,15 @@
     "Record":"0-1-1"
   },
   {
-    "Fighter":"Vernon White",
+    "Fighter":"Bobby Moffett",
     "Peak Elo":1069.2,
-    "Weight Class":"Light Heavyweight",
+    "Weight Class":"Featherweight",
+    "Record":"0-2-1"
+  },
+  {
+    "Fighter":"Marcus Silveira",
+    "Peak Elo":1069.2,
+    "Weight Class":"Heavyweight",
     "Record":"0-1-1"
   },
   {
@@ -6186,13 +6180,31 @@
     "Record":"0-0-1"
   },
   {
-    "Fighter":"Christian Colombo",
+    "Fighter":"Jesse Bongfeldt",
     "Peak Elo":1069.2,
-    "Weight Class":"Heavyweight",
+    "Weight Class":"Middleweight",
+    "Record":"0-1-1"
+  },
+  {
+    "Fighter":"Vernon White",
+    "Peak Elo":1069.2,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-1-1"
+  },
+  {
+    "Fighter":"Milton Vieira",
+    "Peak Elo":1069.2,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-1"
+  },
+  {
+    "Fighter":"Wagner Prado",
+    "Peak Elo":1069.2,
+    "Weight Class":"Light Heavyweight",
     "Record":"0-2-1"
   },
   {
-    "Fighter":"Ron Faircloth",
+    "Fighter":"Robert Drysdale",
     "Peak Elo":1069.2,
     "Weight Class":"Light Heavyweight",
     "Record":"0-0-1"
@@ -6204,10 +6216,22 @@
     "Record":"1-3-0"
   },
   {
+    "Fighter":"Walel Watson",
+    "Peak Elo":1069.18056,
+    "Weight Class":"Bantamweight",
+    "Record":"1-3-0"
+  },
+  {
     "Fighter":"Tor Troeng",
     "Peak Elo":1069.18056,
     "Weight Class":"Middleweight",
     "Record":"1-3-0"
+  },
+  {
+    "Fighter":"John Albert",
+    "Peak Elo":1069.18056,
+    "Weight Class":"Bantamweight",
+    "Record":"1-4-0"
   },
   {
     "Fighter":"Yorgan De Castro",
@@ -6216,13 +6240,7 @@
     "Record":"1-3-0"
   },
   {
-    "Fighter":"Walel Watson",
-    "Peak Elo":1069.18056,
-    "Weight Class":"Bantamweight",
-    "Record":"1-3-0"
-  },
-  {
-    "Fighter":"Eddie Gordon",
+    "Fighter":"Charles Byrd",
     "Peak Elo":1069.18056,
     "Weight Class":"Middleweight",
     "Record":"1-3-0"
@@ -6234,16 +6252,10 @@
     "Record":"3-4-0"
   },
   {
-    "Fighter":"Alvaro Herrera Mendoza",
+    "Fighter":"Eddie Gordon",
     "Peak Elo":1069.18056,
-    "Weight Class":"Lightweight",
+    "Weight Class":"Middleweight",
     "Record":"1-3-0"
-  },
-  {
-    "Fighter":"John Albert",
-    "Peak Elo":1069.18056,
-    "Weight Class":"Bantamweight",
-    "Record":"1-4-0"
   },
   {
     "Fighter":"Shannon Gugerty",
@@ -6252,9 +6264,9 @@
     "Record":"2-3-0"
   },
   {
-    "Fighter":"Charles Byrd",
+    "Fighter":"Alvaro Herrera Mendoza",
     "Peak Elo":1069.18056,
-    "Weight Class":"Middleweight",
+    "Weight Class":"Lightweight",
     "Record":"1-3-0"
   },
   {
@@ -6312,10 +6324,40 @@
     "Record":"1-3-0"
   },
   {
-    "Fighter":"Justin Salas",
+    "Fighter":"Tafon Nchukwi",
+    "Peak Elo":1068.552,
+    "Weight Class":"Middleweight",
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Guram Kutateladze",
+    "Peak Elo":1068.552,
+    "Weight Class":"Lightweight",
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Ricky Turcios",
+    "Peak Elo":1068.552,
+    "Weight Class":"Featherweight",
+    "Record":"2-4-0"
+  },
+  {
+    "Fighter":"Chris Gruetzemacher",
     "Peak Elo":1068.552,
     "Weight Class":"Lightweight",
     "Record":"3-4-0"
+  },
+  {
+    "Fighter":"Bolaji Oki",
+    "Peak Elo":1068.552,
+    "Weight Class":"Lightweight",
+    "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Mark Eddiva",
+    "Peak Elo":1068.552,
+    "Weight Class":"Featherweight",
+    "Record":"1-3-0"
   },
   {
     "Fighter":"Bojan Velickovic",
@@ -6330,40 +6372,16 @@
     "Record":"1-3-0"
   },
   {
-    "Fighter":"Guram Kutateladze",
-    "Peak Elo":1068.552,
-    "Weight Class":"Lightweight",
-    "Record":"2-3-0"
-  },
-  {
-    "Fighter":"Bolaji Oki",
-    "Peak Elo":1068.552,
-    "Weight Class":"Lightweight",
-    "Record":"2-3-0"
-  },
-  {
-    "Fighter":"Carlos Hernandez",
-    "Peak Elo":1068.552,
-    "Weight Class":"Flyweight",
-    "Record":"3-4-0"
-  },
-  {
-    "Fighter":"Mark Eddiva",
-    "Peak Elo":1068.552,
-    "Weight Class":"Featherweight",
-    "Record":"1-3-0"
-  },
-  {
-    "Fighter":"Ricky Turcios",
-    "Peak Elo":1068.552,
-    "Weight Class":"Featherweight",
-    "Record":"2-4-0"
-  },
-  {
     "Fighter":"Sam Hoger",
     "Peak Elo":1068.552,
     "Weight Class":"Light Heavyweight",
     "Record":"2-3-0"
+  },
+  {
+    "Fighter":"Justin Salas",
+    "Peak Elo":1068.552,
+    "Weight Class":"Lightweight",
+    "Record":"3-4-0"
   },
   {
     "Fighter":"Colton Smith",
@@ -6372,21 +6390,15 @@
     "Record":"1-3-0"
   },
   {
-    "Fighter":"Tafon Nchukwi",
-    "Peak Elo":1068.552,
-    "Weight Class":"Middleweight",
-    "Record":"2-4-0"
-  },
-  {
     "Fighter":"Richard Walsh",
     "Peak Elo":1068.552,
     "Weight Class":"Welterweight",
     "Record":"2-4-0"
   },
   {
-    "Fighter":"Chris Gruetzemacher",
+    "Fighter":"Carlos Hernandez",
     "Peak Elo":1068.552,
-    "Weight Class":"Lightweight",
+    "Weight Class":"Flyweight",
     "Record":"3-4-0"
   },
   {
@@ -6414,16 +6426,16 @@
     "Record":"2-3-0"
   },
   {
-    "Fighter":"Harold Howard",
-    "Peak Elo":1068.123406189,
-    "Weight Class":"Open Weight",
-    "Record":"1-2-0"
-  },
-  {
     "Fighter":"Steven Graham",
     "Peak Elo":1068.123406189,
     "Weight Class":"Heavyweight",
     "Record":"1-1-0"
+  },
+  {
+    "Fighter":"Harold Howard",
+    "Peak Elo":1068.123406189,
+    "Weight Class":"Open Weight",
+    "Record":"1-2-0"
   },
   {
     "Fighter":"Azat Maksum",
@@ -6566,8 +6578,8 @@
   {
     "Fighter":"Trevor Peek",
     "Peak Elo":1066.6996000515,
-    "Weight Class":"Lightweight",
-    "Record":"2-3-0"
+    "Weight Class":"Featherweight",
+    "Record":"2-4-0"
   },
   {
     "Fighter":"Yan Cabral",
@@ -6591,12 +6603,6 @@
     "Fighter":"John Garza",
     "Peak Elo":1066.2405864867,
     "Weight Class":"Bantamweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Losene Keita",
-    "Peak Elo":1065.9277490674,
-    "Weight Class":"Featherweight",
     "Record":"0-1-0"
   },
   {
@@ -6696,6 +6702,12 @@
     "Record":"2-4-0"
   },
   {
+    "Fighter":"Anthony Romero",
+    "Peak Elo":1063.4198171534,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
     "Fighter":"Paul Varelans",
     "Peak Elo":1063.325277034,
     "Weight Class":"Open Weight",
@@ -6786,6 +6798,12 @@
     "Record":"6-1-0"
   },
   {
+    "Fighter":"Bruce Whitehead",
+    "Peak Elo":1061.9991382677,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
     "Fighter":"Alberto Crane",
     "Peak Elo":1061.9597850093,
     "Weight Class":"Lightweight",
@@ -6852,6 +6870,12 @@
     "Record":"0-1-0"
   },
   {
+    "Fighter":"Eric Nolan",
+    "Peak Elo":1061.4461369423,
+    "Weight Class":"Welterweight",
+    "Record":"1-2-0"
+  },
+  {
     "Fighter":"Landon Quinones",
     "Peak Elo":1061.4040951097,
     "Weight Class":"Lightweight",
@@ -6885,12 +6909,6 @@
     "Fighter":"Adrian Luna Martinetti",
     "Peak Elo":1061.1941821726,
     "Weight Class":"Bantamweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Christian Edwards",
-    "Peak Elo":1061.1775832248,
-    "Weight Class":"Catch Weight",
     "Record":"0-1-0"
   },
   {
@@ -6990,16 +7008,10 @@
     "Record":"0-2-1"
   },
   {
-    "Fighter":"Ailin Perez",
-    "Peak Elo":1060.7473842651,
-    "Weight Class":"Women's Bantamweight",
-    "Record":"6-1-0"
-  },
-  {
     "Fighter":"Josiah Harrell",
     "Peak Elo":1060.7374764974,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
   },
   {
     "Fighter":"Brandon Wolff",
@@ -7140,9 +7152,9 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Bruno Souza",
+    "Fighter":"Tateki Matsuda",
     "Peak Elo":1059.988485451,
-    "Weight Class":"Featherweight",
+    "Weight Class":"Flyweight",
     "Record":"0-2-0"
   },
   {
@@ -7152,9 +7164,9 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Tateki Matsuda",
+    "Fighter":"Bruno Souza",
     "Peak Elo":1059.988485451,
-    "Weight Class":"Flyweight",
+    "Weight Class":"Featherweight",
     "Record":"0-2-0"
   },
   {
@@ -7182,6 +7194,12 @@
     "Record":"0-2-0"
   },
   {
+    "Fighter":"Townsend Saunders",
+    "Peak Elo":1059.8885034245,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
     "Fighter":"Justin Jones",
     "Peak Elo":1059.8885034245,
     "Weight Class":"Middleweight",
@@ -7200,15 +7218,15 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Townsend Saunders",
-    "Peak Elo":1059.8885034245,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
     "Fighter":"Josh Copeland",
     "Peak Elo":1059.8456041165,
     "Weight Class":"Heavyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Paul Redmond",
+    "Peak Elo":1059.8456041165,
+    "Weight Class":"Featherweight",
     "Record":"0-2-0"
   },
   {
@@ -7216,12 +7234,6 @@
     "Peak Elo":1059.8456041165,
     "Weight Class":"Welterweight",
     "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Paul Redmond",
-    "Peak Elo":1059.8456041165,
-    "Weight Class":"Featherweight",
-    "Record":"0-2-0"
   },
   {
     "Fighter":"Yusuke Kasuya",
@@ -7410,18 +7422,6 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"John Dowdy",
-    "Peak Elo":1059.2851585273,
-    "Weight Class":"Open Weight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"CM Punk",
-    "Peak Elo":1059.2851585273,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-1"
-  },
-  {
     "Fighter":"Guto Inocente",
     "Peak Elo":1059.2851585273,
     "Weight Class":"Light Heavyweight",
@@ -7434,16 +7434,34 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Valeri Ignatov",
+    "Fighter":"John Dowdy",
     "Peak Elo":1059.2851585273,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
+    "Weight Class":"Open Weight",
+    "Record":"0-1-0"
   },
   {
     "Fighter":"Frank Caracci",
     "Peak Elo":1059.2851585273,
     "Weight Class":"Lightweight",
     "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Lucas Armand",
+    "Peak Elo":1059.2851585273,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Valeri Ignatov",
+    "Peak Elo":1059.2851585273,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"CM Punk",
+    "Peak Elo":1059.2851585273,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-1"
   },
   {
     "Fighter":"Yasuhiro Urushitani",
@@ -7456,12 +7474,6 @@
     "Peak Elo":1059.2791412576,
     "Weight Class":"Featherweight",
     "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Chris Price",
-    "Peak Elo":1059.24097224,
-    "Weight Class":"Middleweight",
-    "Record":"0-2-0"
   },
   {
     "Fighter":"Bill Mahood",
@@ -7480,6 +7492,12 @@
     "Peak Elo":1059.24097224,
     "Weight Class":"Welterweight",
     "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Chris Price",
+    "Peak Elo":1059.24097224,
+    "Weight Class":"Middleweight",
+    "Record":"0-2-0"
   },
   {
     "Fighter":"Harry Hardwick",
@@ -7570,6 +7588,12 @@
     "Peak Elo":1058.9285145021,
     "Weight Class":"Light Heavyweight",
     "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Sean Sharaf",
+    "Peak Elo":1058.8561523728,
+    "Weight Class":"Heavyweight",
+    "Record":"1-2-0"
   },
   {
     "Fighter":"Eddie Ruiz",
@@ -7680,33 +7704,51 @@
     "Record":"0-2-0"
   },
   {
+    "Fighter":"Marek Bujlo",
+    "Peak Elo":1058.4,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Damien Anderson",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Enrique Marin",
+    "Peak Elo":1058.4,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Bobby Southworth",
+    "Peak Elo":1058.4,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Collin Hart",
+    "Peak Elo":1058.4,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
     "Fighter":"Alex Stiebling",
     "Peak Elo":1058.4,
     "Weight Class":"Middleweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"James Hammortree",
-    "Peak Elo":1058.4,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Richard Crunkilton",
+    "Fighter":"Alex Gorgees",
     "Peak Elo":1058.4,
     "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Rodolfo Rubio Perez",
+    "Fighter":"Damian Rzepecki",
     "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Tyler Toner",
-    "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
+    "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
@@ -7716,135 +7758,15 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Jay Cucciniello",
+    "Fighter":"Horacio Gutierrez",
     "Peak Elo":1058.4,
     "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Justin Wren",
-    "Peak Elo":1058.4,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Rocky Lee",
-    "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Tyler Diamond",
-    "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
+    "Record":"0-2-0"
   },
   {
     "Fighter":"Romie Aram",
     "Peak Elo":1058.4,
     "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Sako Chivitchian",
-    "Peak Elo":1058.4,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Ryan McGillivray",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"James Zikic",
-    "Peak Elo":1058.4,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Baergeng Jieleyisi",
-    "Peak Elo":1058.4,
-    "Weight Class":"Bantamweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Alex Torres",
-    "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Steve Berger",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-1"
-  },
-  {
-    "Fighter":"Mark Scanlon",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Curtis Stout",
-    "Peak Elo":1058.4,
-    "Weight Class":"Middleweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Leonardo Morales",
-    "Peak Elo":1058.4,
-    "Weight Class":"Bantamweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Brad Gumm",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-1"
-  },
-  {
-    "Fighter":"Allan Zuniga",
-    "Peak Elo":1058.4,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Rostem Akman",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Collin Hart",
-    "Peak Elo":1058.4,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Kwan Ho Kwak",
-    "Peak Elo":1058.4,
-    "Weight Class":"Bantamweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Pedro Falcao",
-    "Peak Elo":1058.4,
-    "Weight Class":"Bantamweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Igor Severino",
-    "Peak Elo":1058.4,
-    "Weight Class":"Flyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Allan Goes",
-    "Peak Elo":1058.4,
-    "Weight Class":"Middleweight",
     "Record":"0-1-0"
   },
   {
@@ -7854,10 +7776,40 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Bernardo Magalhaes",
+    "Fighter":"Donny Walker",
+    "Peak Elo":1058.4,
+    "Weight Class":"Bantamweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Abner Lloveras",
     "Peak Elo":1058.4,
     "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Marcin Wrzosek",
+    "Peak Elo":1058.4,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Leonardo Morales",
+    "Peak Elo":1058.4,
+    "Weight Class":"Bantamweight",
     "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Carls John De Tomas",
+    "Peak Elo":1058.4,
+    "Weight Class":"Bantamweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"James Zikic",
+    "Peak Elo":1058.4,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-1-0"
   },
   {
     "Fighter":"Cory Hendricks",
@@ -7866,55 +7818,19 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Steve Byrnes",
+    "Fighter":"Allan Goes",
     "Peak Elo":1058.4,
     "Weight Class":"Middleweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Andre Gusmao",
-    "Peak Elo":1058.4,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Antonio Banuelos",
-    "Peak Elo":1058.4,
-    "Weight Class":"Bantamweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Carlos Candelario",
-    "Peak Elo":1058.4,
-    "Weight Class":"Flyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"John Teixeira",
-    "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Alex Ricci",
-    "Peak Elo":1058.4,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Jim Wallhead",
+    "Fighter":"Rostem Akman",
     "Peak Elo":1058.4,
     "Weight Class":"Welterweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Gadzhi Omargadzhiev",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Dante Rivera",
+    "Fighter":"Noe Hernandez",
     "Peak Elo":1058.4,
     "Weight Class":"Middleweight",
     "Record":"0-1-0"
@@ -7926,57 +7842,57 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Dan Barrera",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Colin Fletcher",
-    "Peak Elo":1058.4,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Carls John De Tomas",
-    "Peak Elo":1058.4,
-    "Weight Class":"Bantamweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Carlton Minus",
-    "Peak Elo":1058.4,
-    "Weight Class":"Catch Weight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Yuri Villefort",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Chris Spang",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Bobby Southworth",
-    "Peak Elo":1058.4,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
     "Fighter":"Chuck O'Neil",
     "Peak Elo":1058.4,
     "Weight Class":"Welterweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Dileno Lopes",
+    "Fighter":"Rodolfo Rubio Perez",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Mahammadali Osmanli",
     "Peak Elo":1058.4,
     "Weight Class":"Bantamweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Igor Severino",
+    "Peak Elo":1058.4,
+    "Weight Class":"Flyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"James Hammortree",
+    "Peak Elo":1058.4,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Kwan Ho Kwak",
+    "Peak Elo":1058.4,
+    "Weight Class":"Bantamweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Dave Galera",
+    "Peak Elo":1058.4,
+    "Weight Class":"Bantamweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Brad Gumm",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-1"
+  },
+  {
+    "Fighter":"Curtis Stout",
+    "Peak Elo":1058.4,
+    "Weight Class":"Middleweight",
     "Record":"0-2-0"
   },
   {
@@ -7986,64 +7902,70 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Stephen Bass",
+    "Fighter":"Dileno Lopes",
     "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
+    "Weight Class":"Bantamweight",
+    "Record":"0-2-0"
   },
   {
-    "Fighter":"Jon Manley",
+    "Fighter":"Steve Berger",
     "Peak Elo":1058.4,
     "Weight Class":"Welterweight",
-    "Record":"0-1-0"
+    "Record":"0-2-1"
   },
   {
-    "Fighter":"Brendan Loughnane",
+    "Fighter":"Baergeng Jieleyisi",
     "Peak Elo":1058.4,
-    "Weight Class":"Lightweight",
+    "Weight Class":"Bantamweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Enrique Marin",
+    "Fighter":"Bernardo Magalhaes",
     "Peak Elo":1058.4,
     "Weight Class":"Lightweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Horacio Gutierrez",
+    "Fighter":"Luiz Dutra",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Gadzhi Omargadzhiev",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Tyler Diamond",
     "Peak Elo":1058.4,
     "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Rocky Lee",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Michael Aljarouj",
+    "Peak Elo":1058.4,
+    "Weight Class":"Flyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Carlos Candelario",
+    "Peak Elo":1058.4,
+    "Weight Class":"Flyweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Alex Gorgees",
+    "Fighter":"Pedro Falcao",
     "Peak Elo":1058.4,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Abner Lloveras",
-    "Peak Elo":1058.4,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"James Mulheron",
-    "Peak Elo":1058.4,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Marcin Wrzosek",
-    "Peak Elo":1058.4,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Marek Bujlo",
-    "Peak Elo":1058.4,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
+    "Weight Class":"Bantamweight",
+    "Record":"0-2-0"
   },
   {
     "Fighter":"Nazareno Malegarie",
@@ -8052,21 +7974,39 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Noe Hernandez",
-    "Peak Elo":1058.4,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Sangwook Kim",
+    "Fighter":"Allan Zuniga",
     "Peak Elo":1058.4,
     "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Sulangrangbo",
+    "Fighter":"Justin Wren",
     "Peak Elo":1058.4,
-    "Weight Class":"Bantamweight",
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Stephen Bass",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Richard Crunkilton",
+    "Peak Elo":1058.4,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jim Wallhead",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Jay Cucciniello",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
     "Record":"0-1-0"
   },
   {
@@ -8076,10 +8016,112 @@
     "Record":"0-1-0"
   },
   {
+    "Fighter":"Ryan McGillivray",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Alex Ricci",
+    "Peak Elo":1058.4,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Alex Torres",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Chris Spang",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Steve Byrnes",
+    "Peak Elo":1058.4,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Carlton Minus",
+    "Peak Elo":1058.4,
+    "Weight Class":"Catch Weight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Jon Manley",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jianping Yang",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Sulangrangbo",
+    "Peak Elo":1058.4,
+    "Weight Class":"Bantamweight",
+    "Record":"0-1-0"
+  },
+  {
     "Fighter":"Nolan Ticman",
     "Peak Elo":1058.4,
     "Weight Class":"Flyweight",
     "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Yuri Villefort",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Chris Indich",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Ding Meng",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Sangwook Kim",
+    "Peak Elo":1058.4,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Tyler Toner",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Dan Barrera",
+    "Peak Elo":1058.4,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Dante Rivera",
+    "Peak Elo":1058.4,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"John Teixeira",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
   },
   {
     "Fighter":"Andreas Stahl",
@@ -8088,10 +8130,34 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Wallid Ismail",
+    "Fighter":"Sako Chivitchian",
     "Peak Elo":1058.4,
     "Weight Class":"Lightweight",
     "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Brendan Loughnane",
+    "Peak Elo":1058.4,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Otari Tanzilovi",
+    "Peak Elo":1058.4,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Andre Gusmao",
+    "Peak Elo":1058.4,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Colin Fletcher",
+    "Peak Elo":1058.4,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
   },
   {
     "Fighter":"Allen Frye Jr.",
@@ -8100,9 +8166,15 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Dakota Hope",
+    "Fighter":"James Mulheron",
     "Peak Elo":1058.4,
-    "Weight Class":"Lightweight",
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Antonio Banuelos",
+    "Peak Elo":1058.4,
+    "Weight Class":"Bantamweight",
     "Record":"0-1-0"
   },
   {
@@ -8112,64 +8184,28 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Ding Meng",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Otari Tanzilovi",
-    "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Luiz Dutra",
-    "Peak Elo":1058.4,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Damien Anderson",
-    "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Dave Galera",
-    "Peak Elo":1058.4,
-    "Weight Class":"Bantamweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Donny Walker",
-    "Peak Elo":1058.4,
-    "Weight Class":"Bantamweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Damian Rzepecki",
+    "Fighter":"Wallid Ismail",
     "Peak Elo":1058.4,
     "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Chris Indich",
+    "Fighter":"Dakota Hope",
+    "Peak Elo":1058.4,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Mark Scanlon",
     "Peak Elo":1058.4,
     "Weight Class":"Welterweight",
-    "Record":"0-2-0"
+    "Record":"0-1-0"
   },
   {
     "Fighter":"Alan Omer",
     "Peak Elo":1058.4,
     "Weight Class":"Featherweight",
     "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Jianping Yang",
-    "Peak Elo":1058.4,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
   },
   {
     "Fighter":"Lucas Brennan",
@@ -8388,130 +8424,22 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Sammy Morgan",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Andy Anderson",
-    "Peak Elo":1057.752,
-    "Weight Class":"Open Weight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Manolo Zecchini",
-    "Peak Elo":1057.752,
-    "Weight Class":"Featherweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Dan Stittgen",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Lodune Sincaid",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Matt Andersen",
-    "Peak Elo":1057.752,
-    "Weight Class":"Open Weight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Johnny Rees",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Brodie Farber",
-    "Peak Elo":1057.752,
-    "Weight Class":"Catch Weight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Cesar Arzamendia",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Josh Rafferty",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Vernon Ramos Ho",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Sean Gannon",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jack May",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Matt Van Buren",
-    "Peak Elo":1057.752,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Victor Rodriguez",
-    "Peak Elo":1057.752,
-    "Weight Class":"Flyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Larry Cureton",
-    "Peak Elo":1057.752,
-    "Weight Class":"Open Weight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Jules Bruchez",
-    "Peak Elo":1057.752,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Rafael Cerqueira",
-    "Peak Elo":1057.752,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Asbel Cancio",
-    "Peak Elo":1057.752,
-    "Weight Class":"Open Weight",
-    "Record":"0-1-0"
-  },
-  {
     "Fighter":"Daniel Jolly",
     "Peak Elo":1057.752,
     "Weight Class":"Light Heavyweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Josh Stuart",
+    "Fighter":"Fredson Paixao",
     "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
+    "Weight Class":"Featherweight",
     "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Anthony Ivy",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
   },
   {
     "Fighter":"Kevin Rosier",
@@ -8520,99 +8448,9 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Alex Schoenauer",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Luis Ramos",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Tom Egan",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Razak Al-Hassan",
-    "Peak Elo":1057.752,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Josh Shockley",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Manuel Rodriguez",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Cale Yarbrough",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Michel Batista",
+    "Fighter":"Terrance Chatman",
     "Peak Elo":1057.752,
     "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Andy Wang",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Sherman Pendergarst",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Richardson Moreira",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Ulysses Gomez",
-    "Peak Elo":1057.752,
-    "Weight Class":"Flyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Ben Wall",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"YiSak Lee",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Delson Heleno",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Zhu Kangjie",
-    "Peak Elo":1057.752,
-    "Weight Class":"Featherweight",
     "Record":"0-1-0"
   },
   {
@@ -8622,57 +8460,141 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Anistavio Medeiros",
-    "Peak Elo":1057.752,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Francesco Maturi",
-    "Peak Elo":1057.752,
-    "Weight Class":"Open Weight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Justin Frazier",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Paulo Santos",
+    "Fighter":"Aaron Wilkinson",
     "Peak Elo":1057.752,
     "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"David Hood",
+    "Fighter":"Brodie Farber",
     "Peak Elo":1057.752,
-    "Weight Class":"Open Weight",
-    "Record":"0-1-0"
+    "Weight Class":"Catch Weight",
+    "Record":"0-2-0"
   },
   {
-    "Fighter":"Tommy Speer",
+    "Fighter":"Johnny Rees",
     "Peak Elo":1057.752,
     "Weight Class":"Welterweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Billy Miles",
+    "Fighter":"Albert Cheng",
     "Peak Elo":1057.752,
     "Weight Class":"Welterweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"John Kolosci",
+    "Fighter":"Charlie Ward",
     "Peak Elo":1057.752,
     "Weight Class":"Welterweight",
-    "Record":"0-1-0"
+    "Record":"0-2-0"
   },
   {
-    "Fighter":"Ernie Verdicia",
+    "Fighter":"Asbel Cancio",
     "Peak Elo":1057.752,
     "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Tim McKenzie",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Gerald Strebendt",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Josh Shockley",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Cale Yarbrough",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Zach Light",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Richardson Moreira",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Sammy Morgan",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Zhu Kangjie",
+    "Peak Elo":1057.752,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Brad Morris",
+    "Peak Elo":1057.752,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Ben Wall",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Frank Lester",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Joseph Sandoval",
+    "Peak Elo":1057.752,
+    "Weight Class":"Bantamweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Kiru Sahota",
+    "Peak Elo":1057.752,
+    "Weight Class":"Flyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"YiSak Lee",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Sherman Pendergarst",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Bharat Kandare",
+    "Peak Elo":1057.752,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Sean Gannon",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
     "Record":"0-1-0"
   },
   {
@@ -8682,43 +8604,91 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Brad Morris",
+    "Fighter":"Joey Gilbert",
     "Peak Elo":1057.752,
-    "Weight Class":"Light Heavyweight",
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jack May",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Ross Pointon",
+    "Fighter":"Aaron Brink",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Michel Batista",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Luis Ramos",
     "Peak Elo":1057.752,
     "Weight Class":"Welterweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Chris Sanford",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Danny Abbadi",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Wes Combs",
-    "Peak Elo":1057.752,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Chris Saunders",
+    "Fighter":"Milos Janicic",
     "Peak Elo":1057.752,
     "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Jack McGlaughlin",
+    "Fighter":"Matt Andersen",
+    "Peak Elo":1057.752,
+    "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Richie Hightower",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Francesco Maturi",
+    "Peak Elo":1057.752,
+    "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Emmanuel Yarborough",
+    "Peak Elo":1057.752,
+    "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Manuel Rodriguez",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Cesar Arzamendia",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Justin Frazier",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Vernon Ramos Ho",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"David Hood",
     "Peak Elo":1057.752,
     "Weight Class":"Open Weight",
     "Record":"0-1-0"
@@ -8730,16 +8700,328 @@
     "Record":"0-1-0"
   },
   {
+    "Fighter":"Andy Anderson",
+    "Peak Elo":1057.752,
+    "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Alex Schoenauer",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Steve Montgomery",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Pat Schilling",
+    "Peak Elo":1057.752,
+    "Weight Class":"Featherweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Elisha Ellison",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"John Kolosci",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Lodune Sincaid",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Donnie Chappell",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Chris Sanford",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jules Bruchez",
+    "Peak Elo":1057.752,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Royce Alger",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Sean Daugherty",
+    "Peak Elo":1057.752,
+    "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Victor Rodriguez",
+    "Peak Elo":1057.752,
+    "Weight Class":"Flyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Aalon Cruz",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Thaddeus Luster",
+    "Peak Elo":1057.752,
+    "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Paulo Santos",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Adriano Santos",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jason Thacker",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Darrel Gholar",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Ross Pointon",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Jessie Rosas",
+    "Peak Elo":1057.752,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Delson Heleno",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Joe Pardo",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Chris Condo",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Razak Al-Hassan",
+    "Peak Elo":1057.752,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Wes Combs",
+    "Peak Elo":1057.752,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Cain Carrizosa",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Tommy Speer",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Eugenio Tadeu",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Billy Miles",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Josh Stuart",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Alexander Poppeck",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jack McGlaughlin",
+    "Peak Elo":1057.752,
+    "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Bob Gilstrap",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Rafael Cerqueira",
+    "Peak Elo":1057.752,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Chris Saunders",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Todd Butler",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Josh Rafferty",
+    "Peak Elo":1057.752,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jimmy Quinlan",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jason Fairn",
+    "Peak Elo":1057.752,
+    "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Max Gimenis",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Joey Roberts",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Danny Abbadi",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
     "Fighter":"Crafton Wallace",
     "Peak Elo":1057.752,
     "Weight Class":"Middleweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Charlie Ward",
+    "Fighter":"Jackie Lee",
     "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Larry Cureton",
+    "Peak Elo":1057.752,
+    "Weight Class":"Open Weight",
     "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Flavio Luiz Moura",
+    "Peak Elo":1057.752,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Ulysses Gomez",
+    "Peak Elo":1057.752,
+    "Weight Class":"Flyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Richie Smullen",
+    "Peak Elo":1057.752,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Matt Van Buren",
+    "Peak Elo":1057.752,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Eric Martin",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Wade Shipp",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Anistavio Medeiros",
+    "Peak Elo":1057.752,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Neil Grove",
+    "Peak Elo":1057.752,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
   },
   {
     "Fighter":"Cory Walmsley",
@@ -8754,219 +9036,15 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Richie Hightower",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Adam Cella",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jason Thacker",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Max Gimenis",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Emmanuel Yarborough",
-    "Peak Elo":1057.752,
-    "Weight Class":"Open Weight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Tim McKenzie",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jason Fairn",
-    "Peak Elo":1057.752,
-    "Weight Class":"Open Weight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Eric Martin",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Terrance Chatman",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Darrel Gholar",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Bharat Kandare",
-    "Peak Elo":1057.752,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Anthony Ivy",
+    "Fighter":"Dan Stittgen",
     "Peak Elo":1057.752,
     "Weight Class":"Welterweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Frank Lester",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Elisha Ellison",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Kiru Sahota",
-    "Peak Elo":1057.752,
-    "Weight Class":"Flyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Milos Janicic",
+    "Fighter":"Andy Wang",
     "Peak Elo":1057.752,
     "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Alexander Poppeck",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Pat Schilling",
-    "Peak Elo":1057.752,
-    "Weight Class":"Featherweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Zach Light",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Aalon Cruz",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Eugenio Tadeu",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Richie Smullen",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Todd Butler",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Thaddeus Luster",
-    "Peak Elo":1057.752,
-    "Weight Class":"Open Weight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Rodrigo Sezinando",
-    "Peak Elo":1057.752,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Aaron Brink",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Donnie Chappell",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Bob Gilstrap",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Joey Gilbert",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Joey Roberts",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Royce Alger",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Flavio Luiz Moura",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jackie Lee",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"David Roberts",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Steve Montgomery",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Wade Shipp",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
     "Record":"0-1-0"
   },
   {
@@ -8976,76 +9054,40 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Joe Pardo",
+    "Fighter":"Manolo Zecchini",
     "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
+    "Weight Class":"Featherweight",
+    "Record":"0-2-0"
   },
   {
-    "Fighter":"Neil Grove",
-    "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Aaron Wilkinson",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Adriano Santos",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Albert Cheng",
+    "Fighter":"Rodrigo Sezinando",
     "Peak Elo":1057.752,
     "Weight Class":"Welterweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Chris Condo",
+    "Fighter":"David Roberts",
     "Peak Elo":1057.752,
-    "Weight Class":"Heavyweight",
+    "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Joseph Sandoval",
-    "Peak Elo":1057.752,
-    "Weight Class":"Bantamweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Jimmy Quinlan",
-    "Peak Elo":1057.752,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Sean Daugherty",
+    "Fighter":"Ernie Verdicia",
     "Peak Elo":1057.752,
     "Weight Class":"Open Weight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Gerald Strebendt",
+    "Fighter":"Tom Egan",
     "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
+    "Weight Class":"Welterweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Fredson Paixao",
+    "Fighter":"Adam Cella",
     "Peak Elo":1057.752,
-    "Weight Class":"Featherweight",
+    "Weight Class":"Middleweight",
     "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Cain Carrizosa",
-    "Peak Elo":1057.752,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
   },
   {
     "Fighter":"Paul Creighton",
@@ -9081,12 +9123,6 @@
     "Fighter":"Carlos Mota",
     "Peak Elo":1057.7023445892,
     "Weight Class":"Flyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Kurtis Campbell",
-    "Peak Elo":1057.7010194345,
-    "Weight Class":"Featherweight",
     "Record":"0-1-0"
   },
   {
@@ -9154,12 +9190,6 @@
     "Peak Elo":1057.5980018271,
     "Weight Class":"Flyweight",
     "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Patricio Pitbull",
-    "Peak Elo":1057.5798754387,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
   },
   {
     "Fighter":"CJ Keith",
@@ -9330,16 +9360,16 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Jorge Lopez",
-    "Peak Elo":1056.9295553963,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
     "Fighter":"Domingo Pilarte",
     "Peak Elo":1056.9295553963,
     "Weight Class":"Bantamweight",
     "Record":"0-2-1"
+  },
+  {
+    "Fighter":"Jorge Lopez",
+    "Peak Elo":1056.9295553963,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
   },
   {
     "Fighter":"Ray Wizard",
@@ -9384,15 +9414,15 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Leonardo Guimaraes",
-    "Peak Elo":1056.8851450725,
-    "Weight Class":"Middleweight",
-    "Record":"0-2-0"
-  },
-  {
     "Fighter":"Jorge de Oliveira",
     "Peak Elo":1056.8851450725,
     "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Leonardo Guimaraes",
+    "Peak Elo":1056.8851450725,
+    "Weight Class":"Middleweight",
     "Record":"0-2-0"
   },
   {
@@ -9588,46 +9618,10 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Hayder Hassan",
+    "Fighter":"Steven Koslow",
     "Peak Elo":1056.24,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"James Bochnovic",
-    "Peak Elo":1056.24,
-    "Weight Class":"Middleweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Gilbert Smith",
-    "Peak Elo":1056.24,
-    "Weight Class":"Middleweight",
+    "Weight Class":"Bantamweight",
     "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Derek Downey",
-    "Peak Elo":1056.24,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Fernando Bruno",
-    "Peak Elo":1056.24,
-    "Weight Class":"Featherweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Michel Quinones",
-    "Peak Elo":1056.24,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Leo Kuntz",
-    "Peak Elo":1056.24,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
   },
   {
     "Fighter":"Shane Primm",
@@ -9636,10 +9630,10 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"John Polakowski",
+    "Fighter":"Louis Cosce",
     "Peak Elo":1056.24,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
   },
   {
     "Fighter":"David Kaplan",
@@ -9648,133 +9642,13 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Louis Cosce",
+    "Fighter":"Jared Rollins",
     "Peak Elo":1056.24,
     "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Oli Thompson",
-    "Peak Elo":1056.24,
-    "Weight Class":"Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Fabiano Scherner",
-    "Peak Elo":1056.24,
-    "Weight Class":"Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"David Baron",
-    "Peak Elo":1056.24,
-    "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Bruno Korea",
-    "Peak Elo":1056.24,
-    "Weight Class":"Bantamweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jeremy Jackson",
-    "Peak Elo":1056.24,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Leigh Remedios",
-    "Peak Elo":1056.24,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Bristol Marunde",
-    "Peak Elo":1056.24,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Alexandre Dantas",
-    "Peak Elo":1056.24,
-    "Weight Class":"Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Humberto Brown Morrison",
-    "Peak Elo":1056.24,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Eric Nolan",
-    "Peak Elo":1056.24,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Mike Lullo",
-    "Peak Elo":1056.24,
-    "Weight Class":"Featherweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Byron Bloodworth",
-    "Peak Elo":1056.24,
-    "Weight Class":"Bantamweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Vinicius Queiroz",
-    "Peak Elo":1056.24,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Lowell Anderson",
-    "Peak Elo":1056.24,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Nilson Rojas",
-    "Peak Elo":1056.24,
-    "Weight Class":"Flyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jermaine Andre",
-    "Peak Elo":1056.24,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Josh Bryant",
-    "Peak Elo":1056.24,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jamie Yager",
-    "Peak Elo":1056.24,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jon Olav Einemo",
-    "Peak Elo":1056.24,
-    "Weight Class":"Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Zygimantas Ramaska",
-    "Peak Elo":1056.24,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Marcus Jones",
+    "Fighter":"Nandor Guelmino",
     "Peak Elo":1056.24,
     "Weight Class":"Heavyweight",
     "Record":"0-1-0"
@@ -9786,15 +9660,21 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Darrill Schoonover",
+    "Fighter":"Bristol Marunde",
+    "Peak Elo":1056.24,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Kristof Midoux",
     "Peak Elo":1056.24,
     "Weight Class":"Heavyweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Bentley Syler",
+    "Fighter":"John Polakowski",
     "Peak Elo":1056.24,
-    "Weight Class":"Flyweight",
+    "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
@@ -9804,9 +9684,171 @@
     "Record":"1-2-0"
   },
   {
-    "Fighter":"Danillo Villefort",
+    "Fighter":"Dashon Johnson",
+    "Peak Elo":1056.24,
+    "Weight Class":"Featherweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Humberto Brown Morrison",
+    "Peak Elo":1056.24,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Keigo Kunihara",
+    "Peak Elo":1056.24,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"James Giboo",
     "Peak Elo":1056.24,
     "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Nilson Rojas",
+    "Peak Elo":1056.24,
+    "Weight Class":"Flyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Wagner Silva",
+    "Peak Elo":1056.24,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Gilbert Smith",
+    "Peak Elo":1056.24,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Mike King",
+    "Peak Elo":1056.24,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Wagner Campos",
+    "Peak Elo":1056.24,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Icho Larenas",
+    "Peak Elo":1056.24,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"SeungGuk Choi",
+    "Peak Elo":1056.24,
+    "Weight Class":"Flyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"James Bochnovic",
+    "Peak Elo":1056.24,
+    "Weight Class":"Middleweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Besam Yousef",
+    "Peak Elo":1056.24,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Sebastian Szalay",
+    "Peak Elo":1056.24,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jefferson Nascimento",
+    "Peak Elo":1056.24,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Fabiano Scherner",
+    "Peak Elo":1056.24,
+    "Weight Class":"Heavyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Artur Minev",
+    "Peak Elo":1056.24,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Michel Quinones",
+    "Peak Elo":1056.24,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Vinicius Queiroz",
+    "Peak Elo":1056.24,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"John Cofer",
+    "Peak Elo":1056.24,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"David Baron",
+    "Peak Elo":1056.24,
+    "Weight Class":"Lightweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jon Olav Einemo",
+    "Peak Elo":1056.24,
+    "Weight Class":"Heavyweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Kerry Schall",
+    "Peak Elo":1056.24,
+    "Weight Class":"Heavyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Hayder Hassan",
+    "Peak Elo":1056.24,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Jermaine Andre",
+    "Peak Elo":1056.24,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Dustin Neace",
+    "Peak Elo":1056.24,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Fernando Bruno",
+    "Peak Elo":1056.24,
+    "Weight Class":"Featherweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Martin Svensson",
+    "Peak Elo":1056.24,
+    "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
@@ -9816,28 +9858,10 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Dustin Neace",
-    "Peak Elo":1056.24,
-    "Weight Class":"Featherweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Yoislandy Izquierdo",
+    "Fighter":"Te Edwards",
     "Peak Elo":1056.24,
     "Weight Class":"Lightweight",
     "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Mike King",
-    "Peak Elo":1056.24,
-    "Weight Class":"Middleweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Keigo Kunihara",
-    "Peak Elo":1056.24,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
   },
   {
     "Fighter":"Rolles Gracie",
@@ -9852,34 +9876,40 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Sebastian Szalay",
+    "Fighter":"Bruno Korea",
     "Peak Elo":1056.24,
-    "Weight Class":"Featherweight",
+    "Weight Class":"Bantamweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Dashon Johnson",
-    "Peak Elo":1056.24,
-    "Weight Class":"Featherweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Nandor Guelmino",
+    "Fighter":"Marcus Jones",
     "Peak Elo":1056.24,
     "Weight Class":"Heavyweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"James Giboo",
+    "Fighter":"Darrill Schoonover",
     "Peak Elo":1056.24,
-    "Weight Class":"Welterweight",
+    "Weight Class":"Heavyweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Martin Svensson",
+    "Fighter":"Byron Bloodworth",
     "Peak Elo":1056.24,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
+    "Weight Class":"Bantamweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Edilberto de Oliveira",
+    "Peak Elo":1056.24,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Micheal Gillmore",
+    "Peak Elo":1056.24,
+    "Weight Class":"Welterweight",
+    "Record":"0-2-0"
   },
   {
     "Fighter":"Justin James",
@@ -9888,51 +9918,15 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Artur Minev",
-    "Peak Elo":1056.24,
-    "Weight Class":"Lightweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Steven Koslow",
-    "Peak Elo":1056.24,
-    "Weight Class":"Bantamweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Icho Larenas",
-    "Peak Elo":1056.24,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jared Rollins",
-    "Peak Elo":1056.24,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Te Edwards",
-    "Peak Elo":1056.24,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"SeungGuk Choi",
-    "Peak Elo":1056.24,
-    "Weight Class":"Flyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"John Cofer",
-    "Peak Elo":1056.24,
-    "Weight Class":"Lightweight",
-    "Record":"0-2-0"
-  },
-  {
-    "Fighter":"Wagner Campos",
+    "Fighter":"Mike Lullo",
     "Peak Elo":1056.24,
     "Weight Class":"Featherweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Leigh Remedios",
+    "Peak Elo":1056.24,
+    "Weight Class":"Lightweight",
     "Record":"0-1-0"
   },
   {
@@ -9942,43 +9936,73 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Edilberto de Oliveira",
+    "Fighter":"Lowell Anderson",
     "Peak Elo":1056.24,
-    "Weight Class":"Welterweight",
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Yoislandy Izquierdo",
+    "Peak Elo":1056.24,
+    "Weight Class":"Lightweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Jefferson Nascimento",
+    "Fighter":"Bentley Syler",
+    "Peak Elo":1056.24,
+    "Weight Class":"Flyweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Danillo Villefort",
     "Peak Elo":1056.24,
     "Weight Class":"Welterweight",
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Kristof Midoux",
+    "Fighter":"Josh Bryant",
+    "Peak Elo":1056.24,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Oli Thompson",
     "Peak Elo":1056.24,
     "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Micheal Gillmore",
-    "Peak Elo":1056.24,
-    "Weight Class":"Welterweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Kerry Schall",
+    "Fighter":"Derek Downey",
+    "Peak Elo":1056.24,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Jamie Yager",
+    "Peak Elo":1056.24,
+    "Weight Class":"Middleweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Leo Kuntz",
+    "Peak Elo":1056.24,
+    "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Zygimantas Ramaska",
+    "Peak Elo":1056.24,
+    "Weight Class":"Featherweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Alexandre Dantas",
     "Peak Elo":1056.24,
     "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Besam Yousef",
-    "Peak Elo":1056.24,
-    "Weight Class":"Welterweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Wagner Silva",
+    "Fighter":"Jeremy Jackson",
     "Peak Elo":1056.24,
     "Weight Class":"Welterweight",
     "Record":"0-2-0"
@@ -10062,15 +10086,15 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Ansar Chalangov",
-    "Peak Elo":1056.0849084543,
-    "Weight Class":"Welterweight",
-    "Record":"0-2-0"
-  },
-  {
     "Fighter":"Edward Faaloloto",
     "Peak Elo":1056.0849084543,
     "Weight Class":"Lightweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Ansar Chalangov",
+    "Peak Elo":1056.0849084543,
+    "Weight Class":"Welterweight",
     "Record":"0-2-0"
   },
   {
@@ -10296,6 +10320,12 @@
     "Record":"0-1-0"
   },
   {
+    "Fighter":"Robert Bryczek",
+    "Peak Elo":1054.6886025784,
+    "Weight Class":"Middleweight",
+    "Record":"1-3-0"
+  },
+  {
     "Fighter":"John Lober",
     "Peak Elo":1054.6727872467,
     "Weight Class":"Middleweight",
@@ -10314,12 +10344,6 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Roger Zapata",
-    "Peak Elo":1054.5736595797,
-    "Weight Class":"Welterweight",
-    "Record":"0-1-0"
-  },
-  {
     "Fighter":"Nate Schroeder",
     "Peak Elo":1054.5736595797,
     "Weight Class":"Heavyweight",
@@ -10332,21 +10356,27 @@
     "Record":"0-1-0"
   },
   {
+    "Fighter":"Roger Zapata",
+    "Peak Elo":1054.5736595797,
+    "Weight Class":"Welterweight",
+    "Record":"0-1-0"
+  },
+  {
     "Fighter":"Marcos Mariano",
     "Peak Elo":1054.5342632083,
     "Weight Class":"Lightweight",
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Sean Alvarez",
-    "Peak Elo":1054.4596109706,
-    "Weight Class":"Heavyweight",
-    "Record":"0-1-0"
-  },
-  {
     "Fighter":"Masutatsu Yano",
     "Peak Elo":1054.4596109706,
     "Weight Class":"Open Weight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Sean Alvarez",
+    "Peak Elo":1054.4596109706,
+    "Weight Class":"Heavyweight",
     "Record":"0-1-0"
   },
   {
@@ -10464,12 +10494,6 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Sean Sharaf",
-    "Peak Elo":1053.3487721719,
-    "Weight Class":"Heavyweight",
-    "Record":"0-2-0"
-  },
-  {
     "Fighter":"Cody East",
     "Peak Elo":1053.3047633854,
     "Weight Class":"Heavyweight",
@@ -10516,6 +10540,12 @@
     "Peak Elo":1052.4623509225,
     "Weight Class":"Lightweight",
     "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Casey O'Neill",
+    "Peak Elo":1052.3178990768,
+    "Weight Class":"Women's Flyweight",
+    "Record":"7-2-0"
   },
   {
     "Fighter":"Daniel Frunza",
@@ -10599,7 +10629,7 @@
     "Fighter":"Andrey Pulyaev",
     "Peak Elo":1050.9551852199,
     "Weight Class":"Middleweight",
-    "Record":"1-3-0"
+    "Record":"1-4-0"
   },
   {
     "Fighter":"Felipe Colares",
@@ -10686,16 +10716,22 @@
     "Record":"1-3-0"
   },
   {
-    "Fighter":"Khalid Taha",
-    "Peak Elo":1049.6976812036,
-    "Weight Class":"Bantamweight",
-    "Record":"1-4-1"
+    "Fighter":"Ozzy Diaz",
+    "Peak Elo":1049.8261144195,
+    "Weight Class":"Middleweight",
+    "Record":"1-3-0"
   },
   {
     "Fighter":"Yosdenis Cedeno",
     "Peak Elo":1049.6976812036,
     "Weight Class":"Lightweight",
     "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Khalid Taha",
+    "Peak Elo":1049.6976812036,
+    "Weight Class":"Bantamweight",
+    "Record":"1-4-1"
   },
   {
     "Fighter":"Michael Kuiper",
@@ -10736,6 +10772,12 @@
   {
     "Fighter":"Alex Nicholson",
     "Peak Elo":1049.2265002458,
+    "Weight Class":"Middleweight",
+    "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Djorden Santos",
+    "Peak Elo":1049.2230189682,
     "Weight Class":"Middleweight",
     "Record":"1-3-0"
   },
@@ -10794,12 +10836,6 @@
     "Record":"1-3-0"
   },
   {
-    "Fighter":"Rongzhu",
-    "Peak Elo":1048.8246546916,
-    "Weight Class":"Lightweight",
-    "Record":"3-3-0"
-  },
-  {
     "Fighter":"Brendan O'Reilly",
     "Peak Elo":1048.7636346776,
     "Weight Class":"Lightweight",
@@ -10845,7 +10881,7 @@
     "Fighter":"Michael Aswell Jr.",
     "Peak Elo":1048.4820348592,
     "Weight Class":"Featherweight",
-    "Record":"1-3-0"
+    "Record":"2-3-0"
   },
   {
     "Fighter":"Chris Dempsey",
@@ -11037,7 +11073,7 @@
     "Fighter":"Wang Cong",
     "Peak Elo":1045.2251963055,
     "Weight Class":"Women's Flyweight",
-    "Record":"5-1-0"
+    "Record":"5-2-0"
   },
   {
     "Fighter":"Ian McCall",
@@ -11068,12 +11104,6 @@
     "Peak Elo":1043.6305719923,
     "Weight Class":"Light Heavyweight",
     "Record":"1-3-0"
-  },
-  {
-    "Fighter":"Casey O'Neill",
-    "Peak Elo":1043.5897682447,
-    "Weight Class":"Women's Flyweight",
-    "Record":"6-2-0"
   },
   {
     "Fighter":"Fabricio Camoes",
@@ -11193,7 +11223,7 @@
     "Fighter":"Curtis Blaydes",
     "Peak Elo":1033.8207654947,
     "Weight Class":"Heavyweight",
-    "Record":"14-6-1"
+    "Record":"15-6-1"
   },
   {
     "Fighter":"Iasmin Lucindo",
@@ -11526,16 +11556,16 @@
     "Record":"0-3-0"
   },
   {
-    "Fighter":"Seth Petruzelli",
-    "Peak Elo":1028.0918483218,
-    "Weight Class":"Light Heavyweight",
-    "Record":"0-4-0"
-  },
-  {
     "Fighter":"Jeff Hughes",
     "Peak Elo":1028.0918483218,
     "Weight Class":"Heavyweight",
     "Record":"0-3-1"
+  },
+  {
+    "Fighter":"Seth Petruzelli",
+    "Peak Elo":1028.0918483218,
+    "Weight Class":"Light Heavyweight",
+    "Record":"0-4-0"
   },
   {
     "Fighter":"Austin Arnett",
@@ -11688,19 +11718,43 @@
     "Record":"0-4-0"
   },
   {
-    "Fighter":"Jumabieke Tuerxun",
+    "Fighter":"Josh Grispi",
+    "Peak Elo":1026.648,
+    "Weight Class":"Featherweight",
+    "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Cole Escovedo",
     "Peak Elo":1026.648,
     "Weight Class":"Bantamweight",
     "Record":"0-3-0"
   },
   {
-    "Fighter":"Keith Wisniewski",
+    "Fighter":"Antonio Arroyo",
     "Peak Elo":1026.648,
-    "Weight Class":"Welterweight",
-    "Record":"0-4-0"
+    "Weight Class":"Middleweight",
+    "Record":"0-3-0"
   },
   {
-    "Fighter":"Cole Escovedo",
+    "Fighter":"Jordan Williams",
+    "Peak Elo":1026.648,
+    "Weight Class":"Welterweight",
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Mike Rhodes",
+    "Peak Elo":1026.648,
+    "Weight Class":"Welterweight",
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Daniel Teymur",
+    "Peak Elo":1026.648,
+    "Weight Class":"Featherweight",
+    "Record":"1-4-0"
+  },
+  {
+    "Fighter":"Jumabieke Tuerxun",
     "Peak Elo":1026.648,
     "Weight Class":"Bantamweight",
     "Record":"0-3-0"
@@ -11712,40 +11766,16 @@
     "Record":"0-3-1"
   },
   {
-    "Fighter":"Antonio Arroyo",
-    "Peak Elo":1026.648,
-    "Weight Class":"Middleweight",
-    "Record":"0-3-0"
-  },
-  {
-    "Fighter":"Mike Rhodes",
-    "Peak Elo":1026.648,
-    "Weight Class":"Welterweight",
-    "Record":"0-3-0"
-  },
-  {
-    "Fighter":"Josh Grispi",
-    "Peak Elo":1026.648,
-    "Weight Class":"Featherweight",
-    "Record":"0-4-0"
-  },
-  {
     "Fighter":"Terrion Ware",
     "Peak Elo":1026.648,
     "Weight Class":"Bantamweight",
     "Record":"0-4-0"
   },
   {
-    "Fighter":"Jordan Williams",
+    "Fighter":"Keith Wisniewski",
     "Peak Elo":1026.648,
     "Weight Class":"Welterweight",
-    "Record":"0-3-0"
-  },
-  {
-    "Fighter":"Daniel Teymur",
-    "Peak Elo":1026.648,
-    "Weight Class":"Featherweight",
-    "Record":"1-4-0"
+    "Record":"0-4-0"
   },
   {
     "Fighter":"Brad Imes",
@@ -11808,9 +11838,15 @@
     "Record":"0-3-0"
   },
   {
-    "Fighter":"Damacio Page",
+    "Fighter":"Kiefer Crosbie",
     "Peak Elo":1026.01944,
-    "Weight Class":"Bantamweight",
+    "Weight Class":"Welterweight",
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"James Llontop",
+    "Peak Elo":1026.01944,
+    "Weight Class":"Catch Weight",
     "Record":"0-3-0"
   },
   {
@@ -11818,6 +11854,18 @@
     "Peak Elo":1026.01944,
     "Weight Class":"Light Heavyweight",
     "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Jesse Forbes",
+    "Peak Elo":1026.01944,
+    "Weight Class":"Middleweight",
+    "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Felix Lee Mitchell",
+    "Peak Elo":1026.01944,
+    "Weight Class":"Open Weight",
+    "Record":"0-3-0"
   },
   {
     "Fighter":"Jeremy Larsen",
@@ -11832,27 +11880,9 @@
     "Record":"0-3-0"
   },
   {
-    "Fighter":"James Llontop",
+    "Fighter":"Damacio Page",
     "Peak Elo":1026.01944,
-    "Weight Class":"Catch Weight",
-    "Record":"0-3-0"
-  },
-  {
-    "Fighter":"Kiefer Crosbie",
-    "Peak Elo":1026.01944,
-    "Weight Class":"Welterweight",
-    "Record":"0-3-0"
-  },
-  {
-    "Fighter":"Felix Lee Mitchell",
-    "Peak Elo":1026.01944,
-    "Weight Class":"Open Weight",
-    "Record":"0-3-0"
-  },
-  {
-    "Fighter":"Jesse Forbes",
-    "Peak Elo":1026.01944,
-    "Weight Class":"Middleweight",
+    "Weight Class":"Bantamweight",
     "Record":"0-3-0"
   },
   {
@@ -11934,10 +11964,10 @@
     "Record":"0-4-0"
   },
   {
-    "Fighter":"Tiki Ghosn",
+    "Fighter":"Roque Martinez",
     "Peak Elo":1024.5528,
-    "Weight Class":"Welterweight",
-    "Record":"0-4-0"
+    "Weight Class":"Heavyweight",
+    "Record":"0-3-0"
   },
   {
     "Fighter":"Josh Haynes",
@@ -11946,21 +11976,15 @@
     "Record":"0-3-0"
   },
   {
-    "Fighter":"Mike Santiago",
+    "Fighter":"Tiki Ghosn",
     "Peak Elo":1024.5528,
-    "Weight Class":"Featherweight",
-    "Record":"0-3-0"
+    "Weight Class":"Welterweight",
+    "Record":"0-4-0"
   },
   {
-    "Fighter":"Roque Martinez",
+    "Fighter":"Dequan Townsend",
     "Peak Elo":1024.5528,
-    "Weight Class":"Heavyweight",
-    "Record":"0-3-0"
-  },
-  {
-    "Fighter":"Will Campuzano",
-    "Peak Elo":1024.5528,
-    "Weight Class":"Flyweight",
+    "Weight Class":"Middleweight",
     "Record":"0-4-0"
   },
   {
@@ -11970,15 +11994,9 @@
     "Record":"0-3-0"
   },
   {
-    "Fighter":"Dequan Townsend",
+    "Fighter":"Mike Santiago",
     "Peak Elo":1024.5528,
-    "Weight Class":"Middleweight",
-    "Record":"0-4-0"
-  },
-  {
-    "Fighter":"Marcio Alexandre Junior",
-    "Peak Elo":1024.5528,
-    "Weight Class":"Welterweight",
+    "Weight Class":"Featherweight",
     "Record":"0-3-0"
   },
   {
@@ -11986,6 +12004,18 @@
     "Peak Elo":1024.5528,
     "Weight Class":"Light Heavyweight",
     "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Will Campuzano",
+    "Peak Elo":1024.5528,
+    "Weight Class":"Flyweight",
+    "Record":"0-4-0"
+  },
+  {
+    "Fighter":"Marcio Alexandre Junior",
+    "Peak Elo":1024.5528,
+    "Weight Class":"Welterweight",
+    "Record":"0-3-0"
   },
   {
     "Fighter":"Jake Lindsey",
@@ -12126,6 +12156,12 @@
     "Record":"7-4-0"
   },
   {
+    "Fighter":"Regina Tarin",
+    "Peak Elo":1014.1393900204,
+    "Weight Class":"Women's Flyweight",
+    "Record":"2-0-0"
+  },
+  {
     "Fighter":"Luke Rockhold",
     "Peak Elo":1013.7673096189,
     "Weight Class":"Middleweight",
@@ -12201,7 +12237,7 @@
     "Fighter":"Yazmin Jauregui",
     "Peak Elo":1008.236559275,
     "Weight Class":"Women's Strawweight",
-    "Record":"3-2-0"
+    "Record":"4-2-0"
   },
   {
     "Fighter":"Aleksandra Albu",
@@ -12318,7 +12354,19 @@
     "Record":"1-1-0"
   },
   {
+    "Fighter":"Tina Black",
+    "Peak Elo":993.384,
+    "Weight Class":"Women's Strawweight",
+    "Record":"1-0-0"
+  },
+  {
     "Fighter":"Shi Ming",
+    "Peak Elo":993.384,
+    "Weight Class":"Women's Strawweight",
+    "Record":"1-0-0"
+  },
+  {
+    "Fighter":"Delphine Benouaich",
     "Peak Elo":993.384,
     "Weight Class":"Women's Strawweight",
     "Record":"1-0-0"
@@ -12378,6 +12426,12 @@
     "Record":"12-7-0"
   },
   {
+    "Fighter":"Giga Chikadze",
+    "Peak Elo":991.0953811407,
+    "Weight Class":"Featherweight",
+    "Record":"8-5-0"
+  },
+  {
     "Fighter":"Luana Pinheiro",
     "Peak Elo":990.9087542855,
     "Weight Class":"Women's Strawweight",
@@ -12417,7 +12471,7 @@
     "Fighter":"Klaudia Sygula",
     "Peak Elo":989.3781477109,
     "Weight Class":"Women's Bantamweight",
-    "Record":"2-1-0"
+    "Record":"2-2-0"
   },
   {
     "Fighter":"Kanako Murata",
@@ -12442,12 +12496,6 @@
     "Peak Elo":986.9440531296,
     "Weight Class":"Women's Strawweight",
     "Record":"3-2-0"
-  },
-  {
-    "Fighter":"Ricky Simon",
-    "Peak Elo":986.317640551,
-    "Weight Class":"Bantamweight",
-    "Record":"10-6-1"
   },
   {
     "Fighter":"Cat Zingano",
@@ -12477,7 +12525,7 @@
     "Fighter":"Nora Cornolle",
     "Peak Elo":984.7103968875,
     "Weight Class":"Women's Bantamweight",
-    "Record":"3-3-0"
+    "Record":"4-3-0"
   },
   {
     "Fighter":"Dominick Reyes",
@@ -12516,6 +12564,12 @@
     "Record":"3-3-0"
   },
   {
+    "Fighter":"Raoni Barcelos",
+    "Peak Elo":981.9815672702,
+    "Weight Class":"Bantamweight",
+    "Record":"11-5-0"
+  },
+  {
     "Fighter":"Luana Carolina",
     "Peak Elo":981.9526560225,
     "Weight Class":"Women's Bantamweight",
@@ -12526,6 +12580,12 @@
     "Peak Elo":981.9054455658,
     "Weight Class":"Welterweight",
     "Record":"11-6-0"
+  },
+  {
+    "Fighter":"Eduarda Moura",
+    "Peak Elo":981.6568199149,
+    "Weight Class":"Women's Flyweight",
+    "Record":"3-3-0"
   },
   {
     "Fighter":"Al Iaquinta",
@@ -12639,7 +12699,7 @@
     "Fighter":"Deiveson Figueiredo",
     "Peak Elo":973.3635414527,
     "Weight Class":"Bantamweight",
-    "Record":"14-7-1"
+    "Record":"14-8-1"
   },
   {
     "Fighter":"Alice Pereira",
@@ -12693,7 +12753,7 @@
     "Fighter":"Muslim Salikhov",
     "Peak Elo":967.8049852379,
     "Weight Class":"Welterweight",
-    "Record":"9-5-0"
+    "Record":"9-6-0"
   },
   {
     "Fighter":"Stephanie Egger",
@@ -12786,6 +12846,12 @@
     "Record":"10-6-0"
   },
   {
+    "Fighter":"Kay Hansen",
+    "Peak Elo":963.58248,
+    "Weight Class":"Women's Strawweight",
+    "Record":"1-3-0"
+  },
+  {
     "Fighter":"Shana Dobson",
     "Peak Elo":963.58248,
     "Weight Class":"Women's Flyweight",
@@ -12796,12 +12862,6 @@
     "Peak Elo":963.58248,
     "Weight Class":"Women's Flyweight",
     "Record":"3-3-0"
-  },
-  {
-    "Fighter":"Kay Hansen",
-    "Peak Elo":963.58248,
-    "Weight Class":"Women's Strawweight",
-    "Record":"1-3-0"
   },
   {
     "Fighter":"Johny Hendricks",
@@ -12876,6 +12936,12 @@
     "Record":"3-4-0"
   },
   {
+    "Fighter":"Jessamyn Duke",
+    "Peak Elo":961.6968,
+    "Weight Class":"Women's Bantamweight",
+    "Record":"1-3-0"
+  },
+  {
     "Fighter":"Miranda Granger",
     "Peak Elo":961.6968,
     "Weight Class":"Women's Strawweight",
@@ -12886,12 +12952,6 @@
     "Peak Elo":961.6968,
     "Weight Class":"Women's Strawweight",
     "Record":"1-4-0"
-  },
-  {
-    "Fighter":"Jessamyn Duke",
-    "Peak Elo":961.6968,
-    "Weight Class":"Women's Bantamweight",
-    "Record":"1-3-0"
   },
   {
     "Fighter":"Brandon Royval",
@@ -13014,10 +13074,10 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Ryan Spann",
-    "Peak Elo":954.6523590871,
-    "Weight Class":"Heavyweight",
-    "Record":"10-6-0"
+    "Fighter":"Alonzo Menifield",
+    "Peak Elo":954.7415498517,
+    "Weight Class":"Light Heavyweight",
+    "Record":"12-6-1"
   },
   {
     "Fighter":"Danyelle Wolf",
@@ -13116,12 +13176,6 @@
     "Record":"0-1-0"
   },
   {
-    "Fighter":"Marnic Mann",
-    "Peak Elo":952.56,
-    "Weight Class":"Women's Strawweight",
-    "Record":"0-2-0"
-  },
-  {
     "Fighter":"Julie Kedzie",
     "Peak Elo":952.56,
     "Weight Class":"Women's Bantamweight",
@@ -13131,6 +13185,18 @@
     "Fighter":"Emily Kagan",
     "Peak Elo":952.56,
     "Weight Class":"Women's Strawweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Marnic Mann",
+    "Peak Elo":952.56,
+    "Weight Class":"Women's Strawweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Alexis Dufresne",
+    "Peak Elo":952.56,
+    "Weight Class":"Women's Bantamweight",
     "Record":"0-2-0"
   },
   {
@@ -13144,12 +13210,6 @@
     "Peak Elo":952.56,
     "Weight Class":"Women's Strawweight",
     "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Alexis Dufresne",
-    "Peak Elo":952.56,
-    "Weight Class":"Women's Bantamweight",
-    "Record":"0-2-0"
   },
   {
     "Fighter":"Gigi Canuto",
@@ -13170,16 +13230,22 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Christina Marks",
-    "Peak Elo":951.9768,
-    "Weight Class":"Women's Flyweight",
-    "Record":"0-1-0"
-  },
-  {
     "Fighter":"Sheila Gaff",
     "Peak Elo":951.9768,
     "Weight Class":"Women's Bantamweight",
     "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Jessica Rakoczy",
+    "Peak Elo":951.9768,
+    "Weight Class":"Women's Strawweight",
+    "Record":"0-2-0"
+  },
+  {
+    "Fighter":"Christina Marks",
+    "Peak Elo":951.9768,
+    "Weight Class":"Women's Flyweight",
+    "Record":"0-1-0"
   },
   {
     "Fighter":"Karine Gevorgyan",
@@ -13192,12 +13258,6 @@
     "Peak Elo":951.9768,
     "Weight Class":"Women's Strawweight",
     "Record":"0-1-0"
-  },
-  {
-    "Fighter":"Jessica Rakoczy",
-    "Peak Elo":951.9768,
-    "Weight Class":"Women's Strawweight",
-    "Record":"0-2-0"
   },
   {
     "Fighter":"Chan Sung Jung",
@@ -13233,12 +13293,12 @@
     "Fighter":"Brandon Moreno",
     "Peak Elo":951.0146181888,
     "Weight Class":"Flyweight",
-    "Record":"11-7-2"
+    "Record":"12-7-2"
   },
   {
-    "Fighter":"Duda Santana",
+    "Fighter":"Sofia Montenegro",
     "Peak Elo":950.616,
-    "Weight Class":"Women's Bantamweight",
+    "Weight Class":"Women's Strawweight",
     "Record":"0-1-0"
   },
   {
@@ -13248,21 +13308,33 @@
     "Record":"0-2-0"
   },
   {
-    "Fighter":"Izabela Badurek",
-    "Peak Elo":950.616,
-    "Weight Class":"Women's Strawweight",
-    "Record":"0-1-0"
-  },
-  {
     "Fighter":"Ariel Beck",
     "Peak Elo":950.616,
     "Weight Class":"Women's Flyweight",
     "Record":"0-1-0"
   },
   {
+    "Fighter":"Izabela Badurek",
+    "Peak Elo":950.616,
+    "Weight Class":"Women's Strawweight",
+    "Record":"0-1-0"
+  },
+  {
     "Fighter":"Feng Xiaocan",
     "Peak Elo":950.616,
     "Weight Class":"Women's Strawweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Melissa Amaya",
+    "Peak Elo":950.616,
+    "Weight Class":"Women's Strawweight",
+    "Record":"0-1-0"
+  },
+  {
+    "Fighter":"Duda Santana",
+    "Peak Elo":950.616,
+    "Weight Class":"Women's Bantamweight",
     "Record":"0-1-0"
   },
   {
@@ -13314,16 +13386,22 @@
     "Record":"8-5-2"
   },
   {
+    "Fighter":"Khaos Williams",
+    "Peak Elo":949.4935069508,
+    "Weight Class":"Welterweight",
+    "Record":"7-5-0"
+  },
+  {
     "Fighter":"Ken Shamrock",
     "Peak Elo":949.3949406214,
     "Weight Class":"Light Heavyweight",
     "Record":"6-5-2"
   },
   {
-    "Fighter":"Alonzo Menifield",
-    "Peak Elo":948.5375597081,
-    "Weight Class":"Light Heavyweight",
-    "Record":"11-6-1"
+    "Fighter":"Rafa Garcia",
+    "Peak Elo":948.6069353219,
+    "Weight Class":"Lightweight",
+    "Record":"7-5-0"
   },
   {
     "Fighter":"Kyung Ho Kang",
@@ -13359,7 +13437,7 @@
     "Fighter":"Edmen Shahbazyan",
     "Peak Elo":944.523697698,
     "Weight Class":"Middleweight",
-    "Record":"9-6-0"
+    "Record":"10-6-0"
   },
   {
     "Fighter":"Alex Chambers",
@@ -13416,16 +13494,34 @@
     "Record":"18-8-0"
   },
   {
+    "Fighter":"Modestas Bukauskas",
+    "Peak Elo":940.2879456019,
+    "Weight Class":"Light Heavyweight",
+    "Record":"9-5-0"
+  },
+  {
     "Fighter":"Gray Maynard",
     "Peak Elo":939.9737102617,
     "Weight Class":"Lightweight",
     "Record":"11-7-2"
   },
   {
+    "Fighter":"Brunno Ferreira",
+    "Peak Elo":939.7427605421,
+    "Weight Class":"Middleweight",
+    "Record":"6-5-0"
+  },
+  {
     "Fighter":"Mallory Martin",
     "Peak Elo":939.7346288649,
     "Weight Class":"Women's Strawweight",
     "Record":"1-3-0"
+  },
+  {
+    "Fighter":"Roman Kopylov",
+    "Peak Elo":939.5124841845,
+    "Weight Class":"Middleweight",
+    "Record":"8-5-0"
   },
   {
     "Fighter":"Thomas Almeida",
@@ -13498,12 +13594,6 @@
     "Peak Elo":936.4040822298,
     "Weight Class":"Lightweight",
     "Record":"13-7-0"
-  },
-  {
-    "Fighter":"Roman Kopylov",
-    "Peak Elo":936.1748669152,
-    "Weight Class":"Middleweight",
-    "Record":"7-5-0"
   },
   {
     "Fighter":"Cody Garbrandt",
@@ -13590,12 +13680,6 @@
     "Record":"6-6-0"
   },
   {
-    "Fighter":"Modestas Bukauskas",
-    "Peak Elo":928.5543488131,
-    "Weight Class":"Catch Weight",
-    "Record":"8-5-0"
-  },
-  {
     "Fighter":"Chris Cariaso",
     "Peak Elo":928.3907541166,
     "Weight Class":"Flyweight",
@@ -13628,8 +13712,8 @@
   {
     "Fighter":"Rafael Dos Anjos",
     "Peak Elo":926.9432713203,
-    "Weight Class":"Welterweight",
-    "Record":"21-15-0"
+    "Weight Class":"Lightweight",
+    "Record":"21-16-0"
   },
   {
     "Fighter":"Mark Bocek",
@@ -13749,7 +13833,7 @@
     "Fighter":"Rodolfo Vieira",
     "Peak Elo":924.0805188458,
     "Weight Class":"Middleweight",
-    "Record":"6-5-0"
+    "Record":"7-5-0"
   },
   {
     "Fighter":"Hailey Cowan",
@@ -13794,6 +13878,12 @@
     "Record":"1-4-0"
   },
   {
+    "Fighter":"Punahele Soriano",
+    "Peak Elo":922.9929238116,
+    "Weight Class":"Welterweight",
+    "Record":"7-5-0"
+  },
+  {
     "Fighter":"Alexander Gustafsson",
     "Peak Elo":922.7649874307,
     "Weight Class":"Light Heavyweight",
@@ -13810,6 +13900,12 @@
     "Peak Elo":922.09752,
     "Weight Class":"Women's Flyweight",
     "Record":"0-3-0"
+  },
+  {
+    "Fighter":"Ricky Simon",
+    "Peak Elo":921.9925770368,
+    "Weight Class":"Bantamweight",
+    "Record":"10-7-1"
   },
   {
     "Fighter":"Daron Cruickshank",
@@ -13882,6 +13978,12 @@
     "Peak Elo":916.3134431722,
     "Weight Class":"Welterweight",
     "Record":"15-10-0"
+  },
+  {
+    "Fighter":"John Castaneda",
+    "Peak Elo":916.0749743198,
+    "Weight Class":"Bantamweight",
+    "Record":"4-5-1"
   },
   {
     "Fighter":"Pete Williams",
@@ -14118,12 +14220,6 @@
     "Record":"4-5-0"
   },
   {
-    "Fighter":"Marvin Vettori",
-    "Peak Elo":904.8521765389,
-    "Weight Class":"Middleweight",
-    "Record":"9-8-1"
-  },
-  {
     "Fighter":"Dennis Siver",
     "Peak Elo":904.5797990258,
     "Weight Class":"Featherweight",
@@ -14151,7 +14247,7 @@
     "Fighter":"Alexa Grasso",
     "Peak Elo":903.9912402825,
     "Weight Class":"Women's Flyweight",
-    "Record":"9-5-1"
+    "Record":"10-5-1"
   },
   {
     "Fighter":"Blagoy Ivanov",
@@ -14346,16 +14442,16 @@
     "Record":"3-5-0"
   },
   {
-    "Fighter":"Dalcha Lungiambula",
-    "Peak Elo":893.604096,
-    "Weight Class":"Middleweight",
-    "Record":"2-5-0"
-  },
-  {
     "Fighter":"Paul Taylor",
     "Peak Elo":893.604096,
     "Weight Class":"Lightweight",
     "Record":"4-5-0"
+  },
+  {
+    "Fighter":"Dalcha Lungiambula",
+    "Peak Elo":893.604096,
+    "Weight Class":"Middleweight",
+    "Record":"2-5-0"
   },
   {
     "Fighter":"Jon Tuck",
@@ -14398,6 +14494,12 @@
     "Peak Elo":892.6205969841,
     "Weight Class":"Middleweight",
     "Record":"4-5-0"
+  },
+  {
+    "Fighter":"Ryan Spann",
+    "Peak Elo":892.3924226249,
+    "Weight Class":"Heavyweight",
+    "Record":"10-7-0"
   },
   {
     "Fighter":"Steve Cantwell",
@@ -14522,8 +14624,8 @@
   {
     "Fighter":"Sedriques Dumas",
     "Peak Elo":887.4043730112,
-    "Weight Class":"Middleweight",
-    "Record":"3-5-1"
+    "Weight Class":"Light Heavyweight",
+    "Record":"3-6-1"
   },
   {
     "Fighter":"Ben Rothwell",
@@ -14562,6 +14664,12 @@
     "Record":"10-7-0"
   },
   {
+    "Fighter":"Alexander Hernandez",
+    "Peak Elo":884.8825266474,
+    "Weight Class":"Lightweight",
+    "Record":"11-8-0"
+  },
+  {
     "Fighter":"Misha Cirkunov",
     "Peak Elo":884.8429943813,
     "Weight Class":"Light Heavyweight",
@@ -14584,12 +14692,6 @@
     "Peak Elo":883.6676271542,
     "Weight Class":"Lightweight",
     "Record":"3-5-0"
-  },
-  {
-    "Fighter":"Alexander Hernandez",
-    "Peak Elo":883.3229687897,
-    "Weight Class":"Lightweight",
-    "Record":"10-8-0"
   },
   {
     "Fighter":"Rafael Natal",
@@ -14690,8 +14792,8 @@
   {
     "Fighter":"Johnny Walker",
     "Peak Elo":878.9087612941,
-    "Weight Class":"Light Heavyweight",
-    "Record":"8-7-1"
+    "Weight Class":"Heavyweight",
+    "Record":"9-7-1"
   },
   {
     "Fighter":"Dustin Jacoby",
@@ -14955,7 +15057,7 @@
     "Fighter":"Charles Jourdain",
     "Peak Elo":868.3975637151,
     "Weight Class":"Bantamweight",
-    "Record":"9-7-1"
+    "Record":"9-8-1"
   },
   {
     "Fighter":"Aaron Riley",
@@ -15156,16 +15258,16 @@
     "Record":"0-5-1"
   },
   {
-    "Fighter":"Pat Healy",
-    "Peak Elo":856.3560192,
-    "Weight Class":"Lightweight",
-    "Record":"0-5-1"
-  },
-  {
     "Fighter":"John Phillips",
     "Peak Elo":856.3560192,
     "Weight Class":"Middleweight",
     "Record":"1-5-0"
+  },
+  {
+    "Fighter":"Pat Healy",
+    "Peak Elo":856.3560192,
+    "Weight Class":"Lightweight",
+    "Record":"0-5-1"
   },
   {
     "Fighter":"Hector Lombard",
@@ -15192,16 +15294,16 @@
     "Record":"0-5-0"
   },
   {
-    "Fighter":"Phillipe Nover",
-    "Peak Elo":855.131904,
-    "Weight Class":"Featherweight",
-    "Record":"1-6-0"
-  },
-  {
     "Fighter":"Sean Soriano",
     "Peak Elo":855.131904,
     "Weight Class":"Featherweight",
     "Record":"0-5-0"
+  },
+  {
+    "Fighter":"Phillipe Nover",
+    "Peak Elo":855.131904,
+    "Weight Class":"Featherweight",
+    "Record":"1-6-0"
   },
   {
     "Fighter":"Thibault Gouti",
@@ -15348,12 +15450,6 @@
     "Record":"5-7-2"
   },
   {
-    "Fighter":"JJ Aldrich",
-    "Peak Elo":841.0340269294,
-    "Weight Class":"Women's Flyweight",
-    "Record":"11-6-0"
-  },
-  {
     "Fighter":"Karol Rosa",
     "Peak Elo":841.0306157356,
     "Weight Class":"Women's Bantamweight",
@@ -15476,8 +15572,8 @@
   {
     "Fighter":"Vanessa Demopoulos",
     "Peak Elo":828.6039468209,
-    "Weight Class":"Women's Flyweight",
-    "Record":"5-5-0"
+    "Weight Class":"Women's Strawweight",
+    "Record":"5-6-0"
   },
   {
     "Fighter":"Lando Vannata",
@@ -15756,6 +15852,12 @@
     "Record":"2-6-0"
   },
   {
+    "Fighter":"JJ Aldrich",
+    "Peak Elo":786.1839816949,
+    "Weight Class":"Women's Flyweight",
+    "Record":"11-7-0"
+  },
+  {
     "Fighter":"Derrick Lewis",
     "Peak Elo":785.8276966599,
     "Weight Class":"Heavyweight",
@@ -15783,7 +15885,7 @@
     "Fighter":"Marlon Vera",
     "Peak Elo":775.9152485465,
     "Weight Class":"Bantamweight",
-    "Record":"15-11-0"
+    "Record":"16-11-0"
   },
   {
     "Fighter":"Molly McCann",
@@ -15921,7 +16023,7 @@
     "Fighter":"Dan Hooker",
     "Peak Elo":753.6219673641,
     "Weight Class":"Lightweight",
-    "Record":"14-10-0"
+    "Record":"14-11-0"
   },
   {
     "Fighter":"Jared Cannonier",
@@ -16044,6 +16146,12 @@
     "Record":"12-9-1"
   },
   {
+    "Fighter":"Marvin Vettori",
+    "Peak Elo":736.5075855549,
+    "Weight Class":"Middleweight",
+    "Record":"9-9-1"
+  },
+  {
     "Fighter":"Carlos Condit",
     "Peak Elo":736.4316425353,
     "Weight Class":"Welterweight",
@@ -16059,13 +16167,13 @@
     "Fighter":"Tai Tuivasa",
     "Peak Elo":735.2714619587,
     "Weight Class":"Heavyweight",
-    "Record":"8-10-0"
+    "Record":"8-11-0"
   },
   {
     "Fighter":"Dan Ige",
     "Peak Elo":733.4185143639,
-    "Weight Class":"Featherweight",
-    "Record":"11-10-0"
+    "Weight Class":"Bantamweight",
+    "Record":"11-11-0"
   },
   {
     "Fighter":"Drew Dober",
@@ -16107,7 +16215,7 @@
     "Fighter":"King Green",
     "Peak Elo":728.9701244481,
     "Weight Class":"Lightweight",
-    "Record":"17-12-2"
+    "Record":"17-13-2"
   },
   {
     "Fighter":"Evan Dunham",
@@ -16311,7 +16419,7 @@
     "Fighter":"Court McGee",
     "Peak Elo":705.0141235256,
     "Weight Class":"Welterweight",
-    "Record":"11-13-0"
+    "Record":"11-14-0"
   },
   {
     "Fighter":"Niko Price",
@@ -16376,8 +16484,8 @@
   {
     "Fighter":"Tim Elliott",
     "Peak Elo":688.1425241087,
-    "Weight Class":"Flyweight",
-    "Record":"10-12-0"
+    "Weight Class":"Catch Weight",
+    "Record":"11-12-0"
   },
   {
     "Fighter":"Ion Cutelaba",
