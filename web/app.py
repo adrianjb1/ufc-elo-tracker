@@ -7,6 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 BUILD_DIR = os.path.join(BASE_DIR, "frontend", "build")
 RETIREMENT_DAYS = 730
+SPARK_LEN = 10
 TIERS = [(0.02, "Elite"), (0.10, "Contender"), (0.25, "Ranked"), (0.50, "Established")]
 
 app = Flask(__name__, static_folder=None)
@@ -61,12 +62,16 @@ def fighter_stats():
             side = df[["Date", f"Fighter {n}"] + [c.format(n=n) for c in cols]]
             sides.append(side.rename(columns={f"Fighter {n}": "Fighter", **{c.format(n=n): v for c, v in cols.items()}}))
         long = pd.concat(sides).sort_index(kind="stable")
-        last = long.groupby("Fighter").tail(1).set_index("Fighter")
-        counts = long.groupby("Fighter").size()
-        return {
-            name: {"Fights": int(counts[name]), "Last_Change": float(row["After"] - row["Before"])}
-            for name, row in last.iterrows()
-        }
+        stats = {}
+        for name, grp in long.groupby("Fighter", sort=False):
+            after = grp["After"].tolist()
+            stats[name] = {
+                "Fights": len(after),
+                "Last_Change": float(after[-1] - grp["Before"].iloc[-1]),
+                "Base_Elo": float(after[-1]),
+                "Spark": [round(grp["Before"].iloc[max(0, len(after) - SPARK_LEN)])] + [round(x) for x in after[-SPARK_LEN:]],
+            }
+        return stats
 
     return derived("fighter_stats", (df,), build)
 
@@ -162,6 +167,75 @@ def get_meta():
 @app.route("/api/accuracy")
 def get_accuracy():
     return jsonify(load("model_accuracy.json", read_json))
+
+def fighter_card(name):
+    current = {f["Fighter"]: f for f in current_data()}
+    peak = {f["Fighter"]: f for f in peak_data()}
+    stats = fighter_stats().get(name)
+    if not stats:
+        return None
+    info = current.get(name) or peak.get(name) or {}
+    prof = profiles().get(name, {})
+    return {
+        "Fighter": name,
+        "Base_Elo": stats["Base_Elo"],
+        "Elo": current[name]["Elo"] if name in current else None,
+        "Record": info.get("Record"),
+        "Weight Class": info.get("Weight Class"),
+        "Status": info.get("Status"),
+        "Fights": stats["Fights"],
+        "Spark": stats["Spark"],
+        "Photo": prof.get("photo"),
+        "Nickname": prof.get("nickname"),
+        "Active": name in current,
+    }
+
+@app.route("/api/fighters")
+def get_fighter_names():
+    query = request.args.get("q", "").lower()
+    limit = request.args.get("limit", default=8, type=int)
+    names = [f["Fighter"] for f in current_data()] + [f["Fighter"] for f in peak_data()]
+    seen, out = set(), []
+    for name in names:
+        if name in seen or (query and query not in name.lower()):
+            continue
+        seen.add(name)
+        out.append(name)
+        if len(out) >= limit:
+            break
+    return jsonify(out)
+
+@app.route("/api/matchup")
+def get_matchup():
+    a, b = request.args.get("a", ""), request.args.get("b", "")
+    lookup = {n.lower(): n for n in fighter_stats()}
+    if a.lower() not in lookup or b.lower() not in lookup:
+        abort(404, description="Fighter not found")
+    card_a, card_b = fighter_card(lookup[a.lower()]), fighter_card(lookup[b.lower()])
+    p_a = 1 / (1 + 10 ** ((card_b["Base_Elo"] - card_a["Base_Elo"]) / 400))
+    return jsonify({"a": card_a, "b": card_b, "p_a": p_a, "p_b": 1 - p_a})
+
+@app.route("/api/latest")
+def get_latest():
+    df = fights_with_elo()
+    last_event = df.iloc[-1]["Event"]
+    event = df[df["Event"] == last_event]
+    profs = profiles()
+    fights = []
+    for _, r in event.iloc[::-1].iterrows():
+        decisive = r["Winner"] == r["Fighter 1"]
+        fights.append({
+            "Winner": r["Fighter 1"],
+            "Loser": r["Fighter 2"],
+            "Decisive": bool(decisive),
+            "Method": r["method"],
+            "Round": None if pd.isna(r["Round"]) else int(r["Round"]),
+            "Weight Class": r["Weight Class"],
+            "Title": bool(r["Is_Title_Fight"] == True),
+            "Change": float(r["Fighter1_Elo_End"] - r["Fighter1_Elo_Start"]),
+            "Photo": profs.get(r["Fighter 1"], {}).get("photo"),
+        })
+    return jsonify({"event": last_event, "date": r["Date"].strftime("%Y-%m-%d"), "fights": fights})
 
 @app.route("/api/trending")
 def get_trending():

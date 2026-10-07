@@ -79,3 +79,21 @@ def test_enriched_fields_and_total(client):
     top = client.get("/api/current?limit=1").get_json()[0]
     assert top["Rank"] == 1 and top["Top_Pct"] == 1 and top["Tier"] == "Elite"
     assert top["Fights"] > 0 and "Last_Change" in top
+
+
+def test_matchup_latest_and_search(client):
+    m = client.get("/api/matchup?a=Islam Makhachev&b=Alexander Volkanovski").get_json()
+    assert math.isclose(m["p_a"] + m["p_b"], 1)
+    assert m["p_a"] > 0.5 and m["a"]["Fighter"] == "Islam Makhachev"
+    assert client.get("/api/matchup?a=nobody&b=Islam Makhachev").status_code == 404
+
+    latest = client.get("/api/latest").get_json()
+    assert latest["fights"] and all(f["Winner"] for f in latest["fights"])
+
+    assert "Islam Makhachev" in client.get("/api/fighters?q=makh").get_json()
+
+
+def test_title_streak_spans_divisions(client):
+    islam = client.get("/api/fighter/Islam Makhachev").get_json()
+    assert islam["Title_Streak"] >= 7
+    assert len(islam["Spark"]) == 11
