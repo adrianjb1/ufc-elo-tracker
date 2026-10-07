@@ -96,7 +96,13 @@ def run_tracker():
     print("\n=== Step 3: Running tracker2.0.py ===", flush=True)
     subprocess.run([sys.executable, TRACKER_PATH], check=True)
     print("Tracker completed successfully")
-    print("\n=== Step 4: Backtesting predictions ===", flush=True)
+    print("\n=== Step 4: Checking champions against ufc.com ===", flush=True)
+    sys.path.insert(0, os.path.join(ROOT, "src"))
+    from sync_champions import sync
+    if sync():
+        subprocess.run([sys.executable, TRACKER_PATH], check=True)
+
+    print("\n=== Step 5: Backtesting predictions ===", flush=True)
     subprocess.run([sys.executable, EVALUATE_PATH], check=True)
 
 def main():

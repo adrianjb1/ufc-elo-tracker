@@ -2,27 +2,27 @@
   "min_prior_fights": 3,
   "all": {
     "fights": 8767,
-    "accuracy": 0.5696,
-    "brier": 0.2445,
-    "log_loss": 0.682
+    "accuracy": 0.5669,
+    "brier": 0.2446,
+    "log_loss": 0.6822
   },
   "experienced": {
     "fights": 3940,
-    "accuracy": 0.5614,
-    "brier": 0.2442,
-    "log_loss": 0.6813
+    "accuracy": 0.5589,
+    "brier": 0.2443,
+    "log_loss": 0.6816
   },
   "last_5_years": {
     "fights": 1446,
-    "accuracy": 0.5595,
-    "brier": 0.2451,
-    "log_loss": 0.6835
+    "accuracy": 0.5574,
+    "brier": 0.2452,
+    "log_loss": 0.6838
   },
   "title_fights": {
     "fights": 327,
     "accuracy": 0.6055,
-    "brier": 0.231,
-    "log_loss": 0.6538
+    "brier": 0.2309,
+    "log_loss": 0.6534
   },
   "by_decade": {
     "1990s": {
@@ -34,45 +34,45 @@
     "2000s": {
       "fights": 301,
       "accuracy": 0.5847,
-      "brier": 0.2407,
-      "log_loss": 0.6739
+      "brier": 0.2406,
+      "log_loss": 0.6738
     },
     "2010s": {
       "fights": 1768,
-      "accuracy": 0.5549,
-      "brier": 0.2451,
-      "log_loss": 0.683
+      "accuracy": 0.5515,
+      "brier": 0.2453,
+      "log_loss": 0.6834
     },
     "2020s": {
       "fights": 1849,
-      "accuracy": 0.5625,
-      "brier": 0.2441,
-      "log_loss": 0.6813
+      "accuracy": 0.5603,
+      "brier": 0.2443,
+      "log_loss": 0.6816
     }
   },
   "calibration": [
     {
       "range": "50-60%",
-      "fights": 3294,
+      "fights": 3306,
       "predicted": 0.5409,
-      "actual": 0.5449
+      "actual": 0.543
     },
     {
       "range": "60-70%",
-      "fights": 531,
+      "fights": 517,
       "predicted": 0.6315,
-      "actual": 0.629
+      "actual": 0.6267
     },
     {
       "range": "70-80%",
-      "fights": 82,
-      "predicted": 0.7395,
-      "actual": 0.6707
+      "fights": 84,
+      "predicted": 0.7393,
+      "actual": 0.6548
     },
     {
       "range": "80-100%",
       "fights": 33,
-      "predicted": 0.8552,
+      "predicted": 0.8565,
       "actual": 0.8485
     }
   ]

@@ -97,3 +97,11 @@ def test_title_streak_spans_divisions(client):
     islam = client.get("/api/fighter/Islam Makhachev").get_json()
     assert islam["Title_Streak"] >= 7
     assert len(islam["Spark"]) == 11
+
+
+def test_no_contest_is_not_a_draw(client):
+    gane = client.get("/api/fighter/Ciryl Gane").get_json()
+    assert gane["Record"].endswith("(1 NC)")
+    fights = client.get("/api/trends/Ciryl Gane").get_json()
+    nc = [f for f in fights if f["Opponent"] == "Tom Aspinall"]
+    assert nc and nc[0]["Result"] == "NC" and nc[0]["EloChange"] == 0

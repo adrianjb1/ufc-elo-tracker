@@ -101,11 +101,12 @@ def apply_due_vacancies(up_to_date):
             break
         wc = ve["Weight Class"]
         if current_champions.get(wc) == ve["Fighter"]:
-            interim = interim_champions.get(wc)
+            former_champions.add(ve["Fighter"])
+            interim = interim_champions.pop(wc, None)
             if interim:
-                former_champions.add(ve["Fighter"])
                 current_champions[wc] = interim
-                interim_champions.pop(wc, None)
+            else:
+                current_champions.pop(wc, None)
         next_vacancy_idx += 1
 
 
@@ -142,11 +143,17 @@ for i, r in f.iterrows():
     avg_opp_elo_f2 = sum(elo_history[f2]) / len(elo_history[f2]) if elo_history[f2] else 1000
 
     if f1 not in records:
-        records[f1] = {"W": 0, "L": 0, "D": 0}
+        records[f1] = {"W": 0, "L": 0, "D": 0, "NC": 0}
     if f2 not in records:
-        records[f2] = {"W": 0, "L": 0, "D": 0}
+        records[f2] = {"W": 0, "L": 0, "D": 0, "NC": 0}
 
     winner = r["Winner"]
+    # ufcstats has no win flag on overturned/CNC results, so the scraper records them as draws
+    if winner == "Draw" and str(r["Method"]).startswith(("Overturned", "CNC")):
+        winner = "NC"
+        f.at[i, "Winner"] = "NC"
+        records[f1]["NC"] += 1
+        records[f2]["NC"] += 1
     if winner == f1:
         records[f1]["W"] += 1
         records[f2]["L"] += 1
@@ -236,7 +243,7 @@ for i, r in f.iterrows():
     peak[f2] = max(peak.get(f2, n2), n2)
 
 today = f["Date"].max()
-apply_due_vacancies(today)
+apply_due_vacancies(pd.Timestamp.max)
 d1 = f.groupby("Fighter 1")["Date"].max().reset_index().rename(columns={"Fighter 1": "Fighter"})
 d2 = f.groupby("Fighter 2")["Date"].max().reset_index().rename(columns={"Fighter 2": "Fighter"})
 rd = pd.concat([d1, d2], ignore_index=True).groupby("Fighter")["Date"].max().reset_index()
@@ -274,13 +281,13 @@ final["Elo"] = final.apply(
 )
 
 # Apply undefeated champion bonus to current Elo as well
-def is_current_undefeated_champ(fighter_name, is_champ):
+def is_current_undefeated_champ(fighter_name, is_champ, defenses):
     if fighter_name not in records:
         return False
-    return records[fighter_name]["L"] == 0 and records[fighter_name]["W"] >= 8 and is_champ
+    return records[fighter_name]["L"] == 0 and records[fighter_name]["W"] >= 8 and is_champ and defenses >= 1
 
 final["Elo"] = final.apply(
-    lambda x: x["Elo"] * 1.08 if is_current_undefeated_champ(x["Fighter"], x["Is_Champion"]) else x["Elo"],
+    lambda x: x["Elo"] * 1.08 if is_current_undefeated_champ(x["Fighter"], x["Is_Champion"], x["Title_Defenses"]) else x["Elo"],
     axis=1
 )
 
@@ -378,16 +385,13 @@ peak_df["Peak Elo"] = peak_df.apply(
 
 peak_df["Peak Elo"] = peak_df["Peak Elo"] * 1.08
 
-final["Record"] = final["Fighter"].apply(
-    lambda x: f"{records.get(x,{'W':0,'L':0,'D':0})['W']}-"
-              f"{records.get(x,{'W':0,'L':0,'D':0})['L']}-"
-              f"{records.get(x,{'W':0,'L':0,'D':0})['D']}"
-)
-peak_df["Record"] = peak_df["Fighter"].apply(
-    lambda x: f"{records.get(x,{'W':0,'L':0,'D':0})['W']}-"
-              f"{records.get(x,{'W':0,'L':0,'D':0})['L']}-"
-              f"{records.get(x,{'W':0,'L':0,'D':0})['D']}"
-)
+def format_record(fighter):
+    rec = records.get(fighter, {"W": 0, "L": 0, "D": 0, "NC": 0})
+    text = f"{rec['W']}-{rec['L']}-{rec['D']}"
+    return f"{text} ({rec['NC']} NC)" if rec["NC"] else text
+
+final["Record"] = final["Fighter"].apply(format_record)
+peak_df["Record"] = peak_df["Fighter"].apply(format_record)
 
 retirement_threshold_days=730
 final["days_inactive"]=(today-final["Last_Fight"]).dt.days
