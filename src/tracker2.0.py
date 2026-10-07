@@ -275,7 +275,7 @@ final["Elo"] = final.apply(
 )
 
 final["Status"] = final.apply(
-    lambda x: f"Champion ({x['Title_Defenses']} defenses)" if x["Is_Champion"]
+    lambda x: f"Champion ({x['Title_Defenses']} defense{'' if x['Title_Defenses'] == 1 else 's'})" if x["Is_Champion"]
     else ("Interim Champion" if x["Is_Interim_Champion"]
     else ("Former Champion" if x["Is_Former_Champion"] else None)),
     axis=1
