@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import { MEN_CLASSES, WOMEN_CLASSES, formatDate, signed, titleCase } from "../lib";
 import { Belt } from "./Status";
 
@@ -40,7 +41,41 @@ function SelectField({ value, onChange, children, ariaLabel }) {
   );
 }
 
+const TICKER_SPEED = 40;
+
+function useMarquee(ready) {
+  const track = useRef(null);
+  const paused = useRef(false);
+  const offset = useRef(0);
+
+  useEffect(() => {
+    const el = track.current;
+    if (!el || window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
+    let last = performance.now();
+    let frame;
+    const tick = (now) => {
+      const dt = Math.min(now - last, 100) / 1000;
+      last = now;
+      if (!paused.current) {
+        const half = el.scrollWidth / 2;
+        offset.current = half ? (offset.current + TICKER_SPEED * dt) % half : 0;
+        el.style.transform = `translate3d(${-offset.current}px, 0, 0)`;
+      }
+      frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [ready]);
+
+  const handlers = {
+    onMouseEnter: () => (paused.current = true),
+    onMouseLeave: () => (paused.current = false),
+  };
+  return [track, handlers];
+}
+
 function Ticker({ latest }) {
+  const [track, handlers] = useMarquee(Boolean(latest?.fights?.length));
   if (!latest?.fights?.length) return null;
   const items = latest.fights.filter((f) => f.Decisive);
   return (
@@ -49,8 +84,8 @@ function Ticker({ latest }) {
         <span className="h-1.5 w-1.5 rounded-full bg-white animate-live-pulse" />
         <span className="hidden sm:inline">Latest ·</span> {formatDate(latest.date, { month: "short", day: "numeric" })}
       </div>
-      <div className="relative flex-1 overflow-hidden py-2.5 [mask-image:linear-gradient(90deg,transparent,black_3%,black_95%,transparent)]">
-        <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
+      <div className="relative flex-1 overflow-hidden py-2.5 [mask-image:linear-gradient(90deg,transparent,black_3%,black_95%,transparent)]" {...handlers}>
+        <div ref={track} className="flex w-max will-change-transform">
           {[0, 1].map((copy) => (
             <div key={copy} className="flex shrink-0" aria-hidden={copy === 1}>
               <span className="mono px-5 text-[11px] text-mute-light">{latest.event}</span>
@@ -79,13 +114,22 @@ export function TopBar({ meta, latest }) {
   return (
     <header className="bg-ink text-paper">
       <div className="mx-auto flex max-w-[1240px] items-center justify-between px-4 sm:px-10 py-3.5">
-        <a href="/" className="display flex items-center gap-2 text-[28px] leading-none">
-          <svg viewBox="0 0 32 32" className="h-7 w-7" aria-hidden="true">
-            <polygon points="10,1 22,1 31,10 31,22 22,31 10,31 1,22 1,10" fill="#d20a11" />
-            <text x="16" y="21.5" textAnchor="middle" fontFamily="Big Shoulders Display" fontWeight="900" fontSize="15" fill="#fff">E</text>
+        <a href="/" className="group flex items-center gap-2.5" aria-label="UFC Elo home">
+          <svg viewBox="0 0 32 32" className="h-8 w-8" aria-hidden="true">
+            <polygon points="10.5,2 21.5,2 30,10.5 30,21.5 21.5,30 10.5,30 2,21.5 2,10.5" fill="none" stroke="#d20a11" strokeWidth="2" />
+            <polyline
+              points="8,21 13,16 17,19 24,11"
+              fill="none"
+              stroke="#faf8f3"
+              strokeWidth="2.25"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="transition-transform duration-300 group-hover:-translate-y-0.5"
+            />
+            <circle cx="24" cy="11" r="1.9" fill="#d20a11" />
           </svg>
-          <span>
-            UFC<span className="text-blood">/</span>Elo
+          <span className="display text-[26px] tracking-[0.02em]">
+            UFC <span className="text-blood">Elo</span>
           </span>
         </a>
         {meta?.data_updated_through && (

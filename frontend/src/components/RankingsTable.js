@@ -48,7 +48,13 @@ function Row({ fighter, view, open, onToggle, index }) {
         className={`grid grid-cols-[3rem_minmax(0,1fr)_auto] ${GRID} items-center gap-x-3 gap-y-3 px-1 py-4 lg:gap-x-5 lg:px-4 lg:py-5 animate-fade-up`}
         style={{ animationDelay: `${Math.min(index, 15) * 25}ms` }}
       >
-        <div className={`display text-[40px] lg:text-[56px] num ${fighter.pos === 1 ? "text-blood" : ""}`}>{fighter.pos}</div>
+        {fighter.pos === 1 ? (
+          <div className="gold-medal display h-11 w-11 text-[30px] lg:h-14 lg:w-14 lg:text-[38px]" aria-label="Rank 1">
+            1
+          </div>
+        ) : (
+          <div className="display text-[40px] lg:text-[56px] num">{fighter.pos}</div>
+        )}
 
         <button onClick={onToggle} className="group flex min-w-0 items-center gap-3 text-left lg:gap-4" aria-expanded={open}>
           <Avatar name={fighter.Fighter} photo={fighter.Photo} />
