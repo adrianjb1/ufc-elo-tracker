@@ -25,7 +25,9 @@ The React dev server proxies `/api` requests to Flask, so no extra config is nee
 python3 update_pipeline.py
 ```
 
-Scrapes any new events from ufcstats.com, appends the fights to `data/fights_enhanced.csv`, reruns `src/tracker2.0.py` to regenerate the leaderboards, then backtests the ratings with `src/evaluate.py`. Announced retirements and vacated titles go in `data/vacancy_events.csv`.
+Scrapes any new events from ufcstats.com, appends the fights to `data/fights_enhanced.csv`, reruns `src/tracker2.0.py` to regenerate the leaderboards, checks every division's champion against ufc.com's official rankings (`src/sync_champions.py`), then backtests the ratings with `src/evaluate.py`.
+
+The champion check catches belts that change hands outside the cage. If ufc.com lists the interim champ as champion, or a division as vacant, the old champion is recorded as vacated in `data/vacancy_events.csv` automatically. Other mismatches are only printed for review. Announced retirements and vacated titles go in `data/vacancy_events.csv`.
 
 Fighter headshots and nicknames come from ufc.com:
 
