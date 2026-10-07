@@ -1,0 +1,79 @@
+{
+  "min_prior_fights": 3,
+  "all": {
+    "fights": 8767,
+    "accuracy": 0.5696,
+    "brier": 0.2445,
+    "log_loss": 0.682
+  },
+  "experienced": {
+    "fights": 3940,
+    "accuracy": 0.5614,
+    "brier": 0.2442,
+    "log_loss": 0.6813
+  },
+  "last_5_years": {
+    "fights": 1446,
+    "accuracy": 0.5595,
+    "brier": 0.2451,
+    "log_loss": 0.6835
+  },
+  "title_fights": {
+    "fights": 327,
+    "accuracy": 0.6055,
+    "brier": 0.231,
+    "log_loss": 0.6538
+  },
+  "by_decade": {
+    "1990s": {
+      "fights": 22,
+      "accuracy": 0.6818,
+      "brier": 0.2226,
+      "log_loss": 0.6375
+    },
+    "2000s": {
+      "fights": 301,
+      "accuracy": 0.5847,
+      "brier": 0.2407,
+      "log_loss": 0.6739
+    },
+    "2010s": {
+      "fights": 1768,
+      "accuracy": 0.5549,
+      "brier": 0.2451,
+      "log_loss": 0.683
+    },
+    "2020s": {
+      "fights": 1849,
+      "accuracy": 0.5625,
+      "brier": 0.2441,
+      "log_loss": 0.6813
+    }
+  },
+  "calibration": [
+    {
+      "range": "50-60%",
+      "fights": 3294,
+      "predicted": 0.5409,
+      "actual": 0.5449
+    },
+    {
+      "range": "60-70%",
+      "fights": 531,
+      "predicted": 0.6315,
+      "actual": 0.629
+    },
+    {
+      "range": "70-80%",
+      "fights": 82,
+      "predicted": 0.7395,
+      "actual": 0.6707
+    },
+    {
+      "range": "80-100%",
+      "fights": 33,
+      "predicted": 0.8552,
+      "actual": 0.8485
+    }
+  ]
+}

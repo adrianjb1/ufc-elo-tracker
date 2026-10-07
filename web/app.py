@@ -83,12 +83,18 @@ def get_fighter(name):
 def get_meta():
     df = fights_with_elo()
     fighters = set(df["Fighter 1"]) | set(df["Fighter 2"])
+    accuracy = load("model_accuracy.json", read_json) if os.path.exists(os.path.join(DATA_DIR, "model_accuracy.json")) else {}
     return jsonify({
         "data_updated_through": int(df["Date"].max().timestamp() * 1000),
         "total_fighters": len(fighters),
         "total_fights": len(df),
         "title_fights": int((df["Is_Title_Fight"] == True).sum()),
+        "accuracy": accuracy.get("experienced"),
     })
+
+@app.route("/api/accuracy")
+def get_accuracy():
+    return jsonify(load("model_accuracy.json", read_json))
 
 @app.route("/api/trending")
 def get_trending():

@@ -1,0 +1,71 @@
+import math, os, sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "web"))
+sys.path.insert(0, os.path.join(ROOT, "src"))
+
+import pytest
+from app import app
+from evaluate import win_prob
+
+
+@pytest.fixture
+def client():
+    return app.test_client()
+
+
+def test_current_is_sorted_and_limited(client):
+    data = client.get("/api/current?limit=20").get_json()
+    assert len(data) == 20
+    elos = [f["Elo"] for f in data]
+    assert elos == sorted(elos, reverse=True)
+    assert {"Fighter", "Elo", "Record", "Status", "Last_Fight", "Weight Class"} <= data[0].keys()
+
+
+def test_filters(client):
+    lw = client.get("/api/current?weight_class=lightweight").get_json()
+    assert lw and all(f["Weight Class"] == "Lightweight" for f in lw)
+    women = client.get("/api/peak?division_group=women&limit=50").get_json()
+    assert women and all(f["Weight Class"].startswith("Women's") for f in women)
+    search = client.get("/api/current?search=makhachev").get_json()
+    assert [f["Fighter"] for f in search] == ["Islam Makhachev"]
+
+
+def test_one_champion_per_division(client):
+    champs = [f for f in client.get("/api/current").get_json() if (f["Status"] or "").startswith("Champion")]
+    divisions = [f["Weight Class"] for f in champs]
+    assert len(divisions) == len(set(divisions))
+
+
+def test_trends_are_chronological_and_clean(client):
+    res = client.get("/api/trends/Islam Makhachev")
+    assert res.status_code == 200
+    assert "NaN" not in res.get_data(as_text=True)
+    fights = res.get_json()
+    assert [f["Date"] for f in fights] == sorted(f["Date"] for f in fights)
+    for prev, cur in zip(fights, fights[1:]):
+        assert math.isclose(prev["EloAfter"], cur["EloBefore"], rel_tol=1e-9)
+
+
+def test_unknown_fighter_is_json_404(client):
+    res = client.get("/api/fighter/not a real fighter")
+    assert res.status_code == 404
+    assert "error" in res.get_json()
+
+
+def test_meta_and_accuracy(client):
+    meta = client.get("/api/meta").get_json()
+    assert meta["total_fights"] > 8000 and meta["title_fights"] > 0
+    acc = client.get("/api/accuracy").get_json()
+    assert 0.5 < acc["experienced"]["accuracy"] < 0.75
+
+
+def test_retired_fighters_excluded(client):
+    names = {f["Fighter"] for f in client.get("/api/current").get_json()}
+    assert "Jon Jones" not in names
+
+
+def test_win_prob():
+    assert win_prob(1000, 1000) == 0.5
+    assert math.isclose(win_prob(1400, 1000), 10 / 11)
+    assert math.isclose(win_prob(1200, 1000) + win_prob(1000, 1200), 1)

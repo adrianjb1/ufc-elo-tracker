@@ -10,6 +10,7 @@ DATA_DIR = os.path.join(ROOT, "data")
 EVENTS_PATH = os.path.join(DATA_DIR, "ufc_events.csv")
 FIGHTS_PATH = os.path.join(DATA_DIR, "fights_enhanced.csv")
 TRACKER_PATH = os.path.join(ROOT, "src", "tracker2.0.py")
+EVALUATE_PATH = os.path.join(ROOT, "src", "evaluate.py")
 
 def scrape_new_events():
     print("\n=== Step 1: Checking for new UFC events ===")
@@ -95,6 +96,8 @@ def run_tracker():
     print("\n=== Step 3: Running tracker2.0.py ===", flush=True)
     subprocess.run([sys.executable, TRACKER_PATH], check=True)
     print("Tracker completed successfully")
+    print("\n=== Step 4: Backtesting predictions ===", flush=True)
+    subprocess.run([sys.executable, EVALUATE_PATH], check=True)
 
 def main():
     print("\n" + "="*50)
